@@ -69,3 +69,6 @@ assert.deepEqual(wp,['one','one','one','two','two','two']);assert.equal(wr().run
 wq=wr();wq.choose(0);wq=wr();wq.start();events.finish();wq.stop();wt.advance(1000);assert.equal(wp.length,7);
 wq=wr();wq.configure({...wq.settings,repeats:1});wq=wr();wq.start();deferredLoad=true;events.finish();wt.advance(500);assert.equal(typeof deferredLoad,'function');wq.stop();deferredLoad();assert.equal(wp.length,8,'Late load callback must not restart after pause');
 console.log('SoundCloud passed: official widget completion, repeats, gaps, advance, end of list and cancellation of pending loads.');
+
+mockWidget.pause=()=>{throw new TypeError("Removed iframe cannot receive postMessage");};
+assert.doesNotThrow(()=>wr([]), 'Changing to an external source must survive removal of the player iframe');

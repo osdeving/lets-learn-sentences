@@ -42,7 +42,9 @@ export function useSoundCloudQueue(urls: string[]) {
     serial.current++;
     window.clearTimeout(timer.current);
     finish.current = () => {};
-    widget.current?.pause(); setRunning(false);
+    // React may already have removed the iframe when an effect cleans up.
+    try { widget.current?.pause(); } catch { /* The removed iframe cannot receive postMessage. */ }
+    setRunning(false);
   }, []);
   useEffect(() => {
     if (!urls.length || !iframe.current) return;
@@ -59,7 +61,7 @@ export function useSoundCloudQueue(urls: string[]) {
     }).catch(() => { if (!disposed) setError("O player oficial não carregou. Confira sua conexão ou abra a aula original."); });
     return () => {
       disposed = true; stop(); setReady(false);
-      if (api && widget.current) for (const key of ["READY", "FINISH", "ERROR"]) widget.current.unbind(api.Events[key]);
+      if (api && widget.current) for (const key of ["READY", "FINISH", "ERROR"]) try { widget.current.unbind(api.Events[key]); } catch { /* Removed iframe. */ }
       widget.current = null;
     };
   }, [urls.length > 0, stop]);
@@ -67,7 +69,7 @@ export function useSoundCloudQueue(urls: string[]) {
   useEffect(() => {
     if (!ready || !urls[index]) return;
     const token = serial.current;
-    widget.current?.load(urls[index], { auto_play: false, callback: () => { if (token !== serial.current) widget.current?.pause(); } });
+    widget.current?.load(urls[index], { auto_play: false, callback: () => { if (token !== serial.current) { try { widget.current?.pause(); } catch { /* Removed iframe. */ } } } });
   }, [ready, urls]);
   const choose = (next: number) => {
     stop(); setIndex(next); setError("");
