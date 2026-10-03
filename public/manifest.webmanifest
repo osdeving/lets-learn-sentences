@@ -1,0 +1,12 @@
+{
+  "name": "Ouvir Inglês",
+  "short_name": "Ouvir Inglês",
+  "description": "Listening em inglês do A1 ao C2 com áudio humano, histórias, diálogos e treino contínuo.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#08111f",
+  "theme_color": "#08111f",
+  "lang": "pt-BR",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

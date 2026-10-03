@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.sites-runtime/
+*.tsbuildinfo
+.DS_Store
+
+# Local hosting metadata, exports and private configuration
+.openai/
+.sites-checkout
+output/
+.env
+.env.*
+!.env.example

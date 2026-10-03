@@ -1,0 +1,550 @@
+{
+  "meta": {
+    "title": "Short stories",
+    "count": 12,
+    "schemaVersion": 1,
+    "humanAudioCount": 2
+  },
+  "stories": [
+    {
+      "id": "S01",
+      "title": "The Last Train",
+      "synopsis": "Uma decisão pequena muda a noite de dois desconhecidos.",
+      "level": "A2",
+      "genre": "Cotidiano",
+      "estimatedMinutes": 2,
+      "segments": [
+        {
+          "id": "S01-1",
+          "english": "Mia reached the platform as the doors began to close.",
+          "portuguese": "Mia chegou à plataforma quando as portas começaram a fechar."
+        },
+        {
+          "id": "S01-2",
+          "english": "A man inside held the door and called for the driver to wait.",
+          "portuguese": "Um homem lá dentro segurou a porta e pediu ao motorista que esperasse."
+        },
+        {
+          "id": "S01-3",
+          "english": "She got on, out of breath, and thanked him.",
+          "portuguese": "Ela entrou sem fôlego e agradeceu."
+        },
+        {
+          "id": "S01-4",
+          "english": "At the next stop, the train stopped completely.",
+          "portuguese": "Na parada seguinte, o trem parou por completo."
+        },
+        {
+          "id": "S01-5",
+          "english": "The driver announced a long delay.",
+          "portuguese": "O motorista anunciou um longo atraso."
+        },
+        {
+          "id": "S01-6",
+          "english": "Mia and the man laughed. They had both hurried just to sit still.",
+          "portuguese": "Mia e o homem riram. Os dois tinham corrido apenas para ficar parados."
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "A Message for Tomorrow",
+      "synopsis": "Um bilhete antigo chega no momento certo.",
+      "level": "B1",
+      "genre": "Mistério",
+      "estimatedMinutes": 2,
+      "segments": [
+        {
+          "id": "S02-1",
+          "english": "While moving apartments, Daniel found an envelope behind a drawer.",
+          "portuguese": "Enquanto mudava de apartamento, Daniel encontrou um envelope atrás de uma gaveta."
+        },
+        {
+          "id": "S02-2",
+          "english": "On it, someone had written: Open when you are ready to leave.",
+          "portuguese": "Nele, alguém escreveu: Abra quando estiver pronto para partir."
+        },
+        {
+          "id": "S02-3",
+          "english": "The letter belonged to a woman who had lived there twenty years earlier.",
+          "portuguese": "A carta pertencia a uma mulher que morara ali vinte anos antes."
+        },
+        {
+          "id": "S02-4",
+          "english": "She was afraid to take a job in another country.",
+          "portuguese": "Ela tinha medo de aceitar um emprego em outro país."
+        },
+        {
+          "id": "S02-5",
+          "english": "Daniel was facing the same choice that week.",
+          "portuguese": "Daniel enfrentava a mesma escolha naquela semana."
+        },
+        {
+          "id": "S02-6",
+          "english": "He never learned what she decided, but her courage on the page helped him find his own.",
+          "portuguese": "Ele nunca soube o que ela decidiu, mas a coragem dela no papel o ajudou a encontrar a sua."
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "The Quiet Bug",
+      "synopsis": "Uma desenvolvedora encontra o defeito que ninguém via.",
+      "level": "B2",
+      "genre": "Tecnologia",
+      "estimatedMinutes": 2,
+      "segments": [
+        {
+          "id": "S03-1",
+          "english": "The payment failures appeared random, which made the team blame the network.",
+          "portuguese": "As falhas de pagamento pareciam aleatórias, o que fez a equipe culpar a rede."
+        },
+        {
+          "id": "S03-2",
+          "english": "Leah noticed that they happened almost exactly at midnight.",
+          "portuguese": "Leah percebeu que aconteciam quase exatamente à meia-noite."
+        },
+        {
+          "id": "S03-3",
+          "english": "She replayed the requests with clocks set to different time zones.",
+          "portuguese": "Ela repetiu as requisições com relógios em fusos diferentes."
+        },
+        {
+          "id": "S03-4",
+          "english": "One old service still treated every date as local time.",
+          "portuguese": "Um serviço antigo ainda tratava toda data como horário local."
+        },
+        {
+          "id": "S03-5",
+          "english": "The fix was three lines; discovering the assumption took three days.",
+          "portuguese": "A correção tinha três linhas; descobrir a suposição levou três dias."
+        },
+        {
+          "id": "S03-6",
+          "english": "In the incident review, Leah wrote that quiet assumptions often make the loudest failures.",
+          "portuguese": "Na revisão do incidente, Leah escreveu que suposições silenciosas costumam causar as falhas mais barulhentas."
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "The Borrowed Jacket",
+      "synopsis": "Um casaco perdido revela uma amizade improvável.",
+      "level": "A2",
+      "genre": "Amizade",
+      "estimatedMinutes": 2,
+      "segments": [
+        {
+          "id": "S04-1",
+          "english": "Owen took the wrong jacket after a crowded concert.",
+          "portuguese": "Owen pegou o casaco errado depois de um show lotado."
+        },
+        {
+          "id": "S04-2",
+          "english": "In the pocket, he found a bus ticket, a grocery list, and a tiny paper bird.",
+          "portuguese": "No bolso, encontrou uma passagem, uma lista de compras e um pequeno pássaro de papel."
+        },
+        {
+          "id": "S04-3",
+          "english": "The next morning, he returned to the venue.",
+          "portuguese": "Na manhã seguinte, voltou ao local."
+        },
+        {
+          "id": "S04-4",
+          "english": "A woman was waiting with his jacket and the same embarrassed smile.",
+          "portuguese": "Uma mulher esperava com o casaco dele e o mesmo sorriso envergonhado."
+        },
+        {
+          "id": "S04-5",
+          "english": "They exchanged coats, then compared the strange objects in their pockets.",
+          "portuguese": "Trocaram os casacos e compararam os objetos estranhos nos bolsos."
+        },
+        {
+          "id": "S04-6",
+          "english": "A month later, they went to another concert together.",
+          "portuguese": "Um mês depois, foram juntos a outro show."
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "title": "The Honest Forecast",
+      "synopsis": "Uma meteorologista precisa escolher entre certeza e honestidade.",
+      "level": "C1",
+      "genre": "Trabalho",
+      "estimatedMinutes": 2,
+      "segments": [
+        {
+          "id": "S05-1",
+          "english": "The mayor wanted a definite answer before announcing the outdoor festival.",
+          "portuguese": "O prefeito queria uma resposta definitiva antes de anunciar o festival ao ar livre."
+        },
+        {
+          "id": "S05-2",
+          "english": "Every model showed a different path for the storm.",
+          "portuguese": "Cada modelo mostrava um caminho diferente para a tempestade."
+        },
+        {
+          "id": "S05-3",
+          "english": "Nadia could have offered the most likely forecast and hidden the uncertainty.",
+          "portuguese": "Nadia poderia ter dado a previsão mais provável e escondido a incerteza."
+        },
+        {
+          "id": "S05-4",
+          "english": "Instead, she explained the range of outcomes and what would change her confidence.",
+          "portuguese": "Em vez disso, explicou o leque de resultados e o que mudaria sua confiança."
+        },
+        {
+          "id": "S05-5",
+          "english": "The mayor complained that uncertainty was not useful.",
+          "portuguese": "O prefeito reclamou que incerteza não era útil."
+        },
+        {
+          "id": "S05-6",
+          "english": "Two days later, the storm changed direction, and the flexible plan still worked.",
+          "portuguese": "Dois dias depois, a tempestade mudou de direção, e o plano flexível ainda funcionou."
+        },
+        {
+          "id": "S05-7",
+          "english": "Nadia's refusal to pretend she knew more had made the decision stronger.",
+          "portuguese": "A recusa de Nadia em fingir saber mais tinha fortalecido a decisão."
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "The Apology Draft",
+      "synopsis": "Uma mensagem perfeita dá lugar a uma conversa real.",
+      "level": "B2",
+      "genre": "Relacionamentos",
+      "estimatedMinutes": 2,
+      "segments": [
+        {
+          "id": "S06-1",
+          "english": "Lucas rewrote his apology twelve times without sending it.",
+          "portuguese": "Lucas reescreveu o pedido de desculpas doze vezes sem enviar."
+        },
+        {
+          "id": "S06-2",
+          "english": "Each version sounded polished and strangely empty.",
+          "portuguese": "Cada versão parecia bem escrita e estranhamente vazia."
+        },
+        {
+          "id": "S06-3",
+          "english": "He wanted to explain his intention before naming the harm.",
+          "portuguese": "Queria explicar a intenção antes de nomear o dano."
+        },
+        {
+          "id": "S06-4",
+          "english": "Finally, he deleted every paragraph except two sentences.",
+          "portuguese": "Por fim, apagou todos os parágrafos menos duas frases."
+        },
+        {
+          "id": "S06-5",
+          "english": "I interrupted you and made your concern seem foolish. I am sorry.",
+          "portuguese": "Eu interrompi você e fiz sua preocupação parecer boba. Sinto muito."
+        },
+        {
+          "id": "S06-6",
+          "english": "The reply came quickly: Thank you. Can we talk tomorrow?",
+          "portuguese": "A resposta veio rápido: Obrigada. Podemos conversar amanhã?"
+        },
+        {
+          "id": "S06-7",
+          "english": "The short message did not repair everything, but it opened the door.",
+          "portuguese": "A mensagem curta não consertou tudo, mas abriu a porta."
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "title": "The Museum of Ordinary Things",
+      "synopsis": "Objetos banais ganham valor quando suas histórias aparecem.",
+      "level": "C1",
+      "genre": "Cultura",
+      "estimatedMinutes": 2,
+      "segments": [
+        {
+          "id": "S07-1",
+          "english": "The museum displayed no crowns, masterpieces, or famous inventions.",
+          "portuguese": "O museu não exibia coroas, obras-primas nem invenções famosas."
+        },
+        {
+          "id": "S07-2",
+          "english": "Its first room contained a chipped cup, a bus pass, and one child's red shoe.",
+          "portuguese": "A primeira sala continha uma xícara lascada, um passe de ônibus e um sapato vermelho infantil."
+        },
+        {
+          "id": "S07-3",
+          "english": "Visitors initially moved through it with polite confusion.",
+          "portuguese": "No início, visitantes passavam por ela com confusão educada."
+        },
+        {
+          "id": "S07-4",
+          "english": "Then headphones played the owners explaining what each object had survived.",
+          "portuguese": "Então fones tocavam os donos explicando o que cada objeto tinha atravessado."
+        },
+        {
+          "id": "S07-5",
+          "english": "The cup had crossed a border; the bus pass marked a first independent journey.",
+          "portuguese": "A xícara cruzara uma fronteira; o passe marcava uma primeira viagem independente."
+        },
+        {
+          "id": "S07-6",
+          "english": "By the final room, people looked at the contents of their own pockets differently.",
+          "portuguese": "Na última sala, as pessoas olhavam diferente para o conteúdo dos próprios bolsos."
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "title": "The Perfect Copy",
+      "synopsis": "Uma cópia digital levanta uma pergunta sobre identidade.",
+      "level": "C2",
+      "genre": "Ficção científica",
+      "estimatedMinutes": 2,
+      "segments": [
+        {
+          "id": "S08-1",
+          "english": "The machine reproduced Elena's memories, voice, and habits with flawless precision.",
+          "portuguese": "A máquina reproduziu as memórias, a voz e os hábitos de Elena com precisão impecável."
+        },
+        {
+          "id": "S08-2",
+          "english": "The copy remembered agreeing to the experiment and insisted she was the original.",
+          "portuguese": "A cópia lembrava de concordar com o experimento e insistia ser a original."
+        },
+        {
+          "id": "S08-3",
+          "english": "Researchers proposed tests, but any answer Elena knew, the copy knew too.",
+          "portuguese": "Pesquisadores propuseram testes, mas qualquer resposta que Elena soubesse, a cópia também sabia."
+        },
+        {
+          "id": "S08-4",
+          "english": "Eventually, Elena stopped trying to prove priority and asked a different question.",
+          "portuguese": "Por fim, Elena parou de tentar provar prioridade e fez outra pergunta."
+        },
+        {
+          "id": "S08-5",
+          "english": "What would each of them choose now that their experiences had diverged?",
+          "portuguese": "O que cada uma escolheria agora que suas experiências tinham divergido?"
+        },
+        {
+          "id": "S08-6",
+          "english": "The copy left the laboratory; Elena stayed to shut the project down.",
+          "portuguese": "A cópia deixou o laboratório; Elena ficou para encerrar o projeto."
+        },
+        {
+          "id": "S08-7",
+          "english": "For the first time, neither could predict the other.",
+          "portuguese": "Pela primeira vez, nenhuma conseguia prever a outra."
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "title": "Five Minutes Early",
+      "synopsis": "A rotina de pontualidade esconde uma memória familiar.",
+      "level": "B1",
+      "genre": "Família",
+      "estimatedMinutes": 2,
+      "segments": [
+        {
+          "id": "S09-1",
+          "english": "Rosa arrived five minutes early for everything.",
+          "portuguese": "Rosa chegava cinco minutos cedo para tudo."
+        },
+        {
+          "id": "S09-2",
+          "english": "Her friends joked that even her surprises were scheduled.",
+          "portuguese": "Os amigos brincavam que até as surpresas dela eram agendadas."
+        },
+        {
+          "id": "S09-3",
+          "english": "One evening, her daughter asked why waiting never seemed to bother her.",
+          "portuguese": "Uma noite, a filha perguntou por que esperar nunca parecia incomodá-la."
+        },
+        {
+          "id": "S09-4",
+          "english": "Rosa remembered standing outside school long after every other child had gone.",
+          "portuguese": "Rosa se lembrou de ficar diante da escola muito depois que todas as crianças tinham ido."
+        },
+        {
+          "id": "S09-5",
+          "english": "Her mother worked two jobs and sometimes missed the bus.",
+          "portuguese": "A mãe dela tinha dois empregos e às vezes perdia o ônibus."
+        },
+        {
+          "id": "S09-6",
+          "english": "Being early, Rosa explained, was how she promised that nobody would wait alone for her.",
+          "portuguese": "Chegar cedo, explicou Rosa, era como prometia que ninguém esperaria sozinho por ela."
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "title": "The Unsent Report",
+      "synopsis": "Um analista enfrenta a pressão para suavizar uma conclusão.",
+      "level": "C2",
+      "genre": "Ética",
+      "estimatedMinutes": 2,
+      "segments": [
+        {
+          "id": "S10-1",
+          "english": "The report did not accuse anyone of fraud; it showed a pattern that demanded investigation.",
+          "portuguese": "O relatório não acusava ninguém de fraude; mostrava um padrão que exigia investigação."
+        },
+        {
+          "id": "S10-2",
+          "english": "Jon's director asked him to replace 'systematic' with 'isolated' before publication.",
+          "portuguese": "A diretora de Jon pediu que trocasse 'sistemático' por 'isolado' antes da publicação."
+        },
+        {
+          "id": "S10-3",
+          "english": "She called it a matter of tone rather than substance.",
+          "portuguese": "Ela chamou isso de questão de tom, não de substância."
+        },
+        {
+          "id": "S10-4",
+          "english": "Jon knew that one adjective could determine whether anyone looked closer.",
+          "portuguese": "Jon sabia que um adjetivo podia determinar se alguém olharia mais de perto."
+        },
+        {
+          "id": "S10-5",
+          "english": "He sent the report unchanged, along with the evidence supporting the wording.",
+          "portuguese": "Enviou o relatório sem alteração, junto com as evidências que sustentavam a formulação."
+        },
+        {
+          "id": "S10-6",
+          "english": "By morning, his access was suspended and an independent review had begun.",
+          "portuguese": "Pela manhã, seu acesso fora suspenso e uma revisão independente havia começado."
+        },
+        {
+          "id": "S10-7",
+          "english": "He could not know which consequence would last longer.",
+          "portuguese": "Ele não tinha como saber qual consequência duraria mais."
+        }
+      ]
+    },
+    {
+      "id": "HST01",
+      "title": "The Gift of the Magi · início",
+      "synopsis": "O início do conto de O. Henry, narrado por uma voz humana da VOA.",
+      "level": "C1",
+      "genre": "Clássico · voz humana",
+      "estimatedMinutes": 3,
+      "audioUrl": "/audio/stories/gift-of-the-magi-excerpt.mp3",
+      "source": {
+        "publisher": "VOA Learning English",
+        "title": "The Gift of the Magi by O. Henry",
+        "url": "https://learningenglish.voanews.com/a/short-story-the-gift-of-the-magi-by-o-henry-112399459/117032.html",
+        "license": "Domínio público (conteúdo VOA)",
+        "licenseUrl": "https://learningenglish.voanews.com/p/5374.html"
+      },
+      "segments": [
+        {
+          "id": "HST01-1",
+          "audioStart": 0,
+          "audioEnd": 30,
+          "english": "Now the VOA Special English program, American Stories. We present a special Christmas story called The Gift of the Magi by O. Henry.",
+          "portuguese": "Agora, o programa Special English da VOA, American Stories. Apresentamos uma história especial de Natal chamada O Presente dos Magos, de O. Henry."
+        },
+        {
+          "id": "HST01-2",
+          "audioStart": 30,
+          "audioEnd": 60,
+          "english": "One dollar and eighty-seven cents. That was all. And sixty cents of it in the smallest pieces of money: pennies.",
+          "portuguese": "Um dólar e oitenta e sete centavos. Era tudo. E sessenta centavos disso nas menores moedas: centavos."
+        },
+        {
+          "id": "HST01-3",
+          "audioStart": 60,
+          "audioEnd": 90,
+          "english": "Three times Della counted it. One dollar and eighty-seven cents. And the next day would be Christmas.",
+          "portuguese": "Três vezes Della contou. Um dólar e oitenta e sete centavos. E o dia seguinte seria Natal."
+        },
+        {
+          "id": "HST01-4",
+          "audioStart": 90,
+          "audioEnd": 120,
+          "english": "Della finished her crying and dried her face. She stood by the window and looked out unhappily.",
+          "portuguese": "Della terminou de chorar e secou o rosto. Ficou junto à janela e olhou para fora, infeliz."
+        },
+        {
+          "id": "HST01-5",
+          "audioStart": 120,
+          "audioEnd": 150,
+          "english": "Every penny she could save for months had produced this result. Expenses had been greater than she expected. They always are.",
+          "portuguese": "Cada centavo que conseguira guardar por meses produzira esse resultado. As despesas tinham sido maiores do que esperava. Sempre são."
+        },
+        {
+          "id": "HST01-6",
+          "audioStart": 150,
+          "audioEnd": 180,
+          "english": "There was a tall glass mirror between the windows. Suddenly Della turned and looked at herself.",
+          "portuguese": "Havia um espelho alto entre as janelas. De repente, Della se virou e olhou para si mesma."
+        }
+      ]
+    },
+    {
+      "id": "HST02",
+      "title": "The Tell-Tale Heart · início",
+      "synopsis": "O narrador inquietante de Edgar Allan Poe, em gravação humana da VOA.",
+      "level": "C2",
+      "genre": "Suspense · voz humana",
+      "estimatedMinutes": 3,
+      "audioUrl": "/audio/stories/tell-tale-heart-excerpt.mp3",
+      "source": {
+        "publisher": "VOA Learning English",
+        "title": "The Tell-Tale Heart by Edgar Allan Poe",
+        "url": "https://learningenglish.voanews.com/a/a-23-2009-05-15-voa2-83142322/130045.html",
+        "license": "Domínio público (conteúdo VOA)",
+        "licenseUrl": "https://learningenglish.voanews.com/p/5374.html"
+      },
+      "segments": [
+        {
+          "id": "HST02-1",
+          "audioStart": 0,
+          "audioEnd": 30,
+          "english": "Now, the VOA Special English program, American Stories. Today, we present The Tell-Tale Heart by Edgar Allan Poe.",
+          "portuguese": "Agora, o programa Special English da VOA, American Stories. Hoje apresentamos O Coração Delator, de Edgar Allan Poe."
+        },
+        {
+          "id": "HST02-2",
+          "audioStart": 30,
+          "audioEnd": 60,
+          "english": "True, nervous, very, very nervous I had been and am. But why will you say that I am mad?",
+          "portuguese": "É verdade, nervoso, muito, muito nervoso eu tinha estado e ainda estou. Mas por que você dirá que sou louco?"
+        },
+        {
+          "id": "HST02-3",
+          "audioStart": 60,
+          "audioEnd": 90,
+          "english": "I heard many things in the underworld. How, then, am I mad? Observe how calmly I can tell you the whole story.",
+          "portuguese": "Ouvi muitas coisas no mundo inferior. Como, então, sou louco? Observe como consigo contar toda a história com calma."
+        },
+        {
+          "id": "HST02-4",
+          "audioStart": 90,
+          "audioEnd": 120,
+          "english": "I loved the old man. He had never wronged me. For his gold, I had no desire. I think it was his eye.",
+          "portuguese": "Eu amava o velho. Ele nunca me fizera mal. Por seu ouro, não tinha desejo. Acho que era o olho dele."
+        },
+        {
+          "id": "HST02-5",
+          "audioStart": 120,
+          "audioEnd": 150,
+          "english": "Whenever it fell upon me, my blood ran cold. Very slowly, I made up my mind to take the life of the old man.",
+          "portuguese": "Sempre que ele pousava sobre mim, meu sangue gelava. Muito devagar, decidi tirar a vida do velho."
+        },
+        {
+          "id": "HST02-6",
+          "audioStart": 150,
+          "audioEnd": 180,
+          "english": "You think that I am mad. Madmen know nothing. But you should have seen how carefully I went to work.",
+          "portuguese": "Você acha que sou louco. Loucos não sabem de nada. Mas deveria ter visto com que cuidado fui trabalhar."
+        }
+      ]
+    }
+  ]
+}

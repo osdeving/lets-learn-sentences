@@ -1,0 +1,35 @@
+{
+  "name": "ouvir-ingles",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "pnpm@10.17.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && node scripts/build-offline-manifest.mjs",
+    "preview": "vite preview",
+    "validate": "node scripts/validate-content.mjs",
+    "content:build": "node scripts/build-expanded-content.mjs && node scripts/build-next-content.mjs",
+    "audio:import-tatoeba": "node scripts/import-tatoeba-audio.mjs",
+    "audio:download": "bash scripts/download-human-audio.sh",
+    "test:ui": "node scripts/ui-smoke.mjs",
+    "content:decoding": "node scripts/build-decoding-content.mjs",
+    "test:listening": "node --experimental-strip-types scripts/test-listening.mjs",
+    "audio:download-decoding": "node scripts/download-decoding-audio.mjs",
+    "test:listening:ui": "node scripts/listening-ui.mjs",
+    "test:listening:playback": "node scripts/listening-playback-ui.mjs",
+    "test:listening:offline": "node scripts/listening-offline-ui.mjs",
+    "package:offline": "pnpm build && python3 scripts/package-offline.py"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.1.7",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "typescript": "^5.9.3"
+  }
+}

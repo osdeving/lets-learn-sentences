@@ -1,0 +1,3028 @@
+{
+  "meta": {
+    "count": 82,
+    "schemaVersion": 3,
+    "humanAudioCount": 3
+  },
+  "dialogues": [
+    {
+      "id": "D001",
+      "title": "Um café rápido",
+      "context": "Fazendo um pedido e confirmando detalhes",
+      "lines": [
+        {
+          "speaker": "Cliente",
+          "english": "Could I get a medium latte, please?",
+          "pronunciation": "kud ai GUÉT a MÍ-di-am LÁ-têi, plíz?",
+          "portuguese": "Pode ser um latte médio, por favor?"
+        },
+        {
+          "speaker": "Barista",
+          "english": "Sure. Would you like an extra shot?",
+          "pronunciation": "chur. ud-iu LÁIK an ÉKS-tra CHÁT?",
+          "portuguese": "Claro. Você gostaria de uma dose extra?"
+        },
+        {
+          "speaker": "Cliente",
+          "english": "No, thanks. But could you make it to go?",
+          "pronunciation": "nôu, TÉNGKS. bât kud-iu MÊIK it ta GÔU?",
+          "portuguese": "Não, obrigado. Mas pode ser para viagem?"
+        },
+        {
+          "speaker": "Barista",
+          "english": "Absolutely. It'll be ready in a minute.",
+          "pronunciation": "ab-sa-LÚT-li. i-ral bi RÉ-di in a MÍ-nit.",
+          "portuguese": "Com certeza. Vai ficar pronto em um minuto."
+        }
+      ],
+      "level": "A1",
+      "theme": "Comida"
+    },
+    {
+      "id": "D002",
+      "title": "Check-in no hotel",
+      "context": "Chegando, confirmando a reserva e fazendo um pedido",
+      "lines": [
+        {
+          "speaker": "Hóspede",
+          "english": "Hi, I have a reservation under Costa.",
+          "pronunciation": "hái, ai HÉV a re-zar-VÊI-chan ÂN-der KÓS-ta.",
+          "portuguese": "Olá, tenho uma reserva no nome Costa."
+        },
+        {
+          "speaker": "Recepção",
+          "english": "Welcome. Could I see your ID, please?",
+          "pronunciation": "UÉL-kam. kud ai SÍ ior ai-DÍ, plíz?",
+          "portuguese": "Bem-vindo. Posso ver seu documento, por favor?"
+        },
+        {
+          "speaker": "Hóspede",
+          "english": "Of course. Is breakfast included?",
+          "pronunciation": "av KÓRS. iz BRÉK-fast in-KLÚ-did?",
+          "portuguese": "Claro. O café da manhã está incluído?"
+        },
+        {
+          "speaker": "Recepção",
+          "english": "It is. Breakfast starts at seven.",
+          "pronunciation": "it IZ. BRÉK-fast STÁRTS at SÉ-van.",
+          "portuguese": "Está, sim. O café da manhã começa às sete."
+        }
+      ],
+      "level": "A1",
+      "theme": "Viagem"
+    },
+    {
+      "id": "D003",
+      "title": "Antes da reunião",
+      "context": "Alinhando prioridade e prazo com um colega",
+      "lines": [
+        {
+          "speaker": "Maya",
+          "english": "Do you have a minute to go over the plan?",
+          "pronunciation": "du iu HÉV a MÍ-nit ta GÔU ÔU-ver da PLÉN?",
+          "portuguese": "Você tem um minuto para revisar o plano?"
+        },
+        {
+          "speaker": "Leo",
+          "english": "Sure. What's the main priority today?",
+          "pronunciation": "chur. uâts da MÊIN prai-Ó-ra-ri ta-DÊI?",
+          "portuguese": "Claro. Qual é a principal prioridade hoje?"
+        },
+        {
+          "speaker": "Maya",
+          "english": "We need to finish the first draft by noon.",
+          "pronunciation": "ui NÍD ta FÍ-nich da FÂRST DRÉFT bai NÚN.",
+          "portuguese": "Precisamos terminar o primeiro rascunho até o meio-dia."
+        },
+        {
+          "speaker": "Leo",
+          "english": "That works. I'll send it before lunch.",
+          "pronunciation": "dét UÂRKS. ail SÉND it bi-FÓR LÂNTCH.",
+          "portuguese": "Pode ser. Vou enviar antes do almoço."
+        }
+      ],
+      "level": "B1",
+      "theme": "Trabalho"
+    },
+    {
+      "id": "D004",
+      "title": "Planos para sábado",
+      "context": "Combinando um encontro sem fechar todos os detalhes",
+      "lines": [
+        {
+          "speaker": "Nina",
+          "english": "Are you free this Saturday afternoon?",
+          "pronunciation": "ar iu FRÍ dis SÉ-rar-dêi af-ter-NÚN?",
+          "portuguese": "Você está livre neste sábado à tarde?"
+        },
+        {
+          "speaker": "Sam",
+          "english": "I think so. What do you have in mind?",
+          "pronunciation": "ai TÍNGK SÔU. uât du iu HÉV in MÁIND?",
+          "portuguese": "Acho que sim. O que você tem em mente?"
+        },
+        {
+          "speaker": "Nina",
+          "english": "We could check out that new park.",
+          "pronunciation": "ui kud TCHÉK ÁUT dét NÚ PÁRK.",
+          "portuguese": "A gente poderia conhecer aquele parque novo."
+        },
+        {
+          "speaker": "Sam",
+          "english": "Sounds good. Let's decide on a time tomorrow.",
+          "pronunciation": "sáundz GÚD. léts di-SÁID an a TÁIM ta-MÓ-rôu.",
+          "portuguese": "Parece bom. Vamos decidir o horário amanhã."
+        }
+      ],
+      "level": "A2",
+      "theme": "Amizades"
+    },
+    {
+      "id": "D005",
+      "title": "Dividindo as tarefas",
+      "context": "Organizando a casa sem transformar o pedido em cobrança",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "english": "Could you help me clean up after dinner?",
+          "pronunciation": "kud-iu HÉLP mi KLÍN ÂP af-ter DÍ-ner?",
+          "portuguese": "Você pode me ajudar a arrumar depois do jantar?"
+        },
+        {
+          "speaker": "Jo",
+          "english": "Sure. I'll do the dishes.",
+          "pronunciation": "chur. ail DU da DÍ-chaz.",
+          "portuguese": "Claro. Eu lavo a louça."
+        },
+        {
+          "speaker": "Alex",
+          "english": "Great. I'll wipe the counter and take out the trash.",
+          "pronunciation": "grêit. ail UÁIP da KÁUN-ter an TÊIK ÁUT da TRÉCH.",
+          "portuguese": "Ótimo. Eu limpo o balcão e tiro o lixo."
+        },
+        {
+          "speaker": "Jo",
+          "english": "Perfect. We'll be done in ten minutes.",
+          "pronunciation": "PÂR-fikt. uil bi DÂN in TÉN MÍ-nits.",
+          "portuguese": "Perfeito. Vamos terminar em dez minutos."
+        }
+      ],
+      "level": "A2",
+      "theme": "Casa"
+    },
+    {
+      "id": "D006",
+      "title": "Portão de embarque",
+      "context": "Confirmando uma mudança no aeroporto",
+      "lines": [
+        {
+          "speaker": "Viajante",
+          "english": "Excuse me, has the gate changed?",
+          "pronunciation": "ik-SKIÚZ mi, haz da GÊIT TCHÊINDJD?",
+          "portuguese": "Com licença, o portão mudou?"
+        },
+        {
+          "speaker": "Atendente",
+          "english": "Yes. Your flight now leaves from gate twenty-four.",
+          "pronunciation": "iés. ior FLÁIT náu LÍVZ fram GÊIT TUÉN-ti FÓR.",
+          "portuguese": "Sim. Seu voo agora sai do portão vinte e quatro."
+        },
+        {
+          "speaker": "Viajante",
+          "english": "Is it far from here?",
+          "pronunciation": "iz it FÁR fram HÍR?",
+          "portuguese": "Fica longe daqui?"
+        },
+        {
+          "speaker": "Atendente",
+          "english": "It's about a five-minute walk.",
+          "pronunciation": "its a-BÁUT a FÁIV MÍ-nit UÓK.",
+          "portuguese": "São cerca de cinco minutos a pé."
+        }
+      ],
+      "level": "A2",
+      "theme": "Viagem"
+    },
+    {
+      "id": "D007",
+      "title": "Mensagem rápida",
+      "context": "Combinando de continuar a conversa depois",
+      "lines": [
+        {
+          "speaker": "Pri",
+          "english": "Hey, are you free to talk?",
+          "pronunciation": "hêi, ar iu FRÍ ta TÓK?",
+          "portuguese": "Oi, você está livre para conversar?"
+        },
+        {
+          "speaker": "Ben",
+          "english": "I'm in the middle of something right now.",
+          "pronunciation": "aim in da MÍ-ral av SÂM-ting RÁIT náu.",
+          "portuguese": "Estou no meio de uma coisa agora."
+        },
+        {
+          "speaker": "Pri",
+          "english": "No problem. Call me when you're done.",
+          "pronunciation": "nôu PRÁ-blam. KÓL mi uen ior DÂN.",
+          "portuguese": "Sem problema. Me liga quando terminar."
+        },
+        {
+          "speaker": "Ben",
+          "english": "Will do. It shouldn't take long.",
+          "pronunciation": "uil DU. it CHÚ-dant TÊIK LÓNG.",
+          "portuguese": "Pode deixar. Não deve demorar."
+        }
+      ],
+      "level": "A2",
+      "theme": "Amizades"
+    },
+    {
+      "id": "D008",
+      "title": "Na consulta",
+      "context": "Descrevendo um sintoma de forma simples",
+      "lines": [
+        {
+          "speaker": "Médica",
+          "english": "What brings you in today?",
+          "pronunciation": "uât BRÍNGZ iu in ta-DÊI?",
+          "portuguese": "O que traz você aqui hoje?"
+        },
+        {
+          "speaker": "Paciente",
+          "english": "I've had a sore throat since yesterday.",
+          "pronunciation": "aiv HÉD a SÓR TRÔUT sins IÉS-ter-dêi.",
+          "portuguese": "Estou com dor de garganta desde ontem."
+        },
+        {
+          "speaker": "Médica",
+          "english": "Do you have a fever or a cough?",
+          "pronunciation": "du iu HÉV a FÍ-ver or a KÓF?",
+          "portuguese": "Você está com febre ou tosse?"
+        },
+        {
+          "speaker": "Paciente",
+          "english": "No fever, but I have a dry cough.",
+          "pronunciation": "nôu FÍ-ver, bât ai HÉV a DRÁI KÓF.",
+          "portuguese": "Sem febre, mas estou com tosse seca."
+        }
+      ],
+      "level": "A2",
+      "theme": "Saúde"
+    },
+    {
+      "id": "D009",
+      "title": "Sumiu do grupo",
+      "context": "Dois amigos acertam um pequeno mal-entendido",
+      "level": "A2",
+      "theme": "Amizades",
+      "lines": [
+        {
+          "speaker": "Bia",
+          "english": "Hey, you disappeared from the group chat.",
+          "portuguese": "Ei, você sumiu do grupo."
+        },
+        {
+          "speaker": "Dan",
+          "english": "Yeah, my week got kind of crazy.",
+          "portuguese": "Pois é, minha semana ficou meio maluca."
+        },
+        {
+          "speaker": "Bia",
+          "english": "I thought you were mad at us.",
+          "portuguese": "Achei que você estava bravo com a gente."
+        },
+        {
+          "speaker": "Dan",
+          "english": "Not at all. I just needed some quiet time.",
+          "portuguese": "De jeito nenhum. Eu só precisava de um tempo quieto."
+        },
+        {
+          "speaker": "Bia",
+          "english": "Fair enough. Are you coming tonight?",
+          "portuguese": "Justo. Você vem hoje à noite?"
+        },
+        {
+          "speaker": "Dan",
+          "english": "For sure. I miss you guys.",
+          "portuguese": "Com certeza. Estou com saudade de vocês."
+        }
+      ]
+    },
+    {
+      "id": "D010",
+      "title": "Rolê de última hora",
+      "context": "Amigos montam um plano sem muita cerimônia",
+      "level": "A2",
+      "theme": "Amizades",
+      "lines": [
+        {
+          "speaker": "Gui",
+          "english": "We're grabbing burgers later. You in?",
+          "portuguese": "A gente vai comer hambúrguer mais tarde. Você topa?"
+        },
+        {
+          "speaker": "Lia",
+          "english": "Maybe. What time are you heading out?",
+          "portuguese": "Talvez. Que horas vocês vão sair?"
+        },
+        {
+          "speaker": "Gui",
+          "english": "Around eight, give or take.",
+          "portuguese": "Por volta das oito, mais ou menos."
+        },
+        {
+          "speaker": "Lia",
+          "english": "Cool. Shoot me the address.",
+          "portuguese": "Beleza. Me manda o endereço."
+        },
+        {
+          "speaker": "Gui",
+          "english": "Will do. Bring a jacket; it's freezing.",
+          "portuguese": "Pode deixar. Leva uma jaqueta; está congelando."
+        },
+        {
+          "speaker": "Lia",
+          "english": "Good call. See you there.",
+          "portuguese": "Boa. Vejo você lá."
+        }
+      ]
+    },
+    {
+      "id": "D011",
+      "title": "Conselho sincero",
+      "context": "Uma amiga pede uma opinião sem filtro",
+      "level": "B1",
+      "theme": "Amizades",
+      "lines": [
+        {
+          "speaker": "Mia",
+          "english": "Be honest. Am I overthinking this?",
+          "portuguese": "Seja sincera. Estou pensando demais nisso?"
+        },
+        {
+          "speaker": "Rae",
+          "english": "A little, but I get why you're worried.",
+          "portuguese": "Um pouco, mas entendo por que você está preocupada."
+        },
+        {
+          "speaker": "Mia",
+          "english": "He read my message and never replied.",
+          "portuguese": "Ele leu minha mensagem e nunca respondeu."
+        },
+        {
+          "speaker": "Rae",
+          "english": "Give him a day. People get busy.",
+          "portuguese": "Dá um dia para ele. As pessoas ficam ocupadas."
+        },
+        {
+          "speaker": "Mia",
+          "english": "You're right. I need to chill.",
+          "portuguese": "Você tem razão. Preciso relaxar."
+        },
+        {
+          "speaker": "Rae",
+          "english": "Exactly. Put your phone down and breathe.",
+          "portuguese": "Exatamente. Larga o celular e respira."
+        }
+      ]
+    },
+    {
+      "id": "D012",
+      "title": "Favor entre amigos",
+      "context": "Pedindo ajuda sem pressionar",
+      "level": "A2",
+      "theme": "Amizades",
+      "lines": [
+        {
+          "speaker": "Noah",
+          "english": "Could you do me a huge favor?",
+          "portuguese": "Você pode me fazer um favor enorme?"
+        },
+        {
+          "speaker": "Ivy",
+          "english": "Depends. How huge are we talking?",
+          "portuguese": "Depende. Quão enorme estamos falando?"
+        },
+        {
+          "speaker": "Noah",
+          "english": "Can you feed my cat this weekend?",
+          "portuguese": "Você pode dar comida para meu gato neste fim de semana?"
+        },
+        {
+          "speaker": "Ivy",
+          "english": "That's not huge. Of course I can.",
+          "portuguese": "Isso não é enorme. Claro que posso."
+        },
+        {
+          "speaker": "Noah",
+          "english": "You're a lifesaver. I owe you one.",
+          "portuguese": "Você me salvou. Fico te devendo uma."
+        },
+        {
+          "speaker": "Ivy",
+          "english": "Coffee on Monday and we're even.",
+          "portuguese": "Um café na segunda e estamos quites."
+        }
+      ]
+    },
+    {
+      "id": "D013",
+      "title": "Reencontro por acaso",
+      "context": "Dois amigos se encontram depois de muito tempo",
+      "level": "A2",
+      "theme": "Amizades",
+      "lines": [
+        {
+          "speaker": "Ava",
+          "english": "Wait, is that really you?",
+          "portuguese": "Espera, é você mesmo?"
+        },
+        {
+          "speaker": "Max",
+          "english": "No way! How have you been?",
+          "portuguese": "Não acredito! Como você tem passado?"
+        },
+        {
+          "speaker": "Ava",
+          "english": "Pretty good. I moved back last month.",
+          "portuguese": "Muito bem. Voltei para cá no mês passado."
+        },
+        {
+          "speaker": "Max",
+          "english": "We seriously need to catch up.",
+          "portuguese": "A gente precisa muito colocar a conversa em dia."
+        },
+        {
+          "speaker": "Ava",
+          "english": "Absolutely. Are you free this weekend?",
+          "portuguese": "Com certeza. Você está livre neste fim de semana?"
+        },
+        {
+          "speaker": "Max",
+          "english": "Sunday works. I'll text you.",
+          "portuguese": "Domingo dá certo. Eu te mando mensagem."
+        }
+      ]
+    },
+    {
+      "id": "D014",
+      "title": "A louça de novo",
+      "context": "Um casal discute uma tarefa doméstica",
+      "level": "B1",
+      "theme": "Relacionamentos",
+      "lines": [
+        {
+          "speaker": "Kim",
+          "english": "You said you'd do the dishes last night.",
+          "portuguese": "Você disse que lavaria a louça ontem à noite."
+        },
+        {
+          "speaker": "Lee",
+          "english": "I know. I fell asleep on the couch.",
+          "portuguese": "Eu sei. Peguei no sono no sofá."
+        },
+        {
+          "speaker": "Kim",
+          "english": "That's what you said the last time.",
+          "portuguese": "Foi o que você disse da última vez."
+        },
+        {
+          "speaker": "Lee",
+          "english": "You're right. I'm not making excuses.",
+          "portuguese": "Você tem razão. Não estou dando desculpas."
+        },
+        {
+          "speaker": "Kim",
+          "english": "I need you to follow through, that's all.",
+          "portuguese": "Preciso que você cumpra o combinado, só isso."
+        },
+        {
+          "speaker": "Lee",
+          "english": "I hear you. I'll take care of it now.",
+          "portuguese": "Eu entendi. Vou cuidar disso agora."
+        }
+      ]
+    },
+    {
+      "id": "D015",
+      "title": "Mensagem mal interpretada",
+      "context": "Um casal esclarece um tom que pareceu frio",
+      "level": "B1",
+      "theme": "Relacionamentos",
+      "lines": [
+        {
+          "speaker": "Ana",
+          "english": "Your text sounded really cold.",
+          "portuguese": "Sua mensagem pareceu muito fria."
+        },
+        {
+          "speaker": "Eli",
+          "english": "I'm sorry. I was rushing between meetings.",
+          "portuguese": "Desculpa. Eu estava correndo entre reuniões."
+        },
+        {
+          "speaker": "Ana",
+          "english": "I wish you'd said that instead of just 'fine.'",
+          "portuguese": "Queria que você tivesse dito isso em vez de só 'tá'."
+        },
+        {
+          "speaker": "Eli",
+          "english": "That's fair. I can see how it came across.",
+          "portuguese": "Justo. Entendo como soou."
+        },
+        {
+          "speaker": "Ana",
+          "english": "I wasn't trying to start a fight.",
+          "portuguese": "Eu não estava tentando começar uma briga."
+        },
+        {
+          "speaker": "Eli",
+          "english": "I know. Let's reset and talk tonight.",
+          "portuguese": "Eu sei. Vamos recomeçar e conversar hoje à noite."
+        }
+      ]
+    },
+    {
+      "id": "D016",
+      "title": "Precisamos conversar",
+      "context": "Uma conversa séria sem rodeios",
+      "level": "B2",
+      "theme": "Relacionamentos",
+      "lines": [
+        {
+          "speaker": "Sam",
+          "english": "Can we talk about what happened yesterday?",
+          "portuguese": "Podemos conversar sobre o que aconteceu ontem?"
+        },
+        {
+          "speaker": "Jo",
+          "english": "Yeah. I've been avoiding it, honestly.",
+          "portuguese": "Sim. Sinceramente, tenho evitado isso."
+        },
+        {
+          "speaker": "Sam",
+          "english": "I felt dismissed when you walked away.",
+          "portuguese": "Eu me senti ignorado quando você foi embora."
+        },
+        {
+          "speaker": "Jo",
+          "english": "I was overwhelmed, but I should've told you.",
+          "portuguese": "Eu estava sobrecarregada, mas deveria ter te dito."
+        },
+        {
+          "speaker": "Sam",
+          "english": "Next time, just ask for a break.",
+          "portuguese": "Da próxima vez, só peça uma pausa."
+        },
+        {
+          "speaker": "Jo",
+          "english": "Deal. I don't want us guessing what the other means.",
+          "portuguese": "Combinado. Não quero que a gente fique adivinhando o que o outro quer dizer."
+        }
+      ]
+    },
+    {
+      "id": "D017",
+      "title": "Planos cancelados",
+      "context": "Frustração porque alguém desmarcou em cima da hora",
+      "level": "B1",
+      "theme": "Relacionamentos",
+      "lines": [
+        {
+          "speaker": "Tess",
+          "english": "Are you seriously canceling again?",
+          "portuguese": "Você está mesmo cancelando de novo?"
+        },
+        {
+          "speaker": "Omar",
+          "english": "I hate doing this, but work blew up.",
+          "portuguese": "Odeio fazer isso, mas o trabalho virou um caos."
+        },
+        {
+          "speaker": "Tess",
+          "english": "I rearranged my whole day for us.",
+          "portuguese": "Reorganizei meu dia inteiro para nós."
+        },
+        {
+          "speaker": "Omar",
+          "english": "I know, and you have every right to be upset.",
+          "portuguese": "Eu sei, e você tem todo o direito de ficar chateada."
+        },
+        {
+          "speaker": "Tess",
+          "english": "I need more than an apology this time.",
+          "portuguese": "Preciso de mais que um pedido de desculpas desta vez."
+        },
+        {
+          "speaker": "Omar",
+          "english": "You're right. Let me make this up to you.",
+          "portuguese": "Você tem razão. Deixa eu compensar isso."
+        }
+      ]
+    },
+    {
+      "id": "D018",
+      "title": "Um pouco de espaço",
+      "context": "Definindo limites com carinho",
+      "level": "B2",
+      "theme": "Relacionamentos",
+      "lines": [
+        {
+          "speaker": "Nora",
+          "english": "You've been distant all week. What's going on?",
+          "portuguese": "Você esteve distante a semana toda. O que está acontecendo?"
+        },
+        {
+          "speaker": "Cal",
+          "english": "I'm drained. It isn't about you.",
+          "portuguese": "Estou esgotado. Não é por sua causa."
+        },
+        {
+          "speaker": "Nora",
+          "english": "I can give you space, but please don't shut me out.",
+          "portuguese": "Posso te dar espaço, mas por favor não me exclua."
+        },
+        {
+          "speaker": "Cal",
+          "english": "That's fair. I should communicate better.",
+          "portuguese": "Justo. Eu deveria me comunicar melhor."
+        },
+        {
+          "speaker": "Nora",
+          "english": "How about a quiet night and no big talks?",
+          "portuguese": "Que tal uma noite tranquila e sem conversas sérias?"
+        },
+        {
+          "speaker": "Cal",
+          "english": "Honestly, that sounds perfect.",
+          "portuguese": "Sinceramente, isso parece perfeito."
+        }
+      ]
+    },
+    {
+      "id": "D019",
+      "title": "Entrevista: conte sobre você",
+      "context": "Abertura realista de uma entrevista de emprego",
+      "level": "B1",
+      "theme": "Trabalho",
+      "lines": [
+        {
+          "speaker": "Recruiter",
+          "english": "Thanks for joining us. Could you tell me about yourself?",
+          "portuguese": "Obrigado por participar. Pode falar sobre você?"
+        },
+        {
+          "speaker": "Candidate",
+          "english": "Sure. I'm a product designer with four years of experience.",
+          "portuguese": "Claro. Sou designer de produto com quatro anos de experiência."
+        },
+        {
+          "speaker": "Recruiter",
+          "english": "What made you apply for this role?",
+          "portuguese": "O que fez você se candidatar a esta vaga?"
+        },
+        {
+          "speaker": "Candidate",
+          "english": "I like the way your team turns research into simple products.",
+          "portuguese": "Gosto de como sua equipe transforma pesquisa em produtos simples."
+        },
+        {
+          "speaker": "Recruiter",
+          "english": "Can you give me a concrete example?",
+          "portuguese": "Pode me dar um exemplo concreto?"
+        },
+        {
+          "speaker": "Candidate",
+          "english": "Absolutely. In my last project, I cut onboarding time in half.",
+          "portuguese": "Claro. No meu último projeto, reduzi pela metade o tempo de integração."
+        }
+      ]
+    },
+    {
+      "id": "D020",
+      "title": "Entrevista: ponto fraco",
+      "context": "Respondendo sem decorar uma fala vazia",
+      "level": "B2",
+      "theme": "Trabalho",
+      "lines": [
+        {
+          "speaker": "Manager",
+          "english": "What's an area you're working to improve?",
+          "portuguese": "Que área você está tentando melhorar?"
+        },
+        {
+          "speaker": "Candidate",
+          "english": "I used to hold on to tasks for too long.",
+          "portuguese": "Eu costumava segurar tarefas por tempo demais."
+        },
+        {
+          "speaker": "Manager",
+          "english": "What have you done about that?",
+          "portuguese": "O que você fez a respeito?"
+        },
+        {
+          "speaker": "Candidate",
+          "english": "I set earlier checkpoints and ask for feedback sooner.",
+          "portuguese": "Defino pontos de revisão mais cedo e peço feedback antes."
+        },
+        {
+          "speaker": "Manager",
+          "english": "Has that changed your results?",
+          "portuguese": "Isso mudou seus resultados?"
+        },
+        {
+          "speaker": "Candidate",
+          "english": "Yes. We catch problems earlier, and I collaborate more.",
+          "portuguese": "Sim. Detectamos problemas antes, e eu colaboro mais."
+        }
+      ]
+    },
+    {
+      "id": "D021",
+      "title": "Prazo impossível",
+      "context": "Negociando prioridade com o chefe",
+      "level": "B2",
+      "theme": "Trabalho",
+      "lines": [
+        {
+          "speaker": "Boss",
+          "english": "Can you have all three reports ready by Friday?",
+          "portuguese": "Você consegue deixar os três relatórios prontos até sexta?"
+        },
+        {
+          "speaker": "Dev",
+          "english": "I can finish two well, or rush all three.",
+          "portuguese": "Consigo terminar dois bem, ou fazer os três correndo."
+        },
+        {
+          "speaker": "Boss",
+          "english": "Which one would you push back?",
+          "portuguese": "Qual deles você adiaria?"
+        },
+        {
+          "speaker": "Dev",
+          "english": "The market review. It depends on data we don't have yet.",
+          "portuguese": "A análise de mercado. Ela depende de dados que ainda não temos."
+        },
+        {
+          "speaker": "Boss",
+          "english": "Okay. Send the other two Friday and that one Tuesday.",
+          "portuguese": "Certo. Envie os outros dois sexta e esse na terça."
+        },
+        {
+          "speaker": "Dev",
+          "english": "That timeline is realistic. I'll flag any risk early.",
+          "portuguese": "Esse prazo é realista. Vou avisar cedo sobre qualquer risco."
+        }
+      ]
+    },
+    {
+      "id": "D022",
+      "title": "Feedback direto",
+      "context": "Um líder dá retorno específico sem atacar",
+      "level": "B1",
+      "theme": "Trabalho",
+      "lines": [
+        {
+          "speaker": "Lead",
+          "english": "Your analysis was strong, but the presentation ran long.",
+          "portuguese": "Sua análise foi boa, mas a apresentação passou do tempo."
+        },
+        {
+          "speaker": "Analyst",
+          "english": "Yeah, I noticed people losing focus.",
+          "portuguese": "Sim, percebi que as pessoas perderam o foco."
+        },
+        {
+          "speaker": "Lead",
+          "english": "The main point got buried in the details.",
+          "portuguese": "O ponto principal se perdeu nos detalhes."
+        },
+        {
+          "speaker": "Analyst",
+          "english": "Would a one-page summary help next time?",
+          "portuguese": "Um resumo de uma página ajudaria da próxima vez?"
+        },
+        {
+          "speaker": "Lead",
+          "english": "Definitely. Lead with the decision you need.",
+          "portuguese": "Com certeza. Comece pela decisão de que você precisa."
+        },
+        {
+          "speaker": "Analyst",
+          "english": "Got it. I'll restructure the deck.",
+          "portuguese": "Entendi. Vou reorganizar a apresentação."
+        }
+      ]
+    },
+    {
+      "id": "D023",
+      "title": "Pedido de aumento",
+      "context": "Abrindo uma conversa sobre salário",
+      "level": "B2",
+      "theme": "Trabalho",
+      "lines": [
+        {
+          "speaker": "Employee",
+          "english": "I'd like to discuss my role and compensation.",
+          "portuguese": "Gostaria de conversar sobre minha função e remuneração."
+        },
+        {
+          "speaker": "Manager",
+          "english": "Okay. Walk me through your thinking.",
+          "portuguese": "Certo. Explique seu raciocínio."
+        },
+        {
+          "speaker": "Employee",
+          "english": "My scope has grown, and I'm leading two key accounts now.",
+          "portuguese": "Meu escopo aumentou, e agora lidero duas contas importantes."
+        },
+        {
+          "speaker": "Manager",
+          "english": "Do you have the results from those accounts?",
+          "portuguese": "Você tem os resultados dessas contas?"
+        },
+        {
+          "speaker": "Employee",
+          "english": "Yes. I brought a short summary with the numbers.",
+          "portuguese": "Sim. Trouxe um resumo curto com os números."
+        },
+        {
+          "speaker": "Manager",
+          "english": "Great. Let's review it and discuss the next step.",
+          "portuguese": "Ótimo. Vamos analisar e discutir o próximo passo."
+        }
+      ]
+    },
+    {
+      "id": "D024",
+      "title": "Bug em produção",
+      "context": "Equipe de software reage a um incidente",
+      "level": "B1",
+      "theme": "Tecnologia",
+      "lines": [
+        {
+          "speaker": "Maya",
+          "english": "Checkout is failing for some users.",
+          "portuguese": "O checkout está falhando para alguns usuários."
+        },
+        {
+          "speaker": "Ren",
+          "english": "Is it tied to this morning's release?",
+          "portuguese": "Está relacionado à atualização desta manhã?"
+        },
+        {
+          "speaker": "Maya",
+          "english": "Looks like it. The error started five minutes later.",
+          "portuguese": "Parece que sim. O erro começou cinco minutos depois."
+        },
+        {
+          "speaker": "Ren",
+          "english": "Let's roll it back and inspect the logs.",
+          "portuguese": "Vamos reverter e examinar os logs."
+        },
+        {
+          "speaker": "Maya",
+          "english": "I'll handle the rollback. Can you update support?",
+          "portuguese": "Eu cuido da reversão. Pode avisar o suporte?"
+        },
+        {
+          "speaker": "Ren",
+          "english": "On it. I'll post again when we're stable.",
+          "portuguese": "Já vou. Aviso de novo quando estiver estável."
+        }
+      ]
+    },
+    {
+      "id": "D025",
+      "title": "Code review",
+      "context": "Dois devs discutem uma solução sem ego",
+      "level": "B2",
+      "theme": "Tecnologia",
+      "lines": [
+        {
+          "speaker": "Dev A",
+          "english": "I left a comment on the caching logic.",
+          "portuguese": "Deixei um comentário na lógica de cache."
+        },
+        {
+          "speaker": "Dev B",
+          "english": "I saw it. Are you worried about stale data?",
+          "portuguese": "Eu vi. Você está preocupado com dados desatualizados?"
+        },
+        {
+          "speaker": "Dev A",
+          "english": "Exactly. The key never expires after a failed request.",
+          "portuguese": "Exatamente. A chave nunca expira após uma requisição com falha."
+        },
+        {
+          "speaker": "Dev B",
+          "english": "Good catch. I'll add a timeout and a test.",
+          "portuguese": "Boa observação. Vou adicionar um tempo limite e um teste."
+        },
+        {
+          "speaker": "Dev A",
+          "english": "Nice. The rest looks solid to me.",
+          "portuguese": "Boa. O restante me parece sólido."
+        },
+        {
+          "speaker": "Dev B",
+          "english": "Thanks. I'll ping you when the fix is up.",
+          "portuguese": "Obrigado. Te aviso quando a correção estiver pronta."
+        }
+      ]
+    },
+    {
+      "id": "D026",
+      "title": "Senha esquecida",
+      "context": "Suporte ajuda sem jargão",
+      "level": "A2",
+      "theme": "Tecnologia",
+      "lines": [
+        {
+          "speaker": "User",
+          "english": "I reset my password, but I still can't sign in.",
+          "portuguese": "Redefini minha senha, mas ainda não consigo entrar."
+        },
+        {
+          "speaker": "Support",
+          "english": "Are you seeing an error message?",
+          "portuguese": "Você está vendo alguma mensagem de erro?"
+        },
+        {
+          "speaker": "User",
+          "english": "It says my session has expired.",
+          "portuguese": "Diz que minha sessão expirou."
+        },
+        {
+          "speaker": "Support",
+          "english": "Please close the app completely and open it again.",
+          "portuguese": "Feche o aplicativo por completo e abra de novo, por favor."
+        },
+        {
+          "speaker": "User",
+          "english": "Okay, that worked. I'm back in.",
+          "portuguese": "Certo, funcionou. Consegui entrar."
+        },
+        {
+          "speaker": "Support",
+          "english": "Great. You shouldn't need to reset it again.",
+          "portuguese": "Ótimo. Você não deve precisar redefinir de novo."
+        }
+      ]
+    },
+    {
+      "id": "D027",
+      "title": "IA no trabalho",
+      "context": "Colegas discutem uso responsável de IA",
+      "level": "B2",
+      "theme": "Tecnologia",
+      "lines": [
+        {
+          "speaker": "Priya",
+          "english": "Did you use AI to draft this summary?",
+          "portuguese": "Você usou IA para rascunhar este resumo?"
+        },
+        {
+          "speaker": "Cole",
+          "english": "I did, but I checked every claim against the source.",
+          "portuguese": "Usei, mas conferi cada afirmação na fonte."
+        },
+        {
+          "speaker": "Priya",
+          "english": "Good. We can't paste client data into public tools.",
+          "portuguese": "Ótimo. Não podemos colar dados de clientes em ferramentas públicas."
+        },
+        {
+          "speaker": "Cole",
+          "english": "Agreed. I used sample data and rewrote the final version.",
+          "portuguese": "Concordo. Usei dados de exemplo e reescrevi a versão final."
+        },
+        {
+          "speaker": "Priya",
+          "english": "Add a note about that process.",
+          "portuguese": "Adicione uma observação sobre esse processo."
+        },
+        {
+          "speaker": "Cole",
+          "english": "Will do. Transparency matters here.",
+          "portuguese": "Pode deixar. Transparência importa aqui."
+        }
+      ]
+    },
+    {
+      "id": "D028",
+      "title": "Wi-Fi teimoso",
+      "context": "Tentando resolver uma conexão instável",
+      "level": "A2",
+      "theme": "Tecnologia",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "english": "Is the Wi-Fi dropping for you too?",
+          "portuguese": "O Wi-Fi também está caindo para você?"
+        },
+        {
+          "speaker": "Bo",
+          "english": "Yeah, every couple of minutes.",
+          "portuguese": "Sim, a cada dois minutos."
+        },
+        {
+          "speaker": "Alex",
+          "english": "I already restarted the router.",
+          "portuguese": "Já reiniciei o roteador."
+        },
+        {
+          "speaker": "Bo",
+          "english": "Let's forget the network and reconnect.",
+          "portuguese": "Vamos esquecer a rede e conectar de novo."
+        },
+        {
+          "speaker": "Alex",
+          "english": "Hold on... now it's stable.",
+          "portuguese": "Espera... agora está estável."
+        },
+        {
+          "speaker": "Bo",
+          "english": "Nice. The old turn-it-off trick wins again.",
+          "portuguese": "Boa. O velho truque de desligar e ligar venceu de novo."
+        }
+      ]
+    },
+    {
+      "id": "D029",
+      "title": "Conexão perdida",
+      "context": "Pedindo ajuda após perder um voo",
+      "level": "B1",
+      "theme": "Viagem",
+      "lines": [
+        {
+          "speaker": "Traveler",
+          "english": "My first flight was delayed, so I missed my connection.",
+          "portuguese": "Meu primeiro voo atrasou, então perdi a conexão."
+        },
+        {
+          "speaker": "Agent",
+          "english": "Let me see what we can do.",
+          "portuguese": "Deixe-me ver o que podemos fazer."
+        },
+        {
+          "speaker": "Traveler",
+          "english": "Is there another flight tonight?",
+          "portuguese": "Há outro voo hoje à noite?"
+        },
+        {
+          "speaker": "Agent",
+          "english": "There's one at nine, but it has a long layover.",
+          "portuguese": "Há um às nove, mas tem uma conexão longa."
+        },
+        {
+          "speaker": "Traveler",
+          "english": "That's okay. I just need to get there today.",
+          "portuguese": "Tudo bem. Só preciso chegar lá hoje."
+        },
+        {
+          "speaker": "Agent",
+          "english": "I've put you on it at no extra charge.",
+          "portuguese": "Coloquei você nele sem custo adicional."
+        }
+      ]
+    },
+    {
+      "id": "D030",
+      "title": "Apartamento barulhento",
+      "context": "Falando com o anfitrião sobre um problema",
+      "level": "B1",
+      "theme": "Viagem",
+      "lines": [
+        {
+          "speaker": "Guest",
+          "english": "Hi, the construction next door starts at six.",
+          "portuguese": "Oi, a obra ao lado começa às seis."
+        },
+        {
+          "speaker": "Host",
+          "english": "I'm really sorry. I wasn't told about that.",
+          "portuguese": "Sinto muito. Não me avisaram sobre isso."
+        },
+        {
+          "speaker": "Guest",
+          "english": "We haven't been able to sleep.",
+          "portuguese": "Não conseguimos dormir."
+        },
+        {
+          "speaker": "Host",
+          "english": "I can move you to a quieter apartment nearby.",
+          "portuguese": "Posso levar vocês para um apartamento mais silencioso por perto."
+        },
+        {
+          "speaker": "Guest",
+          "english": "Would it be available today?",
+          "portuguese": "Estaria disponível hoje?"
+        },
+        {
+          "speaker": "Host",
+          "english": "Yes. I'll arrange the transfer this afternoon.",
+          "portuguese": "Sim. Vou organizar a mudança esta tarde."
+        }
+      ]
+    },
+    {
+      "id": "D031",
+      "title": "Dica de morador",
+      "context": "Pedindo uma recomendação fora do roteiro turístico",
+      "level": "A2",
+      "theme": "Viagem",
+      "lines": [
+        {
+          "speaker": "Visitor",
+          "english": "Do you know a good place that isn't too touristy?",
+          "portuguese": "Você conhece um lugar bom que não seja muito turístico?"
+        },
+        {
+          "speaker": "Local",
+          "english": "Try the market behind the old station.",
+          "portuguese": "Experimente o mercado atrás da estação antiga."
+        },
+        {
+          "speaker": "Visitor",
+          "english": "Is it within walking distance?",
+          "portuguese": "Dá para ir a pé?"
+        },
+        {
+          "speaker": "Local",
+          "english": "Yeah, it's about fifteen minutes from here.",
+          "portuguese": "Sim, fica a uns quinze minutos daqui."
+        },
+        {
+          "speaker": "Visitor",
+          "english": "What should I order?",
+          "portuguese": "O que devo pedir?"
+        },
+        {
+          "speaker": "Local",
+          "english": "Get the dumplings. Trust me.",
+          "portuguese": "Peça os dumplings. Confia em mim."
+        }
+      ]
+    },
+    {
+      "id": "D032",
+      "title": "Carro alugado",
+      "context": "Relatando um dano que já estava no veículo",
+      "level": "B1",
+      "theme": "Viagem",
+      "lines": [
+        {
+          "speaker": "Customer",
+          "english": "There's a scratch on the passenger door.",
+          "portuguese": "Há um arranhão na porta do passageiro."
+        },
+        {
+          "speaker": "Clerk",
+          "english": "Thanks for pointing it out. Let me take a photo.",
+          "portuguese": "Obrigado por avisar. Vou tirar uma foto."
+        },
+        {
+          "speaker": "Customer",
+          "english": "I just don't want to be charged for it later.",
+          "portuguese": "Só não quero ser cobrado por isso depois."
+        },
+        {
+          "speaker": "Clerk",
+          "english": "Of course. I'll add it to the inspection report.",
+          "portuguese": "Claro. Vou adicionar ao relatório de inspeção."
+        },
+        {
+          "speaker": "Customer",
+          "english": "Could you email me a copy?",
+          "portuguese": "Pode me enviar uma cópia por e-mail?"
+        },
+        {
+          "speaker": "Clerk",
+          "english": "Absolutely. You'll have it in a minute.",
+          "portuguese": "Com certeza. Você vai receber em um minuto."
+        }
+      ]
+    },
+    {
+      "id": "D033",
+      "title": "Perdidos no metrô",
+      "context": "Recalculando a rota sem entrar em pânico",
+      "level": "A2",
+      "theme": "Viagem",
+      "lines": [
+        {
+          "speaker": "Kai",
+          "english": "I think we got on the wrong train.",
+          "portuguese": "Acho que pegamos o trem errado."
+        },
+        {
+          "speaker": "June",
+          "english": "Let me check the map. Yeah, we're going north.",
+          "portuguese": "Deixa eu ver o mapa. Sim, estamos indo para o norte."
+        },
+        {
+          "speaker": "Kai",
+          "english": "We need to go south, right?",
+          "portuguese": "Precisamos ir para o sul, certo?"
+        },
+        {
+          "speaker": "June",
+          "english": "Right. We'll get off at the next stop.",
+          "portuguese": "Certo. Vamos descer na próxima parada."
+        },
+        {
+          "speaker": "Kai",
+          "english": "Are we going to be late?",
+          "portuguese": "Vamos nos atrasar?"
+        },
+        {
+          "speaker": "June",
+          "english": "Maybe ten minutes. It's no big deal.",
+          "portuguese": "Talvez dez minutos. Não é nada demais."
+        }
+      ]
+    },
+    {
+      "id": "D034",
+      "title": "Pedido veio errado",
+      "context": "Resolvendo um erro no restaurante com educação",
+      "level": "A2",
+      "theme": "Serviços",
+      "lines": [
+        {
+          "speaker": "Customer",
+          "english": "Sorry, I ordered the veggie sandwich.",
+          "portuguese": "Desculpa, pedi o sanduíche vegetariano."
+        },
+        {
+          "speaker": "Server",
+          "english": "You're right. This one has chicken.",
+          "portuguese": "Você tem razão. Este tem frango."
+        },
+        {
+          "speaker": "Customer",
+          "english": "Could you replace it, please?",
+          "portuguese": "Pode trocar, por favor?"
+        },
+        {
+          "speaker": "Server",
+          "english": "Absolutely. I'll put a rush on it.",
+          "portuguese": "Com certeza. Vou pedir prioridade."
+        },
+        {
+          "speaker": "Customer",
+          "english": "Thanks. I appreciate it.",
+          "portuguese": "Obrigado. Agradeço."
+        },
+        {
+          "speaker": "Server",
+          "english": "And the drink is on us.",
+          "portuguese": "E a bebida é por nossa conta."
+        }
+      ]
+    },
+    {
+      "id": "D035",
+      "title": "Cobrança desconhecida",
+      "context": "Questionando uma compra no cartão",
+      "level": "B1",
+      "theme": "Serviços",
+      "lines": [
+        {
+          "speaker": "Agent",
+          "english": "How can I help you today?",
+          "portuguese": "Como posso ajudar hoje?"
+        },
+        {
+          "speaker": "Customer",
+          "english": "There's a charge I don't recognize on my card.",
+          "portuguese": "Há uma cobrança no meu cartão que não reconheço."
+        },
+        {
+          "speaker": "Agent",
+          "english": "Can you tell me the amount and date?",
+          "portuguese": "Pode me dizer o valor e a data?"
+        },
+        {
+          "speaker": "Customer",
+          "english": "It was forty-two dollars yesterday.",
+          "portuguese": "Foram quarenta e dois dólares ontem."
+        },
+        {
+          "speaker": "Agent",
+          "english": "I'll freeze the card while we investigate.",
+          "portuguese": "Vou bloquear o cartão enquanto investigamos."
+        },
+        {
+          "speaker": "Customer",
+          "english": "Okay. Will you send me a replacement?",
+          "portuguese": "Certo. Vocês vão me enviar outro?"
+        }
+      ]
+    },
+    {
+      "id": "D036",
+      "title": "Corte de cabelo",
+      "context": "Explicando o que quer sem foto",
+      "level": "A2",
+      "theme": "Serviços",
+      "lines": [
+        {
+          "speaker": "Stylist",
+          "english": "What are we doing today?",
+          "portuguese": "O que vamos fazer hoje?"
+        },
+        {
+          "speaker": "Client",
+          "english": "Just a trim. I want to keep the length.",
+          "portuguese": "Só aparar. Quero manter o comprimento."
+        },
+        {
+          "speaker": "Stylist",
+          "english": "How much should I take off?",
+          "portuguese": "Quanto devo cortar?"
+        },
+        {
+          "speaker": "Client",
+          "english": "About an inch, and a little shorter in the back.",
+          "portuguese": "Uns dois centímetros e meio, e um pouco mais curto atrás."
+        },
+        {
+          "speaker": "Stylist",
+          "english": "Do you want layers around your face?",
+          "portuguese": "Quer camadas ao redor do rosto?"
+        },
+        {
+          "speaker": "Client",
+          "english": "Yes, but nothing too dramatic.",
+          "portuguese": "Sim, mas nada muito radical."
+        }
+      ]
+    },
+    {
+      "id": "D037",
+      "title": "Vizinho e música alta",
+      "context": "Pedindo silêncio sem escalar o conflito",
+      "level": "B1",
+      "theme": "Serviços",
+      "lines": [
+        {
+          "speaker": "Neighbor",
+          "english": "Hey, could you turn the music down a bit?",
+          "portuguese": "Oi, você pode abaixar um pouco a música?"
+        },
+        {
+          "speaker": "Host",
+          "english": "Oh, sorry. Is it coming through the wall?",
+          "portuguese": "Ah, desculpa. Está passando pela parede?"
+        },
+        {
+          "speaker": "Neighbor",
+          "english": "Yeah, and I have an early shift tomorrow.",
+          "portuguese": "Sim, e amanhã começo a trabalhar cedo."
+        },
+        {
+          "speaker": "Host",
+          "english": "I didn't realize it was that loud.",
+          "portuguese": "Não percebi que estava tão alta."
+        },
+        {
+          "speaker": "Neighbor",
+          "english": "Thanks. I don't mind the party, just the bass.",
+          "portuguese": "Obrigado. Não ligo para a festa, só para o grave."
+        },
+        {
+          "speaker": "Host",
+          "english": "Got it. I'll keep it down.",
+          "portuguese": "Entendi. Vou manter baixo."
+        }
+      ]
+    },
+    {
+      "id": "D038",
+      "title": "Devolução sem recibo",
+      "context": "Negociando uma troca em uma loja",
+      "level": "B1",
+      "theme": "Serviços",
+      "lines": [
+        {
+          "speaker": "Customer",
+          "english": "I'd like to return this, but I lost the receipt.",
+          "portuguese": "Gostaria de devolver isto, mas perdi o recibo."
+        },
+        {
+          "speaker": "Clerk",
+          "english": "Did you pay by card?",
+          "portuguese": "Você pagou com cartão?"
+        },
+        {
+          "speaker": "Customer",
+          "english": "Yes, and I still have the original packaging.",
+          "portuguese": "Sim, e ainda tenho a embalagem original."
+        },
+        {
+          "speaker": "Clerk",
+          "english": "I can look up the purchase and offer store credit.",
+          "portuguese": "Posso localizar a compra e oferecer crédito na loja."
+        },
+        {
+          "speaker": "Customer",
+          "english": "Store credit works for me.",
+          "portuguese": "Crédito na loja serve para mim."
+        },
+        {
+          "speaker": "Clerk",
+          "english": "Great. It should only take a minute.",
+          "portuguese": "Ótimo. Deve levar só um minuto."
+        }
+      ]
+    },
+    {
+      "id": "D039",
+      "title": "Isso foi constrangedor",
+      "context": "Amigos comentam uma situação social",
+      "level": "B1",
+      "theme": "Gírias e conversa casual",
+      "lines": [
+        {
+          "speaker": "Zoe",
+          "english": "Did you see me call his mom by the wrong name?",
+          "portuguese": "Você viu que chamei a mãe dele pelo nome errado?"
+        },
+        {
+          "speaker": "Finn",
+          "english": "Yeah. That was pretty awkward.",
+          "portuguese": "Sim. Foi bem constrangedor."
+        },
+        {
+          "speaker": "Zoe",
+          "english": "I wanted the floor to swallow me.",
+          "portuguese": "Eu queria que o chão me engolisse."
+        },
+        {
+          "speaker": "Finn",
+          "english": "Don't sweat it. She laughed.",
+          "portuguese": "Não esquenta. Ela riu."
+        },
+        {
+          "speaker": "Zoe",
+          "english": "Still, I'm never showing my face there again.",
+          "portuguese": "Mesmo assim, nunca mais apareço lá."
+        },
+        {
+          "speaker": "Finn",
+          "english": "Sure you will. You'll laugh about it tomorrow.",
+          "portuguese": "Claro que vai. Amanhã você vai rir disso."
+        }
+      ]
+    },
+    {
+      "id": "D040",
+      "title": "Série viciante",
+      "context": "Conversa informal com exageros e gírias",
+      "level": "B1",
+      "theme": "Gírias e conversa casual",
+      "lines": [
+        {
+          "speaker": "Jay",
+          "english": "Have you started that new show yet?",
+          "portuguese": "Você já começou aquela série nova?"
+        },
+        {
+          "speaker": "Liv",
+          "english": "Yeah, and I'm totally hooked.",
+          "portuguese": "Sim, e estou completamente viciada."
+        },
+        {
+          "speaker": "Jay",
+          "english": "Right? The second episode is wild.",
+          "portuguese": "Né? O segundo episódio é insano."
+        },
+        {
+          "speaker": "Liv",
+          "english": "No spoilers! I'm only halfway through.",
+          "portuguese": "Sem spoilers! Estou só na metade."
+        },
+        {
+          "speaker": "Jay",
+          "english": "My bad. Text me when you finish.",
+          "portuguese": "Foi mal. Me manda mensagem quando terminar."
+        },
+        {
+          "speaker": "Liv",
+          "english": "I probably won't sleep until I do.",
+          "portuguese": "Provavelmente não vou dormir até terminar."
+        }
+      ]
+    },
+    {
+      "id": "D041",
+      "title": "Festa ou sofá",
+      "context": "Amigos negociam a energia social",
+      "level": "B1",
+      "theme": "Gírias e conversa casual",
+      "lines": [
+        {
+          "speaker": "Rob",
+          "english": "Are we still going to Cam's party?",
+          "portuguese": "A gente ainda vai à festa do Cam?"
+        },
+        {
+          "speaker": "Elle",
+          "english": "Honestly, I'm not really feeling it.",
+          "portuguese": "Sinceramente, não estou muito a fim."
+        },
+        {
+          "speaker": "Rob",
+          "english": "Same. It's been a long week.",
+          "portuguese": "Também. Foi uma semana longa."
+        },
+        {
+          "speaker": "Elle",
+          "english": "Want to order pizza and call it a night?",
+          "portuguese": "Quer pedir pizza e encerrar a noite?"
+        },
+        {
+          "speaker": "Rob",
+          "english": "You read my mind.",
+          "portuguese": "Você leu minha mente."
+        },
+        {
+          "speaker": "Elle",
+          "english": "Perfect. I'll cancel the ride.",
+          "portuguese": "Perfeito. Vou cancelar o carro."
+        }
+      ]
+    },
+    {
+      "id": "D042",
+      "title": "Áudio de dois minutos",
+      "context": "Colegas brincam com mensagens de voz longas",
+      "level": "B1",
+      "theme": "Gírias e conversa casual",
+      "lines": [
+        {
+          "speaker": "Nico",
+          "english": "Did you really send me a four-minute voice note?",
+          "portuguese": "Você mandou mesmo um áudio de quatro minutos?"
+        },
+        {
+          "speaker": "Sara",
+          "english": "I had a lot to say!",
+          "portuguese": "Eu tinha muita coisa para falar!"
+        },
+        {
+          "speaker": "Nico",
+          "english": "That's basically a podcast episode.",
+          "portuguese": "Isso é praticamente um episódio de podcast."
+        },
+        {
+          "speaker": "Sara",
+          "english": "Just listen at double speed.",
+          "portuguese": "É só ouvir em velocidade dupla."
+        },
+        {
+          "speaker": "Nico",
+          "english": "Fine, but I expect a dramatic plot twist.",
+          "portuguese": "Tá, mas espero uma reviravolta dramática."
+        },
+        {
+          "speaker": "Sara",
+          "english": "Oh, there is one. Trust me.",
+          "portuguese": "Ah, tem uma. Confia em mim."
+        }
+      ]
+    },
+    {
+      "id": "D043",
+      "title": "Não foi bem assim",
+      "context": "Corrigindo uma fofoca entre amigos",
+      "level": "B2",
+      "theme": "Gírias e conversa casual",
+      "lines": [
+        {
+          "speaker": "Mel",
+          "english": "I heard you walked out of the meeting.",
+          "portuguese": "Ouvi dizer que você saiu da reunião."
+        },
+        {
+          "speaker": "Vic",
+          "english": "Whoa, that's not what happened.",
+          "portuguese": "Calma, não foi isso que aconteceu."
+        },
+        {
+          "speaker": "Mel",
+          "english": "So what's the real story?",
+          "portuguese": "Então qual é a história verdadeira?"
+        },
+        {
+          "speaker": "Vic",
+          "english": "The fire alarm went off, and everyone left.",
+          "portuguese": "O alarme de incêndio tocou, e todo mundo saiu."
+        },
+        {
+          "speaker": "Mel",
+          "english": "Okay, that makes way more sense.",
+          "portuguese": "Certo, isso faz muito mais sentido."
+        },
+        {
+          "speaker": "Vic",
+          "english": "Maybe don't believe everything Alex tells you.",
+          "portuguese": "Talvez não acredite em tudo que o Alex conta."
+        }
+      ]
+    },
+    {
+      "id": "D044",
+      "title": "Carteira perdida",
+      "context": "Reconstruindo os últimos passos",
+      "level": "A2",
+      "theme": "Problemas reais",
+      "lines": [
+        {
+          "speaker": "Iris",
+          "english": "I can't find my wallet anywhere.",
+          "portuguese": "Não encontro minha carteira em lugar nenhum."
+        },
+        {
+          "speaker": "Tom",
+          "english": "When did you last use it?",
+          "portuguese": "Quando você a usou pela última vez?"
+        },
+        {
+          "speaker": "Iris",
+          "english": "At the coffee shop, I think.",
+          "portuguese": "Na cafeteria, eu acho."
+        },
+        {
+          "speaker": "Tom",
+          "english": "Call them first. It might still be there.",
+          "portuguese": "Ligue para eles primeiro. Pode ainda estar lá."
+        },
+        {
+          "speaker": "Iris",
+          "english": "Good idea. I'll freeze my cards too.",
+          "portuguese": "Boa ideia. Vou bloquear meus cartões também."
+        },
+        {
+          "speaker": "Tom",
+          "english": "I'll check the car while you call.",
+          "portuguese": "Vou verificar o carro enquanto você liga."
+        }
+      ]
+    },
+    {
+      "id": "D045",
+      "title": "Encomenda desaparecida",
+      "context": "Falando com suporte sobre uma entrega",
+      "level": "B1",
+      "theme": "Problemas reais",
+      "lines": [
+        {
+          "speaker": "Support",
+          "english": "I see the package was marked as delivered.",
+          "portuguese": "Vejo que o pacote foi marcado como entregue."
+        },
+        {
+          "speaker": "Customer",
+          "english": "Right, but it isn't at my door or with my neighbors.",
+          "portuguese": "Certo, mas não está na minha porta nem com meus vizinhos."
+        },
+        {
+          "speaker": "Support",
+          "english": "Was there a delivery photo?",
+          "portuguese": "Havia uma foto da entrega?"
+        },
+        {
+          "speaker": "Customer",
+          "english": "Yes, but that isn't my building.",
+          "portuguese": "Sim, mas aquele não é meu prédio."
+        },
+        {
+          "speaker": "Support",
+          "english": "I'll open a trace with the driver now.",
+          "portuguese": "Vou abrir uma investigação com o motorista agora."
+        },
+        {
+          "speaker": "Customer",
+          "english": "Thank you. When should I expect an update?",
+          "portuguese": "Obrigado. Quando devo esperar uma atualização?"
+        }
+      ]
+    },
+    {
+      "id": "D046",
+      "title": "Decisão difícil",
+      "context": "Duas pessoas pesam risco e oportunidade",
+      "level": "B2",
+      "theme": "Problemas reais",
+      "lines": [
+        {
+          "speaker": "Mae",
+          "english": "The new job pays more, but I'd have to move.",
+          "portuguese": "O novo emprego paga mais, mas eu teria que me mudar."
+        },
+        {
+          "speaker": "Sol",
+          "english": "What matters most to you right now?",
+          "portuguese": "O que mais importa para você agora?"
+        },
+        {
+          "speaker": "Mae",
+          "english": "Growth, but I don't want to leave everyone behind.",
+          "portuguese": "Crescimento, mas não quero deixar todo mundo para trás."
+        },
+        {
+          "speaker": "Sol",
+          "english": "Could you try it for a year instead of deciding forever?",
+          "portuguese": "Você poderia tentar por um ano em vez de decidir para sempre?"
+        },
+        {
+          "speaker": "Mae",
+          "english": "That makes it feel less scary.",
+          "portuguese": "Isso faz parecer menos assustador."
+        },
+        {
+          "speaker": "Sol",
+          "english": "Then gather the facts and give yourself a deadline.",
+          "portuguese": "Então reúna os fatos e dê a si mesma um prazo."
+        }
+      ]
+    },
+    {
+      "id": "D047",
+      "title": "Chave trancada dentro",
+      "context": "Improvisando uma solução prática",
+      "level": "A2",
+      "theme": "Problemas reais",
+      "lines": [
+        {
+          "speaker": "Ben",
+          "english": "I locked my keys inside the apartment.",
+          "portuguese": "Tranquei minhas chaves dentro do apartamento."
+        },
+        {
+          "speaker": "Uma",
+          "english": "Do you have a spare with anyone?",
+          "portuguese": "Você deixou uma cópia com alguém?"
+        },
+        {
+          "speaker": "Ben",
+          "english": "My sister has one, but she's across town.",
+          "portuguese": "Minha irmã tem uma, mas está do outro lado da cidade."
+        },
+        {
+          "speaker": "Uma",
+          "english": "That's still cheaper than a locksmith.",
+          "portuguese": "Ainda é mais barato que um chaveiro."
+        },
+        {
+          "speaker": "Ben",
+          "english": "True. Can I wait at your place?",
+          "portuguese": "Verdade. Posso esperar na sua casa?"
+        },
+        {
+          "speaker": "Uma",
+          "english": "Of course. Come on in.",
+          "portuguese": "Claro. Entra."
+        }
+      ]
+    },
+    {
+      "id": "D048",
+      "title": "Desculpa de verdade",
+      "context": "Assumindo um erro e reparando o dano",
+      "level": "B2",
+      "theme": "Problemas reais",
+      "lines": [
+        {
+          "speaker": "Ari",
+          "english": "I shared something you told me in confidence.",
+          "portuguese": "Compartilhei algo que você me contou em confiança."
+        },
+        {
+          "speaker": "Dee",
+          "english": "I know. It really hurt that you did that.",
+          "portuguese": "Eu sei. Doeu muito você ter feito isso."
+        },
+        {
+          "speaker": "Ari",
+          "english": "I was wrong, and I don't have an excuse.",
+          "portuguese": "Eu errei, e não tenho desculpa."
+        },
+        {
+          "speaker": "Dee",
+          "english": "I appreciate you saying that, but trust takes time.",
+          "portuguese": "Agradeço você dizer isso, mas confiança leva tempo."
+        },
+        {
+          "speaker": "Ari",
+          "english": "I understand. What can I do to make things right?",
+          "portuguese": "Entendo. O que posso fazer para consertar as coisas?"
+        },
+        {
+          "speaker": "Dee",
+          "english": "Start by giving me some space.",
+          "portuguese": "Comece me dando um pouco de espaço."
+        }
+      ]
+    },
+    {
+      "id": "H001",
+      "title": "Onde você está?",
+      "context": "Conversa real encenada sobre cômodos da casa",
+      "level": "A1",
+      "theme": "Áudio humano · VOA",
+      "lines": [
+        {
+          "speaker": "Anna",
+          "english": "Hello, everyone! Today my friend Marsha is at her friend's house. She says it is beautiful.",
+          "portuguese": "Olá, pessoal! Hoje minha amiga Marsha está na casa de uma amiga. Ela diz que é linda.",
+          "audioStart": 0,
+          "audioEnd": 10.64
+        },
+        {
+          "speaker": "Anna",
+          "english": "I want to see this house! Here we are!",
+          "portuguese": "Quero ver essa casa! Chegamos!",
+          "audioStart": 10.64,
+          "audioEnd": 15.2
+        },
+        {
+          "speaker": "Anna",
+          "english": "Marsha, I am in the kitchen! It is a beautiful kitchen!",
+          "portuguese": "Marsha, estou na cozinha! É uma cozinha linda!",
+          "audioStart": 15.2,
+          "audioEnd": 22.36
+        },
+        {
+          "speaker": "Marsha",
+          "english": "It is beautiful. We cook in the kitchen.",
+          "portuguese": "É linda. Nós cozinhamos na cozinha.",
+          "audioStart": 22.36,
+          "audioEnd": 27.45
+        },
+        {
+          "speaker": "Anna",
+          "english": "I eat in the kitchen.",
+          "portuguese": "Eu como na cozinha.",
+          "audioStart": 27.45,
+          "audioEnd": 30
+        },
+        {
+          "speaker": "Marsha",
+          "english": "We relax in the living room.",
+          "portuguese": "Nós relaxamos na sala.",
+          "audioStart": 30,
+          "audioEnd": 35
+        },
+        {
+          "speaker": "Anna",
+          "english": "I relax in the living room. Marsha, let's go upstairs!",
+          "portuguese": "Eu relaxo na sala. Marsha, vamos subir!",
+          "audioStart": 35,
+          "audioEnd": 42.1
+        },
+        {
+          "speaker": "Marsha",
+          "english": "Anna? Where are you?",
+          "portuguese": "Anna? Onde você está?",
+          "audioStart": 42.1,
+          "audioEnd": 45.84
+        },
+        {
+          "speaker": "Anna",
+          "english": "Marsha, I am in the bathroom! I wash in the bathroom.",
+          "portuguese": "Marsha, estou no banheiro! Eu me lavo no banheiro.",
+          "audioStart": 45.84,
+          "audioEnd": 51.1
+        },
+        {
+          "speaker": "Marsha",
+          "english": "I am in the bedroom. We sleep in the bedroom.",
+          "portuguese": "Estou no quarto. Nós dormimos no quarto.",
+          "audioStart": 51.1,
+          "audioEnd": 56.66
+        },
+        {
+          "speaker": "Anna",
+          "english": "I sleep in the bedroom!",
+          "portuguese": "Eu durmo no quarto!",
+          "audioStart": 56.66,
+          "audioEnd": 58.98
+        }
+      ],
+      "audioUrl": "/audio/voa/lesson-05-where-are-you.mp3",
+      "source": {
+        "publisher": "VOA Learning English",
+        "title": "Lesson 5: Where Are You?",
+        "url": "https://learningenglish.voanews.com/a/lets-learn-english-lesson-5-where-are-you/3168971.html",
+        "license": "Domínio público — conteúdo produzido pela VOA",
+        "licenseUrl": "https://learningenglish.voanews.com/p/5374.html"
+      }
+    },
+    {
+      "id": "H002",
+      "title": "No mercado de frutos do mar",
+      "context": "Trecho com compra, quantidade e formas de pagamento",
+      "level": "A2",
+      "theme": "Áudio humano · VOA",
+      "lines": [
+        {
+          "speaker": "Anna",
+          "english": "Excuse me. Can you help me?",
+          "portuguese": "Com licença. Pode me ajudar?",
+          "audioStart": 27.52,
+          "audioEnd": 29.84
+        },
+        {
+          "speaker": "Pete",
+          "english": "Sure! What do you need?",
+          "portuguese": "Claro! Do que você precisa?",
+          "audioStart": 29.84,
+          "audioEnd": 31.84
+        },
+        {
+          "speaker": "Anna",
+          "english": "What are you doing here?",
+          "portuguese": "O que você está fazendo aqui?",
+          "audioStart": 33.84,
+          "audioEnd": 35.64
+        },
+        {
+          "speaker": "Pete",
+          "english": "I work here. You know, it's not easy to be a writer.",
+          "portuguese": "Trabalho aqui. Sabe, não é fácil ser escritor.",
+          "audioStart": 35.64,
+          "audioEnd": 40.28
+        },
+        {
+          "speaker": "Anna",
+          "english": "Yeah, I heard that. Sorry.",
+          "portuguese": "É, fiquei sabendo. Sinto muito.",
+          "audioStart": 40.28,
+          "audioEnd": 43.52
+        },
+        {
+          "speaker": "Pete",
+          "english": "But this job is great. I work outside by the river.",
+          "portuguese": "Mas este trabalho é ótimo. Trabalho ao ar livre perto do rio.",
+          "audioStart": 43.52,
+          "audioEnd": 49.6
+        },
+        {
+          "speaker": "Anna",
+          "english": "I can only spend fifty dollars.",
+          "portuguese": "Só posso gastar cinquenta dólares.",
+          "audioStart": 66,
+          "audioEnd": 68.8
+        },
+        {
+          "speaker": "Pete",
+          "english": "Okay. What do you want?",
+          "portuguese": "Certo. O que você quer?",
+          "audioStart": 68.8,
+          "audioEnd": 71.76
+        },
+        {
+          "speaker": "Anna",
+          "english": "First, I want to buy some shrimp.",
+          "portuguese": "Primeiro, quero comprar camarão.",
+          "audioStart": 71.76,
+          "audioEnd": 76.24
+        },
+        {
+          "speaker": "Pete",
+          "english": "Sure thing. Follow me. How much shrimp do you want?",
+          "portuguese": "Claro. Siga-me. Quanto camarão você quer?",
+          "audioStart": 76.24,
+          "audioEnd": 80.84
+        },
+        {
+          "speaker": "Anna",
+          "english": "I want a dozen crabs.",
+          "portuguese": "Quero uma dúzia de caranguejos.",
+          "audioStart": 105.96,
+          "audioEnd": 108.88
+        },
+        {
+          "speaker": "Pete",
+          "english": "That'll be forty-nine ninety-five. Cash or credit?",
+          "portuguese": "Fica quarenta e nove e noventa e cinco. Dinheiro ou cartão?",
+          "audioStart": 135.6,
+          "audioEnd": 141.24
+        },
+        {
+          "speaker": "Anna",
+          "english": "Credit, please.",
+          "portuguese": "Cartão, por favor.",
+          "audioStart": 141.24,
+          "audioEnd": 143.6
+        }
+      ],
+      "audioUrl": "/audio/voa/lesson-30-rolling-on-the-river.mp3",
+      "source": {
+        "publisher": "VOA Learning English",
+        "title": "Lesson 30: Rolling on the River",
+        "url": "https://learningenglish.voanews.com/a/lets-learn-english-lesson-30-rolling-river/3522798.html",
+        "license": "Domínio público — conteúdo produzido pela VOA",
+        "licenseUrl": "https://learningenglish.voanews.com/p/5374.html"
+      }
+    },
+    {
+      "id": "H003",
+      "title": "A entrevista",
+      "context": "Trecho de uma entrevista de emprego com phrasal verbs",
+      "level": "B1",
+      "theme": "Áudio humano · VOA",
+      "lines": [
+        {
+          "speaker": "Ms. Weaver",
+          "english": "Thanks for coming in, Pete.",
+          "portuguese": "Obrigada por vir, Pete.",
+          "audioStart": 160.18,
+          "audioEnd": 162.66
+        },
+        {
+          "speaker": "Pete",
+          "english": "Thanks for the opportunity, Ms. Weaver.",
+          "portuguese": "Obrigado pela oportunidade, senhora Weaver.",
+          "audioStart": 162.66,
+          "audioEnd": 164.94
+        },
+        {
+          "speaker": "Ms. Weaver",
+          "english": "I need to find out if you have the skills for this job.",
+          "portuguese": "Preciso descobrir se você tem as habilidades para este trabalho.",
+          "audioStart": 164.94,
+          "audioEnd": 171.22
+        },
+        {
+          "speaker": "Ms. Weaver",
+          "english": "And I want you to be completely honest.",
+          "portuguese": "E quero que você seja completamente sincero.",
+          "audioStart": 171.22,
+          "audioEnd": 176.5
+        },
+        {
+          "speaker": "Pete",
+          "english": "Okay.",
+          "portuguese": "Certo.",
+          "audioStart": 176.5,
+          "audioEnd": 177.14
+        },
+        {
+          "speaker": "Ms. Weaver",
+          "english": "First, let's talk about your personal skills. Pete, are you a people person?",
+          "portuguese": "Primeiro, vamos falar das suas habilidades pessoais. Pete, você é sociável?",
+          "audioStart": 177.14,
+          "audioEnd": 186.62
+        },
+        {
+          "speaker": "Pete",
+          "english": "Well, okay, sometimes I think people talk too much.",
+          "portuguese": "Bem, às vezes acho que as pessoas falam demais.",
+          "audioStart": 186.62,
+          "audioEnd": 193.94
+        },
+        {
+          "speaker": "Ms. Weaver",
+          "english": "Pete, what work of yours are you most proud of?",
+          "portuguese": "Pete, de qual trabalho seu você mais se orgulha?",
+          "audioStart": 193.94,
+          "audioEnd": 199.66
+        },
+        {
+          "speaker": "Pete",
+          "english": "Last year, I locked myself in a cabin and wrote a book.",
+          "portuguese": "No ano passado, tranquei-me numa cabana e escrevi um livro.",
+          "audioStart": 199.66,
+          "audioEnd": 205.42
+        },
+        {
+          "speaker": "Pete",
+          "english": "I didn't speak to anybody the entire time. It was the best two months of my life.",
+          "portuguese": "Não falei com ninguém durante todo o período. Foram os melhores dois meses da minha vida.",
+          "audioStart": 205.42,
+          "audioEnd": 212.06
+        },
+        {
+          "speaker": "Ms. Weaver",
+          "english": "Okay. I think I've heard enough.",
+          "portuguese": "Certo. Acho que já ouvi o bastante.",
+          "audioStart": 212.06,
+          "audioEnd": 218.02
+        }
+      ],
+      "audioUrl": "/audio/voa/level-2-lesson-02-interview.mp3",
+      "source": {
+        "publisher": "VOA Learning English",
+        "title": "Level 2 – Lesson 2: The Interview",
+        "url": "https://learningenglish.voanews.com/a/lets-learn-english-level-2-lesson-2/3960471.html",
+        "license": "Domínio público — conteúdo produzido pela VOA",
+        "licenseUrl": "https://learningenglish.voanews.com/p/5374.html"
+      }
+    },
+    {
+      "id": "ADV-D01",
+      "title": "A promoção que não veio",
+      "context": "Dois colegas conversam depois de uma reunião difícil",
+      "level": "C1",
+      "theme": "Trabalho",
+      "lines": [
+        {
+          "speaker": "Maya",
+          "english": "So they gave the role to someone from outside after all.",
+          "portuguese": "Então deram o cargo para alguém de fora mesmo."
+        },
+        {
+          "speaker": "Leo",
+          "english": "That's rough. Did they at least explain their reasoning?",
+          "portuguese": "Que barra. Pelo menos explicaram o raciocínio?"
+        },
+        {
+          "speaker": "Maya",
+          "english": "They said I was invaluable where I am, which felt like a polite way of trapping me there.",
+          "portuguese": "Disseram que sou indispensável onde estou, o que pareceu um jeito educado de me prender ali."
+        },
+        {
+          "speaker": "Leo",
+          "english": "I'd ask what concrete milestones would put you in line for the next opening.",
+          "portuguese": "Eu perguntaria quais metas concretas colocariam você na fila da próxima vaga."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D02",
+      "title": "Incidente em produção",
+      "context": "Engenheiros respondem a uma falha durante a madrugada",
+      "level": "C1",
+      "theme": "Tecnologia",
+      "lines": [
+        {
+          "speaker": "Nora",
+          "english": "The rollback stopped the errors, but we still don't know what triggered them.",
+          "portuguese": "O rollback parou os erros, mas ainda não sabemos o que os disparou."
+        },
+        {
+          "speaker": "Sam",
+          "english": "The timing lines up with the cache migration, though correlation isn't proof.",
+          "portuguese": "O horário coincide com a migração do cache, embora correlação não seja prova."
+        },
+        {
+          "speaker": "Nora",
+          "english": "Agreed. Let's preserve the logs before anything gets rotated.",
+          "portuguese": "Concordo. Vamos preservar os logs antes que sejam rotacionados."
+        },
+        {
+          "speaker": "Sam",
+          "english": "I'll draft the incident timeline while you isolate the failing requests.",
+          "portuguese": "Vou montar a linha do tempo do incidente enquanto você isola as requisições com falha."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D03",
+      "title": "Pretensão salarial",
+      "context": "Uma negociação franca no fim de uma entrevista",
+      "level": "C1",
+      "theme": "Entrevista",
+      "lines": [
+        {
+          "speaker": "Recruiter",
+          "english": "The range for this position tops out below the figure you mentioned.",
+          "portuguese": "A faixa desta vaga termina abaixo do valor que você mencionou."
+        },
+        {
+          "speaker": "Candidate",
+          "english": "I understand. My expectation reflects the scope and the results I've delivered in similar roles.",
+          "portuguese": "Entendo. Minha expectativa reflete o escopo e os resultados que entreguei em funções parecidas."
+        },
+        {
+          "speaker": "Recruiter",
+          "english": "Would you consider a lower base with a six-month compensation review?",
+          "portuguese": "Você consideraria um salário-base menor com revisão em seis meses?"
+        },
+        {
+          "speaker": "Candidate",
+          "english": "Potentially, provided the targets and adjustment are documented in the offer.",
+          "portuguese": "Possivelmente, desde que as metas e o reajuste estejam documentados na proposta."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D04",
+      "title": "Você sumiu",
+      "context": "Amigos acertam um mal-entendido por mensagens ignoradas",
+      "level": "C1",
+      "theme": "Amizades",
+      "lines": [
+        {
+          "speaker": "Priya",
+          "english": "I'm not asking for constant updates, but you vanished when I needed you.",
+          "portuguese": "Não estou pedindo notícias o tempo todo, mas você sumiu quando precisei de você."
+        },
+        {
+          "speaker": "Ben",
+          "english": "You're right. I saw the messages and kept postponing an answer until it felt awkward.",
+          "portuguese": "Você tem razão. Vi as mensagens e fui adiando uma resposta até ficar constrangedor."
+        },
+        {
+          "speaker": "Priya",
+          "english": "I'd rather get a clumsy reply than silence.",
+          "portuguese": "Eu preferiria uma resposta atrapalhada ao silêncio."
+        },
+        {
+          "speaker": "Ben",
+          "english": "That's fair. I handled it badly, and I'm sorry.",
+          "portuguese": "Justo. Eu lidei mal com isso e sinto muito."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D05",
+      "title": "A louça de novo",
+      "context": "Um casal discute a divisão das tarefas de casa",
+      "level": "C1",
+      "theme": "Relacionamentos",
+      "lines": [
+        {
+          "speaker": "Alex",
+          "english": "It's never just one plate. It's me having to notice everything before you do.",
+          "portuguese": "Nunca é só um prato. Sou eu tendo que perceber tudo antes de você."
+        },
+        {
+          "speaker": "Jamie",
+          "english": "I do notice things. I just don't always treat them as urgent.",
+          "portuguese": "Eu percebo as coisas. Só não trato tudo como urgente."
+        },
+        {
+          "speaker": "Alex",
+          "english": "But when you wait, the mental load still lands on me.",
+          "portuguese": "Mas quando você espera, a carga mental continua caindo em mim."
+        },
+        {
+          "speaker": "Jamie",
+          "english": "Okay. Let's divide ownership, not just individual chores.",
+          "portuguese": "Certo. Vamos dividir a responsabilidade, não só tarefas isoladas."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D06",
+      "title": "Modelo enviesado",
+      "context": "Uma equipe debate o lançamento de um sistema de IA",
+      "level": "C2",
+      "theme": "Tecnologia",
+      "lines": [
+        {
+          "speaker": "Iris",
+          "english": "The aggregate accuracy looks impressive, but it masks a sharp drop for smaller groups.",
+          "portuguese": "A precisão agregada parece impressionante, mas esconde uma queda forte para grupos menores."
+        },
+        {
+          "speaker": "Dev",
+          "english": "Delaying the launch has a cost too, especially if the current process is already unfair.",
+          "portuguese": "Adiar o lançamento também tem um custo, principalmente se o processo atual já é injusto."
+        },
+        {
+          "speaker": "Iris",
+          "english": "True, but replacing one opaque failure with another isn't progress we can defend.",
+          "portuguese": "Verdade, mas trocar uma falha opaca por outra não é um progresso que possamos defender."
+        },
+        {
+          "speaker": "Dev",
+          "english": "Then we need thresholds, monitoring, and a rollback plan before approval.",
+          "portuguese": "Então precisamos de limites, monitoramento e um plano de reversão antes da aprovação."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D07",
+      "title": "Feedback vago",
+      "context": "Uma gerente transforma uma crítica genérica em ação",
+      "level": "C1",
+      "theme": "Trabalho",
+      "lines": [
+        {
+          "speaker": "Manager",
+          "english": "Your presentation didn't quite land with the room.",
+          "portuguese": "Sua apresentação não funcionou muito bem com o público."
+        },
+        {
+          "speaker": "Ravi",
+          "english": "Could you point to a moment where I lost them?",
+          "portuguese": "Você poderia apontar um momento em que perdi a atenção deles?"
+        },
+        {
+          "speaker": "Manager",
+          "english": "The recommendation arrived before the evidence, so people were still debating the premise.",
+          "portuguese": "A recomendação veio antes das evidências, então as pessoas ainda discutiam a premissa."
+        },
+        {
+          "speaker": "Ravi",
+          "english": "That helps. Next time I'll establish the trade-offs before proposing a direction.",
+          "portuguese": "Isso ajuda. Da próxima vez vou estabelecer as concessões antes de propor uma direção."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D08",
+      "title": "Sem rótulos",
+      "context": "Duas pessoas definem o que esperam da relação",
+      "level": "C1",
+      "theme": "Relacionamentos",
+      "lines": [
+        {
+          "speaker": "Noah",
+          "english": "I like what we have, but the ambiguity is starting to wear me down.",
+          "portuguese": "Gosto do que temos, mas a ambiguidade está começando a me desgastar."
+        },
+        {
+          "speaker": "Lena",
+          "english": "I thought keeping it undefined took the pressure off.",
+          "portuguese": "Achei que não definir tirava a pressão."
+        },
+        {
+          "speaker": "Noah",
+          "english": "At first it did. Now it feels like we're avoiding a conversation.",
+          "portuguese": "No começo tirava. Agora parece que estamos evitando uma conversa."
+        },
+        {
+          "speaker": "Lena",
+          "english": "Then let's be honest about what commitment would mean to each of us.",
+          "portuguese": "Então vamos ser honestos sobre o que compromisso significaria para cada um."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D09",
+      "title": "Pedido impossível",
+      "context": "Cliente e consultora renegociam prazo e escopo",
+      "level": "C1",
+      "theme": "Negociação",
+      "lines": [
+        {
+          "speaker": "Client",
+          "english": "We still need the full launch by Friday.",
+          "portuguese": "Ainda precisamos do lançamento completo até sexta."
+        },
+        {
+          "speaker": "Consultant",
+          "english": "With the new requirements, Friday is only realistic if we reduce the first release.",
+          "portuguese": "Com os novos requisitos, sexta só é realista se reduzirmos a primeira versão."
+        },
+        {
+          "speaker": "Client",
+          "english": "What can you guarantee without compromising stability?",
+          "portuguese": "O que você pode garantir sem comprometer a estabilidade?"
+        },
+        {
+          "speaker": "Consultant",
+          "english": "The core workflow and payments, with reporting delivered the following week.",
+          "portuguese": "O fluxo principal e os pagamentos, com os relatórios entregues na semana seguinte."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D10",
+      "title": "Debate acadêmico",
+      "context": "Pesquisadores contestam a interpretação de um estudo",
+      "level": "C2",
+      "theme": "Estudos",
+      "lines": [
+        {
+          "speaker": "Elena",
+          "english": "The data support an association, but the paper repeatedly implies causation.",
+          "portuguese": "Os dados sustentam uma associação, mas o artigo insinua causalidade repetidamente."
+        },
+        {
+          "speaker": "Martin",
+          "english": "The longitudinal design makes that inference plausible, albeit not definitive.",
+          "portuguese": "O desenho longitudinal torna essa inferência plausível, embora não definitiva."
+        },
+        {
+          "speaker": "Elena",
+          "english": "Plausible isn't the same as demonstrated, particularly with that attrition rate.",
+          "portuguese": "Plausível não é o mesmo que demonstrado, especialmente com essa taxa de desistência."
+        },
+        {
+          "speaker": "Martin",
+          "english": "Then the conclusion should be narrowed and the limitation made explicit.",
+          "portuguese": "Então a conclusão deve ser restringida e a limitação explicitada."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D11",
+      "title": "Era brincadeira",
+      "context": "Amigos discutem uma piada que passou do limite",
+      "level": "C1",
+      "theme": "Amizades",
+      "lines": [
+        {
+          "speaker": "Tess",
+          "english": "You kept calling it a joke after I told you it bothered me.",
+          "portuguese": "Você continuou chamando de brincadeira depois que eu disse que me incomodava."
+        },
+        {
+          "speaker": "Omar",
+          "english": "I got defensive because I felt accused in front of everyone.",
+          "portuguese": "Fiquei na defensiva porque me senti acusado na frente de todo mundo."
+        },
+        {
+          "speaker": "Tess",
+          "english": "Intent matters, but so does what you do once you know the impact.",
+          "portuguese": "A intenção importa, mas também o que você faz depois de saber o impacto."
+        },
+        {
+          "speaker": "Omar",
+          "english": "You're right. I should've stopped instead of trying to win the argument.",
+          "portuguese": "Você tem razão. Eu deveria ter parado em vez de tentar vencer a discussão."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D12",
+      "title": "Privacidade por padrão",
+      "context": "Equipe decide quanto dado realmente precisa coletar",
+      "level": "C2",
+      "theme": "Tecnologia",
+      "lines": [
+        {
+          "speaker": "June",
+          "english": "Just because we can retain every event doesn't mean we should.",
+          "portuguese": "Só porque podemos reter cada evento não significa que devemos."
+        },
+        {
+          "speaker": "Kai",
+          "english": "More history would make future analysis considerably easier.",
+          "portuguese": "Mais histórico tornaria análises futuras bem mais fáceis."
+        },
+        {
+          "speaker": "June",
+          "english": "Convenience is a weak justification for indefinite surveillance.",
+          "portuguese": "Conveniência é uma justificativa fraca para vigilância indefinida."
+        },
+        {
+          "speaker": "Kai",
+          "english": "Fair point. Let's define a purpose and retention window for every field.",
+          "portuguese": "Justo. Vamos definir finalidade e prazo de retenção para cada campo."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D13",
+      "title": "Reunião sem fim",
+      "context": "Colegas encerram uma discussão que perdeu o foco",
+      "level": "C1",
+      "theme": "Trabalho",
+      "lines": [
+        {
+          "speaker": "Ana",
+          "english": "We're circling the same issue without making a decision.",
+          "portuguese": "Estamos girando em torno do mesmo problema sem decidir."
+        },
+        {
+          "speaker": "Mo",
+          "english": "Because we're mixing today's choice with every possible future scenario.",
+          "portuguese": "Porque estamos misturando a escolha de hoje com todo cenário futuro possível."
+        },
+        {
+          "speaker": "Ana",
+          "english": "Let's decide what is reversible and test that first.",
+          "portuguese": "Vamos decidir o que é reversível e testar isso primeiro."
+        },
+        {
+          "speaker": "Mo",
+          "english": "Works for me. I'll capture the unresolved risks for later.",
+          "portuguese": "Por mim, ótimo. Vou registrar os riscos não resolvidos para depois."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D14",
+      "title": "Limite no trabalho",
+      "context": "Uma funcionária recusa horas extras recorrentes",
+      "level": "C1",
+      "theme": "Trabalho",
+      "lines": [
+        {
+          "speaker": "Boss",
+          "english": "I know it's late, but could you stay on for a few more hours?",
+          "portuguese": "Sei que está tarde, mas você poderia ficar mais algumas horas?"
+        },
+        {
+          "speaker": "Employee",
+          "english": "I can help with a genuine emergency, but this has become the weekly routine.",
+          "portuguese": "Posso ajudar numa emergência real, mas isso virou rotina semanal."
+        },
+        {
+          "speaker": "Boss",
+          "english": "We're short-staffed until the new hire starts.",
+          "portuguese": "Estamos com pouca gente até a nova contratação começar."
+        },
+        {
+          "speaker": "Employee",
+          "english": "Then we should reduce commitments rather than rely on invisible overtime.",
+          "portuguese": "Então devemos reduzir compromissos em vez de depender de horas extras invisíveis."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D15",
+      "title": "Ironia no grupo",
+      "context": "Uma mensagem curta soa mais hostil do que parecia",
+      "level": "C2",
+      "theme": "Comunicação",
+      "lines": [
+        {
+          "speaker": "Lee",
+          "english": "When you wrote 'brilliant idea,' were you serious or being sarcastic?",
+          "portuguese": "Quando você escreveu 'ideia brilhante', estava falando sério ou sendo sarcástico?"
+        },
+        {
+          "speaker": "Robin",
+          "english": "Serious, actually. I can see how the period made it sound pointed.",
+          "portuguese": "Sério, na verdade. Entendo como o ponto final fez parecer provocação."
+        },
+        {
+          "speaker": "Lee",
+          "english": "Text strips away the cues we'd normally use to read the tone.",
+          "portuguese": "Texto elimina as pistas que normalmente usamos para interpretar o tom."
+        },
+        {
+          "speaker": "Robin",
+          "english": "I'll be less cryptic next time and save the deadpan delivery for voice chat.",
+          "portuguese": "Vou ser menos enigmático da próxima vez e deixar o humor seco para a chamada de voz."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D16",
+      "title": "Oferta concorrente",
+      "context": "Candidato responde à pressão por uma decisão imediata",
+      "level": "C2",
+      "theme": "Entrevista",
+      "lines": [
+        {
+          "speaker": "Recruiter",
+          "english": "If we improve the offer today, can you commit before speaking to the other company?",
+          "portuguese": "Se melhorarmos a proposta hoje, você pode se comprometer antes de falar com a outra empresa?"
+        },
+        {
+          "speaker": "Candidate",
+          "english": "I appreciate the flexibility, but I don't want urgency to substitute for due diligence.",
+          "portuguese": "Agradeço a flexibilidade, mas não quero que a urgência substitua a análise cuidadosa."
+        },
+        {
+          "speaker": "Recruiter",
+          "english": "What information would help you reach a decision?",
+          "portuguese": "Que informação ajudaria você a chegar a uma decisão?"
+        },
+        {
+          "speaker": "Candidate",
+          "english": "Clarity on decision authority, team stability, and how success is evaluated.",
+          "portuguese": "Clareza sobre autonomia decisória, estabilidade da equipe e como o sucesso é avaliado."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D17",
+      "title": "Vizinho barulhento",
+      "context": "Uma conversa tensa evita virar confronto",
+      "level": "C1",
+      "theme": "Casa",
+      "lines": [
+        {
+          "speaker": "Nina",
+          "english": "The music has been coming through the wall after midnight all week.",
+          "portuguese": "A música tem atravessado a parede depois da meia-noite a semana toda."
+        },
+        {
+          "speaker": "Cal",
+          "english": "I didn't realize it carried that much. Why didn't you say something sooner?",
+          "portuguese": "Eu não percebi que o som passava tanto. Por que não falou antes?"
+        },
+        {
+          "speaker": "Nina",
+          "english": "I was trying not to make a big deal of it, but I'm barely sleeping.",
+          "portuguese": "Eu estava tentando não transformar isso num problema, mas quase não durmo."
+        },
+        {
+          "speaker": "Cal",
+          "english": "I'll move the speakers and use headphones after ten.",
+          "portuguese": "Vou mudar as caixas de lugar e usar fones depois das dez."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D18",
+      "title": "Conselho não pedido",
+      "context": "Uma amizade melhora quando alguém pergunta antes de aconselhar",
+      "level": "C1",
+      "theme": "Amizades",
+      "lines": [
+        {
+          "speaker": "Jo",
+          "english": "Every time I vent, you immediately tell me how to fix it.",
+          "portuguese": "Toda vez que desabafo, você logo me diz como resolver."
+        },
+        {
+          "speaker": "Max",
+          "english": "I thought solutions were how I showed I cared.",
+          "portuguese": "Achei que soluções eram como eu mostrava que me importava."
+        },
+        {
+          "speaker": "Jo",
+          "english": "Sometimes I need help; sometimes I just need someone to stay with the feeling.",
+          "portuguese": "Às vezes preciso de ajuda; às vezes só preciso que alguém fique comigo naquele sentimento."
+        },
+        {
+          "speaker": "Max",
+          "english": "I'll ask which one you need before jumping in.",
+          "portuguese": "Vou perguntar de qual você precisa antes de me meter."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D19",
+      "title": "Arquitetura ou moda",
+      "context": "Engenheiros avaliam uma nova ferramenta popular",
+      "level": "C2",
+      "theme": "Tecnologia",
+      "lines": [
+        {
+          "speaker": "Asha",
+          "english": "The demo is compelling, but it conveniently avoids our hardest constraints.",
+          "portuguese": "A demonstração convence, mas convenientemente evita nossas restrições mais difíceis."
+        },
+        {
+          "speaker": "Gus",
+          "english": "Adoption is growing fast, which lowers the risk of being stranded.",
+          "portuguese": "A adoção cresce rápido, o que reduz o risco de ficarmos presos sem suporte."
+        },
+        {
+          "speaker": "Asha",
+          "english": "Popularity reduces ecosystem risk; it says nothing about fitness for purpose.",
+          "portuguese": "Popularidade reduz o risco do ecossistema; não diz nada sobre adequação ao propósito."
+        },
+        {
+          "speaker": "Gus",
+          "english": "Let's prototype the ugliest workload before making it a standard.",
+          "portuguese": "Vamos prototipar a carga mais difícil antes de transformá-la em padrão."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D20",
+      "title": "Memória diferente",
+      "context": "Irmãos discordam sobre uma lembrança da infância",
+      "level": "C2",
+      "theme": "Família",
+      "lines": [
+        {
+          "speaker": "Sara",
+          "english": "You tell that story as if Dad never showed up for us.",
+          "portuguese": "Você conta essa história como se o pai nunca tivesse aparecido por nós."
+        },
+        {
+          "speaker": "Eli",
+          "english": "That's how it felt to me, even if your experience was different.",
+          "portuguese": "Foi assim que senti, mesmo que sua experiência tenha sido diferente."
+        },
+        {
+          "speaker": "Sara",
+          "english": "I suppose I've been correcting your facts when you were describing an emotion.",
+          "portuguese": "Acho que venho corrigindo seus fatos quando você descrevia uma emoção."
+        },
+        {
+          "speaker": "Eli",
+          "english": "And I've treated my memory as the only possible version.",
+          "portuguese": "E eu tratei minha memória como a única versão possível."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D21",
+      "title": "Crédito pelo trabalho",
+      "context": "Colegas resolvem autoria em uma apresentação",
+      "level": "C1",
+      "theme": "Trabalho",
+      "lines": [
+        {
+          "speaker": "Mina",
+          "english": "You presented my analysis as if it had come from the whole team.",
+          "portuguese": "Você apresentou minha análise como se tivesse vindo da equipe toda."
+        },
+        {
+          "speaker": "Cole",
+          "english": "I was trying to keep the presentation concise, not erase your contribution.",
+          "portuguese": "Eu tentava manter a apresentação concisa, não apagar sua contribuição."
+        },
+        {
+          "speaker": "Mina",
+          "english": "Then name the owner when the work is specific. Visibility affects my career.",
+          "portuguese": "Então cite a responsável quando o trabalho for específico. Visibilidade afeta minha carreira."
+        },
+        {
+          "speaker": "Cole",
+          "english": "You're right. I'll correct the deck and acknowledge it in the follow-up.",
+          "portuguese": "Você tem razão. Vou corrigir a apresentação e reconhecer isso no retorno."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D22",
+      "title": "Desculpa com ressalva",
+      "context": "Um casal tenta reparar uma discussão",
+      "level": "C2",
+      "theme": "Relacionamentos",
+      "lines": [
+        {
+          "speaker": "Mara",
+          "english": "When you say 'I'm sorry you felt hurt,' it sounds like the problem is my reaction.",
+          "portuguese": "Quando você diz 'sinto muito que tenha se magoado', parece que o problema é minha reação."
+        },
+        {
+          "speaker": "Theo",
+          "english": "I was trying to apologize without agreeing with every accusation.",
+          "portuguese": "Eu tentava pedir desculpas sem concordar com toda acusação."
+        },
+        {
+          "speaker": "Mara",
+          "english": "You can own what you said without surrendering your whole perspective.",
+          "portuguese": "Você pode assumir o que disse sem abrir mão de toda a sua perspectiva."
+        },
+        {
+          "speaker": "Theo",
+          "english": "Then I'm sorry I dismissed you and raised my voice. Both were wrong.",
+          "portuguese": "Então sinto muito por ter desconsiderado você e levantado a voz. As duas coisas foram erradas."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D23",
+      "title": "Promessa do produto",
+      "context": "Marketing e engenharia ajustam uma afirmação exagerada",
+      "level": "C2",
+      "theme": "Tecnologia",
+      "lines": [
+        {
+          "speaker": "Marketing",
+          "english": "Can we say the feature eliminates manual review?",
+          "portuguese": "Podemos dizer que o recurso elimina a revisão manual?"
+        },
+        {
+          "speaker": "Engineer",
+          "english": "Only for the happy path. Edge cases still require a person.",
+          "portuguese": "Só no fluxo ideal. Casos extremos ainda exigem uma pessoa."
+        },
+        {
+          "speaker": "Marketing",
+          "english": "'Reduces manual review' is accurate, but it lacks punch.",
+          "portuguese": "'Reduz a revisão manual' é preciso, mas falta impacto."
+        },
+        {
+          "speaker": "Engineer",
+          "english": "A punchy claim that fails in practice costs more than a modest one.",
+          "portuguese": "Uma promessa impactante que falha na prática custa mais que uma modesta."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D24",
+      "title": "Plano que mudou",
+      "context": "Amigos reorganizam uma viagem sem esconder frustração",
+      "level": "C1",
+      "theme": "Viagem",
+      "lines": [
+        {
+          "speaker": "Dani",
+          "english": "I booked the room because everyone agreed on those dates.",
+          "portuguese": "Reservei o quarto porque todos concordaram com aquelas datas."
+        },
+        {
+          "speaker": "Chris",
+          "english": "I know. My schedule changed, and I should've told you before suggesting a whole new plan.",
+          "portuguese": "Eu sei. Minha agenda mudou, e eu deveria ter avisado antes de sugerir outro plano inteiro."
+        },
+        {
+          "speaker": "Dani",
+          "english": "I can adapt, but I don't want the cost and logistics to become my problem alone.",
+          "portuguese": "Posso me adaptar, mas não quero que custo e logística virem só meu problema."
+        },
+        {
+          "speaker": "Chris",
+          "english": "They won't. I'll handle the change fee and find equivalent options.",
+          "portuguese": "Não vão. Vou cuidar da taxa de mudança e achar opções equivalentes."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D25",
+      "title": "Pergunta enviesada",
+      "context": "Entrevistadora reformula uma pergunta de pesquisa",
+      "level": "C2",
+      "theme": "Estudos",
+      "lines": [
+        {
+          "speaker": "Uma",
+          "english": "Asking why users dislike the update assumes dislike before they answer.",
+          "portuguese": "Perguntar por que usuários não gostam da atualização presume rejeição antes da resposta."
+        },
+        {
+          "speaker": "Felix",
+          "english": "But complaints are the reason we're running the interviews.",
+          "portuguese": "Mas as reclamações são o motivo das entrevistas."
+        },
+        {
+          "speaker": "Uma",
+          "english": "They're a signal, not a representative sample of every user.",
+          "portuguese": "Elas são um sinal, não uma amostra representativa de todo usuário."
+        },
+        {
+          "speaker": "Felix",
+          "english": "I'll ask what changed in their experience and let the evaluation emerge.",
+          "portuguese": "Vou perguntar o que mudou na experiência e deixar a avaliação surgir."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D26",
+      "title": "Fila do café",
+      "context": "Desconhecidos transformam irritação em conversa",
+      "level": "C1",
+      "theme": "Cotidiano",
+      "lines": [
+        {
+          "speaker": "Ari",
+          "english": "I think the line starts back there, though it's honestly hard to tell.",
+          "portuguese": "Acho que a fila começa lá atrás, embora seja difícil saber."
+        },
+        {
+          "speaker": "Bea",
+          "english": "Oh, sorry. I thought you were all waiting for mobile orders.",
+          "portuguese": "Ah, desculpe. Achei que vocês esperavam pedidos pelo aplicativo."
+        },
+        {
+          "speaker": "Ari",
+          "english": "No worries. This place could use a sign and maybe an air traffic controller.",
+          "portuguese": "Sem problema. Este lugar precisava de uma placa e talvez de um controlador de tráfego aéreo."
+        },
+        {
+          "speaker": "Bea",
+          "english": "At least confusion is giving strangers something to talk about.",
+          "portuguese": "Pelo menos a confusão está dando assunto para desconhecidos."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D27",
+      "title": "Conversa difícil",
+      "context": "Uma líder comunica que um projeto será encerrado",
+      "level": "C2",
+      "theme": "Liderança",
+      "lines": [
+        {
+          "speaker": "Leader",
+          "english": "We've decided to stop funding the project at the end of the quarter.",
+          "portuguese": "Decidimos parar de financiar o projeto no fim do trimestre."
+        },
+        {
+          "speaker": "Designer",
+          "english": "Is that a judgment on the work, or did the strategy change?",
+          "portuguese": "Isso é um julgamento do trabalho ou a estratégia mudou?"
+        },
+        {
+          "speaker": "Leader",
+          "english": "The work was strong. The market assumptions underneath it no longer hold.",
+          "portuguese": "O trabalho foi forte. As premissas de mercado por trás dele não se sustentam mais."
+        },
+        {
+          "speaker": "Designer",
+          "english": "Then please say that plainly when you tell the wider team.",
+          "portuguese": "Então diga isso claramente quando contar à equipe inteira."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D28",
+      "title": "Fonte duvidosa",
+      "context": "Amigos checam uma notícia antes de compartilhar",
+      "level": "C1",
+      "theme": "Mídia",
+      "lines": [
+        {
+          "speaker": "Yara",
+          "english": "That headline is outrageous, but the account posting it was created yesterday.",
+          "portuguese": "A manchete é revoltante, mas a conta que a publicou foi criada ontem."
+        },
+        {
+          "speaker": "Ian",
+          "english": "The screenshot looks convincing. Could the original have been deleted?",
+          "portuguese": "A captura parece convincente. Será que o original foi apagado?"
+        },
+        {
+          "speaker": "Yara",
+          "english": "Possibly, but none of the established outlets mention it.",
+          "portuguese": "É possível, mas nenhum veículo estabelecido menciona isso."
+        },
+        {
+          "speaker": "Ian",
+          "english": "I'll hold off sharing until we can trace the claim to a primary source.",
+          "portuguese": "Vou esperar para compartilhar até rastrearmos a alegação a uma fonte primária."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D29",
+      "title": "Favor com juros",
+      "context": "Dois amigos esclarecem uma cobrança emocional",
+      "level": "C2",
+      "theme": "Amizades",
+      "lines": [
+        {
+          "speaker": "Kim",
+          "english": "You keep bringing up that favor whenever I disagree with you.",
+          "portuguese": "Você continua mencionando aquele favor sempre que discordo de você."
+        },
+        {
+          "speaker": "Sol",
+          "english": "I mention it because lately the friendship feels one-sided.",
+          "portuguese": "Menciono porque ultimamente a amizade parece unilateral."
+        },
+        {
+          "speaker": "Kim",
+          "english": "Then talk about reciprocity directly instead of turning help into debt.",
+          "portuguese": "Então fale de reciprocidade diretamente em vez de transformar ajuda em dívida."
+        },
+        {
+          "speaker": "Sol",
+          "english": "That's fair. I let resentment leak out sideways.",
+          "portuguese": "Justo. Deixei o ressentimento escapar de forma indireta."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D30",
+      "title": "Decisão reversível",
+      "context": "Fundadores escolhem como testar uma ideia arriscada",
+      "level": "C1",
+      "theme": "Negócios",
+      "lines": [
+        {
+          "speaker": "Founder",
+          "english": "If we wait for certainty, a competitor may learn faster than we do.",
+          "portuguese": "Se esperarmos certeza, um concorrente pode aprender mais rápido que nós."
+        },
+        {
+          "speaker": "Advisor",
+          "english": "Speed matters, but only if the experiment can actually disprove your belief.",
+          "portuguese": "Velocidade importa, mas só se o experimento puder realmente refutar sua crença."
+        },
+        {
+          "speaker": "Founder",
+          "english": "So a limited launch with a measurable stop condition?",
+          "portuguese": "Então um lançamento limitado com uma condição mensurável de parada?"
+        },
+        {
+          "speaker": "Advisor",
+          "english": "Exactly. Commit to learning before you commit to scaling.",
+          "portuguese": "Exatamente. Comprometa-se com aprender antes de se comprometer com escalar."
+        }
+      ]
+    },
+    {
+      "id": "ADV-D31",
+      "title": "Entrelinhas",
+      "context": "Colegas interpretam uma resposta diplomática",
+      "level": "C2",
+      "theme": "Comunicação",
+      "lines": [
+        {
+          "speaker": "Elle",
+          "english": "He said the proposal was 'interesting' and asked us to revisit it next quarter.",
+          "portuguese": "Ele disse que a proposta era 'interessante' e pediu para retomá-la no próximo trimestre."
+        },
+        {
+          "speaker": "Vic",
+          "english": "In that context, 'interesting' sounds less like praise than a graceful exit.",
+          "portuguese": "Nesse contexto, 'interessante' soa menos como elogio e mais como uma saída elegante."
+        },
+        {
+          "speaker": "Elle",
+          "english": "That's how I heard it, but I don't want to overread one word.",
+          "portuguese": "Foi assim que ouvi, mas não quero interpretar demais uma palavra."
+        },
+        {
+          "speaker": "Vic",
+          "english": "Look at the action attached to it: no owner, no date, no next step.",
+          "portuguese": "Olhe para a ação ligada a ela: sem responsável, data ou próximo passo."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6155 @@
+{
+  "meta": {
+    "title": "8 semanas de decoding · listening para falantes de português",
+    "schemaVersion": 1,
+    "sources": [
+      {
+        "title": "Estudo: aquisição de sons do inglês por brasileiros",
+        "url": "https://www.scielo.br/j/tla/a/JW5yXxjrmJnDh6nZ6nNPxjs/?lang=en",
+        "note": "Orienta a seleção de vogais, TH, finais e contraste de vozeamento. Não fornece um ranking de clipes mais difíceis."
+      },
+      {
+        "title": "British Council: fala conectada",
+        "url": "https://www.teachingenglish.org.uk/professional-development/teachers/teaching-knowledge-database/c/connected-speech",
+        "note": "Referência sobre ligação, elisão, assimilação e formas fracas; as explicações das lições são autorais."
+      },
+      {
+        "title": "ELLLO: estudo offline",
+        "url": "https://elllo.org/about/teacher_tips.htm",
+        "note": "Permite baixar áudios e lições para uso offline e educacional."
+      },
+      {
+        "title": "ELLLO: condições de uso educacional",
+        "url": "https://www.elllo.org/english/Mixers/?D=A",
+        "note": "Permissão publicada para copiar e distribuir MP3 e texto em educação, sem transferência para fins comerciais."
+      },
+      {
+        "title": "Wikimedia Commons: gravações individuais",
+        "url": "https://commons.wikimedia.org/wiki/File:En-us-ship.ogg",
+        "note": "Licença e autor de cada arquivo preservados nos pares de sons."
+      }
+    ]
+  },
+  "clips": [
+    {
+      "id": "E39",
+      "english": "Abidemi, what did you do for summer break?",
+      "portuguese": "Abidemi, o que você fez nas férias?",
+      "audioUrl": "/audio/elllo/past.mp3",
+      "start": 0,
+      "end": 7.79,
+      "speaker": "Todd Beuckens",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "Abidemi,",
+          "start": 0,
+          "end": 0.97375
+        },
+        {
+          "text": "what",
+          "start": 2.22,
+          "end": 2.63
+        },
+        {
+          "text": "did",
+          "start": 2.64,
+          "end": 3.25
+        },
+        {
+          "text": "you",
+          "start": 3.25,
+          "end": 3.85
+        },
+        {
+          "text": "do",
+          "start": 3.89,
+          "end": 4.27
+        },
+        {
+          "text": "for",
+          "start": 4.27,
+          "end": 4.58
+        },
+        {
+          "text": "summer",
+          "start": 5.01,
+          "end": 6.11
+        },
+        {
+          "text": "break?",
+          "start": 6.11,
+          "end": 6.9
+        }
+      ],
+      "focus": [
+        "linking",
+        "boundary"
+      ],
+      "note": "Abidemi é o nome da interlocutora. O alvo é did you como um grupo: a transição pode se compactar, mas did continua marcando o passado.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Summer break — perguntas com did you",
+        "url": "https://elllo.org/english/grammar/A1-23-Past-Tense.htm",
+        "contributor": "Todd Beuckens e Abidemi",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E40",
+      "english": "What did you do in each country?",
+      "portuguese": "O que você fez em cada país?",
+      "audioUrl": "/audio/elllo/past.mp3",
+      "start": 25.04,
+      "end": 28.1,
+      "speaker": "Todd Beuckens",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "What",
+          "start": 25.04,
+          "end": 25.48
+        },
+        {
+          "text": "did",
+          "start": 25.48,
+          "end": 25.81
+        },
+        {
+          "text": "you",
+          "start": 25.81,
+          "end": 26.14
+        },
+        {
+          "text": "do",
+          "start": 26.14,
+          "end": 26.36
+        },
+        {
+          "text": "in",
+          "start": 26.36,
+          "end": 26.58
+        },
+        {
+          "text": "each",
+          "start": 27.02,
+          "end": 27.06
+        },
+        {
+          "text": "country?",
+          "start": 27.26,
+          "end": 27.77
+        }
+      ],
+      "focus": [
+        "linking",
+        "boundary"
+      ],
+      "note": "Did you do passa rapidamente. Faça um loop desse grupo e volte à pergunta inteira.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Summer break — perguntas com did you",
+        "url": "https://elllo.org/english/grammar/A1-23-Past-Tense.htm",
+        "contributor": "Todd Beuckens e Abidemi",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E41",
+      "english": "What foods did you eat?",
+      "portuguese": "Que comidas você comeu?",
+      "audioUrl": "/audio/elllo/past.mp3",
+      "start": 42.56,
+      "end": 45.9,
+      "speaker": "Todd Beuckens",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "What",
+          "start": 42.56,
+          "end": 43.2
+        },
+        {
+          "text": "foods",
+          "start": 43.2,
+          "end": 44
+        },
+        {
+          "text": "did",
+          "start": 44.48,
+          "end": 44.519999999999996
+        },
+        {
+          "text": "you",
+          "start": 44.78,
+          "end": 44.96
+        },
+        {
+          "text": "eat?",
+          "start": 44.96,
+          "end": 45.36
+        }
+      ],
+      "focus": [
+        "linking",
+        "phoneme"
+      ],
+      "note": "Escute as consoantes de foods did you e a passagem para eat sem inserir uma vogal extra.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Summer break — perguntas com did you",
+        "url": "https://elllo.org/english/grammar/A1-23-Past-Tense.htm",
+        "contributor": "Todd Beuckens e Abidemi",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E42",
+      "english": "Did you go anywhere in Thailand, like the beach or the forest?",
+      "portuguese": "Você foi a algum lugar na Tailândia, como a praia ou a floresta?",
+      "audioUrl": "/audio/elllo/past.mp3",
+      "start": 55.44,
+      "end": 60.47,
+      "speaker": "Todd Beuckens",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "Did",
+          "start": 55.44,
+          "end": 55.72
+        },
+        {
+          "text": "you",
+          "start": 55.72,
+          "end": 56
+        },
+        {
+          "text": "go",
+          "start": 56,
+          "end": 56.18
+        },
+        {
+          "text": "anywhere",
+          "start": 56.18,
+          "end": 56.93
+        },
+        {
+          "text": "in",
+          "start": 56.93,
+          "end": 57.11
+        },
+        {
+          "text": "Thailand,",
+          "start": 57.66,
+          "end": 57.86
+        },
+        {
+          "text": "like",
+          "start": 58.04,
+          "end": 58.41
+        },
+        {
+          "text": "the",
+          "start": 58.41,
+          "end": 58.69
+        },
+        {
+          "text": "beach",
+          "start": 58.69,
+          "end": 58.73
+        },
+        {
+          "text": "or",
+          "start": 59.19,
+          "end": 59.34
+        },
+        {
+          "text": "the",
+          "start": 59.34,
+          "end": 59.62
+        },
+        {
+          "text": "forest?",
+          "start": 59.62,
+          "end": 60.02
+        }
+      ],
+      "focus": [
+        "linking",
+        "weak-form"
+      ],
+      "note": "Did you inicia a pergunta; the, or e the ficam fracos entre beach e forest.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Summer break — perguntas com did you",
+        "url": "https://elllo.org/english/grammar/A1-23-Past-Tense.htm",
+        "contributor": "Todd Beuckens e Abidemi",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E01",
+      "english": "Well, I go on the computer a lot and I talk with friends through AOL instant messenger.",
+      "portuguese": "Uso bastante o computador e converso com amigos pelo mensageiro do AOL.",
+      "audioUrl": "/audio/elllo/081.mp3",
+      "start": 8,
+      "end": 14.98,
+      "speaker": "Jeanna",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "Well,",
+          "start": 8.14,
+          "end": 8.42
+        },
+        {
+          "text": "I",
+          "start": 8.56,
+          "end": 8.63
+        },
+        {
+          "text": "go",
+          "start": 8.63,
+          "end": 8.77
+        },
+        {
+          "text": "on",
+          "start": 8.77,
+          "end": 8.91
+        },
+        {
+          "text": "the",
+          "start": 8.91,
+          "end": 9.12
+        },
+        {
+          "text": "computer",
+          "start": 9.12,
+          "end": 9.69
+        },
+        {
+          "text": "a",
+          "start": 9.69,
+          "end": 9.76
+        },
+        {
+          "text": "lot",
+          "start": 9.94,
+          "end": 9.98
+        },
+        {
+          "text": "and",
+          "start": 10.05,
+          "end": 10.69
+        },
+        {
+          "text": "I",
+          "start": 10.74,
+          "end": 10.99
+        },
+        {
+          "text": "talk",
+          "start": 11.16,
+          "end": 12
+        },
+        {
+          "text": "with",
+          "start": 12,
+          "end": 12.36
+        },
+        {
+          "text": "friends",
+          "start": 12.36,
+          "end": 12.99
+        },
+        {
+          "text": "through",
+          "start": 12.99,
+          "end": 13.41
+        },
+        {
+          "text": "AOL",
+          "start": 13.41,
+          "end": 13.58
+        },
+        {
+          "text": "instant",
+          "start": 13.58,
+          "end": 13.91
+        },
+        {
+          "text": "messenger.",
+          "start": 14.07,
+          "end": 14.98
+        }
+      ],
+      "focus": [
+        "boundary",
+        "linking"
+      ],
+      "note": "Ouça “go on”, “a lot” e “talk with friends” como grupos. As palavras funcionais recebem menos destaque.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Teens and Computers",
+        "url": "https://elllo.org/english/0051/081-Jeanna-Computers.htm",
+        "contributor": "Todd Beuckens e Jeanna",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E02",
+      "english": "And I just moved from my hometown to Sacramento, so it's a good way to keep in touch with old friends.",
+      "portuguese": "Acabei de me mudar da minha cidade para Sacramento, então é um bom jeito de manter contato com amigos antigos.",
+      "audioUrl": "/audio/elllo/081.mp3",
+      "start": 16,
+      "end": 21.98,
+      "speaker": "Jeanna",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "And",
+          "start": 16.19,
+          "end": 16.48
+        },
+        {
+          "text": "I",
+          "start": 16.48,
+          "end": 16.57
+        },
+        {
+          "text": "just",
+          "start": 16.57,
+          "end": 16.96
+        },
+        {
+          "text": "moved",
+          "start": 16.96,
+          "end": 17.44
+        },
+        {
+          "text": "from",
+          "start": 17.44,
+          "end": 17.83
+        },
+        {
+          "text": "my",
+          "start": 17.94,
+          "end": 17.98
+        },
+        {
+          "text": "hometown",
+          "start": 18.05,
+          "end": 18.69
+        },
+        {
+          "text": "to",
+          "start": 18.76,
+          "end": 18.98
+        },
+        {
+          "text": "Sacramento,",
+          "start": 19.16,
+          "end": 20
+        },
+        {
+          "text": "so",
+          "start": 20.09,
+          "end": 20.13
+        },
+        {
+          "text": "it's",
+          "start": 20.2,
+          "end": 20.36
+        },
+        {
+          "text": "a",
+          "start": 20.36,
+          "end": 20.4
+        },
+        {
+          "text": "good",
+          "start": 20.4,
+          "end": 20.54
+        },
+        {
+          "text": "way",
+          "start": 20.61,
+          "end": 20.7
+        },
+        {
+          "text": "to",
+          "start": 20.78,
+          "end": 20.82
+        },
+        {
+          "text": "keep",
+          "start": 20.8,
+          "end": 20.99
+        },
+        {
+          "text": "in",
+          "start": 20.99,
+          "end": 21.04
+        },
+        {
+          "text": "touch",
+          "start": 21.07,
+          "end": 21.27
+        },
+        {
+          "text": "with",
+          "start": 21.34,
+          "end": 21.44
+        },
+        {
+          "text": "old",
+          "start": 21.44,
+          "end": 21.48
+        },
+        {
+          "text": "friends.",
+          "start": 21.56,
+          "end": 21.85
+        }
+      ],
+      "focus": [
+        "boundary",
+        "weak-form"
+      ],
+      "note": "Separe o fluxo em “moved from my hometown” e “keep in touch with old friends”; não espere uma pausa a cada palavra.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Teens and Computers",
+        "url": "https://elllo.org/english/0051/081-Jeanna-Computers.htm",
+        "contributor": "Todd Beuckens e Jeanna",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E03",
+      "english": "Yeah. Do you learn about computers at school or on your own?",
+      "portuguese": "Você aprende sobre computadores na escola ou por conta própria?",
+      "audioUrl": "/audio/elllo/081.mp3",
+      "start": 22,
+      "end": 24.98,
+      "speaker": "Todd Beuckens",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "Yeah.",
+          "start": 22.22,
+          "end": 22.66
+        },
+        {
+          "text": "Do",
+          "start": 23,
+          "end": 23.08
+        },
+        {
+          "text": "you",
+          "start": 23.08,
+          "end": 23.21
+        },
+        {
+          "text": "learn",
+          "start": 23.21,
+          "end": 23.42
+        },
+        {
+          "text": "about",
+          "start": 23.42,
+          "end": 23.63
+        },
+        {
+          "text": "computers",
+          "start": 23.64,
+          "end": 23.98
+        },
+        {
+          "text": "at",
+          "start": 24.05,
+          "end": 24.1
+        },
+        {
+          "text": "school",
+          "start": 24.1,
+          "end": 24.23
+        },
+        {
+          "text": "or",
+          "start": 24.43,
+          "end": 24.47
+        },
+        {
+          "text": "on",
+          "start": 24.44,
+          "end": 24.52
+        },
+        {
+          "text": "your",
+          "start": 24.52,
+          "end": 24.68
+        },
+        {
+          "text": "own?",
+          "start": 24.68,
+          "end": 24.73
+        }
+      ],
+      "focus": [
+        "boundary",
+        "weak-form"
+      ],
+      "note": "Observe “do you” e “at school or on your own”. Escute a ligação e o ritmo da pergunta.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Teens and Computers",
+        "url": "https://elllo.org/english/0051/081-Jeanna-Computers.htm",
+        "contributor": "Todd Beuckens e Jeanna",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E04",
+      "english": "Yeah. Do you like your computer or do you want a new one?",
+      "portuguese": "Você gosta do seu computador ou quer um novo?",
+      "audioUrl": "/audio/elllo/081.mp3",
+      "start": 39,
+      "end": 41.98,
+      "speaker": "Todd Beuckens",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "Yeah.",
+          "start": 39.11,
+          "end": 39.34
+        },
+        {
+          "text": "Do",
+          "start": 39.51,
+          "end": 39.62
+        },
+        {
+          "text": "you",
+          "start": 39.62,
+          "end": 39.79
+        },
+        {
+          "text": "like",
+          "start": 39.79,
+          "end": 40.02
+        },
+        {
+          "text": "your",
+          "start": 40.02,
+          "end": 40.24
+        },
+        {
+          "text": "computer",
+          "start": 40.25,
+          "end": 40.71
+        },
+        {
+          "text": "or",
+          "start": 40.71,
+          "end": 40.82
+        },
+        {
+          "text": "do",
+          "start": 40.82,
+          "end": 40.93
+        },
+        {
+          "text": "you",
+          "start": 40.95,
+          "end": 41.1
+        },
+        {
+          "text": "want",
+          "start": 41.1,
+          "end": 41.24
+        },
+        {
+          "text": "a",
+          "start": 41.35,
+          "end": 41.39
+        },
+        {
+          "text": "new",
+          "start": 41.44,
+          "end": 41.55
+        },
+        {
+          "text": "one?",
+          "start": 41.55,
+          "end": 41.69
+        }
+      ],
+      "focus": [
+        "reduction",
+        "weak-form"
+      ],
+      "note": "O desafio são as palavras pequenas entre computer e new one. Compare “do you” nas duas perguntas.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Teens and Computers",
+        "url": "https://elllo.org/english/0051/081-Jeanna-Computers.htm",
+        "contributor": "Todd Beuckens e Jeanna",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E05",
+      "english": "Okay. How long have you had your computer?",
+      "portuguese": "Há quanto tempo você tem seu computador?",
+      "audioUrl": "/audio/elllo/081.mp3",
+      "start": 46,
+      "end": 47.98,
+      "speaker": "Todd Beuckens",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "Okay.",
+          "start": 46.22,
+          "end": 46.66
+        },
+        {
+          "text": "How",
+          "start": 47,
+          "end": 47.09
+        },
+        {
+          "text": "long",
+          "start": 47.09,
+          "end": 47.21
+        },
+        {
+          "text": "have",
+          "start": 47.21,
+          "end": 47.32
+        },
+        {
+          "text": "you",
+          "start": 47.32,
+          "end": 47.42
+        },
+        {
+          "text": "had",
+          "start": 47.42,
+          "end": 47.51
+        },
+        {
+          "text": "your",
+          "start": 47.51,
+          "end": 47.63
+        },
+        {
+          "text": "computer?",
+          "start": 47.63,
+          "end": 47.87
+        }
+      ],
+      "focus": [
+        "weak-form",
+        "contraction"
+      ],
+      "note": "Encontre “have you had”. O have pode perder força; had ainda precisa aparecer no seu ditado.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Teens and Computers",
+        "url": "https://elllo.org/english/0051/081-Jeanna-Computers.htm",
+        "contributor": "Todd Beuckens e Jeanna",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E06",
+      "english": "I've had it for about three or four years.",
+      "portuguese": "Tenho ele há cerca de três ou quatro anos.",
+      "audioUrl": "/audio/elllo/081.mp3",
+      "start": 48,
+      "end": 49.98,
+      "speaker": "Jeanna",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "I've",
+          "start": 48.1,
+          "end": 48.3
+        },
+        {
+          "text": "had",
+          "start": 48.3,
+          "end": 48.45
+        },
+        {
+          "text": "it",
+          "start": 48.45,
+          "end": 48.55
+        },
+        {
+          "text": "for",
+          "start": 48.55,
+          "end": 48.7
+        },
+        {
+          "text": "about",
+          "start": 48.7,
+          "end": 48.96
+        },
+        {
+          "text": "three",
+          "start": 48.96,
+          "end": 49.22
+        },
+        {
+          "text": "or",
+          "start": 49.22,
+          "end": 49.32
+        },
+        {
+          "text": "four",
+          "start": 49.32,
+          "end": 49.53
+        },
+        {
+          "text": "years.",
+          "start": 49.53,
+          "end": 49.79
+        }
+      ],
+      "focus": [
+        "contraction",
+        "weak-form"
+      ],
+      "note": "Escute “I've had it”, sem separar artificialmente I / have / had / it. For e or não recebem a mesma força que years.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Teens and Computers",
+        "url": "https://elllo.org/english/0051/081-Jeanna-Computers.htm",
+        "contributor": "Todd Beuckens e Jeanna",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E07",
+      "english": "So you talk with your friends every night by email?",
+      "portuguese": "Então você conversa com seus amigos toda noite por e-mail?",
+      "audioUrl": "/audio/elllo/081.mp3",
+      "start": 53.13,
+      "end": 55.98,
+      "speaker": "Todd Beuckens",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "So",
+          "start": 53.13,
+          "end": 53.26
+        },
+        {
+          "text": "you",
+          "start": 53.26,
+          "end": 53.45
+        },
+        {
+          "text": "talk",
+          "start": 53.45,
+          "end": 53.71
+        },
+        {
+          "text": "with",
+          "start": 53.71,
+          "end": 53.97
+        },
+        {
+          "text": "your",
+          "start": 53.97,
+          "end": 54.23
+        },
+        {
+          "text": "friends",
+          "start": 54.23,
+          "end": 54.68
+        },
+        {
+          "text": "every",
+          "start": 54.82,
+          "end": 54.98
+        },
+        {
+          "text": "night",
+          "start": 55.05,
+          "end": 55.24
+        },
+        {
+          "text": "by",
+          "start": 55.43,
+          "end": 55.47
+        },
+        {
+          "text": "email?",
+          "start": 55.45,
+          "end": 55.69
+        }
+      ],
+      "focus": [
+        "boundary",
+        "speed"
+      ],
+      "note": "Reconheça “with your friends” rapidamente para ainda acompanhar “every night by email”.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Teens and Computers",
+        "url": "https://elllo.org/english/0051/081-Jeanna-Computers.htm",
+        "contributor": "Todd Beuckens e Jeanna",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E08",
+      "english": "So nowadays, do high school kids talk by email more than phone?",
+      "portuguese": "Hoje em dia os estudantes conversam mais por e-mail do que por telefone?",
+      "audioUrl": "/audio/elllo/081.mp3",
+      "start": 63.13,
+      "end": 67.98,
+      "speaker": "Todd Beuckens",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "So",
+          "start": 63.17,
+          "end": 63.34
+        },
+        {
+          "text": "nowadays,",
+          "start": 63.34,
+          "end": 64.04
+        },
+        {
+          "text": "do",
+          "start": 64.21,
+          "end": 64.38
+        },
+        {
+          "text": "high",
+          "start": 64.38,
+          "end": 64.73
+        },
+        {
+          "text": "school",
+          "start": 64.94,
+          "end": 65.25
+        },
+        {
+          "text": "kids",
+          "start": 65.44,
+          "end": 65.6
+        },
+        {
+          "text": "talk",
+          "start": 65.6,
+          "end": 65.71
+        },
+        {
+          "text": "by",
+          "start": 65.76,
+          "end": 66.12
+        },
+        {
+          "text": "email",
+          "start": 66.12,
+          "end": 66.54
+        },
+        {
+          "text": "more",
+          "start": 66.89,
+          "end": 66.93
+        },
+        {
+          "text": "than",
+          "start": 66.9,
+          "end": 67.25
+        },
+        {
+          "text": "phone?",
+          "start": 67.25,
+          "end": 67.68
+        }
+      ],
+      "focus": [
+        "speed",
+        "phoneme"
+      ],
+      "note": "Não fique preso em nowadays. Escute a sílaba forte e volte ao fluxo. Compare high school e kids talk.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Teens and Computers",
+        "url": "https://elllo.org/english/0051/081-Jeanna-Computers.htm",
+        "contributor": "Todd Beuckens e Jeanna",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E09",
+      "english": "Um, most people either talk by email or by a cellular phone.",
+      "portuguese": "A maioria conversa por e-mail ou pelo celular.",
+      "audioUrl": "/audio/elllo/081.mp3",
+      "start": 68.18,
+      "end": 72.97,
+      "speaker": "Jeanna",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "Um,",
+          "start": 68.18,
+          "end": 68.36
+        },
+        {
+          "text": "most",
+          "start": 68.54,
+          "end": 68.91
+        },
+        {
+          "text": "people",
+          "start": 68.91,
+          "end": 69.46
+        },
+        {
+          "text": "either",
+          "start": 69.62,
+          "end": 69.99
+        },
+        {
+          "text": "talk",
+          "start": 70.05,
+          "end": 70.23
+        },
+        {
+          "text": "by",
+          "start": 70.44,
+          "end": 70.56
+        },
+        {
+          "text": "email",
+          "start": 70.56,
+          "end": 70.71
+        },
+        {
+          "text": "or",
+          "start": 71.01,
+          "end": 71.2
+        },
+        {
+          "text": "by",
+          "start": 71.2,
+          "end": 71.38
+        },
+        {
+          "text": "a",
+          "start": 71.38,
+          "end": 71.47
+        },
+        {
+          "text": "cellular",
+          "start": 71.47,
+          "end": 72.19
+        },
+        {
+          "text": "phone.",
+          "start": 72.2,
+          "end": 72.66
+        }
+      ],
+      "focus": [
+        "boundary",
+        "recognition"
+      ],
+      "note": "Reconheça o chunk “either ... or ...” antes de tentar traduzir cellular.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Teens and Computers",
+        "url": "https://elllo.org/english/0051/081-Jeanna-Computers.htm",
+        "contributor": "Todd Beuckens e Jeanna",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E10",
+      "english": "No, you have to have your permit for six months before you can get a license.",
+      "portuguese": "Você precisa ter a permissão por seis meses antes de tirar a carteira.",
+      "audioUrl": "/audio/elllo/063.mp3",
+      "start": 22,
+      "end": 25.98,
+      "speaker": "Jeanna",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "No,",
+          "start": 22.04,
+          "end": 22.12
+        },
+        {
+          "text": "you",
+          "start": 22.24,
+          "end": 22.42
+        },
+        {
+          "text": "have",
+          "start": 22.42,
+          "end": 22.66
+        },
+        {
+          "text": "to",
+          "start": 22.66,
+          "end": 22.78
+        },
+        {
+          "text": "have",
+          "start": 22.78,
+          "end": 23.02
+        },
+        {
+          "text": "your",
+          "start": 23.02,
+          "end": 23.26
+        },
+        {
+          "text": "permit",
+          "start": 23.26,
+          "end": 23.62
+        },
+        {
+          "text": "for",
+          "start": 23.63,
+          "end": 23.8
+        },
+        {
+          "text": "six",
+          "start": 23.8,
+          "end": 23.98
+        },
+        {
+          "text": "months",
+          "start": 23.98,
+          "end": 24.17
+        },
+        {
+          "text": "before",
+          "start": 24.56,
+          "end": 24.7
+        },
+        {
+          "text": "you",
+          "start": 24.7,
+          "end": 24.87
+        },
+        {
+          "text": "can",
+          "start": 24.87,
+          "end": 24.91
+        },
+        {
+          "text": "get",
+          "start": 25.02,
+          "end": 25.24
+        },
+        {
+          "text": "a",
+          "start": 25.3,
+          "end": 25.34
+        },
+        {
+          "text": "license.",
+          "start": 25.37,
+          "end": 25.72
+        }
+      ],
+      "focus": [
+        "reduction",
+        "weak-form"
+      ],
+      "note": "Observe o ritmo de “have to have” e de “before you can”. O can no meio da frase pode ser fraco.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Driving",
+        "url": "https://elllo.org/english/0051/063-Jeanna-Driving.htm",
+        "contributor": "Todd Beuckens e Jeanna",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E11",
+      "english": "You have to take driving school and then you have to go to the DMV and take a test.",
+      "portuguese": "Você precisa fazer autoescola e depois ir ao DMV e fazer uma prova.",
+      "audioUrl": "/audio/elllo/063.mp3",
+      "start": 29.04,
+      "end": 33.98,
+      "speaker": "Jeanna",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "You",
+          "start": 29.04,
+          "end": 29.22
+        },
+        {
+          "text": "have",
+          "start": 29.22,
+          "end": 29.51
+        },
+        {
+          "text": "to",
+          "start": 29.51,
+          "end": 29.65
+        },
+        {
+          "text": "take",
+          "start": 29.65,
+          "end": 29.94
+        },
+        {
+          "text": "driving",
+          "start": 29.94,
+          "end": 30.45
+        },
+        {
+          "text": "school",
+          "start": 30.64,
+          "end": 30.9
+        },
+        {
+          "text": "and",
+          "start": 30.9,
+          "end": 31.12
+        },
+        {
+          "text": "then",
+          "start": 31.12,
+          "end": 31.18
+        },
+        {
+          "text": "you",
+          "start": 31.56,
+          "end": 31.63
+        },
+        {
+          "text": "have",
+          "start": 31.63,
+          "end": 31.88
+        },
+        {
+          "text": "to",
+          "start": 32.06,
+          "end": 32.1
+        },
+        {
+          "text": "go",
+          "start": 32.06,
+          "end": 32.2
+        },
+        {
+          "text": "to",
+          "start": 32.33,
+          "end": 32.37
+        },
+        {
+          "text": "the",
+          "start": 32.37,
+          "end": 32.56
+        },
+        {
+          "text": "DMV",
+          "start": 32.56,
+          "end": 32.78
+        },
+        {
+          "text": "and",
+          "start": 32.78,
+          "end": 32.94
+        },
+        {
+          "text": "take",
+          "start": 33.1,
+          "end": 33.29
+        },
+        {
+          "text": "a",
+          "start": 33.29,
+          "end": 33.35
+        },
+        {
+          "text": "test.",
+          "start": 33.53,
+          "end": 33.65
+        }
+      ],
+      "focus": [
+        "reduction",
+        "linking"
+      ],
+      "note": "Duas ocorrências de “have to” no mesmo contexto: volte de cada chunk para a frase toda. DMV é o órgão de trânsito.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Driving",
+        "url": "https://elllo.org/english/0051/063-Jeanna-Driving.htm",
+        "contributor": "Todd Beuckens e Jeanna",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E12",
+      "english": "And they give you your license or permit so you can drive.",
+      "portuguese": "Eles dão sua carteira ou permissão para você poder dirigir.",
+      "audioUrl": "/audio/elllo/063.mp3",
+      "start": 41,
+      "end": 43.98,
+      "speaker": "Jeanna",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "And",
+          "start": 41.04,
+          "end": 41.18
+        },
+        {
+          "text": "they",
+          "start": 41.18,
+          "end": 41.42
+        },
+        {
+          "text": "give",
+          "start": 41.42,
+          "end": 41.66
+        },
+        {
+          "text": "you",
+          "start": 41.66,
+          "end": 41.84
+        },
+        {
+          "text": "your",
+          "start": 41.84,
+          "end": 42.08
+        },
+        {
+          "text": "license",
+          "start": 42.08,
+          "end": 42.5
+        },
+        {
+          "text": "or",
+          "start": 42.5,
+          "end": 42.62
+        },
+        {
+          "text": "permit",
+          "start": 42.75,
+          "end": 42.98
+        },
+        {
+          "text": "so",
+          "start": 42.98,
+          "end": 43.1
+        },
+        {
+          "text": "you",
+          "start": 43.1,
+          "end": 43.17
+        },
+        {
+          "text": "can",
+          "start": 43.25,
+          "end": 43.46
+        },
+        {
+          "text": "drive.",
+          "start": 43.57,
+          "end": 43.76
+        }
+      ],
+      "focus": [
+        "linking",
+        "weak-form"
+      ],
+      "note": "“Give you your” pode soar como um único grupo. Escute a transição antes de license.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Driving",
+        "url": "https://elllo.org/english/0051/063-Jeanna-Driving.htm",
+        "contributor": "Todd Beuckens e Jeanna",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E13",
+      "english": "When you have a driver's license, what places do you want to go to?",
+      "portuguese": "Quando tiver carteira, a quais lugares você quer ir?",
+      "audioUrl": "/audio/elllo/063.mp3",
+      "start": 45,
+      "end": 47.98,
+      "speaker": "Todd Beuckens",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "When",
+          "start": 45.04,
+          "end": 45.2
+        },
+        {
+          "text": "you",
+          "start": 45.21,
+          "end": 45.36
+        },
+        {
+          "text": "have",
+          "start": 45.36,
+          "end": 45.57
+        },
+        {
+          "text": "a",
+          "start": 45.57,
+          "end": 45.62
+        },
+        {
+          "text": "driver's",
+          "start": 45.62,
+          "end": 46.03
+        },
+        {
+          "text": "license,",
+          "start": 46.03,
+          "end": 46.39
+        },
+        {
+          "text": "what",
+          "start": 46.63,
+          "end": 46.67
+        },
+        {
+          "text": "places",
+          "start": 46.75,
+          "end": 47.01
+        },
+        {
+          "text": "do",
+          "start": 47.01,
+          "end": 47.11
+        },
+        {
+          "text": "you",
+          "start": 47.11,
+          "end": 47.17
+        },
+        {
+          "text": "want",
+          "start": 47.25,
+          "end": 47.47
+        },
+        {
+          "text": "to",
+          "start": 47.56,
+          "end": 47.6
+        },
+        {
+          "text": "go",
+          "start": 47.57,
+          "end": 47.67
+        },
+        {
+          "text": "to?",
+          "start": 47.67,
+          "end": 47.77
+        }
+      ],
+      "focus": [
+        "reduction",
+        "boundary"
+      ],
+      "note": "Encontre o chunk “do you want to”. Want to pode reduzir; a forma escrita continua sendo want to.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Driving",
+        "url": "https://elllo.org/english/0051/063-Jeanna-Driving.htm",
+        "contributor": "Todd Beuckens e Jeanna",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E14",
+      "english": "To see my friends and to hang out, just to school and back.",
+      "portuguese": "Ver meus amigos e sair com eles, ir à escola e voltar.",
+      "audioUrl": "/audio/elllo/063.mp3",
+      "start": 48,
+      "end": 51.98,
+      "speaker": "Jeanna",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "To",
+          "start": 48.04,
+          "end": 48.16
+        },
+        {
+          "text": "see",
+          "start": 48.16,
+          "end": 48.4
+        },
+        {
+          "text": "my",
+          "start": 48.4,
+          "end": 48.56
+        },
+        {
+          "text": "friends",
+          "start": 48.56,
+          "end": 49.11
+        },
+        {
+          "text": "and",
+          "start": 49.11,
+          "end": 49.35
+        },
+        {
+          "text": "to",
+          "start": 49.35,
+          "end": 49.51
+        },
+        {
+          "text": "hang",
+          "start": 49.63,
+          "end": 49.82
+        },
+        {
+          "text": "out,",
+          "start": 49.82,
+          "end": 50.06
+        },
+        {
+          "text": "just",
+          "start": 50.2,
+          "end": 50.36
+        },
+        {
+          "text": "to",
+          "start": 50.57,
+          "end": 50.68
+        },
+        {
+          "text": "school",
+          "start": 50.68,
+          "end": 50.89
+        },
+        {
+          "text": "and",
+          "start": 51.33,
+          "end": 51.39
+        },
+        {
+          "text": "back.",
+          "start": 51.39,
+          "end": 51.7
+        }
+      ],
+      "focus": [
+        "weak-form",
+        "linking"
+      ],
+      "note": "Ouça to e and dentro da frase, com menos força do que friends, school e back.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Driving",
+        "url": "https://elllo.org/english/0051/063-Jeanna-Driving.htm",
+        "contributor": "Todd Beuckens e Jeanna",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E15",
+      "english": "What are you going to do tonight?",
+      "portuguese": "O que você vai fazer hoje à noite?",
+      "audioUrl": "/audio/elllo/going-to.mp3",
+      "start": 0,
+      "end": 2.88,
+      "speaker": "ELLLO · voz feminina",
+      "kind": "demonstration",
+      "words": [
+        {
+          "text": "What",
+          "start": 0,
+          "end": 0.4
+        },
+        {
+          "text": "are",
+          "start": 0.7,
+          "end": 0.74
+        },
+        {
+          "text": "you",
+          "start": 0.73,
+          "end": 1
+        },
+        {
+          "text": "going",
+          "start": 1,
+          "end": 1.51
+        },
+        {
+          "text": "to",
+          "start": 1.51,
+          "end": 1.71
+        },
+        {
+          "text": "do",
+          "start": 1.71,
+          "end": 1.91
+        },
+        {
+          "text": "tonight?",
+          "start": 1.91,
+          "end": 2.28
+        }
+      ],
+      "focus": [
+        "reduction",
+        "boundary"
+      ],
+      "note": "Observe “what are you” e “going to” como chunks. Gonna é uma representação informal de uma redução possível, não uma grafia obrigatória.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Going to — quatro conversas",
+        "url": "https://elllo.org/book/A2/A2-05-Going-To.html",
+        "contributor": "ELLLO · elenco de Going to",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E16",
+      "english": "I'm just going to stay home. What about you?",
+      "portuguese": "Vou ficar em casa. E você?",
+      "audioUrl": "/audio/elllo/going-to.mp3",
+      "start": 2.96,
+      "end": 7.98,
+      "speaker": "ELLLO · voz masculina",
+      "kind": "demonstration",
+      "words": [
+        {
+          "text": "I'm",
+          "start": 2.96,
+          "end": 3.29
+        },
+        {
+          "text": "just",
+          "start": 3.67,
+          "end": 3.73
+        },
+        {
+          "text": "going",
+          "start": 3.73,
+          "end": 4.27
+        },
+        {
+          "text": "to",
+          "start": 4.28,
+          "end": 4.5
+        },
+        {
+          "text": "stay",
+          "start": 4.5,
+          "end": 4.94
+        },
+        {
+          "text": "home.",
+          "start": 4.94,
+          "end": 5.24
+        },
+        {
+          "text": "What",
+          "start": 6.32,
+          "end": 6.36
+        },
+        {
+          "text": "about",
+          "start": 6.45,
+          "end": 7.08
+        },
+        {
+          "text": "you?",
+          "start": 7.08,
+          "end": 7.5
+        }
+      ],
+      "focus": [
+        "reduction",
+        "linking"
+      ],
+      "note": "Going to pode perder a divisão entre as duas palavras. Depois encontre “what about you” sem traduzir cada token.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Going to — quatro conversas",
+        "url": "https://elllo.org/book/A2/A2-05-Going-To.html",
+        "contributor": "ELLLO · elenco de Going to",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E17",
+      "english": "We're going to see the new Marvel movie. Do you want to come?",
+      "portuguese": "Vamos ver o novo filme da Marvel. Quer vir?",
+      "audioUrl": "/audio/elllo/going-to.mp3",
+      "start": 14.6,
+      "end": 19.98,
+      "speaker": "ELLLO · voz feminina",
+      "kind": "demonstration",
+      "words": [
+        {
+          "text": "We're",
+          "start": 14.6,
+          "end": 15.09
+        },
+        {
+          "text": "going",
+          "start": 15.32,
+          "end": 15.58
+        },
+        {
+          "text": "to",
+          "start": 15.58,
+          "end": 15.78
+        },
+        {
+          "text": "see",
+          "start": 15.78,
+          "end": 16.08
+        },
+        {
+          "text": "the",
+          "start": 16.08,
+          "end": 16.38
+        },
+        {
+          "text": "new",
+          "start": 16.38,
+          "end": 16.68
+        },
+        {
+          "text": "Marvel",
+          "start": 16.68,
+          "end": 16.88
+        },
+        {
+          "text": "movie.",
+          "start": 17.27,
+          "end": 17.8
+        },
+        {
+          "text": "Do",
+          "start": 17.92,
+          "end": 18.15
+        },
+        {
+          "text": "you",
+          "start": 18.49,
+          "end": 18.529999999999998
+        },
+        {
+          "text": "want",
+          "start": 18.64,
+          "end": 18.95
+        },
+        {
+          "text": "to",
+          "start": 19.01,
+          "end": 19.18
+        },
+        {
+          "text": "come?",
+          "start": 19.18,
+          "end": 19.64
+        }
+      ],
+      "focus": [
+        "reduction",
+        "contraction"
+      ],
+      "note": "Duas vozes no contexto: localize “we are going to” e o convite “do you want to come”.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Going to — quatro conversas",
+        "url": "https://elllo.org/book/A2/A2-05-Going-To.html",
+        "contributor": "ELLLO · elenco de Going to",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E18",
+      "english": "No, I'll pass, but thanks for asking.",
+      "portuguese": "Vou passar, mas obrigado pelo convite.",
+      "audioUrl": "/audio/elllo/going-to.mp3",
+      "start": 20,
+      "end": 24.35,
+      "speaker": "ELLLO · voz masculina",
+      "kind": "demonstration",
+      "words": [
+        {
+          "text": "No,",
+          "start": 20,
+          "end": 20.32
+        },
+        {
+          "text": "I'll",
+          "start": 20.73,
+          "end": 21.28
+        },
+        {
+          "text": "pass,",
+          "start": 21.28,
+          "end": 21.93
+        },
+        {
+          "text": "but",
+          "start": 22.28,
+          "end": 22.34
+        },
+        {
+          "text": "thanks",
+          "start": 22.57,
+          "end": 23.16
+        },
+        {
+          "text": "for",
+          "start": 23.16,
+          "end": 23.45
+        },
+        {
+          "text": "asking.",
+          "start": 23.69,
+          "end": 24.04
+        }
+      ],
+      "focus": [
+        "contraction",
+        "weak-form"
+      ],
+      "note": "I'll perde a fronteira entre I e will. Escute também for em “thanks for asking”.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Going to — quatro conversas",
+        "url": "https://elllo.org/book/A2/A2-05-Going-To.html",
+        "contributor": "ELLLO · elenco de Going to",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E19",
+      "english": "I'm just going to take it easy tonight.",
+      "portuguese": "Vou apenas relaxar hoje à noite.",
+      "audioUrl": "/audio/elllo/going-to.mp3",
+      "start": 30.36,
+      "end": 32.35,
+      "speaker": "ELLLO · voz masculina",
+      "kind": "demonstration",
+      "words": [
+        {
+          "text": "I'm",
+          "start": 30.36,
+          "end": 30.52
+        },
+        {
+          "text": "just",
+          "start": 30.52,
+          "end": 30.75
+        },
+        {
+          "text": "going",
+          "start": 31.04,
+          "end": 31.08
+        },
+        {
+          "text": "to",
+          "start": 31.09,
+          "end": 31.15
+        },
+        {
+          "text": "take",
+          "start": 31.15,
+          "end": 31.37
+        },
+        {
+          "text": "it",
+          "start": 31.37,
+          "end": 31.49
+        },
+        {
+          "text": "easy",
+          "start": 31.49,
+          "end": 31.72
+        },
+        {
+          "text": "tonight.",
+          "start": 31.72,
+          "end": 32.13
+        }
+      ],
+      "focus": [
+        "reduction",
+        "linking"
+      ],
+      "note": "Compare “take it easy” com palavras isoladas. O fim de take se conecta ao início de it.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Going to — quatro conversas",
+        "url": "https://elllo.org/book/A2/A2-05-Going-To.html",
+        "contributor": "ELLLO · elenco de Going to",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E20",
+      "english": "We're going to stay at a campground near their house.",
+      "portuguese": "Vamos ficar em um camping perto da casa deles.",
+      "audioUrl": "/audio/elllo/going-to.mp3",
+      "start": 53.36,
+      "end": 57.35,
+      "speaker": "ELLLO · voz feminina",
+      "kind": "demonstration",
+      "words": [
+        {
+          "text": "We're",
+          "start": 53.36,
+          "end": 53.86
+        },
+        {
+          "text": "going",
+          "start": 54.08,
+          "end": 54.37
+        },
+        {
+          "text": "to",
+          "start": 54.37,
+          "end": 54.57
+        },
+        {
+          "text": "stay",
+          "start": 54.57,
+          "end": 54.98
+        },
+        {
+          "text": "at",
+          "start": 54.98,
+          "end": 55.16
+        },
+        {
+          "text": "a",
+          "start": 55.18,
+          "end": 55.28
+        },
+        {
+          "text": "campground",
+          "start": 55.28,
+          "end": 55.71
+        },
+        {
+          "text": "near",
+          "start": 56.36,
+          "end": 56.59
+        },
+        {
+          "text": "their",
+          "start": 56.59,
+          "end": 56.88
+        },
+        {
+          "text": "house.",
+          "start": 57.05,
+          "end": 57.17
+        }
+      ],
+      "focus": [
+        "weak-form",
+        "boundary"
+      ],
+      "note": "At a é pequeno no fluxo. Encontre campground antes de near their house.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Going to — quatro conversas",
+        "url": "https://elllo.org/book/A2/A2-05-Going-To.html",
+        "contributor": "ELLLO · elenco de Going to",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E21",
+      "english": "I'd love to go. When should I come over?",
+      "portuguese": "Adoraria ir. Quando devo chegar?",
+      "audioUrl": "/audio/elllo/going-to.mp3",
+      "start": 95.36,
+      "end": 99.35,
+      "speaker": "ELLLO · voz masculina",
+      "kind": "demonstration",
+      "words": [
+        {
+          "text": "I'd",
+          "start": 95.36,
+          "end": 95.78
+        },
+        {
+          "text": "love",
+          "start": 96.08,
+          "end": 96.35
+        },
+        {
+          "text": "to",
+          "start": 96.35,
+          "end": 96.63
+        },
+        {
+          "text": "go.",
+          "start": 96.63,
+          "end": 96.9
+        },
+        {
+          "text": "When",
+          "start": 97.36,
+          "end": 97.72
+        },
+        {
+          "text": "should",
+          "start": 98.08,
+          "end": 98.26
+        },
+        {
+          "text": "I",
+          "start": 98.26,
+          "end": 98.35
+        },
+        {
+          "text": "come",
+          "start": 98.35,
+          "end": 98.71
+        },
+        {
+          "text": "over?",
+          "start": 98.71,
+          "end": 99.07
+        }
+      ],
+      "focus": [
+        "contraction",
+        "linking"
+      ],
+      "note": "I'd love to é um chunk de convite; aqui I'd significa I would. Come over é uma unidade de sentido.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Going to — quatro conversas",
+        "url": "https://elllo.org/book/A2/A2-05-Going-To.html",
+        "contributor": "ELLLO · elenco de Going to",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E22",
+      "english": "We're not going to start until seven. So around then.",
+      "portuguese": "Não vamos começar antes das sete. Então por volta desse horário.",
+      "audioUrl": "/audio/elllo/going-to.mp3",
+      "start": 99.36,
+      "end": 104.35,
+      "speaker": "ELLLO · voz feminina",
+      "kind": "demonstration",
+      "words": [
+        {
+          "text": "We're",
+          "start": 99.36,
+          "end": 99.81
+        },
+        {
+          "text": "not",
+          "start": 100.07,
+          "end": 100.11
+        },
+        {
+          "text": "going",
+          "start": 100.09,
+          "end": 100.53
+        },
+        {
+          "text": "to",
+          "start": 100.53,
+          "end": 100.71
+        },
+        {
+          "text": "start",
+          "start": 100.71,
+          "end": 101.14
+        },
+        {
+          "text": "until",
+          "start": 101.16,
+          "end": 101.61
+        },
+        {
+          "text": "seven.",
+          "start": 101.61,
+          "end": 101.69
+        },
+        {
+          "text": "So",
+          "start": 102.36,
+          "end": 102.59
+        },
+        {
+          "text": "around",
+          "start": 103.08,
+          "end": 103.52
+        },
+        {
+          "text": "then.",
+          "start": 103.52,
+          "end": 103.99
+        }
+      ],
+      "focus": [
+        "reduction",
+        "phoneme"
+      ],
+      "note": "Não perca not. Compare start until, a ligação t + vogal, e o TH de then.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Going to — quatro conversas",
+        "url": "https://elllo.org/book/A2/A2-05-Going-To.html",
+        "contributor": "ELLLO · elenco de Going to",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E23",
+      "english": "No. I'm just going with my husband. My kids are going to stay with their grandparents.",
+      "portuguese": "Não. Vou apenas com meu marido. Meus filhos vão ficar com os avós.",
+      "audioUrl": "/audio/elllo/going-to.mp3",
+      "start": 167.36,
+      "end": 175.35,
+      "speaker": "ELLLO · voz feminina",
+      "kind": "demonstration",
+      "words": [
+        {
+          "text": "No.",
+          "start": 167.36,
+          "end": 167.76
+        },
+        {
+          "text": "I'm",
+          "start": 168.36,
+          "end": 168.67
+        },
+        {
+          "text": "just",
+          "start": 168.67,
+          "end": 169.09
+        },
+        {
+          "text": "going",
+          "start": 169.09,
+          "end": 169.61
+        },
+        {
+          "text": "with",
+          "start": 169.61,
+          "end": 169.7
+        },
+        {
+          "text": "my",
+          "start": 170.04,
+          "end": 170.25
+        },
+        {
+          "text": "husband.",
+          "start": 170.99,
+          "end": 171.03
+        },
+        {
+          "text": "My",
+          "start": 171.36,
+          "end": 171.54
+        },
+        {
+          "text": "kids",
+          "start": 171.54,
+          "end": 171.9
+        },
+        {
+          "text": "are",
+          "start": 172.08,
+          "end": 172.17
+        },
+        {
+          "text": "going",
+          "start": 172.17,
+          "end": 172.62
+        },
+        {
+          "text": "to",
+          "start": 172.62,
+          "end": 172.8
+        },
+        {
+          "text": "stay",
+          "start": 172.8,
+          "end": 173.14
+        },
+        {
+          "text": "with",
+          "start": 173.16,
+          "end": 173.52
+        },
+        {
+          "text": "their",
+          "start": 173.52,
+          "end": 173.67
+        },
+        {
+          "text": "grandparents.",
+          "start": 175.04,
+          "end": 175.07999999999998
+        }
+      ],
+      "focus": [
+        "phoneme",
+        "linking"
+      ],
+      "note": "Ouça o grupo kids are, as consoantes de grandparents e o TH em their.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Going to — quatro conversas",
+        "url": "https://elllo.org/book/A2/A2-05-Going-To.html",
+        "contributor": "ELLLO · elenco de Going to",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E24",
+      "english": "What do you have to do tomorrow?",
+      "portuguese": "O que você precisa fazer amanhã?",
+      "audioUrl": "/audio/elllo/1416-have-to.mp3",
+      "start": 2.03,
+      "end": 4.27,
+      "speaker": "Todd Beuckens · demonstração",
+      "kind": "demonstration",
+      "words": [
+        {
+          "text": "What",
+          "start": 2.03,
+          "end": 2.3
+        },
+        {
+          "text": "do",
+          "start": 2.3,
+          "end": 2.35
+        },
+        {
+          "text": "you",
+          "start": 2.35,
+          "end": 2.76
+        },
+        {
+          "text": "have",
+          "start": 3.1,
+          "end": 3.14
+        },
+        {
+          "text": "to",
+          "start": 3.16,
+          "end": 3.27
+        },
+        {
+          "text": "do",
+          "start": 3.27,
+          "end": 3.44
+        },
+        {
+          "text": "tomorrow?",
+          "start": 3.44,
+          "end": 4.16
+        }
+      ],
+      "focus": [
+        "reduction",
+        "boundary"
+      ],
+      "note": "Isole “have to do” e compare o começo da pergunta com o ritmo completo.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Have to — demonstração em contexto",
+        "url": "https://elllo.org/english/1401/1416-MegTodd-Chores-Laundry.htm",
+        "contributor": "Todd Beuckens · demonstração",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E25",
+      "english": "I have to get up early for school.",
+      "portuguese": "Tenho que levantar cedo para a escola.",
+      "audioUrl": "/audio/elllo/1416-have-to.mp3",
+      "start": 11.9,
+      "end": 14.27,
+      "speaker": "Todd Beuckens · demonstração",
+      "kind": "demonstration",
+      "words": [
+        {
+          "text": "I",
+          "start": 11.9,
+          "end": 11.95
+        },
+        {
+          "text": "have",
+          "start": 11.95,
+          "end": 11.99
+        },
+        {
+          "text": "to",
+          "start": 11.99,
+          "end": 12.5
+        },
+        {
+          "text": "get",
+          "start": 12.76,
+          "end": 12.799999999999999
+        },
+        {
+          "text": "up",
+          "start": 12.8,
+          "end": 12.93
+        },
+        {
+          "text": "early",
+          "start": 12.93,
+          "end": 13.23
+        },
+        {
+          "text": "for",
+          "start": 13.37,
+          "end": 13.62
+        },
+        {
+          "text": "school.",
+          "start": 13.63,
+          "end": 14.16
+        }
+      ],
+      "focus": [
+        "reduction",
+        "linking"
+      ],
+      "note": "Get up liga o t ao início da próxima palavra. For school recebe menos força do que get up e early.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Have to — demonstração em contexto",
+        "url": "https://elllo.org/english/1401/1416-MegTodd-Chores-Laundry.htm",
+        "contributor": "Todd Beuckens · demonstração",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E26",
+      "english": "Do you have to work tomorrow?",
+      "portuguese": "Você precisa trabalhar amanhã?",
+      "audioUrl": "/audio/elllo/1416-have-to.mp3",
+      "start": 15.93,
+      "end": 17.63,
+      "speaker": "Todd Beuckens · demonstração",
+      "kind": "demonstration",
+      "words": [
+        {
+          "text": "Do",
+          "start": 15.99,
+          "end": 16.06
+        },
+        {
+          "text": "you",
+          "start": 16.07,
+          "end": 16.14
+        },
+        {
+          "text": "have",
+          "start": 16.14,
+          "end": 16.37
+        },
+        {
+          "text": "to",
+          "start": 16.37,
+          "end": 16.46
+        },
+        {
+          "text": "work",
+          "start": 16.63,
+          "end": 16.669999999999998
+        },
+        {
+          "text": "tomorrow?",
+          "start": 16.68,
+          "end": 17
+        }
+      ],
+      "focus": [
+        "reduction",
+        "weak-form"
+      ],
+      "note": "Procure “do you have to” no fluxo. Depois devolva o chunk à frase toda.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Have to — demonstração em contexto",
+        "url": "https://elllo.org/english/1401/1416-MegTodd-Chores-Laundry.htm",
+        "contributor": "Todd Beuckens · demonstração",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E27",
+      "english": "Llamas are kind of like camels.",
+      "portuguese": "Lhamas são parecidas com camelos.",
+      "audioUrl": "/audio/elllo/1426-kind-of.mp3",
+      "start": 3.24,
+      "end": 5.95,
+      "speaker": "Todd Beuckens · demonstração",
+      "kind": "demonstration",
+      "words": [
+        {
+          "text": "Llamas",
+          "start": 3.24,
+          "end": 3.7
+        },
+        {
+          "text": "are",
+          "start": 3.71,
+          "end": 3.95
+        },
+        {
+          "text": "kind",
+          "start": 4.05,
+          "end": 4.23
+        },
+        {
+          "text": "of",
+          "start": 4.79,
+          "end": 4.83
+        },
+        {
+          "text": "like",
+          "start": 4.96,
+          "end": 5.27
+        },
+        {
+          "text": "camels.",
+          "start": 5.27,
+          "end": 5.95
+        }
+      ],
+      "focus": [
+        "reduction",
+        "weak-form"
+      ],
+      "note": "Kind of pode reduzir. Não espere que of soe como uma palavra isolada e forte.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Kind of like — demonstração em contexto",
+        "url": "https://elllo.org/english/1401/1426-MegTodd-Animals-Zoo.htm",
+        "contributor": "Todd Beuckens · demonstração",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E28",
+      "english": "Seattle is sort of like San Francisco.",
+      "portuguese": "Seattle é meio parecida com San Francisco.",
+      "audioUrl": "/audio/elllo/1426-kind-of.mp3",
+      "start": 16.06,
+      "end": 18.96,
+      "speaker": "Todd Beuckens · demonstração",
+      "kind": "demonstration",
+      "words": [
+        {
+          "text": "Seattle",
+          "start": 16.06,
+          "end": 16.1
+        },
+        {
+          "text": "is",
+          "start": 16.86,
+          "end": 16.9
+        },
+        {
+          "text": "sort",
+          "start": 16.96,
+          "end": 17.21
+        },
+        {
+          "text": "of",
+          "start": 17.25,
+          "end": 17.43
+        },
+        {
+          "text": "like",
+          "start": 17.43,
+          "end": 17.49
+        },
+        {
+          "text": "San",
+          "start": 17.76,
+          "end": 18.1
+        },
+        {
+          "text": "Francisco.",
+          "start": 18.3,
+          "end": 18.96
+        }
+      ],
+      "focus": [
+        "reduction",
+        "linking"
+      ],
+      "note": "Sort of like é um chunk de comparação. Escute o fim de sort e a passagem para of.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Kind of like — demonstração em contexto",
+        "url": "https://elllo.org/english/1401/1426-MegTodd-Animals-Zoo.htm",
+        "contributor": "Todd Beuckens · demonstração",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E29",
+      "english": "What would you have studied otherwise?",
+      "portuguese": "O que você teria estudado, em vez disso?",
+      "audioUrl": "/audio/elllo/1366-would-have.mp3",
+      "start": 5.28,
+      "end": 9.31,
+      "speaker": "Todd Beuckens · demonstração",
+      "kind": "demonstration",
+      "words": [
+        {
+          "text": "What",
+          "start": 5.28,
+          "end": 5.7
+        },
+        {
+          "text": "would",
+          "start": 6.13,
+          "end": 6.29
+        },
+        {
+          "text": "you",
+          "start": 6.29,
+          "end": 6.63
+        },
+        {
+          "text": "have",
+          "start": 6.63,
+          "end": 7.11
+        },
+        {
+          "text": "studied",
+          "start": 7.11,
+          "end": 7.7
+        },
+        {
+          "text": "otherwise?",
+          "start": 7.9,
+          "end": 8.99
+        }
+      ],
+      "focus": [
+        "contraction",
+        "weak-form"
+      ],
+      "note": "Localize “would you have”. Em fala natural, have pode ficar muito fraco; procure a sequência inteira.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Otherwise — would you have",
+        "url": "https://elllo.org/english/1351/T1366-AdamSarah-02-DoOver.htm",
+        "contributor": "Todd Beuckens · demonstração",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E30",
+      "english": "I might have changed my major.",
+      "portuguese": "Eu talvez tivesse mudado de curso.",
+      "audioUrl": "/audio/elllo/conditionals.mp3",
+      "start": 15,
+      "end": 19.59,
+      "speaker": "Adam",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "I",
+          "start": 15.06,
+          "end": 15.17
+        },
+        {
+          "text": "might",
+          "start": 15.54,
+          "end": 16.02
+        },
+        {
+          "text": "have",
+          "start": 16.02,
+          "end": 16.7
+        },
+        {
+          "text": "changed",
+          "start": 16.7,
+          "end": 17.89
+        },
+        {
+          "text": "my",
+          "start": 17.89,
+          "end": 18.22
+        },
+        {
+          "text": "major.",
+          "start": 18.23,
+          "end": 19.08
+        }
+      ],
+      "focus": [
+        "contraction",
+        "weak-form"
+      ],
+      "note": "Might have é o alvo; não basta escrever “I changed”. Procure o som pequeno entre might e changed.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Do Over — Past Conditional",
+        "url": "https://elllo.org/english/grammar/B1-20-Past-Conditional.htm",
+        "contributor": "Sarah e Adam",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E31",
+      "english": "I think that those topics are really interesting and on the cutting edge of science and just fascinating to explore.",
+      "portuguese": "Acho esses temas interessantes, na fronteira da ciência, e fascinantes de explorar.",
+      "audioUrl": "/audio/elllo/conditionals.mp3",
+      "start": 51.61,
+      "end": 62.07,
+      "speaker": "Adam",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "I",
+          "start": 51.61,
+          "end": 51.65
+        },
+        {
+          "text": "think",
+          "start": 51.7,
+          "end": 52.12
+        },
+        {
+          "text": "that",
+          "start": 52.12,
+          "end": 52.49
+        },
+        {
+          "text": "those",
+          "start": 52.49,
+          "end": 52.96
+        },
+        {
+          "text": "topics",
+          "start": 52.96,
+          "end": 53.47
+        },
+        {
+          "text": "are",
+          "start": 53.53,
+          "end": 53.8
+        },
+        {
+          "text": "really",
+          "start": 53.8,
+          "end": 54.28
+        },
+        {
+          "text": "interesting",
+          "start": 54.35,
+          "end": 55.4
+        },
+        {
+          "text": "and",
+          "start": 55.4,
+          "end": 55.68
+        },
+        {
+          "text": "on",
+          "start": 55.68,
+          "end": 55.86
+        },
+        {
+          "text": "the",
+          "start": 55.86,
+          "end": 56.14
+        },
+        {
+          "text": "cutting",
+          "start": 56.14,
+          "end": 56.8
+        },
+        {
+          "text": "edge",
+          "start": 56.8,
+          "end": 57.17
+        },
+        {
+          "text": "of",
+          "start": 57.17,
+          "end": 57.35
+        },
+        {
+          "text": "science",
+          "start": 57.35,
+          "end": 58.01
+        },
+        {
+          "text": "and",
+          "start": 58.01,
+          "end": 58.29
+        },
+        {
+          "text": "just",
+          "start": 58.29,
+          "end": 58.76
+        },
+        {
+          "text": "fascinating",
+          "start": 59.31,
+          "end": 60.34
+        },
+        {
+          "text": "to",
+          "start": 60.34,
+          "end": 60.62
+        },
+        {
+          "text": "explore.",
+          "start": 60.62,
+          "end": 61.63
+        }
+      ],
+      "focus": [
+        "speed",
+        "recognition"
+      ],
+      "note": "O chunk cutting edge of science exige acesso rápido ao vocabulário. Este trecho é um pouco maior para treino de continuidade.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Do Over — Past Conditional",
+        "url": "https://elllo.org/english/grammar/B1-20-Past-Conditional.htm",
+        "contributor": "Sarah e Adam",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E32",
+      "english": "Anything else you wish you would have done?",
+      "portuguese": "Mais alguma coisa que você gostaria de ter feito?",
+      "audioUrl": "/audio/elllo/conditionals.mp3",
+      "start": 63.08,
+      "end": 65.31,
+      "speaker": "Sarah",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "Anything",
+          "start": 63.21,
+          "end": 63.54
+        },
+        {
+          "text": "else",
+          "start": 63.63,
+          "end": 63.78
+        },
+        {
+          "text": "you",
+          "start": 63.78,
+          "end": 63.95
+        },
+        {
+          "text": "wish",
+          "start": 63.95,
+          "end": 64.18
+        },
+        {
+          "text": "you",
+          "start": 64.18,
+          "end": 64.35
+        },
+        {
+          "text": "would",
+          "start": 64.47,
+          "end": 64.64
+        },
+        {
+          "text": "have",
+          "start": 64.64,
+          "end": 64.87
+        },
+        {
+          "text": "done?",
+          "start": 64.87,
+          "end": 65.06
+        }
+      ],
+      "focus": [
+        "contraction",
+        "weak-form"
+      ],
+      "note": "No meio da pergunta, “you wish you would have” se junta. Não confunda have com a ausência de uma palavra.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Do Over — Past Conditional",
+        "url": "https://elllo.org/english/grammar/B1-20-Past-Conditional.htm",
+        "contributor": "Sarah e Adam",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E33",
+      "english": "I might have been more involved in the sports clubs at my school.",
+      "portuguese": "Eu poderia ter participado mais dos clubes esportivos da escola.",
+      "audioUrl": "/audio/elllo/conditionals.mp3",
+      "start": 65.32,
+      "end": 71.6,
+      "speaker": "Adam",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "I",
+          "start": 65.37,
+          "end": 65.43
+        },
+        {
+          "text": "might",
+          "start": 65.51,
+          "end": 66.01
+        },
+        {
+          "text": "have",
+          "start": 66.01,
+          "end": 66.42
+        },
+        {
+          "text": "been",
+          "start": 66.71,
+          "end": 66.95
+        },
+        {
+          "text": "more",
+          "start": 66.95,
+          "end": 67.42
+        },
+        {
+          "text": "involved",
+          "start": 67.42,
+          "end": 68.33
+        },
+        {
+          "text": "in",
+          "start": 68.36,
+          "end": 68.59
+        },
+        {
+          "text": "the",
+          "start": 68.59,
+          "end": 68.92
+        },
+        {
+          "text": "sports",
+          "start": 68.96,
+          "end": 69.64
+        },
+        {
+          "text": "clubs",
+          "start": 69.64,
+          "end": 70.22
+        },
+        {
+          "text": "at",
+          "start": 70.22,
+          "end": 70.45
+        },
+        {
+          "text": "my",
+          "start": 70.45,
+          "end": 70.68
+        },
+        {
+          "text": "school.",
+          "start": 70.68,
+          "end": 71.38
+        }
+      ],
+      "focus": [
+        "contraction",
+        "phoneme"
+      ],
+      "note": "Might have been é um chunk. Depois escute sports clubs sem inserir vogais entre as consoantes.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Do Over — Past Conditional",
+        "url": "https://elllo.org/english/grammar/B1-20-Past-Conditional.htm",
+        "contributor": "Sarah e Adam",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E34",
+      "english": "I went to one training day and kind of tried out.",
+      "portuguese": "Fui a um dia de treino e meio que fiz um teste.",
+      "audioUrl": "/audio/elllo/conditionals.mp3",
+      "start": 95.25,
+      "end": 101.7,
+      "speaker": "Adam",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "I",
+          "start": 95.25,
+          "end": 95.36
+        },
+        {
+          "text": "went",
+          "start": 95.74,
+          "end": 96.01
+        },
+        {
+          "text": "to",
+          "start": 96.01,
+          "end": 96.3
+        },
+        {
+          "text": "one",
+          "start": 96.59,
+          "end": 96.82
+        },
+        {
+          "text": "training",
+          "start": 96.82,
+          "end": 98.13
+        },
+        {
+          "text": "day",
+          "start": 98.13,
+          "end": 98.61
+        },
+        {
+          "text": "and",
+          "start": 98.63,
+          "end": 99.11
+        },
+        {
+          "text": "kind",
+          "start": 99.11,
+          "end": 99.76
+        },
+        {
+          "text": "of",
+          "start": 99.76,
+          "end": 100.02
+        },
+        {
+          "text": "tried",
+          "start": 100.09,
+          "end": 100.9
+        },
+        {
+          "text": "out.",
+          "start": 100.9,
+          "end": 101.36
+        }
+      ],
+      "focus": [
+        "reduction",
+        "linking"
+      ],
+      "note": "Ouça kind of e tried out. As fronteiras podem sumir enquanto a frase continua perfeitamente compreensível.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Do Over — Past Conditional",
+        "url": "https://elllo.org/english/grammar/B1-20-Past-Conditional.htm",
+        "contributor": "Sarah e Adam",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E35",
+      "english": "I think it would have been fun to be part of that culture and that environment.",
+      "portuguese": "Acho que teria sido divertido fazer parte dessa cultura e desse ambiente.",
+      "audioUrl": "/audio/elllo/conditionals.mp3",
+      "start": 107.72,
+      "end": 113.51,
+      "speaker": "Adam",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "I",
+          "start": 107.77,
+          "end": 107.81
+        },
+        {
+          "text": "think",
+          "start": 107.86,
+          "end": 108.23
+        },
+        {
+          "text": "it",
+          "start": 108.27,
+          "end": 108.4
+        },
+        {
+          "text": "would",
+          "start": 108.4,
+          "end": 108.82
+        },
+        {
+          "text": "have",
+          "start": 108.82,
+          "end": 109.17
+        },
+        {
+          "text": "been",
+          "start": 109.2,
+          "end": 109.52
+        },
+        {
+          "text": "fun",
+          "start": 109.53,
+          "end": 109.79
+        },
+        {
+          "text": "to",
+          "start": 109.79,
+          "end": 109.96
+        },
+        {
+          "text": "be",
+          "start": 109.96,
+          "end": 110.12
+        },
+        {
+          "text": "part",
+          "start": 110.17,
+          "end": 110.44
+        },
+        {
+          "text": "of",
+          "start": 110.51,
+          "end": 110.65
+        },
+        {
+          "text": "that",
+          "start": 110.65,
+          "end": 110.99
+        },
+        {
+          "text": "culture",
+          "start": 111.03,
+          "end": 111.61
+        },
+        {
+          "text": "and",
+          "start": 111.61,
+          "end": 111.87
+        },
+        {
+          "text": "that",
+          "start": 111.87,
+          "end": 112.18
+        },
+        {
+          "text": "environment.",
+          "start": 112.25,
+          "end": 113.18
+        }
+      ],
+      "focus": [
+        "contraction",
+        "weak-form"
+      ],
+      "note": "Would have been vira uma sequência curta. Compare com o trecho mais lento da demonstração e volte à conversa.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Do Over — Past Conditional",
+        "url": "https://elllo.org/english/grammar/B1-20-Past-Conditional.htm",
+        "contributor": "Sarah e Adam",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E36",
+      "english": "How about something that you did do that maybe now you wish you hadn't?",
+      "portuguese": "E algo que você fez mas agora gostaria de não ter feito?",
+      "audioUrl": "/audio/elllo/conditionals.mp3",
+      "start": 113.52,
+      "end": 121.83,
+      "speaker": "Sarah",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "How",
+          "start": 113.6,
+          "end": 113.92
+        },
+        {
+          "text": "about",
+          "start": 114.07,
+          "end": 114.62
+        },
+        {
+          "text": "something",
+          "start": 114.62,
+          "end": 115.86
+        },
+        {
+          "text": "that",
+          "start": 115.86,
+          "end": 116.41
+        },
+        {
+          "text": "you",
+          "start": 116.41,
+          "end": 116.79
+        },
+        {
+          "text": "did",
+          "start": 116.82,
+          "end": 117.22
+        },
+        {
+          "text": "do",
+          "start": 117.28,
+          "end": 117.5
+        },
+        {
+          "text": "that",
+          "start": 117.5,
+          "end": 118.05
+        },
+        {
+          "text": "maybe",
+          "start": 118.05,
+          "end": 118.74
+        },
+        {
+          "text": "now",
+          "start": 118.74,
+          "end": 119.15
+        },
+        {
+          "text": "you",
+          "start": 119.15,
+          "end": 119.55
+        },
+        {
+          "text": "wish",
+          "start": 119.56,
+          "end": 120.03
+        },
+        {
+          "text": "you",
+          "start": 120.14,
+          "end": 120.46
+        },
+        {
+          "text": "hadn't?",
+          "start": 120.52,
+          "end": 121.34
+        }
+      ],
+      "focus": [
+        "contraction",
+        "speed"
+      ],
+      "note": "Did do tem ênfase no que aconteceu; hadn't encerra a pergunta. Reconheça as duas partes sem ficar preso na primeira.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Do Over — Past Conditional",
+        "url": "https://elllo.org/english/grammar/B1-20-Past-Conditional.htm",
+        "contributor": "Sarah e Adam",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E37",
+      "english": "Anything else you would have changed?",
+      "portuguese": "Mais alguma coisa que você teria mudado?",
+      "audioUrl": "/audio/elllo/conditionals.mp3",
+      "start": 153.48,
+      "end": 156.05,
+      "speaker": "Sarah",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "Anything",
+          "start": 153.62,
+          "end": 154.08
+        },
+        {
+          "text": "else",
+          "start": 154.08,
+          "end": 154.37
+        },
+        {
+          "text": "you",
+          "start": 154.38,
+          "end": 154.59
+        },
+        {
+          "text": "would",
+          "start": 154.87,
+          "end": 154.97
+        },
+        {
+          "text": "have",
+          "start": 154.97,
+          "end": 155.27
+        },
+        {
+          "text": "changed?",
+          "start": 155.27,
+          "end": 155.8
+        }
+      ],
+      "focus": [
+        "contraction",
+        "weak-form"
+      ],
+      "note": "Encontre “would have changed”. Use esta voz diferente para verificar transferência.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Do Over — Past Conditional",
+        "url": "https://elllo.org/english/grammar/B1-20-Past-Conditional.htm",
+        "contributor": "Sarah e Adam",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "E38",
+      "english": "I had a really good girlfriend in the beginning of college.",
+      "portuguese": "Eu tinha uma namorada muito legal no começo da faculdade.",
+      "audioUrl": "/audio/elllo/conditionals.mp3",
+      "start": 168.12,
+      "end": 173.23,
+      "speaker": "Adam",
+      "kind": "conversation",
+      "words": [
+        {
+          "text": "I",
+          "start": 168.17,
+          "end": 168.22
+        },
+        {
+          "text": "had",
+          "start": 168.22,
+          "end": 168.52
+        },
+        {
+          "text": "a",
+          "start": 168.6,
+          "end": 168.64
+        },
+        {
+          "text": "really",
+          "start": 168.67,
+          "end": 169.23
+        },
+        {
+          "text": "good",
+          "start": 169.51,
+          "end": 169.68
+        },
+        {
+          "text": "girlfriend",
+          "start": 169.68,
+          "end": 170.74
+        },
+        {
+          "text": "in",
+          "start": 170.74,
+          "end": 170.95
+        },
+        {
+          "text": "the",
+          "start": 170.95,
+          "end": 171.24
+        },
+        {
+          "text": "beginning",
+          "start": 171.28,
+          "end": 172.21
+        },
+        {
+          "text": "of",
+          "start": 172.21,
+          "end": 172.42
+        },
+        {
+          "text": "college.",
+          "start": 172.42,
+          "end": 173.1
+        }
+      ],
+      "focus": [
+        "boundary",
+        "speed"
+      ],
+      "note": "No começo e no fim há grupos naturais: “I had a really good girlfriend” e “in the beginning of college”.",
+      "source": {
+        "publisher": "ELLLO",
+        "title": "Do Over — Past Conditional",
+        "url": "https://elllo.org/english/grammar/B1-20-Past-Conditional.htm",
+        "contributor": "Sarah e Adam",
+        "license": "Uso educacional não comercial · download offline",
+        "licenseUrl": "https://elllo.org/about/teacher_tips.htm"
+      }
+    },
+    {
+      "id": "TAT-001",
+      "english": "I knew what I wanted to say, but I couldn't say it.",
+      "portuguese": "Eu sabia o que queria dizer, mas não consegui dizer.",
+      "audioUrl": "/audio/tatoeba/9195573.mp3",
+      "start": 0,
+      "end": 2.09,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.02,
+          "end": 0.69
+        },
+        {
+          "text": "knew",
+          "start": 0.69,
+          "end": 1.93
+        },
+        {
+          "text": "what",
+          "start": 2.05,
+          "end": 2.09
+        },
+        {
+          "text": "I",
+          "start": 2.05,
+          "end": 2.09
+        },
+        {
+          "text": "wanted",
+          "start": 2.05,
+          "end": 2.09
+        },
+        {
+          "text": "to",
+          "start": 2.05,
+          "end": 2.09
+        },
+        {
+          "text": "say,",
+          "start": 2.05,
+          "end": 2.09
+        },
+        {
+          "text": "but",
+          "start": 2.05,
+          "end": 2.09
+        },
+        {
+          "text": "I",
+          "start": 2.05,
+          "end": 2.09
+        },
+        {
+          "text": "couldn't",
+          "start": 2.05,
+          "end": 2.09
+        },
+        {
+          "text": "say",
+          "start": 2.05,
+          "end": 2.09
+        },
+        {
+          "text": "it.",
+          "start": 2.05,
+          "end": 2.09
+        }
+      ],
+      "focus": [
+        "boundary",
+        "reduction",
+        "contraction"
+      ],
+      "note": "Localize wanted to e couldn’t: conhecer as palavras não garante ouvi-las juntas.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 9195573",
+        "url": "https://tatoeba.org/en/sentences/show/9195573",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-002",
+      "english": "That is not what I said at all.",
+      "portuguese": "Não foi isso que eu disse.",
+      "audioUrl": "/audio/tatoeba/4678282.mp3",
+      "start": 0,
+      "end": 1.49,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "That",
+          "start": 0.03,
+          "end": 1.36
+        },
+        {
+          "text": "is",
+          "start": 1.45,
+          "end": 1.49
+        },
+        {
+          "text": "not",
+          "start": 1.45,
+          "end": 1.49
+        },
+        {
+          "text": "what",
+          "start": 1.45,
+          "end": 1.49
+        },
+        {
+          "text": "I",
+          "start": 1.45,
+          "end": 1.49
+        },
+        {
+          "text": "said",
+          "start": 1.45,
+          "end": 1.49
+        },
+        {
+          "text": "at",
+          "start": 1.45,
+          "end": 1.49
+        },
+        {
+          "text": "all.",
+          "start": 1.45,
+          "end": 1.49
+        }
+      ],
+      "focus": [
+        "boundary",
+        "linking"
+      ],
+      "note": "Escute not what I said como um chunk e confira se not apareceu no seu ditado.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 4678282",
+        "url": "https://tatoeba.org/en/sentences/show/4678282",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-003",
+      "english": "I worked for two years selling books.",
+      "portuguese": "Trabalhei por dois anos vendendo livros.",
+      "audioUrl": "/audio/tatoeba/13528379.mp3",
+      "start": 0,
+      "end": 3.22,
+      "speaker": "rul",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.94,
+          "end": 1.0999999999999999
+        },
+        {
+          "text": "worked",
+          "start": 1.07,
+          "end": 2.24
+        },
+        {
+          "text": "for",
+          "start": 3.18,
+          "end": 3.22
+        },
+        {
+          "text": "two",
+          "start": 3.18,
+          "end": 3.22
+        },
+        {
+          "text": "years",
+          "start": 3.18,
+          "end": 3.22
+        },
+        {
+          "text": "on",
+          "start": 3.18,
+          "end": 3.22
+        },
+        {
+          "text": "books.",
+          "start": 3.18,
+          "end": 3.22
+        }
+      ],
+      "focus": [
+        "phoneme",
+        "linking"
+      ],
+      "note": "Worked termina com /t/; selling books preserva as consoantes finais sem acrescentar uma vogal.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 13528379",
+        "url": "https://tatoeba.org/en/sentences/show/13528379",
+        "contributor": "rul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-004",
+      "english": "I used gloves, and yet I still burned myself.",
+      "portuguese": "Usei luvas e, mesmo assim, ainda me queimei.",
+      "audioUrl": "/audio/tatoeba/9695900.mp3",
+      "start": 0,
+      "end": 3.24,
+      "speaker": "rul",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.53,
+          "end": 0.79
+        },
+        {
+          "text": "used",
+          "start": 0.79,
+          "end": 2.48
+        },
+        {
+          "text": "gloves",
+          "start": 3.2,
+          "end": 3.24
+        },
+        {
+          "text": "and",
+          "start": 3.2,
+          "end": 3.24
+        },
+        {
+          "text": "yet",
+          "start": 3.2,
+          "end": 3.24
+        },
+        {
+          "text": "I",
+          "start": 3.2,
+          "end": 3.24
+        },
+        {
+          "text": "still",
+          "start": 3.2,
+          "end": 3.24
+        },
+        {
+          "text": "burned",
+          "start": 3.2,
+          "end": 3.24
+        },
+        {
+          "text": "myself.",
+          "start": 3.2,
+          "end": 3.24
+        }
+      ],
+      "focus": [
+        "phoneme",
+        "linking"
+      ],
+      "note": "Escute used gloves e still burned; finais de palavras podem ser discretos.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 9695900",
+        "url": "https://tatoeba.org/en/sentences/show/9695900",
+        "contributor": "rul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-005",
+      "english": "You will definitely like it here.",
+      "portuguese": "Você com certeza vai gostar daqui.",
+      "audioUrl": "/audio/tatoeba/8945367.mp3",
+      "start": 0,
+      "end": 2.22,
+      "speaker": "rul",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "You",
+          "start": 0.52,
+          "end": 1.59
+        },
+        {
+          "text": "will",
+          "start": 2.18,
+          "end": 2.22
+        },
+        {
+          "text": "definitely",
+          "start": 2.18,
+          "end": 2.22
+        },
+        {
+          "text": "like",
+          "start": 2.18,
+          "end": 2.22
+        },
+        {
+          "text": "it",
+          "start": 2.18,
+          "end": 2.22
+        },
+        {
+          "text": "here.",
+          "start": 2.18,
+          "end": 2.22
+        }
+      ],
+      "focus": [
+        "recognition",
+        "speed"
+      ],
+      "note": "Ouça o ritmo de definitely e like it here, sem tentar recuperar cada palavra lentamente.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 8945367",
+        "url": "https://tatoeba.org/en/sentences/show/8945367",
+        "contributor": "rul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-006",
+      "english": "It's better not to say anything about either him or her.",
+      "portuguese": "É melhor não dizer nada sobre nenhum dos dois.",
+      "audioUrl": "/audio/tatoeba/10523663.mp3",
+      "start": 0,
+      "end": 2.46,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "It's",
+          "start": 0.03,
+          "end": 2.33
+        },
+        {
+          "text": "better",
+          "start": 2.42,
+          "end": 2.46
+        },
+        {
+          "text": "not",
+          "start": 2.42,
+          "end": 2.46
+        },
+        {
+          "text": "to",
+          "start": 2.42,
+          "end": 2.46
+        },
+        {
+          "text": "say",
+          "start": 2.42,
+          "end": 2.46
+        },
+        {
+          "text": "anything",
+          "start": 2.42,
+          "end": 2.46
+        },
+        {
+          "text": "about",
+          "start": 2.42,
+          "end": 2.46
+        },
+        {
+          "text": "either",
+          "start": 2.42,
+          "end": 2.46
+        },
+        {
+          "text": "him",
+          "start": 2.42,
+          "end": 2.46
+        },
+        {
+          "text": "or",
+          "start": 2.42,
+          "end": 2.46
+        },
+        {
+          "text": "her.",
+          "start": 2.42,
+          "end": 2.46
+        }
+      ],
+      "focus": [
+        "weak-form",
+        "linking"
+      ],
+      "note": "“Either him or her” recebe ligações; as palavras pequenas se apoiam nas vizinhas.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 10523663",
+        "url": "https://tatoeba.org/en/sentences/show/10523663",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-007",
+      "english": "I don't know how to tell her.",
+      "portuguese": "Não sei como contar a ela.",
+      "audioUrl": "/audio/tatoeba/9474028.mp3",
+      "start": 0,
+      "end": 0.94,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.01,
+          "end": 0.83
+        },
+        {
+          "text": "don't",
+          "start": 0.8999999999999999,
+          "end": 0.94
+        },
+        {
+          "text": "know",
+          "start": 0.8999999999999999,
+          "end": 0.94
+        },
+        {
+          "text": "how",
+          "start": 0.8999999999999999,
+          "end": 0.94
+        },
+        {
+          "text": "to",
+          "start": 0.8999999999999999,
+          "end": 0.94
+        },
+        {
+          "text": "tell",
+          "start": 0.8999999999999999,
+          "end": 0.94
+        },
+        {
+          "text": "her.",
+          "start": 0.8999999999999999,
+          "end": 0.94
+        }
+      ],
+      "focus": [
+        "weak-form",
+        "contraction"
+      ],
+      "note": "“Don’t know how to tell her” ocupa pouco tempo. Isole tell her e volte à frase.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 9474028",
+        "url": "https://tatoeba.org/en/sentences/show/9474028",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-008",
+      "english": "I really had a good time at her party.",
+      "portuguese": "Eu realmente me diverti na festa dela.",
+      "audioUrl": "/audio/tatoeba/10539135.mp3",
+      "start": 0,
+      "end": 1.91,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.07,
+          "end": 0.81
+        },
+        {
+          "text": "really",
+          "start": 0.97,
+          "end": 1.78
+        },
+        {
+          "text": "had",
+          "start": 1.8699999999999999,
+          "end": 1.91
+        },
+        {
+          "text": "a",
+          "start": 1.8699999999999999,
+          "end": 1.91
+        },
+        {
+          "text": "good",
+          "start": 1.8699999999999999,
+          "end": 1.91
+        },
+        {
+          "text": "time",
+          "start": 1.8699999999999999,
+          "end": 1.91
+        },
+        {
+          "text": "at",
+          "start": 1.8699999999999999,
+          "end": 1.91
+        },
+        {
+          "text": "her",
+          "start": 1.8699999999999999,
+          "end": 1.91
+        },
+        {
+          "text": "party.",
+          "start": 1.8699999999999999,
+          "end": 1.91
+        }
+      ],
+      "focus": [
+        "weak-form",
+        "linking"
+      ],
+      "note": "“At her party” pode soar ligado. Ouça o começo de cada chunk.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 10539135",
+        "url": "https://tatoeba.org/en/sentences/show/10539135",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-009",
+      "english": "I got into astronomy because of my partner.",
+      "portuguese": "Passei a gostar de astronomia por causa do meu par.",
+      "audioUrl": "/audio/tatoeba/11169922.mp3",
+      "start": 0,
+      "end": 2.19,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.01,
+          "end": 0.79
+        },
+        {
+          "text": "got",
+          "start": 0.79,
+          "end": 2.07
+        },
+        {
+          "text": "into",
+          "start": 2.15,
+          "end": 2.19
+        },
+        {
+          "text": "astronomy",
+          "start": 2.15,
+          "end": 2.19
+        },
+        {
+          "text": "because",
+          "start": 2.15,
+          "end": 2.19
+        },
+        {
+          "text": "of",
+          "start": 2.15,
+          "end": 2.19
+        },
+        {
+          "text": "my",
+          "start": 2.15,
+          "end": 2.19
+        },
+        {
+          "text": "partner.",
+          "start": 2.15,
+          "end": 2.19
+        }
+      ],
+      "focus": [
+        "linking",
+        "recognition",
+        "vocabulary"
+      ],
+      "note": "“Got into” liga consoante e vogal; astronomy pode exigir acesso lexical mais rápido.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 11169922",
+        "url": "https://tatoeba.org/en/sentences/show/11169922",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-010",
+      "english": "I wish you would stop making fun of me.",
+      "portuguese": "Queria que você parasse de zombar de mim.",
+      "audioUrl": "/audio/tatoeba/9593201.mp3",
+      "start": 0,
+      "end": 1.59,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.03,
+          "end": 0.88
+        },
+        {
+          "text": "wish",
+          "start": 0.88,
+          "end": 1.51
+        },
+        {
+          "text": "you",
+          "start": 1.55,
+          "end": 1.59
+        },
+        {
+          "text": "would",
+          "start": 1.55,
+          "end": 1.59
+        },
+        {
+          "text": "start",
+          "start": 1.55,
+          "end": 1.59
+        },
+        {
+          "text": "making",
+          "start": 1.55,
+          "end": 1.59
+        },
+        {
+          "text": "fun",
+          "start": 1.55,
+          "end": 1.59
+        },
+        {
+          "text": "of",
+          "start": 1.55,
+          "end": 1.59
+        },
+        {
+          "text": "me.",
+          "start": 1.55,
+          "end": 1.59
+        }
+      ],
+      "focus": [
+        "linking",
+        "contraction"
+      ],
+      "note": "“Wish you would” aproxima sons. Confira would mesmo se o sentido estiver claro.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 9593201",
+        "url": "https://tatoeba.org/en/sentences/show/9593201",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-011",
+      "english": "I wouldn't say it's wrong, but it's not really good.",
+      "portuguese": "Eu não diria que está errado, mas também não está muito bom.",
+      "audioUrl": "/audio/tatoeba/12203391.mp3",
+      "start": 0,
+      "end": 3.06,
+      "speaker": "rul",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.53,
+          "end": 0.6900000000000001
+        },
+        {
+          "text": "wouldn't",
+          "start": 0.65,
+          "end": 3.06
+        },
+        {
+          "text": "say",
+          "start": 3.02,
+          "end": 3.06
+        },
+        {
+          "text": "it's",
+          "start": 3.02,
+          "end": 3.06
+        },
+        {
+          "text": "wrong,",
+          "start": 3.02,
+          "end": 3.06
+        },
+        {
+          "text": "but",
+          "start": 3.02,
+          "end": 3.06
+        },
+        {
+          "text": "it's",
+          "start": 3.02,
+          "end": 3.06
+        },
+        {
+          "text": "not",
+          "start": 3.02,
+          "end": 3.06
+        },
+        {
+          "text": "really",
+          "start": 3.02,
+          "end": 3.06
+        },
+        {
+          "text": "good.",
+          "start": 3.02,
+          "end": 3.06
+        }
+      ],
+      "focus": [
+        "contraction",
+        "weak-form"
+      ],
+      "note": "Wouldn’t, it’s e not really: escreva as contrações que realmente ouviu.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 12203391",
+        "url": "https://tatoeba.org/en/sentences/show/12203391",
+        "contributor": "rul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-012",
+      "english": "It's a phrasebook, and it will help you communicate.",
+      "portuguese": "É um livro de frases e vai ajudar você a se comunicar.",
+      "audioUrl": "/audio/tatoeba/10696172.mp3",
+      "start": 0,
+      "end": 2.04,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "It's",
+          "start": 0.02,
+          "end": 1.95
+        },
+        {
+          "text": "a",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "phrase",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "book",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "and",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "it",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "will",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "help",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "you",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "communicate.",
+          "start": 2,
+          "end": 2.04
+        }
+      ],
+      "focus": [
+        "weak-form",
+        "recognition",
+        "vocabulary"
+      ],
+      "note": "Ouça and it will como um grupo de palavras fracas.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 10696172",
+        "url": "https://tatoeba.org/en/sentences/show/10696172",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-013",
+      "english": "How much time have we got left?",
+      "portuguese": "Quanto tempo ainda temos?",
+      "audioUrl": "/audio/tatoeba/4115821.mp3",
+      "start": 0,
+      "end": 1.15,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "How",
+          "start": 0.01,
+          "end": 1.05
+        },
+        {
+          "text": "much",
+          "start": 1.1099999999999999,
+          "end": 1.15
+        },
+        {
+          "text": "time",
+          "start": 1.1099999999999999,
+          "end": 1.15
+        },
+        {
+          "text": "have",
+          "start": 1.1099999999999999,
+          "end": 1.15
+        },
+        {
+          "text": "we",
+          "start": 1.1099999999999999,
+          "end": 1.15
+        },
+        {
+          "text": "got",
+          "start": 1.1099999999999999,
+          "end": 1.15
+        },
+        {
+          "text": "left?",
+          "start": 1.1099999999999999,
+          "end": 1.15
+        }
+      ],
+      "focus": [
+        "boundary",
+        "weak-form"
+      ],
+      "note": "“Have we got left” é curto. Escute a fronteira antes de left.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 4115821",
+        "url": "https://tatoeba.org/en/sentences/show/4115821",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-014",
+      "english": "Even though I'm not good at it, I make sure to do it the best I can.",
+      "portuguese": "Embora eu não seja bom nisso, faço questão de dar o meu melhor.",
+      "audioUrl": "/audio/tatoeba/9189236.mp3",
+      "start": 0,
+      "end": 2.87,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "Even",
+          "start": 0.02,
+          "end": 2.18
+        },
+        {
+          "text": "though",
+          "start": 2.18,
+          "end": 2.78
+        },
+        {
+          "text": "I'm",
+          "start": 2.83,
+          "end": 2.87
+        },
+        {
+          "text": "not",
+          "start": 2.83,
+          "end": 2.87
+        },
+        {
+          "text": "good",
+          "start": 2.83,
+          "end": 2.87
+        },
+        {
+          "text": "at",
+          "start": 2.83,
+          "end": 2.87
+        },
+        {
+          "text": "it,",
+          "start": 2.83,
+          "end": 2.87
+        },
+        {
+          "text": "I",
+          "start": 2.83,
+          "end": 2.87
+        },
+        {
+          "text": "make",
+          "start": 2.83,
+          "end": 2.87
+        },
+        {
+          "text": "sure",
+          "start": 2.83,
+          "end": 2.87
+        },
+        {
+          "text": "to",
+          "start": 2.83,
+          "end": 2.87
+        },
+        {
+          "text": "do",
+          "start": 2.83,
+          "end": 2.87
+        },
+        {
+          "text": "it",
+          "start": 2.83,
+          "end": 2.87
+        },
+        {
+          "text": "the",
+          "start": 2.83,
+          "end": 2.87
+        },
+        {
+          "text": "best",
+          "start": 2.83,
+          "end": 2.87
+        },
+        {
+          "text": "I",
+          "start": 2.83,
+          "end": 2.87
+        },
+        {
+          "text": "can.",
+          "start": 2.83,
+          "end": 2.87
+        }
+      ],
+      "focus": [
+        "weak-form",
+        "reduction"
+      ],
+      "note": "Há muitos “at it”, “to do it” e “the best I can”; segmente por chunks.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 9189236",
+        "url": "https://tatoeba.org/en/sentences/show/9189236",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-015",
+      "english": "Can you check whether they can be trusted?",
+      "portuguese": "Você pode verificar se eles são confiáveis?",
+      "audioUrl": "/audio/tatoeba/10696176.mp3",
+      "start": 0,
+      "end": 1.54,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "Can",
+          "start": 0.03,
+          "end": 1.44
+        },
+        {
+          "text": "you",
+          "start": 1.5,
+          "end": 1.54
+        },
+        {
+          "text": "check",
+          "start": 1.5,
+          "end": 1.54
+        },
+        {
+          "text": "whether",
+          "start": 1.5,
+          "end": 1.54
+        },
+        {
+          "text": "they",
+          "start": 1.5,
+          "end": 1.54
+        },
+        {
+          "text": "can",
+          "start": 1.5,
+          "end": 1.54
+        },
+        {
+          "text": "be",
+          "start": 1.5,
+          "end": 1.54
+        },
+        {
+          "text": "trusted?",
+          "start": 1.5,
+          "end": 1.54
+        }
+      ],
+      "focus": [
+        "weak-form",
+        "phoneme"
+      ],
+      "note": "Compare os dois can no mesmo contexto e escute whether.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 10696176",
+        "url": "https://tatoeba.org/en/sentences/show/10696176",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-016",
+      "english": "It could be hard to start your own business.",
+      "portuguese": "Pode ser difícil abrir seu próprio negócio.",
+      "audioUrl": "/audio/tatoeba/10752856.mp3",
+      "start": 0,
+      "end": 2.04,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "It",
+          "start": 0.03,
+          "end": 1.56
+        },
+        {
+          "text": "could",
+          "start": 1.57,
+          "end": 1.94
+        },
+        {
+          "text": "be",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "hard",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "to",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "start",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "your",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "own",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "business.",
+          "start": 2,
+          "end": 2.04
+        }
+      ],
+      "focus": [
+        "weak-form",
+        "linking"
+      ],
+      "note": "Could be e to start são grupos; não espere que to soe isoladamente como /tuː/.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 10752856",
+        "url": "https://tatoeba.org/en/sentences/show/10752856",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-017",
+      "english": "You cannot take back what you have said.",
+      "portuguese": "Você não pode retirar o que disse.",
+      "audioUrl": "/audio/tatoeba/239714.mp3",
+      "start": 0,
+      "end": 2.19,
+      "speaker": "rul",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "You",
+          "start": 0.01,
+          "end": 1.57
+        },
+        {
+          "text": "cannot",
+          "start": 2.15,
+          "end": 2.19
+        },
+        {
+          "text": "take",
+          "start": 2.15,
+          "end": 2.19
+        },
+        {
+          "text": "back",
+          "start": 2.15,
+          "end": 2.19
+        },
+        {
+          "text": "what",
+          "start": 2.15,
+          "end": 2.19
+        },
+        {
+          "text": "you",
+          "start": 2.15,
+          "end": 2.19
+        },
+        {
+          "text": "have",
+          "start": 2.15,
+          "end": 2.19
+        },
+        {
+          "text": "said.",
+          "start": 2.15,
+          "end": 2.19
+        }
+      ],
+      "focus": [
+        "contraction",
+        "weak-form"
+      ],
+      "note": "Cannot e have said mudam o sentido; localize os auxiliares antes de revelar.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 239714",
+        "url": "https://tatoeba.org/en/sentences/show/239714",
+        "contributor": "rul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-018",
+      "english": "If you don't ask for anything, you don't get anything.",
+      "portuguese": "Se você não pede nada, não consegue nada.",
+      "audioUrl": "/audio/tatoeba/13017214.mp3",
+      "start": 0,
+      "end": 3.19,
+      "speaker": "rul",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "If",
+          "start": 0.8,
+          "end": 1.25
+        },
+        {
+          "text": "you",
+          "start": 1.25,
+          "end": 2.51
+        },
+        {
+          "text": "don't",
+          "start": 2.9,
+          "end": 3.19
+        },
+        {
+          "text": "ask",
+          "start": 3.15,
+          "end": 3.19
+        },
+        {
+          "text": "for",
+          "start": 3.15,
+          "end": 3.19
+        },
+        {
+          "text": "anything,",
+          "start": 3.15,
+          "end": 3.19
+        },
+        {
+          "text": "you",
+          "start": 3.15,
+          "end": 3.19
+        },
+        {
+          "text": "don't",
+          "start": 3.15,
+          "end": 3.19
+        },
+        {
+          "text": "get",
+          "start": 3.15,
+          "end": 3.19
+        },
+        {
+          "text": "anything.",
+          "start": 3.15,
+          "end": 3.19
+        }
+      ],
+      "focus": [
+        "contraction",
+        "linking"
+      ],
+      "note": "“Don’t ask” e “don’t get” ligam as palavras e preservam a negação.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 13017214",
+        "url": "https://tatoeba.org/en/sentences/show/13017214",
+        "contributor": "rul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-019",
+      "english": "I haven't heard from her since then.",
+      "portuguese": "Não tenho notícias dela desde então.",
+      "audioUrl": "/audio/tatoeba/1420762.mp3",
+      "start": 0,
+      "end": 1.38,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.02,
+          "end": 0.94
+        },
+        {
+          "text": "haven't",
+          "start": 0.94,
+          "end": 1.38
+        },
+        {
+          "text": "heard",
+          "start": 1.3399999999999999,
+          "end": 1.38
+        },
+        {
+          "text": "from",
+          "start": 1.3399999999999999,
+          "end": 1.38
+        },
+        {
+          "text": "her",
+          "start": 1.3399999999999999,
+          "end": 1.38
+        },
+        {
+          "text": "since",
+          "start": 1.3399999999999999,
+          "end": 1.38
+        },
+        {
+          "text": "then.",
+          "start": 1.3399999999999999,
+          "end": 1.38
+        }
+      ],
+      "focus": [
+        "contraction",
+        "weak-form"
+      ],
+      "note": "“Haven’t heard from her” combina contração, ligação e palavra fraca.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 1420762",
+        "url": "https://tatoeba.org/en/sentences/show/1420762",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-020",
+      "english": "I can hardly understand what she says.",
+      "portuguese": "Mal consigo entender o que ela diz.",
+      "audioUrl": "/audio/tatoeba/261258.mp3",
+      "start": 0,
+      "end": 2.3,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.02,
+          "end": 0.88
+        },
+        {
+          "text": "can",
+          "start": 0.88,
+          "end": 1.7
+        },
+        {
+          "text": "hardly",
+          "start": 2.26,
+          "end": 2.3
+        },
+        {
+          "text": "understand",
+          "start": 2.26,
+          "end": 2.3
+        },
+        {
+          "text": "what",
+          "start": 2.26,
+          "end": 2.3
+        },
+        {
+          "text": "she",
+          "start": 2.26,
+          "end": 2.3
+        },
+        {
+          "text": "says.",
+          "start": 2.26,
+          "end": 2.3
+        }
+      ],
+      "focus": [
+        "speed",
+        "recognition"
+      ],
+      "note": "Escute can hardly understand sem perder o fluxo enquanto reconhece understand.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 261258",
+        "url": "https://tatoeba.org/en/sentences/show/261258",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-021",
+      "english": "Do you want to do me a favor?",
+      "portuguese": "Você quer me fazer um favor?",
+      "audioUrl": "/audio/tatoeba/8908795.mp3",
+      "start": 0,
+      "end": 2.04,
+      "speaker": "rul",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "You",
+          "start": 0.52,
+          "end": 1.42
+        },
+        {
+          "text": "want",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "to",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "do",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "me",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "a",
+          "start": 2,
+          "end": 2.04
+        },
+        {
+          "text": "favor?",
+          "start": 2,
+          "end": 2.04
+        }
+      ],
+      "focus": [
+        "reduction",
+        "boundary"
+      ],
+      "note": "O chunk “do you want to” pode soar reduzido. Compare com a pergunta em conversa.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 8908795",
+        "url": "https://tatoeba.org/en/sentences/show/8908795",
+        "contributor": "rul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-022",
+      "english": "I can't leave until he comes.",
+      "portuguese": "Não posso sair até ele chegar.",
+      "audioUrl": "/audio/tatoeba/5353161.mp3",
+      "start": 0,
+      "end": 1.83,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "I",
+          "start": 0.01,
+          "end": 1.14
+        },
+        {
+          "text": "can't",
+          "start": 1.14,
+          "end": 1.83
+        },
+        {
+          "text": "leave",
+          "start": 1.79,
+          "end": 1.83
+        },
+        {
+          "text": "until",
+          "start": 1.79,
+          "end": 1.83
+        },
+        {
+          "text": "he",
+          "start": 1.79,
+          "end": 1.83
+        },
+        {
+          "text": "comes.",
+          "start": 1.79,
+          "end": 1.83
+        }
+      ],
+      "focus": [
+        "contraction",
+        "phoneme"
+      ],
+      "note": "Em “can’t leave until he”, procure a negação e as transições, não uma explosão forte de t.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 5353161",
+        "url": "https://tatoeba.org/en/sentences/show/5353161",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-023",
+      "english": "There's a bus every fifteen minutes.",
+      "portuguese": "Há um ônibus a cada quinze minutos.",
+      "audioUrl": "/audio/tatoeba/12999192.mp3",
+      "start": 0,
+      "end": 2.17,
+      "speaker": "rul",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "There's",
+          "start": 0.01,
+          "end": 2.17
+        },
+        {
+          "text": "a",
+          "start": 2.13,
+          "end": 2.17
+        },
+        {
+          "text": "bus",
+          "start": 2.13,
+          "end": 2.17
+        },
+        {
+          "text": "every",
+          "start": 2.13,
+          "end": 2.17
+        },
+        {
+          "text": "15",
+          "start": 2.13,
+          "end": 2.17
+        },
+        {
+          "text": "minutes.",
+          "start": 2.13,
+          "end": 2.17
+        }
+      ],
+      "focus": [
+        "phoneme",
+        "speed"
+      ],
+      "note": "Fifteen tem destaque no final; diferencie o ritmo de fifty mesmo sem um par aqui.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 12999192",
+        "url": "https://tatoeba.org/en/sentences/show/12999192",
+        "contributor": "rul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-024",
+      "english": "You can tell it's good just by the aroma.",
+      "portuguese": "Dá para saber que está bom só pelo aroma.",
+      "audioUrl": "/audio/tatoeba/12018718.mp3",
+      "start": 0,
+      "end": 2.09,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "You",
+          "start": 0.01,
+          "end": 1.49
+        },
+        {
+          "text": "can",
+          "start": 2.05,
+          "end": 2.09
+        },
+        {
+          "text": "tell",
+          "start": 2.05,
+          "end": 2.09
+        },
+        {
+          "text": "it's",
+          "start": 2.05,
+          "end": 2.09
+        },
+        {
+          "text": "good",
+          "start": 2.05,
+          "end": 2.09
+        },
+        {
+          "text": "just",
+          "start": 2.05,
+          "end": 2.09
+        },
+        {
+          "text": "by",
+          "start": 2.05,
+          "end": 2.09
+        },
+        {
+          "text": "the",
+          "start": 2.05,
+          "end": 2.09
+        },
+        {
+          "text": "aroma.",
+          "start": 2.05,
+          "end": 2.09
+        }
+      ],
+      "focus": [
+        "linking",
+        "boundary"
+      ],
+      "note": "“Tell it’s good just by” liga fronteiras. Escute o ritmo, depois escreva.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 12018718",
+        "url": "https://tatoeba.org/en/sentences/show/12018718",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-025",
+      "english": "Could you explain to me the meaning of this sentence?",
+      "portuguese": "Você poderia me explicar o significado desta sentença?",
+      "audioUrl": "/audio/tatoeba/11821643.mp3",
+      "start": 0,
+      "end": 2.35,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "Did",
+          "start": 0.01,
+          "end": 1.61
+        },
+        {
+          "text": "you",
+          "start": 2,
+          "end": 2.26
+        },
+        {
+          "text": "explain",
+          "start": 2.31,
+          "end": 2.35
+        },
+        {
+          "text": "to",
+          "start": 2.31,
+          "end": 2.35
+        },
+        {
+          "text": "me",
+          "start": 2.31,
+          "end": 2.35
+        },
+        {
+          "text": "the",
+          "start": 2.31,
+          "end": 2.35
+        },
+        {
+          "text": "meaning",
+          "start": 2.31,
+          "end": 2.35
+        },
+        {
+          "text": "of",
+          "start": 2.31,
+          "end": 2.35
+        },
+        {
+          "text": "this",
+          "start": 2.31,
+          "end": 2.35
+        },
+        {
+          "text": "sentence?",
+          "start": 2.31,
+          "end": 2.35
+        }
+      ],
+      "focus": [
+        "linking",
+        "weak-form"
+      ],
+      "note": "Could you e to me recebem pouca força entre explain e meaning.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 11821643",
+        "url": "https://tatoeba.org/en/sentences/show/11821643",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-026",
+      "english": "If you don't like that, I'll stop.",
+      "portuguese": "Se você não gosta disso, eu paro.",
+      "audioUrl": "/audio/tatoeba/9156440.mp3",
+      "start": 0,
+      "end": 1.07,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "If",
+          "start": 0.01,
+          "end": 0.97
+        },
+        {
+          "text": "you",
+          "start": 1.03,
+          "end": 1.07
+        },
+        {
+          "text": "don't",
+          "start": 1.03,
+          "end": 1.07
+        },
+        {
+          "text": "like",
+          "start": 1.03,
+          "end": 1.07
+        },
+        {
+          "text": "that,",
+          "start": 1.03,
+          "end": 1.07
+        },
+        {
+          "text": "I'll",
+          "start": 1.03,
+          "end": 1.07
+        },
+        {
+          "text": "stop.",
+          "start": 1.03,
+          "end": 1.07
+        }
+      ],
+      "focus": [
+        "contraction",
+        "linking"
+      ],
+      "note": "“If you don’t like that, I’ll stop” depende das contrações para preservar o sentido.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 9156440",
+        "url": "https://tatoeba.org/en/sentences/show/9156440",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-027",
+      "english": "If the Earth were flat, cats would have knocked everything off it by now.",
+      "portuguese": "Se a Terra fosse plana, os gatos já teriam derrubado tudo dela.",
+      "audioUrl": "/audio/tatoeba/9039976.mp3",
+      "start": 0,
+      "end": 2.95,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "If",
+          "start": 0.01,
+          "end": 0.91
+        },
+        {
+          "text": "the",
+          "start": 1.14,
+          "end": 2.37
+        },
+        {
+          "text": "earth",
+          "start": 2.37,
+          "end": 2.86
+        },
+        {
+          "text": "were",
+          "start": 2.91,
+          "end": 2.95
+        },
+        {
+          "text": "flat,",
+          "start": 2.91,
+          "end": 2.95
+        },
+        {
+          "text": "cats",
+          "start": 2.91,
+          "end": 2.95
+        },
+        {
+          "text": "would",
+          "start": 2.91,
+          "end": 2.95
+        },
+        {
+          "text": "have",
+          "start": 2.91,
+          "end": 2.95
+        },
+        {
+          "text": "knocked",
+          "start": 2.91,
+          "end": 2.95
+        },
+        {
+          "text": "everything",
+          "start": 2.91,
+          "end": 2.95
+        },
+        {
+          "text": "off",
+          "start": 2.91,
+          "end": 2.95
+        },
+        {
+          "text": "it",
+          "start": 2.91,
+          "end": 2.95
+        },
+        {
+          "text": "by",
+          "start": 2.91,
+          "end": 2.95
+        },
+        {
+          "text": "now.",
+          "start": 2.91,
+          "end": 2.95
+        }
+      ],
+      "focus": [
+        "contraction",
+        "weak-form"
+      ],
+      "note": "“Would have knocked” pode reduzir. O alvo é recuperar os auxiliares no tempo da frase.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 9039976",
+        "url": "https://tatoeba.org/en/sentences/show/9039976",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-028",
+      "english": "There's no single right way to learn. Whatever works best for you is what's right for you.",
+      "portuguese": "Não existe um único jeito certo de aprender. O que funciona melhor para você é o certo para você.",
+      "audioUrl": "/audio/tatoeba/9399856.mp3",
+      "start": 0,
+      "end": 3.71,
+      "speaker": "Them",
+      "kind": "sentence",
+      "words": [
+        {
+          "text": "There's",
+          "start": 0.01,
+          "end": 2.68
+        },
+        {
+          "text": "no",
+          "start": 2.68,
+          "end": 3.45
+        },
+        {
+          "text": "single",
+          "start": 3.45,
+          "end": 3.63
+        },
+        {
+          "text": "right",
+          "start": 3.67,
+          "end": 3.71
+        },
+        {
+          "text": "way",
+          "start": 3.67,
+          "end": 3.71
+        },
+        {
+          "text": "to",
+          "start": 3.67,
+          "end": 3.71
+        },
+        {
+          "text": "learn.",
+          "start": 3.67,
+          "end": 3.71
+        },
+        {
+          "text": "Whatever",
+          "start": 3.67,
+          "end": 3.71
+        },
+        {
+          "text": "works",
+          "start": 3.67,
+          "end": 3.71
+        },
+        {
+          "text": "best",
+          "start": 3.67,
+          "end": 3.71
+        },
+        {
+          "text": "for",
+          "start": 3.67,
+          "end": 3.71
+        },
+        {
+          "text": "you",
+          "start": 3.67,
+          "end": 3.71
+        },
+        {
+          "text": "is",
+          "start": 3.67,
+          "end": 3.71
+        },
+        {
+          "text": "what's",
+          "start": 3.67,
+          "end": 3.71
+        },
+        {
+          "text": "right",
+          "start": 3.67,
+          "end": 3.71
+        },
+        {
+          "text": "for",
+          "start": 3.67,
+          "end": 3.71
+        },
+        {
+          "text": "you.",
+          "start": 3.67,
+          "end": 3.71
+        }
+      ],
+      "focus": [
+        "recognition",
+        "speed"
+      ],
+      "note": "Ouça “whatever works best for you” como unidade para ganhar continuidade.",
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 9399856",
+        "url": "https://tatoeba.org/en/sentences/show/9399856",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    }
+  ],
+  "lessons": [
+    {
+      "id": "L01",
+      "week": 1,
+      "title": "Seu parser de som",
+      "objective": "Descobrir se o problema está no som, no vocabulário ou no acesso rápido.",
+      "explanation": "Escrever antes de ler revela o que você realmente reconheceu. Não traduza cada palavra; use uma hipótese provisória.",
+      "task": "Depois de revelar, separe “não conhecia” de “conhecia, mas não ouvi”.",
+      "focus": [
+        "boundary",
+        "recognition"
+      ],
+      "clipIds": [
+        "E01",
+        "E03",
+        "TAT-001"
+      ],
+      "transferIds": [
+        "E09"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L02",
+      "week": 1,
+      "title": "Onde uma palavra termina?",
+      "objective": "Encontrar fronteiras no fluxo, usando o contexto acústico.",
+      "explanation": "Não há espaços audíveis entre todas as palavras. Consoantes e vogais vizinhas se juntam; o ritmo ajuda a localizar grupos.",
+      "task": "Faça um loop de duas palavras vizinhas, depois amplie para três ou quatro.",
+      "focus": [
+        "boundary",
+        "linking"
+      ],
+      "clipIds": [
+        "E02",
+        "E07",
+        "TAT-008"
+      ],
+      "transferIds": [
+        "E12"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L03",
+      "week": 1,
+      "title": "Uma voz, várias situações",
+      "objective": "Começar narrow listening com a mesma pessoa.",
+      "explanation": "Repetir uma voz diminui as variáveis: sotaque, ritmo e hábitos reaparecem. Depois é necessário testar outra voz.",
+      "task": "Compare Jeanna falando de computador e de dirigir. Use o filtro por falante na revisão.",
+      "focus": [
+        "recognition",
+        "boundary"
+      ],
+      "clipIds": [
+        "E01",
+        "E10",
+        "E14"
+      ],
+      "transferIds": [
+        "E09",
+        "E13"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L04",
+      "week": 2,
+      "title": "Going to em vez de palavra por palavra",
+      "objective": "Ouvir going to como uma configuração acústica familiar.",
+      "explanation": "Going to pode reduzir para algo próximo de gonna em planos futuros. Uma ida literal a um lugar nem sempre aceita a mesma troca; o contexto importa.",
+      "task": "Escute going to + verbo, repita o chunk e depois a frase em 1×.",
+      "focus": [
+        "reduction"
+      ],
+      "clipIds": [
+        "E15",
+        "E16",
+        "E19"
+      ],
+      "transferIds": [
+        "E20"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L05",
+      "week": 2,
+      "title": "Want to, have to, kind of",
+      "objective": "Reconhecer reduções em chunks cotidianos.",
+      "explanation": "Want to, have to e kind of podem soar compactos. As grafias wanna, hafta e kinda são pistas informais, não transcrições universais.",
+      "task": "Compare a demonstração have to com a mesma construção em conversa espontânea.",
+      "focus": [
+        "reduction",
+        "weak-form"
+      ],
+      "clipIds": [
+        "E24",
+        "E10",
+        "E27"
+      ],
+      "transferIds": [
+        "E28"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L06",
+      "week": 2,
+      "title": "Perguntas compactas",
+      "objective": "Escutar do you e what are you sem esperar pausas.",
+      "explanation": "Perguntas naturais frequentemente unem palavras pequenas. Did you pode assimilar para um som próximo de didja; a forma depende do falante e da situação.",
+      "task": "Localize os auxiliares do e have nos trechos. Anote a forma escrita, sem decorar uma grafia fonética.",
+      "focus": [
+        "boundary",
+        "reduction"
+      ],
+      "clipIds": [
+        "E39",
+        "E40",
+        "TAT-025"
+      ],
+      "transferIds": [
+        "E41",
+        "E42"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L07",
+      "week": 3,
+      "title": "To, for, at e o schwa",
+      "objective": "Ouvir palavras fracas ao redor das sílabas fortes.",
+      "explanation": "Palavras funcionais podem usar /ə/ ou outra vogal reduzida. Não espere o som de uma palavra dita sozinha.",
+      "task": "Faça loop de “for about” ou “for school”, depois compare com a frase inteira.",
+      "focus": [
+        "weak-form"
+      ],
+      "clipIds": [
+        "E06",
+        "E25",
+        "TAT-016"
+      ],
+      "transferIds": [
+        "E42",
+        "E05"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L08",
+      "week": 3,
+      "title": "Can e negação",
+      "objective": "Recuperar can, cannot e can’t pelo som e pelo contexto.",
+      "explanation": "Can pode ser fraco. A negação pode ser curta e o t nem sempre tem soltura audível; volume ou uma única regra não bastam.",
+      "task": "Transcreva os auxiliares: um not perdido muda todo o sentido.",
+      "focus": [
+        "weak-form",
+        "phoneme"
+      ],
+      "clipIds": [
+        "TAT-015",
+        "TAT-022",
+        "E22"
+      ],
+      "transferIds": [
+        "TAT-017"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L09",
+      "week": 3,
+      "title": "Pronomes que parecem desaparecer",
+      "objective": "Reconhecer her, him, you e and no fluxo.",
+      "explanation": "Pronomes e and podem perder força. Em fala conectada, a transição é parte da pista, mesmo quando uma consoante perde destaque.",
+      "task": "Selecione o verbo junto ao pronome, nunca só uma consoante isolada.",
+      "focus": [
+        "weak-form",
+        "linking"
+      ],
+      "clipIds": [
+        "TAT-006",
+        "TAT-007",
+        "TAT-019"
+      ],
+      "transferIds": [
+        "E41",
+        "E42"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L10",
+      "week": 4,
+      "title": "Consoante encontra vogal",
+      "objective": "Seguir ligações como get up, take it e got into.",
+      "explanation": "O fim de uma palavra se conecta ao início da próxima; a nova fronteira percebida pode parecer diferente da escrita.",
+      "task": "Escute duas palavras com a ligação, depois amplie para o chunk.",
+      "focus": [
+        "linking",
+        "boundary"
+      ],
+      "clipIds": [
+        "E25",
+        "E19",
+        "TAT-009"
+      ],
+      "transferIds": [
+        "TAT-024"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L11",
+      "week": 4,
+      "title": "Contrações que mudam o ditado",
+      "objective": "Recuperar I’ve, I’ll e I’d com os verbos vizinhos.",
+      "explanation": "Uma contração não precisa aparecer em forma contraída na resposta para estar correta, mas o auxiliar deve ser recuperado. I’d pode ser I had ou I would conforme o contexto.",
+      "task": "Confira “I have had” e “I would love”. Evite tirar o auxiliar só porque o sentido parece igual.",
+      "focus": [
+        "contraction"
+      ],
+      "clipIds": [
+        "E06",
+        "E18",
+        "E21"
+      ],
+      "transferIds": [
+        "TAT-026"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L12",
+      "week": 4,
+      "title": "Would have e might have",
+      "objective": "Encontrar have quando ele recebe pouca força.",
+      "explanation": "Would have, might have e would have been cabem em pouco tempo. Observe a sequência, sem adicionar pausas artificiais.",
+      "task": "Vá da demonstração de would you have para as falas de Adam.",
+      "focus": [
+        "contraction",
+        "weak-form"
+      ],
+      "clipIds": [
+        "E29",
+        "E30",
+        "E35"
+      ],
+      "transferIds": [
+        "E32"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L13",
+      "week": 5,
+      "title": "Vogais altas: ship / sheep",
+      "objective": "Diferenciar /ɪ/ e /iː/ e voltar às frases.",
+      "explanation": "Essas vogais podem ser assimiladas à mesma categoria do português. A qualidade da vogal, além da duração, ajuda a distinguir.",
+      "task": "Compare ship/sheep no laboratório e depois escute as vogais em frases.",
+      "focus": [
+        "phoneme"
+      ],
+      "clipIds": [
+        "TAT-003",
+        "TAT-005",
+        "E25"
+      ],
+      "transferIds": [
+        "TAT-020"
+      ],
+      "pairIds": [
+        "high-front"
+      ]
+    },
+    {
+      "id": "L14",
+      "week": 5,
+      "title": "Full / fool e bed / bad",
+      "objective": "Refinar /ʊ, uː/ e /ɛ, æ/ em escuta.",
+      "explanation": "Os pares isolados tornam a diferença mais visível ao ouvido. As gravações podem ter vozes diferentes; depois volte ao contexto.",
+      "task": "Compare as gravações e procure a vogal de good e bad dentro da frase.",
+      "focus": [
+        "phoneme"
+      ],
+      "clipIds": [
+        "TAT-011",
+        "TAT-014",
+        "E38"
+      ],
+      "transferIds": [
+        "E08"
+      ],
+      "pairIds": [
+        "high-back",
+        "front-low"
+      ]
+    },
+    {
+      "id": "L15",
+      "week": 5,
+      "title": "Cat / cut e ritmo de palavras",
+      "objective": "Distinguir /æ/ de /ʌ/ sem depender da escrita.",
+      "explanation": "Essas vogais não se encaixam perfeitamente nas categorias do português. O contraste é um alvo de treino, não uma medida de inteligência ou nível geral.",
+      "task": "Faça o teste cat/cut e ouça as palavras de conteúdo das frases em 1×.",
+      "focus": [
+        "phoneme",
+        "recognition"
+      ],
+      "clipIds": [
+        "TAT-013",
+        "TAT-023",
+        "E22"
+      ],
+      "transferIds": [
+        "E09"
+      ],
+      "pairIds": [
+        "low-vowels"
+      ]
+    },
+    {
+      "id": "L16",
+      "week": 6,
+      "title": "TH no fluxo",
+      "objective": "Perceber /θ/ e /ð/ junto das palavras vizinhas.",
+      "explanation": "TH pode ser substituído mentalmente por t, d, f ou s. Em contexto, procure o início da palavra e a passagem para a vogal.",
+      "task": "Compare thin/tin e then/den. Depois encontre think, then e their nas frases.",
+      "focus": [
+        "phoneme",
+        "linking"
+      ],
+      "clipIds": [
+        "E11",
+        "E23",
+        "TAT-002"
+      ],
+      "transferIds": [
+        "E31"
+      ],
+      "pairIds": [
+        "th-voiceless",
+        "th-voiced"
+      ]
+    },
+    {
+      "id": "L17",
+      "week": 6,
+      "title": "Finais e encontros consonantais",
+      "objective": "Ouvir worked, gloves e sports clubs sem vogais extras.",
+      "explanation": "O português restringe mais as consoantes finais. Não espere uma vogal depois de toda consoante; a soltura de uma oclusiva pode ser discreta.",
+      "task": "Faça loops com a palavra e a seguinte: worked for, used gloves, sports clubs.",
+      "focus": [
+        "phoneme",
+        "boundary"
+      ],
+      "clipIds": [
+        "TAT-003",
+        "TAT-004",
+        "E33"
+      ],
+      "transferIds": [
+        "TAT-018"
+      ],
+      "pairIds": [
+        "final-voicing"
+      ]
+    },
+    {
+      "id": "L18",
+      "week": 6,
+      "title": "T e D nas transições",
+      "objective": "Reconhecer t/d em ligação, redução e fala americana.",
+      "explanation": "T ou d podem mudar de realização entre sons; não há uma correspondência rígida com a letra. O flap americano pode lembrar um toque breve.",
+      "task": "Compare get up, take it e got into. Não force um flap se o falante não o usar.",
+      "focus": [
+        "linking",
+        "phoneme"
+      ],
+      "clipIds": [
+        "E25",
+        "E19",
+        "TAT-009"
+      ],
+      "transferIds": [
+        "E34"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L19",
+      "week": 7,
+      "title": "Conhecer não é reconhecer",
+      "objective": "Separar palavra desconhecida de palavra conhecida que escapou.",
+      "explanation": "Se a palavra era óbvia ao ler, registre reconhecimento. Se você não sabia seu sentido, registre vocabulário. As duas causas pedem prática diferente.",
+      "task": "Depois do ditado, marque a causa e deixe o reforço priorizar seus registros.",
+      "focus": [
+        "recognition",
+        "vocabulary"
+      ],
+      "clipIds": [
+        "TAT-012",
+        "TAT-025",
+        "E30"
+      ],
+      "transferIds": [
+        "E09",
+        "E31"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L20",
+      "week": 7,
+      "title": "Chunks e acesso rápido",
+      "objective": "Reconhecer unidades de sentido antes de traduzir.",
+      "explanation": "Acesso lento a uma palavra conhecida pode fazer você perder o restante. Repetições em contexto ajudam a testar se o reconhecimento fica mais rápido.",
+      "task": "Reconheça would have been e keep in touch de uma vez; depois acompanhe o restante.",
+      "focus": [
+        "speed",
+        "recognition"
+      ],
+      "clipIds": [
+        "E35",
+        "E02",
+        "TAT-027"
+      ],
+      "transferIds": [
+        "E36"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L21",
+      "week": 7,
+      "title": "Mais fluxo, menos cliques",
+      "objective": "Sustentar a escuta ao mudar de trecho.",
+      "explanation": "A fila automática inicia o áudio seguinte depois de salvar seu teste. O novo trecho começa sem legenda; você ainda escolhe quando revelar.",
+      "task": "Ative o fluxo contínuo e registre o que ficou difícil quando a próxima frase começou.",
+      "focus": [
+        "speed",
+        "boundary"
+      ],
+      "clipIds": [
+        "E04",
+        "E07",
+        "TAT-028"
+      ],
+      "transferIds": [
+        "E08",
+        "E09"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L22",
+      "week": 8,
+      "title": "Revisão surpresa de verdade",
+      "objective": "Medir reconhecimento sem texto em outro dia.",
+      "explanation": "Acertar depois de ler é útil, mas não prova retenção. As revisões entram na fila e o resultado tardio é separado do teste imediato.",
+      "task": "Abra as revisões vencidas antes de reler qualquer frase. Se não houver, faça esta prática e volte amanhã.",
+      "focus": [
+        "recognition",
+        "contraction"
+      ],
+      "clipIds": [
+        "E06",
+        "E30",
+        "TAT-019"
+      ],
+      "transferIds": [
+        "E37"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L23",
+      "week": 8,
+      "title": "Outra voz, outro contexto",
+      "objective": "Verificar se o padrão aprendido aparece em trechos novos.",
+      "explanation": "O treino com uma voz precisa de transferência. Os testes usam recortes reservados; depois que você os estudou, deixam de ser inéditos.",
+      "task": "Use “Teste em trecho novo”. Registre o ditado antes de revelar, mesmo se você entender só parte.",
+      "focus": [
+        "speed",
+        "weak-form"
+      ],
+      "clipIds": [
+        "E10",
+        "E24",
+        "TAT-015"
+      ],
+      "transferIds": [
+        "E32",
+        "E36",
+        "E37"
+      ],
+      "pairIds": []
+    },
+    {
+      "id": "L24",
+      "week": 8,
+      "title": "Sua rotina daqui em diante",
+      "objective": "Combinar reforço adaptativo, narrow listening e prazer.",
+      "explanation": "Use seus registros para escolher os alvos. Mantenha áudio curto para análise e conversas completas para exposição e continuidade.",
+      "task": "Faça reforço dos seus erros, revise sem texto e ouça uma conversa inteira com a mesma pessoa.",
+      "focus": [
+        "recognition",
+        "speed"
+      ],
+      "clipIds": [
+        "E01",
+        "E35",
+        "TAT-027"
+      ],
+      "transferIds": [
+        "E31",
+        "E34"
+      ],
+      "pairIds": []
+    }
+  ],
+  "pairs": [
+    {
+      "id": "high-front",
+      "label": "ship / sheep · /ɪ/ ↔ /iː/",
+      "tip": "A vogal de ship costuma ser mais relaxada; em sheep, a língua fica mais alta e a vogal pode durar mais. Compare a qualidade, não só o tempo.",
+      "words": [
+        {
+          "text": "ship",
+          "audioUrl": "/audio/commons/ship.ogg",
+          "source": {
+            "publisher": "Wikimedia Commons",
+            "title": "ship",
+            "url": "https://commons.wikimedia.org/wiki/File:En-us-ship.ogg",
+            "contributor": "Dvortygirl",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/En-us-ship.ogg"
+          }
+        },
+        {
+          "text": "sheep",
+          "audioUrl": "/audio/commons/sheep.ogg",
+          "source": {
+            "publisher": "Wikimedia Commons",
+            "title": "sheep",
+            "url": "https://commons.wikimedia.org/wiki/File:En-us-sheep.ogg",
+            "contributor": "Dvortygirl",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/En-us-sheep.ogg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "high-back",
+      "label": "full / fool · /ʊ/ ↔ /uː/",
+      "tip": "Full e fool usam vogais diferentes. As duas gravações são de vozes diferentes; concentre-se na vogal e depois procure esse contraste em frases.",
+      "words": [
+        {
+          "text": "full",
+          "audioUrl": "/audio/commons/full.ogg",
+          "source": {
+            "publisher": "Wikimedia Commons",
+            "title": "full",
+            "url": "https://commons.wikimedia.org/wiki/File:En-us-full.ogg",
+            "contributor": "Dvortygirl",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/En-us-full.ogg"
+          }
+        },
+        {
+          "text": "fool",
+          "audioUrl": "/audio/commons/fool.wav",
+          "source": {
+            "publisher": "Wikimedia Commons",
+            "title": "fool",
+            "url": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Vealhurl-fool.wav",
+            "contributor": "Speaker: Vealhurl\nRecorder: Vealhurl",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/LL-Q1860_%28eng%29-Vealhurl-fool.wav",
+            "localAudioUrl": "/audio/commons/fool.wav"
+          }
+        }
+      ]
+    },
+    {
+      "id": "front-low",
+      "label": "bed / bad · /ɛ/ ↔ /æ/",
+      "tip": "Bad pede uma abertura diferente de bed. Ouça a vogal em vez de decidir pela grafia.",
+      "words": [
+        {
+          "text": "bed",
+          "audioUrl": "/audio/commons/bed.ogg",
+          "source": {
+            "publisher": "Wikimedia Commons",
+            "title": "bed",
+            "url": "https://commons.wikimedia.org/wiki/File:En-us-bed.ogg",
+            "contributor": "Dvortygirl",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/En-us-bed.ogg",
+            "localAudioUrl": "/audio/commons/bed.ogg"
+          }
+        },
+        {
+          "text": "bad",
+          "audioUrl": "/audio/commons/bad.ogg",
+          "source": {
+            "publisher": "Wikimedia Commons",
+            "title": "bad",
+            "url": "https://commons.wikimedia.org/wiki/File:En-us-bad.ogg",
+            "contributor": "Dvortygirl",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/En-us-bad.ogg",
+            "localAudioUrl": "/audio/commons/bad.ogg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "low-vowels",
+      "label": "cat / cut · /æ/ ↔ /ʌ/",
+      "tip": "As duas vogais podem parecer um “a” do português. Compare posição e qualidade nas gravações.",
+      "words": [
+        {
+          "text": "cat",
+          "audioUrl": "/audio/commons/cat.ogg",
+          "source": {
+            "publisher": "Wikimedia Commons",
+            "title": "cat",
+            "url": "https://commons.wikimedia.org/wiki/File:En-us-cat.ogg",
+            "contributor": "Dvortygirl",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/En-us-cat.ogg",
+            "localAudioUrl": "/audio/commons/cat.ogg"
+          }
+        },
+        {
+          "text": "cut",
+          "audioUrl": "/audio/commons/cut.ogg",
+          "source": {
+            "publisher": "Wikimedia Commons",
+            "title": "cut",
+            "url": "https://commons.wikimedia.org/wiki/File:En-us-cut.ogg",
+            "contributor": "Dvortygirl",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/En-us-cut.ogg",
+            "localAudioUrl": "/audio/commons/cut.ogg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-voiceless",
+      "label": "thin / tin · /θ/ ↔ /t/",
+      "tip": "Thin começa com fricção entre língua e dentes; tin começa com uma oclusiva. Ouça com a vogal seguinte.",
+      "words": [
+        {
+          "text": "thin",
+          "audioUrl": "/audio/commons/thin.ogg",
+          "source": {
+            "publisher": "Wikimedia Commons",
+            "title": "thin",
+            "url": "https://commons.wikimedia.org/wiki/File:En-us-thin.ogg",
+            "contributor": "Muke (upload)",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/File:En-us-thin.ogg#Licensing",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/En-us-thin.ogg",
+            "localAudioUrl": "/audio/commons/thin.ogg"
+          }
+        },
+        {
+          "text": "tin",
+          "audioUrl": "/audio/commons/tin.ogg",
+          "source": {
+            "publisher": "Wikimedia Commons",
+            "title": "tin",
+            "url": "https://commons.wikimedia.org/wiki/File:En-us-tin.ogg",
+            "contributor": "No machine-readable author provided. Dvortygirl assumed (based on copyright claims).",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/En-us-tin.ogg",
+            "localAudioUrl": "/audio/commons/tin.ogg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "th-voiced",
+      "label": "then / den · /ð/ ↔ /d/",
+      "tip": "No início de then há fricção sonora; den começa com uma oclusiva. Observe a passagem para a vogal.",
+      "words": [
+        {
+          "text": "then",
+          "audioUrl": "/audio/commons/then.ogg",
+          "source": {
+            "publisher": "Wikimedia Commons",
+            "title": "then",
+            "url": "https://commons.wikimedia.org/wiki/File:En-us-then.ogg",
+            "contributor": "Dvortygirl",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/En-us-then.ogg",
+            "localAudioUrl": "/audio/commons/then.ogg"
+          }
+        },
+        {
+          "text": "den",
+          "audioUrl": "/audio/commons/den.ogg",
+          "source": {
+            "publisher": "Wikimedia Commons",
+            "title": "den",
+            "url": "https://commons.wikimedia.org/wiki/File:En-us-den.ogg",
+            "contributor": "Neskaya",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/En-us-den.ogg",
+            "localAudioUrl": "/audio/commons/den.ogg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "final-voicing",
+      "label": "bag / back · /ɡ/ ↔ /k/",
+      "tip": "Não dependa só de uma soltura forte no final. Ouça a vogal anterior e as pistas da consoante final.",
+      "words": [
+        {
+          "text": "bag",
+          "audioUrl": "/audio/commons/bag.ogg",
+          "source": {
+            "publisher": "Wikimedia Commons",
+            "title": "bag",
+            "url": "https://commons.wikimedia.org/wiki/File:En-us-bag.ogg",
+            "contributor": "Dvortygirl",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/En-us-bag.ogg",
+            "localAudioUrl": "/audio/commons/bag.ogg"
+          }
+        },
+        {
+          "text": "back",
+          "audioUrl": "/audio/commons/back.ogg",
+          "source": {
+            "publisher": "Wikimedia Commons",
+            "title": "back",
+            "url": "https://commons.wikimedia.org/wiki/File:En-us-back.ogg",
+            "contributor": "Dvortygirl",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/En-us-back.ogg",
+            "localAudioUrl": "/audio/commons/back.ogg"
+          }
+        }
+      ]
+    }
+  ]
+}

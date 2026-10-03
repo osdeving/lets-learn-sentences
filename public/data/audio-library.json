@@ -1,0 +1,1956 @@
+{
+  "meta": {
+    "title": "Biblioteca de áudio humano",
+    "count": 28,
+    "schemaVersion": 1
+  },
+  "clips": [
+    {
+      "id": "TAT-001",
+      "english": "I knew what I wanted to say, but I couldn't say it.",
+      "portuguese": "Eu sabia o que queria dizer, mas não consegui dizer.",
+      "level": "B1",
+      "audioUrl": "/audio/tatoeba/9195573.mp3",
+      "duration": 2.09,
+      "tags": [
+        "estrutura avançada",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "I",
+          "start": 0.02,
+          "end": 0.69
+        },
+        {
+          "text": "knew",
+          "start": 0.69,
+          "end": 1.93
+        },
+        {
+          "text": "what",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "I",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "wanted",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "to",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "say,",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "but",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "I",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "couldn't",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "say",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "it.",
+          "start": 2.07,
+          "end": 2.23
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 9195573",
+        "url": "https://tatoeba.org/en/sentences/show/9195573",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-002",
+      "english": "That is not what I said at all.",
+      "portuguese": "Não foi isso que eu disse.",
+      "level": "B1",
+      "audioUrl": "/audio/tatoeba/4678282.mp3",
+      "duration": 1.49,
+      "tags": [
+        "fala cotidiana",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "That",
+          "start": 0.03,
+          "end": 1.36
+        },
+        {
+          "text": "is",
+          "start": 1.47,
+          "end": 1.63
+        },
+        {
+          "text": "not",
+          "start": 1.47,
+          "end": 1.63
+        },
+        {
+          "text": "what",
+          "start": 1.47,
+          "end": 1.63
+        },
+        {
+          "text": "I",
+          "start": 1.47,
+          "end": 1.63
+        },
+        {
+          "text": "said",
+          "start": 1.47,
+          "end": 1.63
+        },
+        {
+          "text": "at",
+          "start": 1.47,
+          "end": 1.63
+        },
+        {
+          "text": "all.",
+          "start": 1.47,
+          "end": 1.63
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 4678282",
+        "url": "https://tatoeba.org/en/sentences/show/4678282",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-003",
+      "english": "I worked for two years selling books.",
+      "portuguese": "Trabalhei por dois anos vendendo livros.",
+      "level": "B1",
+      "audioUrl": "/audio/tatoeba/13528379.mp3",
+      "duration": 3.22,
+      "tags": [
+        "estrutura avançada",
+        "rul"
+      ],
+      "words": [
+        {
+          "text": "I",
+          "start": 0.94,
+          "end": 1.0999999999999999
+        },
+        {
+          "text": "worked",
+          "start": 1.07,
+          "end": 2.24
+        },
+        {
+          "text": "for",
+          "start": 3.21,
+          "end": 3.37
+        },
+        {
+          "text": "two",
+          "start": 3.21,
+          "end": 3.37
+        },
+        {
+          "text": "years",
+          "start": 3.21,
+          "end": 3.37
+        },
+        {
+          "text": "on",
+          "start": 3.21,
+          "end": 3.37
+        },
+        {
+          "text": "books.",
+          "start": 3.21,
+          "end": 3.37
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 13528379",
+        "url": "https://tatoeba.org/en/sentences/show/13528379",
+        "contributor": "rul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-004",
+      "english": "I used gloves, and yet I still burned myself.",
+      "portuguese": "Usei luvas e, mesmo assim, ainda me queimei.",
+      "level": "B1",
+      "audioUrl": "/audio/tatoeba/9695900.mp3",
+      "duration": 3.24,
+      "tags": [
+        "fala cotidiana",
+        "rul"
+      ],
+      "words": [
+        {
+          "text": "I",
+          "start": 0.53,
+          "end": 0.79
+        },
+        {
+          "text": "used",
+          "start": 0.79,
+          "end": 2.48
+        },
+        {
+          "text": "gloves",
+          "start": 3.22,
+          "end": 3.3800000000000003
+        },
+        {
+          "text": "and",
+          "start": 3.22,
+          "end": 3.3800000000000003
+        },
+        {
+          "text": "yet",
+          "start": 3.22,
+          "end": 3.3800000000000003
+        },
+        {
+          "text": "I",
+          "start": 3.22,
+          "end": 3.3800000000000003
+        },
+        {
+          "text": "still",
+          "start": 3.22,
+          "end": 3.3800000000000003
+        },
+        {
+          "text": "burned",
+          "start": 3.22,
+          "end": 3.3800000000000003
+        },
+        {
+          "text": "myself.",
+          "start": 3.22,
+          "end": 3.3800000000000003
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 9695900",
+        "url": "https://tatoeba.org/en/sentences/show/9695900",
+        "contributor": "rul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-005",
+      "english": "You will definitely like it here.",
+      "portuguese": "Você com certeza vai gostar daqui.",
+      "level": "B1",
+      "audioUrl": "/audio/tatoeba/8945367.mp3",
+      "duration": 2.22,
+      "tags": [
+        "estrutura avançada",
+        "rul"
+      ],
+      "words": [
+        {
+          "text": "You",
+          "start": 0.52,
+          "end": 1.59
+        },
+        {
+          "text": "will",
+          "start": 2.2,
+          "end": 2.3600000000000003
+        },
+        {
+          "text": "definitely",
+          "start": 2.2,
+          "end": 2.3600000000000003
+        },
+        {
+          "text": "like",
+          "start": 2.2,
+          "end": 2.3600000000000003
+        },
+        {
+          "text": "it",
+          "start": 2.2,
+          "end": 2.3600000000000003
+        },
+        {
+          "text": "here.",
+          "start": 2.2,
+          "end": 2.3600000000000003
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 8945367",
+        "url": "https://tatoeba.org/en/sentences/show/8945367",
+        "contributor": "rul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-006",
+      "english": "It's better not to say anything about either him or her.",
+      "portuguese": "É melhor não dizer nada sobre nenhum dos dois.",
+      "level": "B1",
+      "audioUrl": "/audio/tatoeba/10523663.mp3",
+      "duration": 2.46,
+      "tags": [
+        "fala cotidiana",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "It's",
+          "start": 0.03,
+          "end": 2.33
+        },
+        {
+          "text": "better",
+          "start": 2.44,
+          "end": 2.6
+        },
+        {
+          "text": "not",
+          "start": 2.44,
+          "end": 2.6
+        },
+        {
+          "text": "to",
+          "start": 2.44,
+          "end": 2.6
+        },
+        {
+          "text": "say",
+          "start": 2.44,
+          "end": 2.6
+        },
+        {
+          "text": "anything",
+          "start": 2.44,
+          "end": 2.6
+        },
+        {
+          "text": "about",
+          "start": 2.44,
+          "end": 2.6
+        },
+        {
+          "text": "either",
+          "start": 2.44,
+          "end": 2.6
+        },
+        {
+          "text": "him",
+          "start": 2.44,
+          "end": 2.6
+        },
+        {
+          "text": "or",
+          "start": 2.44,
+          "end": 2.6
+        },
+        {
+          "text": "her.",
+          "start": 2.44,
+          "end": 2.6
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 10523663",
+        "url": "https://tatoeba.org/en/sentences/show/10523663",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-007",
+      "english": "I don't know how to tell her.",
+      "portuguese": "Não sei como contar a ela.",
+      "level": "B1",
+      "audioUrl": "/audio/tatoeba/9474028.mp3",
+      "duration": 0.94,
+      "tags": [
+        "estrutura avançada",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "I",
+          "start": 0.01,
+          "end": 0.83
+        },
+        {
+          "text": "don't",
+          "start": 0.92,
+          "end": 1.08
+        },
+        {
+          "text": "know",
+          "start": 0.92,
+          "end": 1.08
+        },
+        {
+          "text": "how",
+          "start": 0.92,
+          "end": 1.08
+        },
+        {
+          "text": "to",
+          "start": 0.92,
+          "end": 1.08
+        },
+        {
+          "text": "tell",
+          "start": 0.92,
+          "end": 1.08
+        },
+        {
+          "text": "her.",
+          "start": 0.92,
+          "end": 1.08
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 9474028",
+        "url": "https://tatoeba.org/en/sentences/show/9474028",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-008",
+      "english": "I really had a good time at her party.",
+      "portuguese": "Eu realmente me diverti na festa dela.",
+      "level": "B1",
+      "audioUrl": "/audio/tatoeba/10539135.mp3",
+      "duration": 1.91,
+      "tags": [
+        "fala cotidiana",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "I",
+          "start": 0.07,
+          "end": 0.81
+        },
+        {
+          "text": "really",
+          "start": 0.97,
+          "end": 1.78
+        },
+        {
+          "text": "had",
+          "start": 1.89,
+          "end": 2.05
+        },
+        {
+          "text": "a",
+          "start": 1.89,
+          "end": 2.05
+        },
+        {
+          "text": "good",
+          "start": 1.89,
+          "end": 2.05
+        },
+        {
+          "text": "time",
+          "start": 1.89,
+          "end": 2.05
+        },
+        {
+          "text": "at",
+          "start": 1.89,
+          "end": 2.05
+        },
+        {
+          "text": "her",
+          "start": 1.89,
+          "end": 2.05
+        },
+        {
+          "text": "party.",
+          "start": 1.89,
+          "end": 2.05
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 10539135",
+        "url": "https://tatoeba.org/en/sentences/show/10539135",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-009",
+      "english": "I got into astronomy because of my partner.",
+      "portuguese": "Passei a gostar de astronomia por causa do meu par.",
+      "level": "B2",
+      "audioUrl": "/audio/tatoeba/11169922.mp3",
+      "duration": 2.19,
+      "tags": [
+        "estrutura avançada",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "I",
+          "start": 0.01,
+          "end": 0.79
+        },
+        {
+          "text": "got",
+          "start": 0.79,
+          "end": 2.07
+        },
+        {
+          "text": "into",
+          "start": 2.18,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "astronomy",
+          "start": 2.18,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "because",
+          "start": 2.18,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "of",
+          "start": 2.18,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "my",
+          "start": 2.18,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "partner.",
+          "start": 2.18,
+          "end": 2.3400000000000003
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 11169922",
+        "url": "https://tatoeba.org/en/sentences/show/11169922",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-010",
+      "english": "I wish you would stop making fun of me.",
+      "portuguese": "Queria que você parasse de zombar de mim.",
+      "level": "B2",
+      "audioUrl": "/audio/tatoeba/9593201.mp3",
+      "duration": 1.59,
+      "tags": [
+        "fala cotidiana",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "I",
+          "start": 0.03,
+          "end": 0.88
+        },
+        {
+          "text": "wish",
+          "start": 0.88,
+          "end": 1.51
+        },
+        {
+          "text": "you",
+          "start": 1.58,
+          "end": 1.74
+        },
+        {
+          "text": "would",
+          "start": 1.58,
+          "end": 1.74
+        },
+        {
+          "text": "start",
+          "start": 1.58,
+          "end": 1.74
+        },
+        {
+          "text": "making",
+          "start": 1.58,
+          "end": 1.74
+        },
+        {
+          "text": "fun",
+          "start": 1.58,
+          "end": 1.74
+        },
+        {
+          "text": "of",
+          "start": 1.58,
+          "end": 1.74
+        },
+        {
+          "text": "me.",
+          "start": 1.58,
+          "end": 1.74
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 9593201",
+        "url": "https://tatoeba.org/en/sentences/show/9593201",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-011",
+      "english": "I wouldn't say it's wrong, but it's not really good.",
+      "portuguese": "Eu não diria que está errado, mas também não está muito bom.",
+      "level": "B2",
+      "audioUrl": "/audio/tatoeba/12203391.mp3",
+      "duration": 3.06,
+      "tags": [
+        "estrutura avançada",
+        "rul"
+      ],
+      "words": [
+        {
+          "text": "I",
+          "start": 0.53,
+          "end": 0.6900000000000001
+        },
+        {
+          "text": "wouldn't",
+          "start": 0.65,
+          "end": 3.2
+        },
+        {
+          "text": "say",
+          "start": 3.04,
+          "end": 3.2
+        },
+        {
+          "text": "it's",
+          "start": 3.04,
+          "end": 3.2
+        },
+        {
+          "text": "wrong,",
+          "start": 3.04,
+          "end": 3.2
+        },
+        {
+          "text": "but",
+          "start": 3.04,
+          "end": 3.2
+        },
+        {
+          "text": "it's",
+          "start": 3.04,
+          "end": 3.2
+        },
+        {
+          "text": "not",
+          "start": 3.04,
+          "end": 3.2
+        },
+        {
+          "text": "really",
+          "start": 3.04,
+          "end": 3.2
+        },
+        {
+          "text": "good.",
+          "start": 3.04,
+          "end": 3.2
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 12203391",
+        "url": "https://tatoeba.org/en/sentences/show/12203391",
+        "contributor": "rul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-012",
+      "english": "It's a phrasebook, and it will help you communicate.",
+      "portuguese": "É um livro de frases e vai ajudar você a se comunicar.",
+      "level": "B2",
+      "audioUrl": "/audio/tatoeba/10696172.mp3",
+      "duration": 2.04,
+      "tags": [
+        "fala cotidiana",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "It's",
+          "start": 0.02,
+          "end": 1.95
+        },
+        {
+          "text": "a",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "phrase",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "book",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "and",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "it",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "will",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "help",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "you",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "communicate.",
+          "start": 2.02,
+          "end": 2.18
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 10696172",
+        "url": "https://tatoeba.org/en/sentences/show/10696172",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-013",
+      "english": "How much time have we got left?",
+      "portuguese": "Quanto tempo ainda temos?",
+      "level": "B2",
+      "audioUrl": "/audio/tatoeba/4115821.mp3",
+      "duration": 1.15,
+      "tags": [
+        "estrutura avançada",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "How",
+          "start": 0.01,
+          "end": 1.05
+        },
+        {
+          "text": "much",
+          "start": 1.13,
+          "end": 1.2899999999999998
+        },
+        {
+          "text": "time",
+          "start": 1.13,
+          "end": 1.2899999999999998
+        },
+        {
+          "text": "have",
+          "start": 1.13,
+          "end": 1.2899999999999998
+        },
+        {
+          "text": "we",
+          "start": 1.13,
+          "end": 1.2899999999999998
+        },
+        {
+          "text": "got",
+          "start": 1.13,
+          "end": 1.2899999999999998
+        },
+        {
+          "text": "left?",
+          "start": 1.13,
+          "end": 1.2899999999999998
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 4115821",
+        "url": "https://tatoeba.org/en/sentences/show/4115821",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-014",
+      "english": "Even though I'm not good at it, I make sure to do it the best I can.",
+      "portuguese": "Embora eu não seja bom nisso, faço questão de dar o meu melhor.",
+      "level": "B2",
+      "audioUrl": "/audio/tatoeba/9189236.mp3",
+      "duration": 2.87,
+      "tags": [
+        "fala cotidiana",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "Even",
+          "start": 0.02,
+          "end": 2.18
+        },
+        {
+          "text": "though",
+          "start": 2.18,
+          "end": 2.78
+        },
+        {
+          "text": "I'm",
+          "start": 2.86,
+          "end": 3.02
+        },
+        {
+          "text": "not",
+          "start": 2.86,
+          "end": 3.02
+        },
+        {
+          "text": "good",
+          "start": 2.86,
+          "end": 3.02
+        },
+        {
+          "text": "at",
+          "start": 2.86,
+          "end": 3.02
+        },
+        {
+          "text": "it,",
+          "start": 2.86,
+          "end": 3.02
+        },
+        {
+          "text": "I",
+          "start": 2.86,
+          "end": 3.02
+        },
+        {
+          "text": "make",
+          "start": 2.86,
+          "end": 3.02
+        },
+        {
+          "text": "sure",
+          "start": 2.86,
+          "end": 3.02
+        },
+        {
+          "text": "to",
+          "start": 2.86,
+          "end": 3.02
+        },
+        {
+          "text": "do",
+          "start": 2.86,
+          "end": 3.02
+        },
+        {
+          "text": "it",
+          "start": 2.86,
+          "end": 3.02
+        },
+        {
+          "text": "the",
+          "start": 2.86,
+          "end": 3.02
+        },
+        {
+          "text": "best",
+          "start": 2.86,
+          "end": 3.02
+        },
+        {
+          "text": "I",
+          "start": 2.86,
+          "end": 3.02
+        },
+        {
+          "text": "can.",
+          "start": 2.86,
+          "end": 3.02
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 9189236",
+        "url": "https://tatoeba.org/en/sentences/show/9189236",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-015",
+      "english": "Can you check whether they can be trusted?",
+      "portuguese": "Você pode verificar se eles são confiáveis?",
+      "level": "B2",
+      "audioUrl": "/audio/tatoeba/10696176.mp3",
+      "duration": 1.54,
+      "tags": [
+        "estrutura avançada",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "Can",
+          "start": 0.03,
+          "end": 1.44
+        },
+        {
+          "text": "you",
+          "start": 1.52,
+          "end": 1.68
+        },
+        {
+          "text": "check",
+          "start": 1.52,
+          "end": 1.68
+        },
+        {
+          "text": "whether",
+          "start": 1.52,
+          "end": 1.68
+        },
+        {
+          "text": "they",
+          "start": 1.52,
+          "end": 1.68
+        },
+        {
+          "text": "can",
+          "start": 1.52,
+          "end": 1.68
+        },
+        {
+          "text": "be",
+          "start": 1.52,
+          "end": 1.68
+        },
+        {
+          "text": "trusted?",
+          "start": 1.52,
+          "end": 1.68
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 10696176",
+        "url": "https://tatoeba.org/en/sentences/show/10696176",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-016",
+      "english": "It could be hard to start your own business.",
+      "portuguese": "Pode ser difícil abrir seu próprio negócio.",
+      "level": "B2",
+      "audioUrl": "/audio/tatoeba/10752856.mp3",
+      "duration": 2.04,
+      "tags": [
+        "fala cotidiana",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "It",
+          "start": 0.03,
+          "end": 1.56
+        },
+        {
+          "text": "could",
+          "start": 1.57,
+          "end": 1.94
+        },
+        {
+          "text": "be",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "hard",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "to",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "start",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "your",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "own",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "business.",
+          "start": 2.02,
+          "end": 2.18
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 10752856",
+        "url": "https://tatoeba.org/en/sentences/show/10752856",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-017",
+      "english": "You cannot take back what you have said.",
+      "portuguese": "Você não pode retirar o que disse.",
+      "level": "B2",
+      "audioUrl": "/audio/tatoeba/239714.mp3",
+      "duration": 2.19,
+      "tags": [
+        "estrutura avançada",
+        "rul"
+      ],
+      "words": [
+        {
+          "text": "You",
+          "start": 0.01,
+          "end": 1.57
+        },
+        {
+          "text": "cannot",
+          "start": 2.18,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "take",
+          "start": 2.18,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "back",
+          "start": 2.18,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "what",
+          "start": 2.18,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "you",
+          "start": 2.18,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "have",
+          "start": 2.18,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "said.",
+          "start": 2.18,
+          "end": 2.3400000000000003
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 239714",
+        "url": "https://tatoeba.org/en/sentences/show/239714",
+        "contributor": "rul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-018",
+      "english": "If you don't ask for anything, you don't get anything.",
+      "portuguese": "Se você não pede nada, não consegue nada.",
+      "level": "B2",
+      "audioUrl": "/audio/tatoeba/13017214.mp3",
+      "duration": 3.19,
+      "tags": [
+        "fala cotidiana",
+        "rul"
+      ],
+      "words": [
+        {
+          "text": "If",
+          "start": 0.8,
+          "end": 1.25
+        },
+        {
+          "text": "you",
+          "start": 1.25,
+          "end": 2.51
+        },
+        {
+          "text": "don't",
+          "start": 2.9,
+          "end": 3.3400000000000003
+        },
+        {
+          "text": "ask",
+          "start": 3.18,
+          "end": 3.3400000000000003
+        },
+        {
+          "text": "for",
+          "start": 3.18,
+          "end": 3.3400000000000003
+        },
+        {
+          "text": "anything,",
+          "start": 3.18,
+          "end": 3.3400000000000003
+        },
+        {
+          "text": "you",
+          "start": 3.18,
+          "end": 3.3400000000000003
+        },
+        {
+          "text": "don't",
+          "start": 3.18,
+          "end": 3.3400000000000003
+        },
+        {
+          "text": "get",
+          "start": 3.18,
+          "end": 3.3400000000000003
+        },
+        {
+          "text": "anything.",
+          "start": 3.18,
+          "end": 3.3400000000000003
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 13017214",
+        "url": "https://tatoeba.org/en/sentences/show/13017214",
+        "contributor": "rul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-019",
+      "english": "I haven't heard from her since then.",
+      "portuguese": "Não tenho notícias dela desde então.",
+      "level": "C1",
+      "audioUrl": "/audio/tatoeba/1420762.mp3",
+      "duration": 1.38,
+      "tags": [
+        "estrutura avançada",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "I",
+          "start": 0.02,
+          "end": 0.94
+        },
+        {
+          "text": "haven't",
+          "start": 0.94,
+          "end": 1.53
+        },
+        {
+          "text": "heard",
+          "start": 1.37,
+          "end": 1.53
+        },
+        {
+          "text": "from",
+          "start": 1.37,
+          "end": 1.53
+        },
+        {
+          "text": "her",
+          "start": 1.37,
+          "end": 1.53
+        },
+        {
+          "text": "since",
+          "start": 1.37,
+          "end": 1.53
+        },
+        {
+          "text": "then.",
+          "start": 1.37,
+          "end": 1.53
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 1420762",
+        "url": "https://tatoeba.org/en/sentences/show/1420762",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-020",
+      "english": "I can hardly understand what she says.",
+      "portuguese": "Mal consigo entender o que ela diz.",
+      "level": "C1",
+      "audioUrl": "/audio/tatoeba/261258.mp3",
+      "duration": 2.3,
+      "tags": [
+        "fala cotidiana",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "I",
+          "start": 0.02,
+          "end": 0.88
+        },
+        {
+          "text": "can",
+          "start": 0.88,
+          "end": 1.7
+        },
+        {
+          "text": "hardly",
+          "start": 2.28,
+          "end": 2.44
+        },
+        {
+          "text": "understand",
+          "start": 2.28,
+          "end": 2.44
+        },
+        {
+          "text": "what",
+          "start": 2.28,
+          "end": 2.44
+        },
+        {
+          "text": "she",
+          "start": 2.28,
+          "end": 2.44
+        },
+        {
+          "text": "says.",
+          "start": 2.28,
+          "end": 2.44
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 261258",
+        "url": "https://tatoeba.org/en/sentences/show/261258",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-021",
+      "english": "Do you want to do me a favor?",
+      "portuguese": "Você quer me fazer um favor?",
+      "level": "C1",
+      "audioUrl": "/audio/tatoeba/8908795.mp3",
+      "duration": 2.04,
+      "tags": [
+        "estrutura avançada",
+        "rul"
+      ],
+      "words": [
+        {
+          "text": "You",
+          "start": 0.52,
+          "end": 1.42
+        },
+        {
+          "text": "want",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "to",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "do",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "me",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "a",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "favor?",
+          "start": 2.02,
+          "end": 2.18
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 8908795",
+        "url": "https://tatoeba.org/en/sentences/show/8908795",
+        "contributor": "rul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-022",
+      "english": "I can't leave until he comes.",
+      "portuguese": "Não posso sair até ele chegar.",
+      "level": "C1",
+      "audioUrl": "/audio/tatoeba/5353161.mp3",
+      "duration": 1.83,
+      "tags": [
+        "fala cotidiana",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "I",
+          "start": 0.01,
+          "end": 1.14
+        },
+        {
+          "text": "can't",
+          "start": 1.14,
+          "end": 1.97
+        },
+        {
+          "text": "leave",
+          "start": 1.81,
+          "end": 1.97
+        },
+        {
+          "text": "until",
+          "start": 1.81,
+          "end": 1.97
+        },
+        {
+          "text": "he",
+          "start": 1.81,
+          "end": 1.97
+        },
+        {
+          "text": "comes.",
+          "start": 1.81,
+          "end": 1.97
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 5353161",
+        "url": "https://tatoeba.org/en/sentences/show/5353161",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-023",
+      "english": "There's a bus every fifteen minutes.",
+      "portuguese": "Há um ônibus a cada quinze minutos.",
+      "level": "C1",
+      "audioUrl": "/audio/tatoeba/12999192.mp3",
+      "duration": 2.17,
+      "tags": [
+        "estrutura avançada",
+        "rul"
+      ],
+      "words": [
+        {
+          "text": "There's",
+          "start": 0.01,
+          "end": 2.31
+        },
+        {
+          "text": "a",
+          "start": 2.15,
+          "end": 2.31
+        },
+        {
+          "text": "bus",
+          "start": 2.15,
+          "end": 2.31
+        },
+        {
+          "text": "every",
+          "start": 2.15,
+          "end": 2.31
+        },
+        {
+          "text": "15",
+          "start": 2.15,
+          "end": 2.31
+        },
+        {
+          "text": "minutes.",
+          "start": 2.15,
+          "end": 2.31
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 12999192",
+        "url": "https://tatoeba.org/en/sentences/show/12999192",
+        "contributor": "rul",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-024",
+      "english": "You can tell it's good just by the aroma.",
+      "portuguese": "Dá para saber que está bom só pelo aroma.",
+      "level": "C1",
+      "audioUrl": "/audio/tatoeba/12018718.mp3",
+      "duration": 2.09,
+      "tags": [
+        "fala cotidiana",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "You",
+          "start": 0.01,
+          "end": 1.49
+        },
+        {
+          "text": "can",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "tell",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "it's",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "good",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "just",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "by",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "the",
+          "start": 2.07,
+          "end": 2.23
+        },
+        {
+          "text": "aroma.",
+          "start": 2.07,
+          "end": 2.23
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 12018718",
+        "url": "https://tatoeba.org/en/sentences/show/12018718",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-025",
+      "english": "Could you explain to me the meaning of this sentence?",
+      "portuguese": "Você poderia me explicar o significado desta sentença?",
+      "level": "C1",
+      "audioUrl": "/audio/tatoeba/11821643.mp3",
+      "duration": 2.35,
+      "tags": [
+        "estrutura avançada",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "Did",
+          "start": 0.01,
+          "end": 1.61
+        },
+        {
+          "text": "you",
+          "start": 2,
+          "end": 2.26
+        },
+        {
+          "text": "explain",
+          "start": 2.33,
+          "end": 2.49
+        },
+        {
+          "text": "to",
+          "start": 2.33,
+          "end": 2.49
+        },
+        {
+          "text": "me",
+          "start": 2.33,
+          "end": 2.49
+        },
+        {
+          "text": "the",
+          "start": 2.33,
+          "end": 2.49
+        },
+        {
+          "text": "meaning",
+          "start": 2.33,
+          "end": 2.49
+        },
+        {
+          "text": "of",
+          "start": 2.33,
+          "end": 2.49
+        },
+        {
+          "text": "this",
+          "start": 2.33,
+          "end": 2.49
+        },
+        {
+          "text": "sentence?",
+          "start": 2.33,
+          "end": 2.49
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 11821643",
+        "url": "https://tatoeba.org/en/sentences/show/11821643",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-026",
+      "english": "If you don't like that, I'll stop.",
+      "portuguese": "Se você não gosta disso, eu paro.",
+      "level": "C2",
+      "audioUrl": "/audio/tatoeba/9156440.mp3",
+      "duration": 1.07,
+      "tags": [
+        "fala cotidiana",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "If",
+          "start": 0.01,
+          "end": 0.97
+        },
+        {
+          "text": "you",
+          "start": 1.05,
+          "end": 1.21
+        },
+        {
+          "text": "don't",
+          "start": 1.05,
+          "end": 1.21
+        },
+        {
+          "text": "like",
+          "start": 1.05,
+          "end": 1.21
+        },
+        {
+          "text": "that,",
+          "start": 1.05,
+          "end": 1.21
+        },
+        {
+          "text": "I'll",
+          "start": 1.05,
+          "end": 1.21
+        },
+        {
+          "text": "stop.",
+          "start": 1.05,
+          "end": 1.21
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 9156440",
+        "url": "https://tatoeba.org/en/sentences/show/9156440",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-027",
+      "english": "If the Earth were flat, cats would have knocked everything off it by now.",
+      "portuguese": "Se a Terra fosse plana, os gatos já teriam derrubado tudo dela.",
+      "level": "C2",
+      "audioUrl": "/audio/tatoeba/9039976.mp3",
+      "duration": 2.95,
+      "tags": [
+        "estrutura avançada",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "If",
+          "start": 0.01,
+          "end": 0.91
+        },
+        {
+          "text": "the",
+          "start": 1.14,
+          "end": 2.37
+        },
+        {
+          "text": "earth",
+          "start": 2.37,
+          "end": 2.86
+        },
+        {
+          "text": "were",
+          "start": 2.93,
+          "end": 3.0900000000000003
+        },
+        {
+          "text": "flat,",
+          "start": 2.93,
+          "end": 3.0900000000000003
+        },
+        {
+          "text": "cats",
+          "start": 2.93,
+          "end": 3.0900000000000003
+        },
+        {
+          "text": "would",
+          "start": 2.93,
+          "end": 3.0900000000000003
+        },
+        {
+          "text": "have",
+          "start": 2.93,
+          "end": 3.0900000000000003
+        },
+        {
+          "text": "knocked",
+          "start": 2.93,
+          "end": 3.0900000000000003
+        },
+        {
+          "text": "everything",
+          "start": 2.93,
+          "end": 3.0900000000000003
+        },
+        {
+          "text": "off",
+          "start": 2.93,
+          "end": 3.0900000000000003
+        },
+        {
+          "text": "it",
+          "start": 2.93,
+          "end": 3.0900000000000003
+        },
+        {
+          "text": "by",
+          "start": 2.93,
+          "end": 3.0900000000000003
+        },
+        {
+          "text": "now.",
+          "start": 2.93,
+          "end": 3.0900000000000003
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 9039976",
+        "url": "https://tatoeba.org/en/sentences/show/9039976",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    },
+    {
+      "id": "TAT-028",
+      "english": "There's no single right way to learn. Whatever works best for you is what's right for you.",
+      "portuguese": "Não existe um único jeito certo de aprender. O que funciona melhor para você é o certo para você.",
+      "level": "C2",
+      "audioUrl": "/audio/tatoeba/9399856.mp3",
+      "duration": 3.71,
+      "tags": [
+        "fala cotidiana",
+        "Them"
+      ],
+      "words": [
+        {
+          "text": "There's",
+          "start": 0.01,
+          "end": 2.68
+        },
+        {
+          "text": "no",
+          "start": 2.68,
+          "end": 3.45
+        },
+        {
+          "text": "single",
+          "start": 3.45,
+          "end": 3.63
+        },
+        {
+          "text": "right",
+          "start": 3.69,
+          "end": 3.85
+        },
+        {
+          "text": "way",
+          "start": 3.69,
+          "end": 3.85
+        },
+        {
+          "text": "to",
+          "start": 3.69,
+          "end": 3.85
+        },
+        {
+          "text": "learn.",
+          "start": 3.69,
+          "end": 3.85
+        },
+        {
+          "text": "Whatever",
+          "start": 3.69,
+          "end": 3.85
+        },
+        {
+          "text": "works",
+          "start": 3.69,
+          "end": 3.85
+        },
+        {
+          "text": "best",
+          "start": 3.69,
+          "end": 3.85
+        },
+        {
+          "text": "for",
+          "start": 3.69,
+          "end": 3.85
+        },
+        {
+          "text": "you",
+          "start": 3.69,
+          "end": 3.85
+        },
+        {
+          "text": "is",
+          "start": 3.69,
+          "end": 3.85
+        },
+        {
+          "text": "what's",
+          "start": 3.69,
+          "end": 3.85
+        },
+        {
+          "text": "right",
+          "start": 3.69,
+          "end": 3.85
+        },
+        {
+          "text": "for",
+          "start": 3.69,
+          "end": 3.85
+        },
+        {
+          "text": "you.",
+          "start": 3.69,
+          "end": 3.85
+        }
+      ],
+      "source": {
+        "publisher": "Tatoeba",
+        "title": "Sentence 9399856",
+        "url": "https://tatoeba.org/en/sentences/show/9399856",
+        "contributor": "Them",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "textLicense": "CC BY 2.0 FR",
+        "textLicenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+      }
+    }
+  ]
+}

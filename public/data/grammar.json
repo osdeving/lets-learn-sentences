@@ -1,0 +1,729 @@
+{
+  "meta": {
+    "title": "Gramática para ouvir melhor",
+    "count": 36,
+    "schemaVersion": 3
+  },
+  "lessons": [
+    {
+      "id": "G01",
+      "level": "A1",
+      "title": "Verb to be",
+      "summary": "Use am, is e are para identidade, estado, idade e localização.",
+      "pattern": "I am · you/we/they are · he/she/it is",
+      "listeningTip": "Na fala, procure as contrações I'm, you're, he's e they're.",
+      "commonMistake": "Não use do/does em perguntas com be: diga Are you ready?",
+      "examples": [
+        {
+          "english": "I'm tired, but I'm okay.",
+          "portuguese": "Estou cansado, mas estou bem."
+        },
+        {
+          "english": "Are they at home?",
+          "portuguese": "Eles estão em casa?"
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2"
+    },
+    {
+      "id": "G02",
+      "level": "A1",
+      "title": "Pronomes e possessivos",
+      "summary": "Pronomes substituem pessoas; possessivos mostram a quem algo pertence.",
+      "pattern": "I → my · you → your · he → his · she → her · they → their",
+      "listeningTip": "His e he's soam parecidos; use o restante da frase para decidir.",
+      "commonMistake": "Her pode significar dela ou funcionar como objeto, dependendo da posição.",
+      "examples": [
+        {
+          "english": "Her phone is on the table.",
+          "portuguese": "O telefone dela está na mesa."
+        },
+        {
+          "english": "I called her yesterday.",
+          "portuguese": "Eu liguei para ela ontem."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2"
+    },
+    {
+      "id": "G03",
+      "level": "A1",
+      "title": "Present simple",
+      "summary": "Fala de hábitos, rotinas e fatos gerais.",
+      "pattern": "I/you/we/they work · he/she/it works",
+      "listeningTip": "Na terceira pessoa, o -s pode soar como /s/, /z/ ou /iz/.",
+      "commonMistake": "Depois de doesn't, o verbo volta à forma base: She doesn't work.",
+      "examples": [
+        {
+          "english": "She works from home.",
+          "portuguese": "Ela trabalha em casa."
+        },
+        {
+          "english": "Do you cook every day?",
+          "portuguese": "Você cozinha todos os dias?"
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/present-simple"
+    },
+    {
+      "id": "G04",
+      "level": "A1",
+      "title": "There is e there are",
+      "summary": "Apresentam a existência de uma ou mais coisas.",
+      "pattern": "There is + singular · There are + plural",
+      "listeningTip": "There is costuma virar there's; there are também se reduz na fala rápida.",
+      "commonMistake": "Evite usar have para dizer que existe algo em um lugar.",
+      "examples": [
+        {
+          "english": "There's a pharmacy nearby.",
+          "portuguese": "Há uma farmácia perto."
+        },
+        {
+          "english": "Are there any seats left?",
+          "portuguese": "Ainda há lugares?"
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2"
+    },
+    {
+      "id": "G05",
+      "level": "A1",
+      "title": "Artigos a, an e the",
+      "summary": "A/an apresenta algo não específico; the aponta para algo identificável.",
+      "pattern": "a book · an hour · the book on the desk",
+      "listeningTip": "Escolha a/an pelo som seguinte: an hour, mas a university.",
+      "commonMistake": "Não coloque the automaticamente antes de nomes próprios.",
+      "examples": [
+        {
+          "english": "I need a charger.",
+          "portuguese": "Preciso de um carregador."
+        },
+        {
+          "english": "The charger is in my bag.",
+          "portuguese": "O carregador está na minha bolsa."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2"
+    },
+    {
+      "id": "G06",
+      "level": "A1",
+      "title": "Can e can't",
+      "summary": "Can expressa capacidade, possibilidade e pedidos simples.",
+      "pattern": "can + verbo base · can't + verbo base",
+      "listeningTip": "Can't recebe mais força; can costuma se reduzir para /kən/ em frases afirmativas.",
+      "commonMistake": "Nunca use to depois de can: diga can go.",
+      "examples": [
+        {
+          "english": "Can you help me?",
+          "portuguese": "Você pode me ajudar?"
+        },
+        {
+          "english": "I can't hear you.",
+          "portuguese": "Não consigo ouvir você."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2"
+    },
+    {
+      "id": "G07",
+      "level": "A2",
+      "title": "Present continuous",
+      "summary": "Fala do que ocorre agora ou ao redor do momento atual.",
+      "pattern": "am/is/are + verbo-ing",
+      "listeningTip": "O auxiliar pode ficar muito curto: What are you doing? soa como Whaddaya doing?",
+      "commonMistake": "Use be antes do -ing: I am working.",
+      "examples": [
+        {
+          "english": "I'm waiting outside.",
+          "portuguese": "Estou esperando do lado de fora."
+        },
+        {
+          "english": "What are they talking about?",
+          "portuguese": "Sobre o que eles estão falando?"
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2"
+    },
+    {
+      "id": "G08",
+      "level": "A2",
+      "title": "Simple past",
+      "summary": "Relata ações concluídas em um momento passado.",
+      "pattern": "verbo-ed ou forma irregular · did + verbo base",
+      "listeningTip": "Did you costuma se conectar e soar como didja.",
+      "commonMistake": "Depois de did/didn't use o verbo base: didn't go.",
+      "examples": [
+        {
+          "english": "We met last year.",
+          "portuguese": "Nós nos conhecemos no ano passado."
+        },
+        {
+          "english": "Did you call her?",
+          "portuguese": "Você ligou para ela?"
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2"
+    },
+    {
+      "id": "G09",
+      "level": "A2",
+      "title": "Futuro: will e going to",
+      "summary": "Will serve para decisões e previsões; going to, para planos e evidências.",
+      "pattern": "will + verbo · am/is/are going to + verbo",
+      "listeningTip": "Going to frequentemente soa como gonna na fala informal.",
+      "commonMistake": "Gonna é comum na fala, mas evite em escrita formal.",
+      "examples": [
+        {
+          "english": "I'll call you later.",
+          "portuguese": "Eu te ligo mais tarde."
+        },
+        {
+          "english": "We're going to move in June.",
+          "portuguese": "Vamos nos mudar em junho."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2"
+    },
+    {
+      "id": "G10",
+      "level": "A2",
+      "title": "Comparativos",
+      "summary": "Comparam duas pessoas, coisas ou situações.",
+      "pattern": "shorter than · more useful than · as fast as",
+      "listeningTip": "Than costuma ser reduzido; ouça o adjetivo para localizar a comparação.",
+      "commonMistake": "Evite duplicar: não diga more easier.",
+      "examples": [
+        {
+          "english": "This route is faster than the other one.",
+          "portuguese": "Esta rota é mais rápida que a outra."
+        },
+        {
+          "english": "It's not as expensive as I thought.",
+          "portuguese": "Não é tão caro quanto pensei."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2"
+    },
+    {
+      "id": "G11",
+      "level": "A2",
+      "title": "Contáveis e incontáveis",
+      "summary": "A quantidade muda conforme o substantivo pode ou não ser contado.",
+      "pattern": "many/few + contável · much/little + incontável",
+      "listeningTip": "Some e any aparecem em muitos pedidos reais e soam fracos no meio da frase.",
+      "commonMistake": "Information e advice não levam plural em inglês.",
+      "examples": [
+        {
+          "english": "Do you have any advice?",
+          "portuguese": "Você tem algum conselho?"
+        },
+        {
+          "english": "We don't have many options.",
+          "portuguese": "Não temos muitas opções."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2"
+    },
+    {
+      "id": "G12",
+      "level": "A2",
+      "title": "Present perfect: experiência",
+      "summary": "Liga experiência passada ao presente sem dizer um momento encerrado específico.",
+      "pattern": "have/has + particípio",
+      "listeningTip": "Have you ever pode soar como Have-you-ever em um bloco único.",
+      "commonMistake": "Com yesterday e datas fechadas, prefira simple past.",
+      "examples": [
+        {
+          "english": "Have you ever been to Canada?",
+          "portuguese": "Você já esteve no Canadá?"
+        },
+        {
+          "english": "I've never tried sushi.",
+          "portuguese": "Nunca experimentei sushi."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2"
+    },
+    {
+      "id": "G13",
+      "level": "B1",
+      "title": "Present perfect ou simple past",
+      "summary": "Use present perfect para tempo conectado ao agora; simple past para tempo encerrado.",
+      "pattern": "I've seen it · I saw it yesterday",
+      "listeningTip": "Contrações como I've e she's carregam o auxiliar que marca o tempo.",
+      "commonMistake": "Não combine present perfect com yesterday ou last year.",
+      "examples": [
+        {
+          "english": "I've lost my keys.",
+          "portuguese": "Perdi minhas chaves (e continuo sem elas)."
+        },
+        {
+          "english": "I lost them yesterday.",
+          "portuguese": "Eu as perdi ontem."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2"
+    },
+    {
+      "id": "G14",
+      "level": "B1",
+      "title": "Conditionals: zero e first",
+      "summary": "Zero descreve regras; first descreve uma possibilidade futura real.",
+      "pattern": "If + present, present · If + present, will + verbo",
+      "listeningTip": "If e o sujeito se conectam; a pausa costuma vir entre as duas orações.",
+      "commonMistake": "Não use will logo depois de if no first conditional.",
+      "examples": [
+        {
+          "english": "If you heat ice, it melts.",
+          "portuguese": "Se você aquece gelo, ele derrete."
+        },
+        {
+          "english": "If it rains, we'll stay home.",
+          "portuguese": "Se chover, ficaremos em casa."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/conditionals-zero-first-second"
+    },
+    {
+      "id": "G15",
+      "level": "B1",
+      "title": "Second conditional",
+      "summary": "Imagina situações improváveis ou irreais no presente ou futuro.",
+      "pattern": "If + past, would + verbo",
+      "listeningTip": "Would costuma virar 'd: I'd go, she'd stay.",
+      "commonMistake": "O past aqui marca distância da realidade, não necessariamente passado.",
+      "examples": [
+        {
+          "english": "If I had more time, I'd study abroad.",
+          "portuguese": "Se eu tivesse mais tempo, estudaria fora."
+        },
+        {
+          "english": "What would you do?",
+          "portuguese": "O que você faria?"
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/conditionals-zero-first-second"
+    },
+    {
+      "id": "G16",
+      "level": "B1",
+      "title": "Voz passiva",
+      "summary": "Destaca a ação ou o resultado quando o agente é óbvio ou menos importante.",
+      "pattern": "be + particípio",
+      "listeningTip": "O tempo está no verbo be: was sent, has been sent, will be sent.",
+      "commonMistake": "Não esqueça o particípio depois de be.",
+      "examples": [
+        {
+          "english": "The meeting was canceled.",
+          "portuguese": "A reunião foi cancelada."
+        },
+        {
+          "english": "Your order has been shipped.",
+          "portuguese": "Seu pedido foi enviado."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2"
+    },
+    {
+      "id": "G17",
+      "level": "B1",
+      "title": "Reported speech",
+      "summary": "Relata o que alguém disse sem repetir as palavras exatas.",
+      "pattern": "said (that) · told + pessoa (that)",
+      "listeningTip": "That costuma desaparecer na fala: She said she was tired.",
+      "commonMistake": "Say não recebe pessoa diretamente; use told me.",
+      "examples": [
+        {
+          "english": "He said he was busy.",
+          "portuguese": "Ele disse que estava ocupado."
+        },
+        {
+          "english": "She told me to wait.",
+          "portuguese": "Ela me disse para esperar."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2"
+    },
+    {
+      "id": "G18",
+      "level": "B1",
+      "title": "Relative clauses",
+      "summary": "Who, which e that unem informações sobre pessoas e coisas.",
+      "pattern": "person + who/that · thing + which/that",
+      "listeningTip": "O relativo pode sumir quando é objeto: the book I bought.",
+      "commonMistake": "Não repita o pronome: the person who called, sem he.",
+      "examples": [
+        {
+          "english": "That's the person who helped me.",
+          "portuguese": "Essa é a pessoa que me ajudou."
+        },
+        {
+          "english": "The app I use is free.",
+          "portuguese": "O aplicativo que uso é gratuito."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2"
+    },
+    {
+      "id": "G19",
+      "level": "B2",
+      "title": "Past perfect",
+      "summary": "Mostra que uma ação aconteceu antes de outra ação passada.",
+      "pattern": "had + particípio",
+      "listeningTip": "Had vira 'd; o contexto ajuda a distinguir de would.",
+      "commonMistake": "Use para esclarecer a ordem, não em toda frase no passado.",
+      "examples": [
+        {
+          "english": "The train had left when we arrived.",
+          "portuguese": "O trem já tinha partido quando chegamos."
+        },
+        {
+          "english": "I'd never seen snow before.",
+          "portuguese": "Eu nunca tinha visto neve antes."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2"
+    },
+    {
+      "id": "G20",
+      "level": "B2",
+      "title": "Third e mixed conditionals",
+      "summary": "Imaginam um passado diferente e seus resultados passados ou presentes.",
+      "pattern": "If + had + particípio, would have + particípio",
+      "listeningTip": "Would have frequentemente soa como would've; should have como should've.",
+      "commonMistake": "Evite would na oração com if.",
+      "examples": [
+        {
+          "english": "If I'd known, I would've called.",
+          "portuguese": "Se eu soubesse, teria ligado."
+        },
+        {
+          "english": "If I'd taken that job, I'd live there now.",
+          "portuguese": "Se eu tivesse aceitado aquele emprego, moraria lá agora."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/conditionals-third-mixed"
+    },
+    {
+      "id": "G21",
+      "level": "B2",
+      "title": "Dedução com modais",
+      "summary": "Must, might, can't e suas formas passadas mostram graus de certeza.",
+      "pattern": "must/might/can't + verbo · must/might/can't have + particípio",
+      "listeningTip": "O modal recebe ênfase quando o falante contrasta probabilidades.",
+      "commonMistake": "Mustn't significa proibição; can't é o usual para dedução negativa.",
+      "examples": [
+        {
+          "english": "She must be at work.",
+          "portuguese": "Ela deve estar no trabalho."
+        },
+        {
+          "english": "They might have missed the bus.",
+          "portuguese": "Talvez eles tenham perdido o ônibus."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2"
+    },
+    {
+      "id": "G22",
+      "level": "B2",
+      "title": "Phrasal verbs",
+      "summary": "Verbo e partícula formam um significado próprio, muitas vezes não literal.",
+      "pattern": "turn down · look after · figure out",
+      "listeningTip": "A partícula costuma receber força: turn it DOWN.",
+      "commonMistake": "Com pronome, phrasal verbs separáveis exigem turn it down, não turn down it.",
+      "examples": [
+        {
+          "english": "Can you turn it down?",
+          "portuguese": "Pode abaixar isso?"
+        },
+        {
+          "english": "I'll figure it out.",
+          "portuguese": "Vou descobrir/resolver."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2"
+    },
+    {
+      "id": "G23",
+      "level": "B2",
+      "title": "Conectores de contraste",
+      "summary": "Although, even though, despite e however organizam contrastes.",
+      "pattern": "although + oração · despite + nome/-ing · however, oração",
+      "listeningTip": "O conector sinaliza que a direção da ideia vai mudar.",
+      "commonMistake": "Despite não recebe of: despite the rain.",
+      "examples": [
+        {
+          "english": "Although I was tired, I went out.",
+          "portuguese": "Embora estivesse cansado, saí."
+        },
+        {
+          "english": "Despite the delay, we arrived on time.",
+          "portuguese": "Apesar do atraso, chegamos no horário."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2"
+    },
+    {
+      "id": "G24",
+      "level": "B2",
+      "title": "Ênfase e fala conectada",
+      "summary": "Auxiliares, cleft sentences e entonação destacam correção, contraste ou foco.",
+      "pattern": "I do agree · What I need is... · It was Sam who...",
+      "listeningTip": "Ouça a palavra com maior força; ela costuma carregar a informação corrigida.",
+      "commonMistake": "Do enfático aparece antes do verbo base: I do understand.",
+      "examples": [
+        {
+          "english": "I do appreciate your help.",
+          "portuguese": "Eu realmente agradeço sua ajuda."
+        },
+        {
+          "english": "What I need is a clear answer.",
+          "portuguese": "O que eu preciso é de uma resposta clara."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2"
+    },
+    {
+      "id": "G25",
+      "level": "C1",
+      "title": "Inversão para ênfase",
+      "summary": "Depois de expressões negativas, o auxiliar vem antes do sujeito.",
+      "pattern": "Rarely/Never/Only then + auxiliary + subject + verb",
+      "listeningTip": "Ouça a expressão inicial e espere a ordem de pergunta, mesmo em uma afirmação.",
+      "commonMistake": "Não inverta sem o gatilho: diga I rarely see, mas Rarely do I see.",
+      "examples": [
+        {
+          "english": "Rarely do we get a second chance.",
+          "portuguese": "Raramente temos uma segunda chance."
+        },
+        {
+          "english": "Only then did I understand the risk.",
+          "portuguese": "Só então entendi o risco."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1-grammar"
+    },
+    {
+      "id": "G26",
+      "level": "C1",
+      "title": "Cleft sentences",
+      "summary": "Estruturas com it e what deslocam o foco para uma informação.",
+      "pattern": "It was X that... · What I need is...",
+      "listeningTip": "A palavra depois de was/is recebe o maior destaque sonoro.",
+      "commonMistake": "Mantenha a concordância depois de what como uma unidade.",
+      "examples": [
+        {
+          "english": "What I need is a clear answer.",
+          "portuguese": "O que preciso é de uma resposta clara."
+        },
+        {
+          "english": "It was Maya who spotted the error.",
+          "portuguese": "Foi Maya quem percebeu o erro."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1-grammar"
+    },
+    {
+      "id": "G27",
+      "level": "C1",
+      "title": "Participle clauses",
+      "summary": "Orações reduzidas com -ing ou particípio conectam ideias de forma compacta.",
+      "pattern": "Having + participle... · Given + noun...",
+      "listeningTip": "A pausa inicial separa a circunstância da oração principal.",
+      "commonMistake": "O sujeito implícito deve ser o mesmo da oração principal.",
+      "examples": [
+        {
+          "english": "Having reviewed the logs, we rolled back.",
+          "portuguese": "Após revisar os logs, fizemos a reversão."
+        },
+        {
+          "english": "Given the delay, we changed course.",
+          "portuguese": "Dado o atraso, mudamos de rumo."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1-grammar"
+    },
+    {
+      "id": "G28",
+      "level": "C1",
+      "title": "Hedging e cautela",
+      "summary": "Might, appears, tends to e arguably reduzem a força de uma afirmação.",
+      "pattern": "subject + may/might/appears to/tends to",
+      "listeningTip": "Essas palavras curtas mudam a certeza; não as descarte como ruído.",
+      "commonMistake": "Não traduza hedge como insegurança automática; pode ser precisão acadêmica.",
+      "examples": [
+        {
+          "english": "The change appears to have helped.",
+          "portuguese": "A mudança parece ter ajudado."
+        },
+        {
+          "english": "This may partly explain the gap.",
+          "portuguese": "Isso pode explicar parcialmente a diferença."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1-grammar"
+    },
+    {
+      "id": "G29",
+      "level": "C1",
+      "title": "Future in the past",
+      "summary": "Would e was going to descrevem um futuro visto de um ponto passado.",
+      "pattern": "would + verb · was/were going to + verb",
+      "listeningTip": "Would pode ser intenção passada, hábito ou hipótese; o contexto decide.",
+      "commonMistake": "Não suponha que todo would seja condicional.",
+      "examples": [
+        {
+          "english": "I knew the plan would change.",
+          "portuguese": "Eu sabia que o plano mudaria."
+        },
+        {
+          "english": "We were going to call you.",
+          "portuguese": "Íamos ligar para você."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1-grammar"
+    },
+    {
+      "id": "G30",
+      "level": "C1",
+      "title": "Concessão avançada",
+      "summary": "Albeit, much as e while reconhecem um ponto sem abandonar o argumento.",
+      "pattern": "albeit + adjective · much as + clause · while + clause",
+      "listeningTip": "A entonação costuma marcar a concessão como um parêntese.",
+      "commonMistake": "Albeit não introduz normalmente uma oração completa com sujeito e verbo.",
+      "examples": [
+        {
+          "english": "The plan is sound, albeit expensive.",
+          "portuguese": "O plano é sólido, embora caro."
+        },
+        {
+          "english": "Much as I agree, we lack evidence.",
+          "portuguese": "Por mais que eu concorde, faltam evidências."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1-grammar"
+    },
+    {
+      "id": "G31",
+      "level": "C2",
+      "title": "Elipse e substituição",
+      "summary": "Falantes omitem material recuperável e usam so/do/one para evitar repetição.",
+      "pattern": "I think so · I might do · the newer one",
+      "listeningTip": "O trecho ausente existe no contexto, não no som; reconstrua-o pela conversa.",
+      "commonMistake": "Não force a repetição completa quando a elipse é natural.",
+      "examples": [
+        {
+          "english": "I expected her to leave, and she did.",
+          "portuguese": "Eu esperava que ela fosse embora, e foi."
+        },
+        {
+          "english": "Will it work? I think so.",
+          "portuguese": "Vai funcionar? Acho que sim."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1-grammar"
+    },
+    {
+      "id": "G32",
+      "level": "C2",
+      "title": "Modalidade no passado",
+      "summary": "Modal + have + particípio avalia possibilidades, obrigações e arrependimentos passados.",
+      "pattern": "might/should/could/must + have + participle",
+      "listeningTip": "Have se reduz fortemente depois do modal e pode soar como /əv/.",
+      "commonMistake": "Não escreva of em should've: a forma é should have.",
+      "examples": [
+        {
+          "english": "They might have missed the train.",
+          "portuguese": "Talvez tenham perdido o trem."
+        },
+        {
+          "english": "You should have told me sooner.",
+          "portuguese": "Você deveria ter me contado antes."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1-grammar"
+    },
+    {
+      "id": "G33",
+      "level": "C2",
+      "title": "Condicionais mistos",
+      "summary": "Misturam uma condição em um tempo com o resultado em outro.",
+      "pattern": "If + past perfect, would + verb · If + past, would have + participle",
+      "listeningTip": "Identifique primeiro quando ocorre a condição e quando ocorre a consequência.",
+      "commonMistake": "Não aplique mecanicamente o mesmo tempo aos dois lados.",
+      "examples": [
+        {
+          "english": "If I'd slept, I'd be sharper now.",
+          "portuguese": "Se eu tivesse dormido, estaria mais atento agora."
+        },
+        {
+          "english": "If I were organized, I wouldn't have missed it.",
+          "portuguese": "Se eu fosse organizado, não teria perdido."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1-grammar"
+    },
+    {
+      "id": "G34",
+      "level": "C2",
+      "title": "Inversão condicional",
+      "summary": "Had, were e should podem substituir if em registro formal.",
+      "pattern": "Had I known... · Were it not for... · Should you need...",
+      "listeningTip": "A ordem lembra uma pergunta, mas a entonação continua declarativa.",
+      "commonMistake": "Use essa forma com moderação fora de contextos formais.",
+      "examples": [
+        {
+          "english": "Had I known, I would have waited.",
+          "portuguese": "Se eu soubesse, teria esperado."
+        },
+        {
+          "english": "Should you need help, call me.",
+          "portuguese": "Caso precise de ajuda, ligue para mim."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1-grammar"
+    },
+    {
+      "id": "G35",
+      "level": "C2",
+      "title": "Nominalização e registro",
+      "summary": "Substantivos podem condensar processos e criar um tom formal.",
+      "pattern": "decide → decision · fail → failure · implement → implementation",
+      "listeningTip": "Em fala densa, localize o substantivo principal antes de destrinchar os complementos.",
+      "commonMistake": "Nominalização excessiva torna frases opacas; verbo direto costuma ser mais claro.",
+      "examples": [
+        {
+          "english": "The implementation of the policy failed.",
+          "portuguese": "A implementação da política falhou."
+        },
+        {
+          "english": "Their refusal led to a delay.",
+          "portuguese": "A recusa deles levou a um atraso."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1-grammar"
+    },
+    {
+      "id": "G36",
+      "level": "C2",
+      "title": "Discurso indireto e distância",
+      "summary": "Verbos de relato e tempos recuados mostram fonte, atitude e distância.",
+      "pattern": "claim/suggest/acknowledge + that · was said to have",
+      "listeningTip": "O verbo de relato revela se o falante aceita, questiona ou apenas atribui a ideia.",
+      "commonMistake": "Claim não é sinônimo neutro de say; pode sinalizar dúvida.",
+      "examples": [
+        {
+          "english": "The report is said to have been altered.",
+          "portuguese": "Dizem que o relatório foi alterado."
+        },
+        {
+          "english": "She acknowledged that the estimate was flawed.",
+          "portuguese": "Ela reconheceu que a estimativa tinha falhas."
+        }
+      ],
+      "sourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/c1-grammar"
+    }
+  ]
+}
