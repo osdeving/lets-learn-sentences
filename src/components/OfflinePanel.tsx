@@ -9,7 +9,7 @@ export function OfflinePanel() {
   const [ready,setReady]=useState(false);
   const check = async () => {
     try {
-      const manifest: OfflineManifest = await fetch(import.meta.env.BASE_URL + 'offline-manifest.json').then(r=>{if(!r.ok)throw new Error();return r.json();});
+      const manifest: OfflineManifest = await fetch(import.meta.env.BASE_URL + 'offline-manifest.json?check=' + Date.now(), { cache: 'no-store' }).then(r=>{if(!r.ok)throw new Error();return r.json();});
       setBytes(manifest.files.reduce((n,f)=>n+f.bytes,0));
       const cache=await caches.open(manifest.cacheName ?? manifest.version);
       const states=await Promise.all(manifest.files.map(f=>cache.match(f.url)));

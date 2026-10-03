@@ -5,7 +5,7 @@ const CACHE = PREFIX + "ouvir-ingles-listening-v5";
 const MANIFEST = local("offline-manifest.json");
 
 async function manifest() {
-  const response = await fetch(MANIFEST, { cache: "no-store" });
+  const response = await fetch(`${MANIFEST}?version=${encodeURIComponent(CACHE)}`, { cache: "no-store" });
   if (!response.ok) throw new Error("Manifesto offline indisponível");
   return response.json();
 }
