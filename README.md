@@ -180,3 +180,19 @@ VITE_BASE_PATH=/lets-learn-sentences/ pnpm preview
 Abra `http://localhost:4173/lets-learn-sentences/`. Os 57 áudios locais são incluídos
 no build. Exportações em `output/`, dependências e metadados locais de hospedagem
 são excluídos do Git. As fontes e os créditos dos áudios continuam nos dados e na interface.
+
+## Escuta automática
+
+Em Sentenças (inclusive Favoritas), escolha os filtros e clique em **Iniciar escuta
+automática**. Cada frase toca três vezes, com uma pausa de 500 ms entre reproduções
+e itens. Repetições (1–20), pausa (0–10.000 ms), avanço automático e reinício da
+seleção são configuráveis e ficam salvos no navegador. A fila para no fim por
+padrão. Sentenças sem MP3 usam a voz inglesa escolhida nos filtros.
+
+Áudio humano, Histórias e Diálogos oferecem os mesmos controles. Nas histórias a
+fila percorre os trechos da história escolhida; nos diálogos ela percorre as falas
+dos diálogos filtrados. Trocar filtros, navegar manualmente, gravar ou mudar de aba
+interrompe a fila. As atividades de ditado continuam exigindo sua resposta.
+
+`pnpm test:playback` verifica a recuperação do AbortError na primeira tentativa e
+a fila de repetições, pausas, avanço, cancelamento e configurações salvas.

@@ -539,3 +539,16 @@ summary { cursor: pointer; }
 }
 
 .coach-credit { display: block; }
+
+/* Shared listening queue controls */
+.queue-controls { margin: 18px 0; padding: 22px; border: 1px solid var(--line); border-radius: 18px; background: var(--panel-2); }
+.queue-controls h3 { margin: 0 0 8px; }
+.queue-controls p { margin: 0 0 18px; color: var(--muted); line-height: 1.5; }
+.queue-settings { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.queue-settings label { display: flex; flex-direction: column; gap: 8px; color: var(--muted); font-size: 13px; }
+.queue-settings label.check-row { flex-direction: row; align-items: center; }
+.queue-settings input[type=number] { width: 100%; min-height: 44px; padding: 10px 12px; background: var(--panel); color: var(--ink); border: 1px solid var(--line); border-radius: 8px; }
+.queue-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-top: 20px; }
+.queue-actions span { color: var(--muted); font-size: 13px; }
+.audio-stage > .queue-controls, .conversation-card > .queue-controls { margin: 20px; }
+@media (max-width: 600px) { .queue-controls { padding: 16px; } .queue-settings { grid-template-columns: 1fr; } .queue-actions .listen-button { width: 100%; } }

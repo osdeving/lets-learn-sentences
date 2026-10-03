@@ -32,6 +32,13 @@ export function useClipPlayer() {
     // Reuse the element already allowed by the user's first playback gesture.
     const audio = audioRef.current ?? new Audio();
     audioRef.current = audio;
+    // Keep the media node in the document throughout loading and playback.
+    // Desktop browsers may abort pending playback on detached media nodes.
+    if (!audio.isConnected) {
+      audio.hidden = true;
+      audio.setAttribute("data-listening-player", "true");
+      document.body.appendChild(audio);
+    }
     const rangeStart = Math.max(0, start);
     let rangeEnd = end, pass = 0;
     const repeats = options.repeats ?? 1;
@@ -43,7 +50,7 @@ export function useClipPlayer() {
       const code = audio.error?.code;
       stop();
       if (name === "NotAllowedError") {
-        setError("O navegador bloqueou a reprodução automática. Clique em Ouvir em 1× para iniciar este trecho.");
+        setError("O navegador bloqueou a reprodução automática. Clique no botão de ouvir ou iniciar a escuta para autorizar o áudio.");
       } else if (name === "RangeError") {
         setError("O intervalo deste trecho não corresponde à duração do áudio.");
       } else if (code === 3) {
@@ -70,6 +77,7 @@ export function useClipPlayer() {
       audio.onloadedmetadata = () => { try { fitRange(); } catch (reason) { fail(reason); } };
       const source = new URL(url, document.baseURI).href;
       if (audio.src !== source || audio.error) audio.src = source;
+      let interrupted = false;
       const run = async () => {
         if (serial.current !== token) return;
         let finished = false;
@@ -91,9 +99,20 @@ export function useClipPlayer() {
         // Give the native player its initial seek position, then call play
         // before awaiting anything, while the user's click is still active.
         if (audio.readyState >= 1) fitRange();
-        else audio.currentTime = rangeStart;
+        // Metadata handler performs the initial seek once the file is ready.
         setPosition(rangeStart); setRepetition(pass + 1);
-        await audio.play();
+        try {
+          await audio.play();
+        } catch (reason) {
+          if (serial.current !== token) return;
+          if (reason instanceof DOMException && reason.name === "AbortError" && !interrupted) {
+            interrupted = true;
+            if (!audio.isConnected) document.body.appendChild(audio);
+            // Retry a browser interruption on the same attached, unlocked node.
+            // Deliberate stop/navigation changes the token and never retries.
+            await audio.play();
+          } else throw reason;
+        }
         if (serial.current !== token) return;
         setPlaying(true); frame.current = requestAnimationFrame(tick);
       };
@@ -106,7 +125,8 @@ export function useClipPlayer() {
     const audio = audioRef.current;
     if (audio) {
       audio.onended = null; audio.onerror = null; audio.onloadedmetadata = null;
-      audio.pause(); audio.removeAttribute("src"); audio.load();
+      audio.pause(); audio.removeAttribute("src"); audio.load(); audio.remove();
+      audioRef.current = null;
     }
   }, []);
   return { playing, position, repetition, error, errorDetail, play, stop };

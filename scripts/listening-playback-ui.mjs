@@ -43,7 +43,7 @@ try{
  await evaluate('window.__breakSource=true');
  await send('Network.setBlockedURLs',{urls:['*playback-test=unavailable*']});
  await click('Começar próxima lição');await click('Ouvir em 1×');
- await wait("document.querySelector('.coach-notice[role=alert]')?.textContent.includes('servidor local')");
+ await wait("document.querySelector('.coach-notice[role=alert]')?.textContent.includes('carregar este áudio')");
  assert(await evaluate("document.querySelector('.coach-notice').textContent.includes('/audio/elllo/081.mp3')"));
  await send('Network.setBlockedURLs',{urls:[]});await evaluate('window.__breakSource=false');await click('Tentar tocar novamente');
  await wait("document.querySelector('.audio-orb').classList.contains('playing')");

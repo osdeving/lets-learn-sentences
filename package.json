@@ -19,7 +19,8 @@
     "test:listening:ui": "node scripts/listening-ui.mjs",
     "test:listening:playback": "node scripts/listening-playback-ui.mjs",
     "test:listening:offline": "node scripts/listening-offline-ui.mjs",
-    "package:offline": "pnpm build && python3 scripts/package-offline.py"
+    "package:offline": "pnpm build && python3 scripts/package-offline.py",
+    "test:playback": "node scripts/test-playback.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.4",

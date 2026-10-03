@@ -7,6 +7,8 @@ import { GrammarView } from "./components/GrammarView";
 import { ListeningPractice } from "./components/ListeningPractice";
 import { DecodingCoach } from "./components/DecodingCoach";
 import { StoriesView } from "./components/StoriesView";
+import { QueueControls } from "./components/QueueControls";
+import { useListeningQueue } from "./hooks/useListeningQueue";
 import { SentenceCard } from "./components/SentenceCard";
 import { Tabs } from "./components/Tabs";
 import { useRecorder } from "./hooks/useRecorder";
@@ -113,20 +115,19 @@ export default function App() {
     });
   }, []);
 
+  const queueItems = useMemo(() => filtered.map(entry => ({ id: entry.id, text: entry.english, audioUrl: entry.audioUrl })), [filtered]);
+  const queue = useListeningQueue(queueItems, "ouvir-ingles:sentence-queue", speech, setIndex, markStudied);
+
   const speakEntry = useCallback(() => {
     if (!current) return;
-    markStudied(current.id);
-    if (current.audioUrl) {
-      void new Audio(current.audioUrl).play().catch(() => speech.speak(current.english));
-    } else {
-      speech.speak(current.english);
-    }
-  }, [current, markStudied, speech]);
+    queue.start(index, true);
+  }, [current, index, queue]);
 
   const speakWord = useCallback((word: string) => {
+    queue.stop();
     if (current) markStudied(current.id);
     speech.speak(word);
-  }, [current, markStudied, speech]);
+  }, [current, markStudied, speech, queue.stop]);
 
   const toggleFavorite = useCallback((id: string): boolean | null => {
     if (!content?.sentences.some((entry) => entry.id === id)) return null;
@@ -164,9 +165,10 @@ export default function App() {
 
   const move = useCallback((direction: number) => {
     if (!filtered.length) return;
+    queue.stop();
     speech.cancel();
     setIndex((currentIndex) => (currentIndex + direction + filtered.length) % filtered.length);
-  }, [filtered.length, speech]);
+  }, [filtered.length, speech, queue.stop]);
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -191,17 +193,20 @@ export default function App() {
   }, [content, filtered.length, showToast]);
 
   const handleRecord = useCallback(async () => {
+    queue.stop();
+    speech.cancel();
     const result = await recorder.toggle();
     if (result === "unsupported") showToast("Gravação não disponível neste navegador");
     if (result === "denied") showToast("Permita o microfone para gravar sua voz");
     if (result === "stopped") showToast("Gravação pronta para comparar");
-  }, [recorder, showToast]);
+  }, [recorder, showToast, queue.stop, speech]);
 
   const switchView = useCallback((nextView: ViewMode) => {
+    queue.stop();
     speech.cancel();
     setView(nextView);
     setIndex(0);
-  }, [speech]);
+  }, [speech, queue.stop]);
 
   if (error) {
     return (
@@ -260,6 +265,7 @@ export default function App() {
         ) : view === "dialogues" ? (
           <DialogueView
             dialogues={content.dialogues}
+            speech={speech}
             onSpeakLine={speech.speak}
             onSpeakDialogue={speech.speakSequence}
           />
@@ -294,6 +300,8 @@ export default function App() {
                   {showTranslation ? "Ocultar tradução" : "Mostrar tradução"}
                 </button>
               </div>
+              <QueueControls settings={queue.settings} onChange={queue.configure} running={queue.running} repetition={queue.repetition} onStart={() => { speech.cancel(); queue.start(index); }} onStop={queue.stop} disabled={!current || recorder.status === "recording"} count={filtered.length} />
+              {queue.error && <p className="coach-notice" role="alert">{queue.error}</p>}
               <SentenceCard
                 entry={current}
                 category={category}

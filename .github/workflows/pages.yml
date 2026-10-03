@@ -26,6 +26,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm validate
       - run: pnpm test:listening
+      - run: pnpm test:playback
       - uses: actions/configure-pages@v5
         id: pages
       - run: pnpm build
