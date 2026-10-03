@@ -49,9 +49,9 @@ export function useClipPlayer() {
       } else if (code === 3) {
         setError("O navegador não conseguiu decodificar este áudio. Tente reproduzi-lo novamente.");
       } else {
-        setError("O arquivo de áudio não pôde ser carregado. Verifique se o servidor local está aberto; para estudar sem ele, prepare o modo offline.");
+        setError("Não foi possível carregar este áudio. Confira sua conexão e tente novamente. Para estudar sem internet, prepare o modo offline na tela inicial.");
       }
-      setErrorDetail(`${url} · ${name || `erro de mídia ${code ?? "desconhecido"}`}${detail ? `: ${detail}` : ""}`);
+      setErrorDetail(`${url} · ${name || `erro de mídia ${code ?? "desconhecido"}`}${detail || audio.error?.message ? `: ${detail || audio.error?.message}` : ""}`);
     };
     const fitRange = () => {
       if (serial.current !== token) return;

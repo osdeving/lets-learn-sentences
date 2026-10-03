@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-interface OfflineManifest { version: string; files: Array<{ url: string; bytes: number; audio: boolean }> }
+interface OfflineManifest { version: string; cacheName?: string; files: Array<{ url: string; bytes: number; audio: boolean }> }
 export function OfflinePanel() {
   const [busy,setBusy]=useState(false);
   const [message,setMessage]=useState("Prepare todos os áudios uma vez. Depois, estude com a rede desligada.");
@@ -11,7 +11,7 @@ export function OfflinePanel() {
     try {
       const manifest: OfflineManifest = await fetch(import.meta.env.BASE_URL + 'offline-manifest.json').then(r=>{if(!r.ok)throw new Error();return r.json();});
       setBytes(manifest.files.reduce((n,f)=>n+f.bytes,0));
-      const cache=await caches.open(manifest.version);
+      const cache=await caches.open(manifest.cacheName ?? manifest.version);
       const states=await Promise.all(manifest.files.map(f=>cache.match(f.url)));
       if(states.every(Boolean)){setReady(true);setPercent(100);setMessage("Conteúdo e áudios preparados para usar offline neste navegador.");}
     } catch { /* Development has no production offline manifest. */ }
