@@ -1,3 +1,4 @@
+import { HumanSourcesView } from "./components/HumanSourcesView";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { DialogueView } from "./components/DialogueView";
 import { AudioLibraryView } from "./components/AudioLibraryView";
@@ -260,6 +261,8 @@ export default function App() {
           <DecodingCoach data={content.decoding} />
         ) : view === "audio" ? (
           <AudioLibraryView clips={content.audioClips} />
+        ) : view === "sources" ? (
+          <HumanSourcesView />
         ) : view === "stories" ? (
           <StoriesView stories={content.stories} speech={speech} />
         ) : view === "dialogues" ? (

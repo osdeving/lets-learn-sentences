@@ -196,3 +196,17 @@ interrompe a fila. As atividades de ditado continuam exigindo sua resposta.
 
 `pnpm test:playback` verifica a recuperação do AbortError na primeira tentativa e
 a fila de repetições, pausas, avanço, cancelamento e configurações salvas.
+
+### Mais vozes humanas
+
+A aba **Mais vozes humanas** inclui 51 conversas completas do ELLLO (A2–B2) nos players oficiais do SoundCloud. A fila usa a API oficial do player para repetir ao término real da gravação, respeitar a pausa e avançar. Padrão: 3 repetições e 500 ms. Há filtros por fonte, nível e assunto. O player incorporado também tem seu próprio play para escuta manual.
+
+Há mais 50 aulas ELLLO (A1–B1) com acesso à página original, 12 aulas A1 e os catálogos A2–C1 do British Council, além da aula gratuita semanal e do podcast do ESLPod. Esses acessos abrem as páginas oficiais: seus áudios não são republicados. ELLLO bloqueia hotlinks de seus MP3s a partir de outros sites; por isso usamos os embeds oficiais onde disponíveis. Os recursos externos precisam de internet e não entram no pacote offline. As transcrições e os exercícios ficam junto das aulas originais.
+
+Metadados: `public/data/human-sources.json`. Para atualizar a seleção: `python3 scripts/import-human-sources.py`. O importador guarda apenas URLs e títulos; não copia áudios ou transcrições para o repositório.
+
+Fontes e condições de uso:
+- https://www.elllo.org/about/faq.htm
+- https://www.britishcouncil.org/terms
+- https://tv.eslpod.com/p/terms
+- https://developers.soundcloud.com/docs/api/html5-widget

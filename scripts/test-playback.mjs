@@ -55,3 +55,17 @@ assert.equal(spoken.length,4);assert.equal(spoken.at(-1).text,'Goodbye.');sq.sto
 // Repeating the selection is explicit and a stop cancels the wraparound.
 queuePlayerError='';queue=render();queue.configure({...queue.settings,repeats:1,gap:500,loop:true});queue=render();queue.start(1);calls.at(-1).options.onComplete();qt.advance(500);assert.equal(calls.at(-1).url,'/a.mp3');queue.stop();
 console.log('Playback passed: attached media, first-click AbortError recovery, deliberate stop, 3 repeats, 500 ms gaps, automatic advance, end of list, pause, changed filters and saved settings.');
+
+// Official SoundCloud embeds must repeat on FINISH, honor gaps, and cancel pending loads.
+const wh=hooks(), wt=clock(), events={}, wp=[];let loadedUrl='one';let deferredLoad;
+const mockWidget={bind(e,fn){events[e]=fn;},unbind(e){delete events[e];},pause(){},seekTo(){},play(){wp.push(loadedUrl);},load(url,options){loadedUrl=url;if(deferredLoad)deferredLoad=options.callback;else options.callback();}};
+const factory=()=>mockWidget;factory.Events={READY:'ready',FINISH:'finish',ERROR:'error'};
+const wm=await load('src/hooks/useSoundCloudQueue.ts',{react:wh.react},{window:{...wt,SC:{Widget:factory}},localStorage:{getItem:()=>null,setItem(){}},document:{createElement:()=>({}),head:{appendChild(script){script.onload();}}}});
+const wu=['one','two'];
+function wr(urls=wu){wh.begin();const q=wm.useSoundCloudQueue(urls);q.iframe.current={};wh.flush();return q;}
+let wq=wr();await Promise.resolve();events.ready();wq=wr();assert(wq.ready);wq.start();
+for(let i=0;i<6;i++){assert.equal(wp.length,i+1);events.finish();if(i<5){wt.advance(499);assert.equal(wp.length,i+1);wt.advance(1);}}
+assert.deepEqual(wp,['one','one','one','two','two','two']);assert.equal(wr().running,false);
+wq=wr();wq.choose(0);wq=wr();wq.start();events.finish();wq.stop();wt.advance(1000);assert.equal(wp.length,7);
+wq=wr();wq.configure({...wq.settings,repeats:1});wq=wr();wq.start();deferredLoad=true;events.finish();wt.advance(500);assert.equal(typeof deferredLoad,'function');wq.stop();deferredLoad();assert.equal(wp.length,8,'Late load callback must not restart after pause');
+console.log('SoundCloud passed: official widget completion, repeats, gaps, advance, end of list and cancellation of pending loads.');

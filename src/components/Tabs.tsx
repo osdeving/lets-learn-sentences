@@ -11,6 +11,7 @@ export function Tabs({ active, favoriteCount, onChange }: TabsProps) {
     { id: "decoding", label: "Método listening" },
     { id: "sentences", label: "Sentenças" },
     { id: "audio", label: "Áudio humano" },
+    { id: "sources", label: "Mais vozes humanas" },
     { id: "stories", label: "Histórias" },
     { id: "dialogues", label: "Diálogos" },
     { id: "practice", label: "Treino" },

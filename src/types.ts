@@ -1,4 +1,4 @@
-export type ViewMode = "decoding" | "sentences" | "audio" | "stories" | "dialogues" | "practice" | "grammar" | "favorites";
+export type ViewMode = "decoding" | "sentences" | "audio" | "sources" | "stories" | "dialogues" | "practice" | "grammar" | "favorites";
 export type Level = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 export type StageId = "foundation" | "daily" | "independent" | "natural" | "advanced" | "mastery";
 

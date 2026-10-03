@@ -116,3 +116,13 @@ for(const pair of decoding.pairs){
   for(const word of pair.words){if(!word.source?.license||!word.source?.contributor||!word.source?.url)fail(`Crédito incompleto: ${word.text}`);await access(`public${word.audioUrl}`);}
 }
 console.log(`Método válido: ${decoding.lessons.length} lições, ${decoding.clips.length} microclipes, ${decoding.pairs.length} contrastes; transferência reservada e créditos preservados.`);
+
+const humanSources = await readJSON("public/data/human-sources.json");
+if (new Set(humanSources.map(item => item.id)).size !== humanSources.length) fail("Catálogo humano possui IDs duplicados");
+const sourceHosts = { ELLLO: "elllo.org", "British Council": "learnenglish.britishcouncil.org", ESLPod: "www.eslpod.com" };
+for (const item of humanSources) {
+  if (!item.id || !item.title || !["A1", "A2", "B1", "B2", "C1", "Livre"].includes(item.level)) fail(`Recurso humano inválido: ${item.id}`);
+  if (new URL(item.pageUrl).protocol !== "https:" || new URL(item.pageUrl).hostname !== sourceHosts[item.provider]) fail(`Página fora da fonte oficial: ${item.id}`);
+  if (item.embedUrl && (item.provider !== "ELLLO" || new URL(item.embedUrl).hostname !== "w.soundcloud.com" || !new URL(item.embedUrl).searchParams.get("url")?.startsWith("https://api.soundcloud.com/tracks/"))) fail(`Áudio externo inesperado: ${item.id}`);
+}
+console.log(`Catálogo humano válido: ${humanSources.filter(item => item.embedUrl).length} players oficiais e ${humanSources.filter(item => !item.embedUrl).length} acessos oficiais.`);
