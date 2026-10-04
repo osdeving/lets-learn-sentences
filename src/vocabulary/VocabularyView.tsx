@@ -30,6 +30,14 @@ export function VocabularyView({
   const [mode, setMode] = useState(
     location.hash.startsWith("#vocabulary-stories") ? "stories" : "explore",
   );
+  useEffect(() => {
+    const syncMode = () => {
+      if (location.hash.startsWith("#vocabulary-stories")) setMode("stories");
+      else if (location.hash.startsWith("#vocabulary")) setMode("explore");
+    };
+    window.addEventListener("hashchange", syncMode);
+    return () => window.removeEventListener("hashchange", syncMode);
+  }, []);
   const [data, setData] = useState<VocabularyData>();
   const [error, setError] = useState("");
   const [attempt, setAttempt] = useState(0);
@@ -64,14 +72,14 @@ export function VocabularyView({
       <nav className="vocab-toolbar" aria-label="Como aprender vocabulário">
         <button
           aria-pressed={mode === "explore"}
-          onClick={() => setMode("explore")}
+          onClick={() => { location.hash = "vocabulary"; setMode("explore"); }}
         >
           Explorar palavras
         </button>
         {!!data.stories?.length && (
           <button
             aria-pressed={mode === "stories"}
-            onClick={() => setMode("stories")}
+            onClick={() => { location.hash = "vocabulary-stories"; setMode("stories"); }}
           >
             Histórias do cotidiano
           </button>
