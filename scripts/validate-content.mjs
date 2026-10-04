@@ -80,7 +80,13 @@ for (const story of storiesData.stories) {
   }
 }
 
+if (grammarData.meta.count !== grammarData.lessons.length) fail("Contagem de gramática inconsistente");
+if (new Set(grammarData.lessons.map(lesson => lesson.id)).size !== grammarData.lessons.length) fail("IDs de gramática duplicados");
 for (const lesson of grammarData.lessons) {
+  if (lesson.theory) {
+    if (!Array.isArray(lesson.theory.rules) || lesson.theory.rules.length < 2 || lesson.theory.rules.some(rule => typeof rule !== "string" || !rule.trim())) fail(`Teoria incompleta: ${lesson.id}`);
+    if (!Array.isArray(lesson.theory.rows) || lesson.theory.rows.length < 2 || lesson.theory.rows.some(row => ["when", "form", "example"].some(field => typeof row[field] !== "string" || !row[field].trim()))) fail(`Tabela incompleta: ${lesson.id}`);
+  }
   for (const field of ["id", "level", "title", "summary", "pattern", "listeningTip", "commonMistake", "sourceUrl"]) {
     if (typeof lesson[field] !== "string" || !lesson[field].trim()) fail(`Lição ${lesson.id || "sem ID"} não possui ${field}`);
   }

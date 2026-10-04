@@ -210,3 +210,14 @@ Fontes e condições de uso:
 - https://www.britishcouncil.org/terms
 - https://tv.eslpod.com/p/terms
 - https://developers.soundcloud.com/docs/api/html5-widget
+
+### Fundamentos de gramática
+
+A aba Gramática começa com oito lições teóricas em português: start/starts,
+auxiliares do/does/did, in/on/at para tempo e lugar, artigos, plurais,
+presente simples versus contínuo e complementos com to/verbo base/-ing.
+Cada lição inclui regras, tabela comparativa e exemplos com reprodução de voz.
+As 36 lições anteriores permanecem disponíveis, assim como o filtro por nível.
+
+A fonte editável é `scripts/content/grammar-theory.json`; `pnpm content:build`
+integra esses fundamentos em `public/data/grammar.json` sem duplicar seus IDs.

@@ -139,6 +139,10 @@ const advancedGrammar = [
 ].map(([id, level, title, summary, pattern, listeningTip, commonMistake, examples]) => ({ id, level, title, summary, pattern, listeningTip, commonMistake, examples: examples.map(([english, portuguese]) => ({ english, portuguese })), sourceUrl: ref }));
 grammarData.lessons = [...grammarData.lessons.filter((item) => !item.id.match(/^G(2[5-9]|3[0-6])$/)), ...advancedGrammar];
 grammarData.meta = { ...grammarData.meta, count: grammarData.lessons.length, schemaVersion: 3 };
+const theoryLessons = await read("scripts/content/grammar-theory.json");
+const theoryIds = new Set(theoryLessons.map((lesson) => lesson.id));
+grammarData.lessons = [...theoryLessons, ...grammarData.lessons.filter((lesson) => !theoryIds.has(lesson.id))];
+grammarData.meta = { ...grammarData.meta, count: grammarData.lessons.length, schemaVersion: 4 };
 await out("public/data/grammar.json", grammarData);
 
 const advancedSentences = newDialogues.flatMap((dialogue) => dialogue.lines.map((line) => ({ ...line, level: dialogue.level }))).map((line, index) => ({

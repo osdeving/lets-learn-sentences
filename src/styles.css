@@ -560,3 +560,18 @@ summary { cursor: pointer; }
 .audio-stage > p { margin: 20px; color: var(--muted); line-height: 1.6; }
 @media (max-width: 760px) { .audio-list > .source-lesson { min-width: 230px; } }
 .source-player { border: 0; display: block; padding: 0 20px; }
+
+.grammar-theory { padding: 24px clamp(28px, 5vw, 54px) 0; }
+.grammar-theory h3 { margin: 0 0 16px; }
+.grammar-theory ol { margin: 0 0 24px; padding-left: 24px; color: #c6d7db; line-height: 1.7; }
+.grammar-theory li { padding-left: 6px; margin-bottom: 14px; }
+.grammar-theory li::marker { color: var(--mint); font-weight: 700; }
+.grammar-table-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; }
+.grammar-table-scroll:focus-visible { outline: 2px solid var(--mint); outline-offset: 3px; }
+.grammar-theory table { width: 100%; border-collapse: collapse; min-width: 480px; text-align: left; font-size: 14px; }
+.grammar-theory caption { text-align: left; padding: 14px; font-weight: 700; }
+.grammar-theory th, .grammar-theory td { padding: 12px 14px; border-top: 1px solid var(--line); line-height: 1.5; }
+.grammar-theory thead { color: var(--mint); background: var(--panel-2); }
+.grammar-theory tbody th { font-weight: 500; }
+.grammar-theory td button { border: 0; background: transparent; color: var(--ink); text-align: left; line-height: 1.5; }
+.grammar-theory td button:hover { color: var(--mint); }

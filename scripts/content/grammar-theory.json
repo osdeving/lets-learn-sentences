@@ -1,0 +1,454 @@
+[
+  {
+    "id": "T01",
+    "level": "A1",
+    "title": "Start ou starts? O -s do presente",
+    "summary": "Aprenda a escolher o verbo pelo sujeito, inclusive quando ele é um nome ou uma coisa.",
+    "pattern": "I/you/we/they start · he/she/it starts",
+    "listeningTip": "O -s pode soar como s em starts, z em plays e iz em watches. Nem sempre ele forma uma sílaba extra.",
+    "commonMistake": "Não diga Does she starts? O -s já está representado em does. Diga Does she start?",
+    "sourceUrl": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/present-simple",
+    "theory": {
+      "rules": [
+        "No presente simples afirmativo, use a forma base com I, you, we e they. Com he, she e it, acrescente -s ou a terminação correspondente. Isso expressa hábitos, fatos e horários.",
+        "Um nome singular também conta como terceira pessoa: Maria = she; the class = it. Um sujeito plural equivale a they: the classes start. You usa a forma base tanto para você quanto para vocês.",
+        "Em geral, acrescente -s: start → starts. Após -s, -sh, -ch, -x ou -z, normalmente use -es: watch → watches. Consoante + y vira -ies: study → studies; vogal + y mantém y: play → plays.",
+        "Formas frequentes especiais: have → has, do → does, go → goes. Be tem seu próprio sistema: am/is/are. Depois de does/doesn’t ou de modais como can/will, use a forma base, mesmo com he/she/it."
+      ],
+      "rows": [
+        {
+          "when": "I, you, we, they",
+          "form": "start",
+          "example": "They start at eight."
+        },
+        {
+          "when": "He, she, it; nome singular",
+          "form": "starts",
+          "example": "The lesson starts at eight."
+        },
+        {
+          "when": "Consoante + y",
+          "form": "-ies",
+          "example": "She studies English."
+        },
+        {
+          "when": "Após does ou can",
+          "form": "start",
+          "example": "Does she start today? She can start today."
+        }
+      ]
+    },
+    "examples": [
+      {
+        "english": "I start work at eight.",
+        "portuguese": "Começo a trabalhar às oito."
+      },
+      {
+        "english": "She starts work at eight.",
+        "portuguese": "Ela começa a trabalhar às oito."
+      },
+      {
+        "english": "The classes start on Monday.",
+        "portuguese": "As aulas começam na segunda-feira."
+      },
+      {
+        "english": "Does the class start at eight?",
+        "portuguese": "A aula começa às oito?"
+      }
+    ]
+  },
+  {
+    "id": "T02",
+    "level": "A1",
+    "title": "Do, does e did: perguntas e negativas",
+    "summary": "O auxiliar carrega a pessoa ou o passado; o verbo principal fica na forma base.",
+    "pattern": "Do/does/did + sujeito + verbo base",
+    "listeningTip": "Does you não substitui do you: primeiro identifique o sujeito, mesmo quando o auxiliar fica fraco na fala.",
+    "commonMistake": "Não marque o tempo duas vezes: didn’t go, não didn’t went.",
+    "sourceUrl": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/present-simple",
+    "theory": {
+      "rules": [
+        "Com verbos comuns, use do para I/you/we/they e does para he/she/it no presente. Inverta auxiliar e sujeito para perguntar; use don’t/doesn’t para negar.",
+        "No passado, did e didn’t servem para todos os sujeitos. O verbo seguinte não fica no passado: Did you go?, não Did you went?.",
+        "Be e modais não usam esse do auxiliar: Are you ready? / She isn’t ready. / Can he swim? / He can’t swim. Have como verbo de posse normalmente usa do/does: Do you have a car?",
+        "Nas respostas curtas, repita o auxiliar: Yes, she does. / No, they don’t. Uma pergunta com where/when/why costuma manter o auxiliar: Where does she work?"
+      ],
+      "rows": [
+        {
+          "when": "Presente: I/you/we/they",
+          "form": "do / don’t",
+          "example": "Do you work here?"
+        },
+        {
+          "when": "Presente: he/she/it",
+          "form": "does / doesn’t",
+          "example": "He doesn’t work here."
+        },
+        {
+          "when": "Passado: todos",
+          "form": "did / didn’t",
+          "example": "Did she start yesterday?"
+        },
+        {
+          "when": "Be ou modal",
+          "form": "sem do auxiliar",
+          "example": "Is he here? Can he help?"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "english": "When does the meeting start?",
+        "portuguese": "Quando a reunião começa?"
+      },
+      {
+        "english": "She doesn’t work on Sundays.",
+        "portuguese": "Ela não trabalha aos domingos."
+      },
+      {
+        "english": "Did you finish the report?",
+        "portuguese": "Você terminou o relatório?"
+      }
+    ]
+  },
+  {
+    "id": "T03",
+    "level": "A1",
+    "title": "In, on e at: tempo",
+    "summary": "Escolha a preposição conforme a unidade de tempo e aprenda as expressões fixas.",
+    "pattern": "in June · on Monday · at eight",
+    "listeningTip": "Ouça o complemento: eight indica hora; Monday indica dia; June indica mês. A preposição costuma receber pouca ênfase.",
+    "commonMistake": "Não diga on next Monday ou in the night para o sentido geral de à noite; use next Monday e at night.",
+    "sourceUrl": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/prepositions-time",
+    "theory": {
+      "rules": [
+        "Use in com meses, anos, estações e partes gerais do dia: in June, in 2026, in summer, in the morning. In two hours também pode indicar daqui a duas horas.",
+        "Use on com dias da semana e datas: on Monday, on 4 October, on my birthday. Uma parte do dia especificada por um dia também usa on: on Monday morning.",
+        "Use at com horas e momentos convencionais: at eight, at noon, at midnight, at night. At night é uma expressão fixa; não aplique mecanicamente a regra de in the morning.",
+        "Não use in/on/at antes de today, tomorrow, yesterday, this, next, last e every nessas expressões: tomorrow morning, next Monday, every day.",
+        "Fins de semana: at the weekend é frequente no inglês britânico; on the weekend, no americano. Ambos são corretos em suas variedades."
+      ],
+      "rows": [
+        {
+          "when": "Mês, ano, estação; parte geral do dia",
+          "form": "in",
+          "example": "in June / in the morning"
+        },
+        {
+          "when": "Dia, data; dia + parte do dia",
+          "form": "on",
+          "example": "on Monday / on Monday morning"
+        },
+        {
+          "when": "Hora e expressões fixas",
+          "form": "at",
+          "example": "at eight / at night"
+        },
+        {
+          "when": "Next, last, every, this; tomorrow",
+          "form": "sem preposição",
+          "example": "next Monday / tomorrow morning"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "english": "The course starts in June.",
+        "portuguese": "O curso começa em junho."
+      },
+      {
+        "english": "The course starts on Monday.",
+        "portuguese": "O curso começa na segunda-feira."
+      },
+      {
+        "english": "The course starts at nine.",
+        "portuguese": "O curso começa às nove."
+      },
+      {
+        "english": "I’ll call you tomorrow morning.",
+        "portuguese": "Vou ligar para você amanhã de manhã."
+      }
+    ]
+  },
+  {
+    "id": "T04",
+    "level": "A1",
+    "title": "In, on e at: lugar",
+    "summary": "Pense em interior/área, superfície e ponto de referência, sem tratar isso como regra universal.",
+    "pattern": "in a room · on the table · at the station",
+    "listeningTip": "Compare in my bag e on my bag: dentro da bolsa e sobre a bolsa descrevem posições diferentes.",
+    "commonMistake": "O português em pode virar in, on ou at. Traduza a relação e a expressão, não uma palavra isolada.",
+    "sourceUrl": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/prepositions-place",
+    "theory": {
+      "rules": [
+        "In apresenta um interior ou uma área: in the room, in a box, in Brazil, in Americana. At localiza alguém em um ponto, atividade ou endereço: at the station, at work, at 154 Green Street.",
+        "On costuma indicar contato com superfície: on the table, on the wall. Também aparece em expressões como on the second floor, on TV e on the internet.",
+        "At the school enfatiza a escola como localização; in the school enfatiza o interior do prédio. A escolha pode mudar o foco e não apenas indicar certo ou errado.",
+        "Transportes usam convenções: on a bus/train/plane, mas in a car/taxi. Para deslocamento, use go to work; home dispensa to em go home. Para localização, diga at home.",
+        "Streets variam: on Green Street é comum no americano; in Green Street é possível no britânico. Preposições também fazem parte de expressões fixas: aprenda o bloco inteiro."
+      ],
+      "rows": [
+        {
+          "when": "Interior ou área",
+          "form": "in",
+          "example": "in the kitchen / in Brazil"
+        },
+        {
+          "when": "Superfície ou andar",
+          "form": "on",
+          "example": "on the desk / on the second floor"
+        },
+        {
+          "when": "Ponto, atividade ou endereço",
+          "form": "at",
+          "example": "at work / at the station"
+        },
+        {
+          "when": "Transporte",
+          "form": "on / in",
+          "example": "on the bus / in the car"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "english": "My keys are in my bag.",
+        "portuguese": "Minhas chaves estão na minha bolsa."
+      },
+      {
+        "english": "My phone is on the table.",
+        "portuguese": "Meu telefone está na mesa."
+      },
+      {
+        "english": "I’m waiting at the station.",
+        "portuguese": "Estou esperando na estação."
+      },
+      {
+        "english": "She is on the bus.",
+        "portuguese": "Ela está no ônibus."
+      }
+    ]
+  },
+  {
+    "id": "T05",
+    "level": "A1",
+    "title": "A, an, the ou nenhum artigo?",
+    "summary": "Diferencie um item não identificado, um item conhecido e uma categoria geral.",
+    "pattern": "a/an + singular · the + identificável · plural geral sem artigo",
+    "listeningTip": "A/an costuma soar fraco. An hour se conecta, pois hour não começa com um som de h.",
+    "commonMistake": "Não diga an university: o som inicial é de y, então a university.",
+    "sourceUrl": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/articles-a-an-the",
+    "theory": {
+      "rules": [
+        "A/an acompanha substantivo contável singular quando você apresenta um item não identificado: I need a pen. Profissões também usam artigo: She is an engineer.",
+        "A ou an depende do som seguinte, não da letra: a university (som inicial de y), an hour (h mudo), an apple, a useful tool.",
+        "The indica algo que o ouvinte consegue identificar pelo contexto, por menção anterior ou por uma descrição: I bought a book. The book is great.",
+        "Para generalizações, plurais e incontáveis normalmente não recebem artigo: Dogs need exercise. Water is important. Quando são específicos, use the: the water in this bottle.",
+        "Um contável singular normalmente precisa de determinante: a book, the book ou my book. Não combine artigo com possessivo: my phone, não the my phone."
+      ],
+      "rows": [
+        {
+          "when": "Um item contável não identificado",
+          "form": "a / an",
+          "example": "I need a charger."
+        },
+        {
+          "when": "Item identificável",
+          "form": "the",
+          "example": "The charger on the desk is mine."
+        },
+        {
+          "when": "Categoria geral plural",
+          "form": "sem artigo",
+          "example": "Books are useful."
+        },
+        {
+          "when": "Incontável geral",
+          "form": "sem artigo",
+          "example": "Water is essential."
+        }
+      ]
+    },
+    "examples": [
+      {
+        "english": "She is an engineer.",
+        "portuguese": "Ela é engenheira."
+      },
+      {
+        "english": "I bought a book. The book is interesting.",
+        "portuguese": "Comprei um livro. O livro é interessante."
+      },
+      {
+        "english": "I like music.",
+        "portuguese": "Eu gosto de música."
+      }
+    ]
+  },
+  {
+    "id": "T06",
+    "level": "A1",
+    "title": "Plural de nomes versus -s dos verbos",
+    "summary": "O mesmo final escrito pode marcar plural de uma coisa ou concordância de um verbo.",
+    "pattern": "one class starts · two classes start",
+    "listeningTip": "Ao ouvir classes start, o final de classes pertence ao sujeito; não é a terminação do verbo seguinte.",
+    "commonMistake": "O -s do nome não exige -s no verbo: The students study, não The students studies.",
+    "sourceUrl": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/nouns",
+    "theory": {
+      "rules": [
+        "Em substantivos contáveis, -s/-es geralmente indica mais de um: book → books, class → classes. Em verbos no presente, -s/-es indica terceira pessoa singular. São funções diferentes.",
+        "Compare The class starts e The classes start. Primeiro encontre o sujeito e decida se é singular ou plural; só depois escolha a forma verbal.",
+        "Plurais: em geral -s; após s/sh/ch/x/z, normalmente -es; consoante + y vira -ies (city → cities). Há exceções: child → children, person → people, man → men.",
+        "Incontáveis comuns não recebem plural nesse sentido: information, advice, furniture. Para contar unidades, use a piece of information ou two pieces of advice."
+      ],
+      "rows": [
+        {
+          "when": "Nome singular + verbo singular",
+          "form": "class starts",
+          "example": "The class starts now."
+        },
+        {
+          "when": "Nome plural + verbo base",
+          "form": "classes start",
+          "example": "The classes start now."
+        },
+        {
+          "when": "Plural irregular",
+          "form": "children / people",
+          "example": "The children play outside."
+        },
+        {
+          "when": "Incontável",
+          "form": "information",
+          "example": "This information is useful."
+        }
+      ]
+    },
+    "examples": [
+      {
+        "english": "The bus arrives at seven.",
+        "portuguese": "O ônibus chega às sete."
+      },
+      {
+        "english": "The buses arrive at seven.",
+        "portuguese": "Os ônibus chegam às sete."
+      },
+      {
+        "english": "I need two pieces of advice.",
+        "portuguese": "Preciso de dois conselhos."
+      }
+    ]
+  },
+  {
+    "id": "T07",
+    "level": "A2",
+    "title": "Presente simples ou be + -ing?",
+    "summary": "Separe hábito de ação em andamento e monte a estrutura completa.",
+    "pattern": "I work every day · I am working now",
+    "listeningTip": "As contrações I’m e she’s podem ser curtas, mas carregam a estrutura necessária antes de -ing.",
+    "commonMistake": "Não acrescente -s ao verbo com -ing: She is working, não She is workings.",
+    "sourceUrl": "https://learnenglish.britishcouncil.org/grammar/a1-a2-grammar/present-continuous",
+    "theory": {
+      "rules": [
+        "Use presente simples para hábitos, fatos e horários: I work every day. She starts at eight. Use am/is/are + -ing para algo em andamento agora ou uma situação temporária: I’m working now.",
+        "O sujeito decide o auxiliar: I am, he/she/it is, you/we/they are. Não esqueça be: She is studying, não She studying.",
+        "Para escrever -ing: normalmente acrescente -ing (work → working); retire e final em casos como make → making; lie → lying. Em certos verbos curtos com vogal + consoante final, dobre a consoante: run → running.",
+        "Verbos de estado como know, want e believe normalmente ficam no simples nesse sentido: I know the answer. Alguns mudam de uso: I think = acho; I’m thinking = estou pensando."
+      ],
+      "rows": [
+        {
+          "when": "Hábito ou fato",
+          "form": "presente simples",
+          "example": "She works every day."
+        },
+        {
+          "when": "Em andamento agora",
+          "form": "be + -ing",
+          "example": "She is working now."
+        },
+        {
+          "when": "Pergunta no simples",
+          "form": "do / does",
+          "example": "Does she work here?"
+        },
+        {
+          "when": "Pergunta no contínuo",
+          "form": "be antes do sujeito",
+          "example": "Is she working now?"
+        }
+      ]
+    },
+    "examples": [
+      {
+        "english": "I study English every day.",
+        "portuguese": "Estudo inglês todos os dias."
+      },
+      {
+        "english": "I’m studying English right now.",
+        "portuguese": "Estou estudando inglês agora mesmo."
+      },
+      {
+        "english": "She knows the answer.",
+        "portuguese": "Ela sabe a resposta."
+      }
+    ]
+  },
+  {
+    "id": "T08",
+    "level": "A2",
+    "title": "To + verbo, verbo base ou -ing?",
+    "summary": "Aprenda padrões frequentes de complemento sem assumir que todo segundo verbo funciona igual.",
+    "pattern": "want to start · can start · enjoy studying",
+    "listeningTip": "Não confunda a redução sonora de to com sua ausência gramatical: want to continua sendo o padrão.",
+    "commonMistake": "Não diga can to start nem enjoys to read; memorize can start e enjoys reading.",
+    "sourceUrl": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar/verbs-followed-ing-or-infinitive-1",
+    "theory": {
+      "rules": [
+        "Após want, need, decide e plan, normalmente use to + forma base: I want to start. She needs to study. O primeiro verbo concorda com o sujeito; o verbo após to fica na base.",
+        "Após can, should, must, will e outros modais centrais, use a forma base sem to: She can start. Must e should também não recebem -s.",
+        "Após enjoy, avoid e finish, use -ing: I enjoy reading. She finished working. Após preposição, um verbo geralmente fica em -ing: interested in learning, good at cooking.",
+        "O to de look forward to é preposição, então diga I look forward to meeting you. Há verbos que aceitam duas formas; start aceita start working e start to work em muitos contextos.",
+        "Em outros verbos a forma muda o sentido: stop working = parar de trabalhar; stop to rest = interromper outra atividade para descansar. Consulte o padrão do verbo, não apenas uma tradução."
+      ],
+      "rows": [
+        {
+          "when": "Want / need / decide / plan",
+          "form": "to + base",
+          "example": "She wants to start."
+        },
+        {
+          "when": "Can / should / must / will",
+          "form": "base sem to",
+          "example": "She can start."
+        },
+        {
+          "when": "Enjoy / avoid / finish",
+          "form": "-ing",
+          "example": "She enjoys reading."
+        },
+        {
+          "when": "Após preposição",
+          "form": "-ing",
+          "example": "He is good at cooking."
+        }
+      ]
+    },
+    "examples": [
+      {
+        "english": "She wants to start today.",
+        "portuguese": "Ela quer começar hoje."
+      },
+      {
+        "english": "She can start today.",
+        "portuguese": "Ela pode começar hoje."
+      },
+      {
+        "english": "I enjoy learning English.",
+        "portuguese": "Gosto de aprender inglês."
+      },
+      {
+        "english": "I’m interested in learning more.",
+        "portuguese": "Tenho interesse em aprender mais."
+      }
+    ]
+  }
+]

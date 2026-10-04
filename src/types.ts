@@ -172,6 +172,10 @@ export interface GrammarLesson {
   commonMistake: string;
   examples: GrammarExample[];
   sourceUrl: string;
+  theory?: {
+    rules: string[];
+    rows: { when: string; form: string; example: string }[];
+  };
 }
 
 export interface GrammarData {
