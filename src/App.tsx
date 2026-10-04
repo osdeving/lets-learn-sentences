@@ -1,3 +1,4 @@
+import { VocabularyView } from "./vocabulary/VocabularyView";
 import { HumanSourcesView } from "./components/HumanSourcesView";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { DialogueView } from "./components/DialogueView";
@@ -23,7 +24,8 @@ import type { ContentData, StageId, ViewMode } from "./types";
 export default function App() {
   const [content, setContent] = useState<ContentData | null>(null);
   const [error, setError] = useState("");
-  const [view, setView] = useState<ViewMode>("decoding");
+  const [view, setView] = useState<ViewMode>(location.hash.startsWith("#vocabulary/") ? "vocabulary" : "decoding");
+  const [grammarTarget, setGrammarTarget] = useState<string>();
   const [query, setQuery] = useState("");
   const [categoryId, setCategoryId] = useState("all");
   const [situationId, setSituationId] = useState("all");
@@ -257,7 +259,9 @@ export default function App() {
 
         <Tabs active={view} favoriteCount={favorites.size} onChange={switchView} />
 
-        {view === "decoding" ? (
+        {view === "vocabulary" ? (
+          <VocabularyView speech={speech} onGrammar={id => { setGrammarTarget(id); setView("grammar"); }} />
+        ) : view === "decoding" ? (
           <DecodingCoach data={content.decoding} />
         ) : view === "audio" ? (
           <AudioLibraryView clips={content.audioClips} />
@@ -275,7 +279,7 @@ export default function App() {
         ) : view === "practice" ? (
           <ListeningPractice content={content} speech={speech} />
         ) : view === "grammar" ? (
-          <GrammarView lessons={content.grammar} onSpeak={speech.speak} />
+          <GrammarView initialLessonId={grammarTarget} lessons={content.grammar} onSpeak={speech.speak} />
         ) : (
           <section className="workspace">
             <Filters

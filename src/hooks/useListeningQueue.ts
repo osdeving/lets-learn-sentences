@@ -39,10 +39,11 @@ export function useListeningQueue(items: ListeningItem[], storageKey: string, sp
   useEffect(() => () => { stop(); }, [stop]);
   useEffect(() => { if (player.error) { stop(); setError(player.error); } }, [player.error, stop]);
 
-  const start = (from = 0, single = false) => {
+  const start = (from = 0, single = false, immediateItems?: ListeningItem[]) => {
     stop(); setError("");
     const serial = token.current;
-    const { items: list, settings: config } = latest.current;
+    const { settings: config } = latest.current;
+    const list = immediateItems ?? latest.current.items;
     if (!list.length) return;
     setRunning(true);
     const run = (itemIndex: number, pass: number) => {

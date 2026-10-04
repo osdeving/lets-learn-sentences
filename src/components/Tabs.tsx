@@ -9,6 +9,7 @@ interface TabsProps {
 export function Tabs({ active, favoriteCount, onChange }: TabsProps) {
   const tabs: Array<{ id: ViewMode; label: string }> = [
     { id: "decoding", label: "Método listening" },
+    { id: "vocabulary", label: "Vocabulário" },
     { id: "sentences", label: "Sentenças" },
     { id: "audio", label: "Áudio humano" },
     { id: "sources", label: "Mais vozes humanas" },

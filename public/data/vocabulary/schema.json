@@ -1,0 +1,390 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pronunciationNote": {
+      "type": "string",
+      "minLength": 1
+    },
+    "categories": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "audioUrl": {
+            "type": "string",
+            "pattern": "^(https://|/)[^\\s]+$"
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "image": {
+            "type": "string",
+            "pattern": "^(https://|/)[^\\s]+$"
+          },
+          "color": {
+            "type": "string",
+            "pattern": "^#[0-9a-fA-F]{6}$"
+          },
+          "groups": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "en": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "pt": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "audioUrl": {
+                  "type": "string",
+                  "pattern": "^(https://|/)[^\\s]+$"
+                },
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "id",
+                "en",
+                "pt"
+              ]
+            }
+          },
+          "hotspots": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "group": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "x": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 100
+                },
+                "y": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 100
+                }
+              },
+              "required": [
+                "group",
+                "x",
+                "y"
+              ]
+            }
+          }
+        },
+        "required": [
+          "id",
+          "en",
+          "pt",
+          "description",
+          "image",
+          "color",
+          "groups"
+        ]
+      }
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "en": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "audioUrl": {
+            "type": "string",
+            "pattern": "^(https://|/)[^\\s]+$"
+          },
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "type": "string",
+            "minLength": 1
+          },
+          "group": {
+            "type": "string",
+            "minLength": 1
+          },
+          "frequency": {
+            "enum": [
+              "common",
+              "specific",
+              "technical"
+            ]
+          },
+          "partOfSpeech": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pronunciation": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "ipa": {
+                "type": "string",
+                "minLength": 1
+              },
+              "guide": {
+                "type": "string",
+                "minLength": 1
+              },
+              "tip": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "ipa",
+              "guide"
+            ]
+          },
+          "emoji": {
+            "type": "string",
+            "minLength": 1
+          },
+          "image": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "src": {
+                "type": "string",
+                "pattern": "^(https://|/)[^\\s]+$"
+              },
+              "alt": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "src",
+              "alt"
+            ]
+          },
+          "examples": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "en": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "pt": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "audioUrl": {
+                  "type": "string",
+                  "pattern": "^(https://|/)[^\\s]+$"
+                }
+              },
+              "required": [
+                "en",
+                "pt"
+              ]
+            }
+          },
+          "variants": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "en": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "pt": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "audioUrl": {
+                  "type": "string",
+                  "pattern": "^(https://|/)[^\\s]+$"
+                },
+                "kind": {
+                  "enum": [
+                    "synonym",
+                    "regional",
+                    "informal",
+                    "technical"
+                  ]
+                },
+                "note": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "pronunciation": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "en",
+                "pt",
+                "kind"
+              ]
+            }
+          },
+          "notes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "usage",
+                    "culture",
+                    "pitfall",
+                    "grammar"
+                  ]
+                },
+                "text": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "kind",
+                "text"
+              ]
+            }
+          },
+          "chunks": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "en": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "pt": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "audioUrl": {
+                  "type": "string",
+                  "pattern": "^(https://|/)[^\\s]+$"
+                }
+              },
+              "required": [
+                "en",
+                "pt"
+              ]
+            }
+          },
+          "plural": {
+            "type": "string",
+            "minLength": 1
+          },
+          "related": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "grammar": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "tags": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^(https://|/)[^\\s]+$"
+            }
+          }
+        },
+        "required": [
+          "en",
+          "pt",
+          "id",
+          "category",
+          "group",
+          "frequency",
+          "partOfSpeech",
+          "pronunciation",
+          "emoji",
+          "examples"
+        ]
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "title",
+    "pronunciationNote",
+    "categories",
+    "entries"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

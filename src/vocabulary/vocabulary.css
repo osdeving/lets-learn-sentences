@@ -1,0 +1,400 @@
+.vocabulary {
+  margin: 24px 0;
+}
+.vocab-header,
+.vocab-entry-top,
+.vocab-toolbar,
+.vocab-filters,
+.vocab-context {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+.vocab-header h2 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  margin: 8px 0;
+}
+.vocab-count {
+  white-space: nowrap;
+  color: #a2b9c7;
+}
+.vocab-count strong {
+  font-size: 2rem;
+  color: #5de0c0;
+}
+.vocab-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+  gap: 10px;
+  margin: 24px 0;
+}
+.vocab-category {
+  border: 1px solid #344855;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #192a38;
+}
+.vocab-category > button:first-child {
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  display: grid;
+  padding: 8px;
+  text-align: left;
+}
+.vocab-category img {
+  width: 100%;
+  height: 88px;
+  object-fit: contain;
+}
+.vocab-category strong {
+  padding: 8px;
+}
+.vocab-category > .vocab-speak {
+  font-size: 0.78rem;
+  margin: 0 8px 8px;
+}
+.vocabulary button {
+  cursor: pointer;
+  min-height: 40px;
+}
+.vocabulary button.active,
+.vocab-category.active,
+.vocab-list > .active {
+  border-color: #5de0c0;
+  background: #22433f;
+}
+.vocab-filters {
+  align-items: end;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.vocab-filters label:first-child {
+  flex: 1;
+  min-width: 220px;
+}
+.vocabulary label:not(.check-row) {
+  display: grid;
+  gap: 8px;
+}
+.vocabulary input:not([type="checkbox"]),
+.vocabulary select {
+  max-width: 100%;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #526777;
+  border-radius: 10px;
+  background: #142432;
+  color: #edf5f8;
+}
+.vocab-toolbar {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 16px 0;
+}
+.vocab-toolbar [aria-pressed="true"] {
+  background: #58dcc0;
+  color: #11232c;
+}
+.vocab-settings {
+  border: 1px solid #344855;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 16px 0;
+}
+.vocab-settings summary {
+  cursor: pointer;
+}
+.vocab-layout {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 20px;
+  margin-top: 24px;
+}
+.vocab-list {
+  max-height: 850px;
+  overflow: auto;
+  border: 1px solid #344855;
+  border-radius: 16px;
+  align-self: start;
+}
+.vocab-list > div {
+  display: flex;
+  border-bottom: 1px solid #344855;
+  padding: 4px;
+}
+.vocab-list button {
+  border: 0;
+  background: none;
+}
+.vocab-list button:first-child {
+  display: flex;
+  text-align: left;
+  gap: 12px;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+}
+.vocab-list strong,
+.vocab-list small {
+  display: block;
+}
+.vocab-list small {
+  color: #aec2cc;
+}
+.vocab-entry {
+  padding: 28px;
+  border: 1px solid #344855;
+  border-radius: 20px;
+  background: #192b39;
+  min-width: 0;
+}
+.vocab-entry h2 {
+  margin: 8px 0;
+  font-size: 2.3rem;
+}
+.vocab-entry-top {
+  align-items: start;
+}
+.vocab-art {
+  width: 36%;
+  max-width: 230px;
+  border-radius: 20px;
+}
+.vocab-emoji {
+  font-size: 6rem;
+}
+.vocab-translation {
+  font-size: 1.35rem;
+  color: #b9d4df;
+}
+.vocab-speak {
+  position: relative;
+  background: transparent;
+  border: 1px solid #425b68;
+  color: inherit;
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  text-align: left;
+  max-width: 100%;
+  font: inherit;
+  border-radius: 10px;
+  padding: 6px 10px;
+}
+.vocab-speak > span[aria-hidden] {
+  color: #5de0c0;
+}
+.vocab-tooltip {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background: #091721;
+  color: #fff;
+  padding: 8px;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  z-index: 5;
+  min-width: 120px;
+  max-width: 280px;
+  border: 1px solid #5de0c0;
+  border-radius: 8px;
+  pointer-events: none;
+}
+.vocab-speak:hover .vocab-tooltip,
+.vocab-speak:focus-visible .vocab-tooltip {
+  display: block;
+}
+.vocab-example {
+  padding: 16px;
+  margin: 12px 0;
+  background: #102531;
+  border-left: 3px solid #5de0c0;
+  border-radius: 0 12px 12px 0;
+}
+.vocab-example p {
+  margin: 10px 0 0;
+  color: #b4cbd5;
+}
+.vocab-note {
+  background: #283741;
+  border-radius: 12px;
+  padding: 16px;
+  line-height: 1.65;
+}
+.vocab-related,
+.vocab-groups {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 14px 0;
+}
+.vocab-related > div,
+.vocab-groups > div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.vocab-related a {
+  padding: 8px;
+  color: #83e8d1;
+}
+.vocab-context {
+  padding: 20px;
+  border: 1px solid #405664;
+  border-radius: 16px;
+}
+.vocab-map {
+  position: relative;
+  width: 300px;
+  flex-shrink: 0;
+}
+.vocab-map img {
+  width: 100%;
+}
+.vocab-map button {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: #152b3b;
+  color: #7ce7cf;
+  min-height: 28px;
+  width: 28px;
+  padding: 0;
+}
+.vocab-quiz {
+  text-align: center;
+  border: 1px solid #405664;
+  padding: 30px;
+  border-radius: 20px;
+}
+.vocab-choices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  max-width: 650px;
+  margin: 24px auto;
+}
+.vocab-choices button {
+  padding: 20px;
+}
+.vocab-empty {
+  padding: 35px;
+  text-align: center;
+}
+.vocabulary button:focus-visible,
+.vocabulary a:focus-visible {
+  outline: 3px solid #f5c964;
+  outline-offset: 3px;
+}
+.vocabulary .check-row {
+  margin: 16px 0;
+}
+@media (max-width: 760px) {
+  .vocab-header,
+  .vocab-context {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .vocab-count {
+    white-space: normal;
+  }
+  .vocab-layout {
+    grid-template-columns: 1fr;
+  }
+  .vocab-list {
+    max-height: 235px;
+  }
+  .vocab-entry {
+    padding: 18px;
+  }
+  .vocab-entry h2 {
+    font-size: 1.9rem;
+  }
+  .vocab-art {
+    width: 28%;
+  }
+  .vocab-emoji {
+    font-size: 3.5rem;
+  }
+  .vocab-map {
+    max-width: 100%;
+    margin: auto;
+  }
+  .vocab-categories {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+  }
+  .vocab-category img {
+    height: 65px;
+  }
+  .vocab-category strong {
+    font-size: 0.8rem;
+    padding: 4px;
+  }
+  .vocab-category > .vocab-speak {
+    font-size: 0.7rem;
+    padding: 4px;
+    margin: 4px;
+  }
+  .vocab-choices {
+    grid-template-columns: 1fr;
+  }
+  .vocab-entry-top {
+    gap: 8px;
+  }
+  .vocab-header {
+    gap: 8px;
+  }
+}
+.vocabulary button:not(.vocab-speak):not(.listen-button) {
+  border: 1px solid #45616e;
+  border-radius: 10px;
+  padding: 8px 12px;
+  background: #203544;
+  color: #edf5f8;
+  font: inherit;
+}
+.vocabulary button[aria-pressed="true"],
+.vocabulary button.active {
+  border-color: #5de0c0 !important;
+  background: #254d45 !important;
+}
+.vocab-category > button:first-child {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  padding: 8px !important;
+}
+.vocab-list button {
+  background: transparent !important;
+  border: 0 !important;
+}
+.vocab-list button:first-child {
+  padding: 10px !important;
+}
+.vocab-entry-top > div > button {
+  margin: 4px 6px 4px 0;
+}
+.vocabulary button:disabled {
+  opacity: 0.65;
+  cursor: default;
+}
+.vocab-map button {
+  padding: 0 !important;
+  min-height: 28px !important;
+}
+.vocab-categories > button:first-child {
+  display: grid;
+  place-content: center;
+  gap: 14px;
+}
+.vocab-category {
+  min-width: 0;
+}
+.vocab-speak {
+  overflow-wrap: anywhere;
+}

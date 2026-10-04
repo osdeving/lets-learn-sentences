@@ -72,3 +72,7 @@ console.log('SoundCloud passed: official widget completion, repeats, gaps, advan
 
 mockWidget.pause=()=>{throw new TypeError("Removed iframe cannot receive postMessage");};
 assert.doesNotThrow(()=>wr([]), 'Changing to an external source must survive removal of the player iframe');
+
+// Manual vocabulary audio starts in the click gesture without a state/effect round trip.
+queue=render([]);const beforeImmediate=calls.length;queue.start(0,true,[{id:'manual',text:'mug',audioUrl:'/mug.mp3',rate:0.7}]);
+assert.equal(calls.length,beforeImmediate+1);assert.equal(calls.at(-1).url,'/mug.mp3');assert.equal(calls.at(-1).options.rate,0.7);calls.at(-1).options.onComplete();qt.advance(2000);assert.equal(calls.length,beforeImmediate+1,'Manual play must neither repeat nor advance');

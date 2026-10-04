@@ -3,12 +3,13 @@ import type { GrammarLesson, Level } from "../types";
 
 interface GrammarViewProps {
   lessons: GrammarLesson[];
+  initialLessonId?: string;
   onSpeak: (text: string) => void;
 }
 
-export function GrammarView({ lessons, onSpeak }: GrammarViewProps) {
+export function GrammarView({ lessons, onSpeak, initialLessonId }: GrammarViewProps) {
   const [level, setLevel] = useState<Level | "all">("all");
-  const [selectedId, setSelectedId] = useState(lessons[0]?.id ?? "");
+  const [selectedId, setSelectedId] = useState(initialLessonId ?? lessons[0]?.id ?? "");
   const visible = useMemo(() => lessons.filter((lesson) => level === "all" || lesson.level === level), [lessons, level]);
   const active = visible.find((lesson) => lesson.id === selectedId) ?? visible[0];
 

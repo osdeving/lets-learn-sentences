@@ -27,6 +27,7 @@ jobs:
       - run: pnpm validate
       - run: pnpm test:listening
       - run: pnpm test:playback
+      - run: pnpm test:vocabulary
       - uses: actions/configure-pages@v5
         id: pages
       - run: pnpm build

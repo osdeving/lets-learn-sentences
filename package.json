@@ -8,7 +8,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build && node scripts/build-offline-manifest.mjs",
     "preview": "vite preview",
-    "validate": "node scripts/validate-content.mjs",
+    "validate": "node scripts/validate-content.mjs && node scripts/validate-vocabulary.mjs",
     "content:build": "node scripts/build-expanded-content.mjs && node scripts/build-next-content.mjs",
     "audio:import-tatoeba": "node scripts/import-tatoeba-audio.mjs",
     "audio:download": "bash scripts/download-human-audio.sh",
@@ -20,17 +20,19 @@
     "test:listening:playback": "node scripts/listening-playback-ui.mjs",
     "test:listening:offline": "node scripts/listening-offline-ui.mjs",
     "package:offline": "pnpm build && python3 scripts/package-offline.py",
-    "test:playback": "node scripts/test-playback.mjs"
+    "test:playback": "node scripts/test-playback.mjs",
+    "test:vocabulary": "node --experimental-strip-types scripts/test-vocabulary.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.4",
-    "vite": "^7.1.7",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "vite": "^7.1.7"
   },
   "devDependencies": {
     "@types/react": "^19.1.16",
     "@types/react-dom": "^19.1.9",
+    "ajv": "^8.20.0",
     "typescript": "^5.9.3"
   }
 }
