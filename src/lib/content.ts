@@ -14,7 +14,7 @@ import type {
 } from "../types";
 
 async function fetchJSON<T>(path: string): Promise<T> {
-  const response = await fetch(import.meta.env.BASE_URL + path.replace(/^\//, ""));
+  const response = await fetch(import.meta.env.BASE_URL + path.replace(/^\//, ""), { cache: "no-cache" });
   if (!response.ok) throw new Error(`Não foi possível carregar ${path}: ${response.status}`);
   const data = await response.json();
   // Content stays portable; resolve local recordings at the loading boundary.
