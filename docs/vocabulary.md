@@ -36,3 +36,25 @@ Imagens locais seguem a mesma regra. SVGs deste catálogo são desenhos originai
 Links `#vocabulary/<id>` abrem um verbete. Busca considera inglês, português, sinônimos, exemplos e tags, sem acentos. Salvos ficam no navegador. A escuta segue a seleção e inclui opcionalmente o primeiro exemplo; padrão 3 repetições e pausa de 500 ms. Mudar seleção para a fila. O desafio usa traduções distintas, priorizando alternativas da mesma categoria. Conteúdo local entra no manifesto offline; vozes remotas do sistema podem continuar exigindo internet.
 
 Execute `pnpm validate`, `pnpm test:vocabulary`, `pnpm test:listening`, `pnpm test:playback` e `VITE_BASE_PATH=/lets-learn-sentences/ pnpm build` antes de publicar. O catálogo é a fonte principal: scripts antigos de geração de sentenças não o sobrescrevem.
+
+## Histórias do cotidiano
+
+O campo opcional `stories` do mesmo catálogo conecta o vocabulário a diálogos originais. Cada história tem `id`, `en`, `pt`, `description`, `image`, `characters` (nomes dos participantes) e `scenes`. Cada cena contém:
+
+```json
+{
+  "id": "breakfast",
+  "en": "Breakfast together",
+  "pt": "Café da manhã juntos",
+  "setting": {"en": "Peter and Sam are in the kitchen.", "pt": "Peter e Sam estão na cozinha."},
+  "words": ["mug", "toast"],
+  "lines": [
+    {"speaker": "Peter", "en": "Where’s my mug?", "pt": "Cadê minha caneca?"},
+    {"speaker": "Sam", "en": "It’s next to your toast.", "pt": "Está ao lado da sua torrada."}
+  ]
+}
+```
+
+Os IDs em `words` ligam a cena ao catálogo e geram os destaques no texto. São reconhecidas palavras inteiras, plurais registrados, plurais simples com -s e variantes do verbete; prefira incluir a forma plural explícita para irregularidades. Não é um analisador linguístico: a lista de palavras da cena deve ser revisada editorialmente. O leitor permite consultar o verbete sem sair da conversa, ouvir cada fala, ocultar a tradução e ouvir a cena ou todas as cenas em sequência. Cenário, título e falas aceitam `audioUrl`, com voz sintética como alternativa. A fila repete cada fala conforme a configuração; os personagens alternam entre duas vozes disponíveis, sem prometer uma voz exclusiva para cada pessoa.
+
+Use diálogos naturais com continuidade, perguntas e respostas; não transforme todas as falas em listas de objetos. Preços ou situações em diálogos são exemplos ficcionais, não informações sobre serviços reais. A validação rejeita palavras inexistentes, falantes não declarados, cenas duplicadas e traduções ausentes. Novas histórias e cenas exigem somente JSON e, se desejado, novos arquivos de imagem/áudio.

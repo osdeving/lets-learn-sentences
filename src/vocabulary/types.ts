@@ -41,4 +41,19 @@ export interface VocabularyData {
   pronunciationNote: string;
   categories: VocabularyCategory[];
   entries: VocabularyEntry[];
+  stories?: VocabularyStory[];
+}
+
+export interface VocabularyScene extends SpokenText {
+  id: string;
+  setting: SpokenText;
+  words: string[];
+  lines: (SpokenText & { speaker: string })[];
+}
+export interface VocabularyStory extends SpokenText {
+  id: string;
+  description: string;
+  image: string;
+  characters: string[];
+  scenes: VocabularyScene[];
 }

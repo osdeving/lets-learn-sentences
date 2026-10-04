@@ -1,3 +1,4 @@
+import { VocabularyStories } from "./VocabularyStories";
 import { useEffect, useMemo, useState } from "react";
 import type { SpeechController } from "../hooks/useSpeech";
 import { useListeningQueue } from "../hooks/useListeningQueue";
@@ -26,6 +27,9 @@ export function VocabularyView({
   speech: SpeechController;
   onGrammar: (id: string) => void;
 }) {
+  const [mode, setMode] = useState(
+    location.hash.startsWith("#vocabulary-stories") ? "stories" : "explore",
+  );
   const [data, setData] = useState<VocabularyData>();
   const [error, setError] = useState("");
   const [attempt, setAttempt] = useState(0);
@@ -56,7 +60,36 @@ export function VocabularyView({
       </section>
     );
   return data ? (
-    <VocabularyExplorer data={data} speech={speech} onGrammar={onGrammar} />
+    <>
+      <nav className="vocab-toolbar" aria-label="Como aprender vocabulário">
+        <button
+          aria-pressed={mode === "explore"}
+          onClick={() => setMode("explore")}
+        >
+          Explorar palavras
+        </button>
+        {!!data.stories?.length && (
+          <button
+            aria-pressed={mode === "stories"}
+            onClick={() => setMode("stories")}
+          >
+            Histórias do cotidiano
+          </button>
+        )}
+      </nav>
+      {mode === "stories" ? (
+        <VocabularyStories
+          data={data}
+          speech={speech}
+          onOpenEntry={(id) => {
+            location.hash = "vocabulary/" + id;
+            setMode("explore");
+          }}
+        />
+      ) : (
+        <VocabularyExplorer data={data} speech={speech} onGrammar={onGrammar} />
+      )}
+    </>
   ) : (
     <p role="status">Preparando o vocabulário…</p>
   );

@@ -354,6 +354,111 @@
           "pt": "Condições e qualidades"
         }
       ]
+    },
+    {
+      "id": "breakfast",
+      "en": "Breakfast and snacks",
+      "pt": "Café da manhã e lanches",
+      "description": "Da primeira refeição à pausa para um lanche.",
+      "image": "/images/vocabulary/kitchen.svg",
+      "color": "#9bdccc",
+      "groups": [
+        {
+          "id": "daily",
+          "en": "Food and drink",
+          "pt": "Comidas e bebidas"
+        }
+      ]
+    },
+    {
+      "id": "laundry",
+      "en": "Laundry and chores",
+      "pt": "Roupa e tarefas domésticas",
+      "description": "Cuidar da roupa e dividir as tarefas da casa.",
+      "image": "/images/vocabulary/home.svg",
+      "color": "#9bdccc",
+      "groups": [
+        {
+          "id": "daily",
+          "en": "Getting things done",
+          "pt": "Cuidando da casa"
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "en": "Getting around",
+      "pt": "Indo e vindo",
+      "description": "Sair de casa, pegar transporte e chegar ao destino.",
+      "image": "/images/vocabulary/street.svg",
+      "color": "#9bdccc",
+      "groups": [
+        {
+          "id": "daily",
+          "en": "On the way",
+          "pt": "No caminho"
+        }
+      ]
+    },
+    {
+      "id": "digital",
+      "en": "Everyday technology",
+      "pt": "Celular e vida digital",
+      "description": "Conversas, bateria e pequenos problemas de conexão.",
+      "image": "/images/vocabulary/work.svg",
+      "color": "#9bdccc",
+      "groups": [
+        {
+          "id": "daily",
+          "en": "Staying connected",
+          "pt": "Mantendo contato"
+        }
+      ]
+    },
+    {
+      "id": "relationships",
+      "en": "People in our lives",
+      "pt": "Família e relacionamentos",
+      "description": "Quem mora com você, quem você encontra e como combinar algo.",
+      "image": "/images/vocabulary/feelings.svg",
+      "color": "#9bdccc",
+      "groups": [
+        {
+          "id": "daily",
+          "en": "People and plans",
+          "pt": "Pessoas e planos"
+        }
+      ]
+    },
+    {
+      "id": "leisure",
+      "en": "Free time",
+      "pt": "Lazer e encontros",
+      "description": "Um café, um passeio, um filme ou uma noite tranquila.",
+      "image": "/images/vocabulary/market.svg",
+      "color": "#9bdccc",
+      "groups": [
+        {
+          "id": "daily",
+          "en": "Going out and staying in",
+          "pt": "Saindo e ficando em casa"
+        }
+      ]
+    },
+    {
+      "id": "college",
+      "en": "College life",
+      "pt": "Vida na faculdade",
+      "description": "Aulas, trabalhos e conversas entre colegas.",
+      "image": "/images/vocabulary/school.svg",
+      "color": "#9bdccc",
+      "groups": [
+        {
+          "id": "daily",
+          "en": "Learning together",
+          "pt": "Aprendendo juntos"
+        }
+      ]
     }
   ],
   "entries": [
@@ -3340,7 +3445,11 @@
       ],
       "related": [
         "cup",
-        "glass"
+        "glass",
+        "toast",
+        "butter",
+        "jam",
+        "coffee-maker"
       ],
       "image": {
         "src": "/images/vocabulary/word-mug.svg",
@@ -6255,6 +6364,12 @@
           "kind": "synonym",
           "note": "Muito comum em conversa, especialmente nos EUA."
         }
+      ],
+      "related": [
+        "movie",
+        "episode",
+        "remote-control",
+        "weekend"
       ]
     },
     {
@@ -6480,6 +6595,13 @@
           "kind": "regional",
           "note": "Comum no Reino Unido."
         }
+      ],
+      "related": [
+        "phone",
+        "battery",
+        "charger",
+        "notification",
+        "message"
       ]
     },
     {
@@ -6747,6 +6869,13 @@
           "kind": "usage",
           "text": "Charge é carregar uma bateria; load é carregar dados ou mercadorias, em outros contextos."
         }
+      ],
+      "related": [
+        "phone",
+        "battery",
+        "outlet",
+        "notification",
+        "message"
       ]
     },
     {
@@ -6873,6 +7002,14 @@
           "en": "miss a deadline",
           "pt": "perder um prazo"
         }
+      ],
+      "related": [
+        "lecture",
+        "assignment",
+        "notes",
+        "exam",
+        "library",
+        "study-group"
       ]
     },
     {
@@ -7484,6 +7621,15 @@
           "kind": "usage",
           "text": "Bus station é uma estação ou rodoviária; bus stop é um ponto de parada."
         }
+      ],
+      "related": [
+        "commute",
+        "fare",
+        "ticket",
+        "seat",
+        "traffic",
+        "subway",
+        "platform"
       ]
     },
     {
@@ -9657,6 +9803,2774 @@
         {
           "kind": "usage",
           "text": "Hard pode descrever textura ou dificuldade; hard work é trabalho árduo."
+        }
+      ]
+    },
+    {
+      "id": "toast",
+      "category": "breakfast",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "toast",
+      "pt": "torrada",
+      "pronunciation": {
+        "ipa": "/toʊst/",
+        "guide": "tôust"
+      },
+      "emoji": "🥣",
+      "examples": [
+        {
+          "en": "Would you like some toast?",
+          "pt": "Você quer um pouco de torrada?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Toast costuma ser incontável: a slice of toast, não a toast para uma torrada."
+        }
+      ],
+      "related": [
+        "butter",
+        "jam",
+        "coffee-maker",
+        "mug"
+      ]
+    },
+    {
+      "id": "cereal",
+      "category": "breakfast",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "cereal",
+      "pt": "cereal matinal",
+      "pronunciation": {
+        "ipa": "/ˈsɪriəl/",
+        "guide": "SÍ-ri-al"
+      },
+      "emoji": "🥣",
+      "examples": [
+        {
+          "en": "We’re out of cereal.",
+          "pt": "Nosso cereal acabou."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "We’re out of... é uma combinação útil para algo que acabou em casa."
+        }
+      ]
+    },
+    {
+      "id": "oatmeal",
+      "category": "breakfast",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "oatmeal",
+      "pt": "mingau de aveia",
+      "pronunciation": {
+        "ipa": "/ˈoʊtmiːl/",
+        "guide": "ÔUT-miil"
+      },
+      "emoji": "🥣",
+      "examples": [
+        {
+          "en": "I usually have oatmeal for breakfast.",
+          "pt": "Costumo comer mingau de aveia no café da manhã."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Nos EUA, oatmeal pode indicar o prato preparado; oats são os grãos ou flocos de aveia."
+        }
+      ]
+    },
+    {
+      "id": "yogurt",
+      "category": "breakfast",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "yogurt",
+      "pt": "iogurte",
+      "pronunciation": {
+        "ipa": "/ˈjoʊɡərt/",
+        "guide": "IÔU-guert"
+      },
+      "emoji": "🥣",
+      "examples": [
+        {
+          "en": "There’s some yogurt in the fridge.",
+          "pt": "Tem iogurte na geladeira."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Também se escreve yoghurt, especialmente no inglês britânico."
+        }
+      ],
+      "variants": [
+        {
+          "en": "yoghurt",
+          "pt": "iogurte",
+          "kind": "regional",
+          "note": "Grafia frequente no Reino Unido."
+        }
+      ]
+    },
+    {
+      "id": "butter",
+      "category": "breakfast",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "butter",
+      "pt": "manteiga",
+      "pronunciation": {
+        "ipa": "/ˈbʌtər/",
+        "guide": "BÂ-ter"
+      },
+      "emoji": "🥣",
+      "examples": [
+        {
+          "en": "Can you pass the butter?",
+          "pt": "Você pode passar a manteiga?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Pass the... serve para pedir que alguém alcance um alimento à mesa."
+        }
+      ],
+      "related": [
+        "toast",
+        "jam",
+        "coffee-maker",
+        "mug"
+      ]
+    },
+    {
+      "id": "jam",
+      "category": "breakfast",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "jam",
+      "pt": "geleia",
+      "pronunciation": {
+        "ipa": "/dʒæm/",
+        "guide": "djém"
+      },
+      "emoji": "🥣",
+      "examples": [
+        {
+          "en": "I put jam on my toast.",
+          "pt": "Eu coloco geleia na torrada."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Jam tem fruta; jelly nos EUA costuma ser geleia mais lisa, feita com suco. No Reino Unido, jelly geralmente é gelatina."
+        }
+      ],
+      "related": [
+        "toast",
+        "butter",
+        "coffee-maker",
+        "mug"
+      ]
+    },
+    {
+      "id": "leftovers",
+      "category": "breakfast",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "leftovers",
+      "pt": "sobras de comida",
+      "pronunciation": {
+        "ipa": "/ˈleftoʊvərz/",
+        "guide": "LÉFT-ôu-verz"
+      },
+      "emoji": "🥣",
+      "examples": [
+        {
+          "en": "Let’s have the leftovers for lunch.",
+          "pt": "Vamos comer as sobras no almoço."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Use o plural para a comida que sobrou: leftovers. Não significa lixo."
+        }
+      ]
+    },
+    {
+      "id": "lunchbox",
+      "category": "breakfast",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "lunchbox",
+      "pt": "lancheira; marmita (recipiente)",
+      "pronunciation": {
+        "ipa": "/ˈlʌntʃbɑːks/",
+        "guide": "LÂNTCH-baks"
+      },
+      "emoji": "🥣",
+      "examples": [
+        {
+          "en": "I packed my lunchbox last night.",
+          "pt": "Preparei minha marmita ontem à noite."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Lunchbox é o recipiente; packed lunch é a refeição preparada para levar."
+        }
+      ]
+    },
+    {
+      "id": "snack",
+      "category": "breakfast",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "snack",
+      "pt": "lanche; petisco",
+      "pronunciation": {
+        "ipa": "/snæk/",
+        "guide": "snék"
+      },
+      "emoji": "🥣",
+      "examples": [
+        {
+          "en": "I need a snack before class.",
+          "pt": "Preciso de um lanche antes da aula."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Um snack costuma ser algo pequeno entre refeições, não necessariamente um sanduíche."
+        }
+      ]
+    },
+    {
+      "id": "coffee-maker",
+      "category": "breakfast",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "coffee maker",
+      "pt": "cafeteira",
+      "pronunciation": {
+        "ipa": "/ˈkɔːfi ˌmeɪkər/",
+        "guide": "KÓ-fi MÊI-ker"
+      },
+      "emoji": "🥣",
+      "examples": [
+        {
+          "en": "Did you turn off the coffee maker?",
+          "pt": "Você desligou a cafeteira?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Turn on e turn off são combinações úteis com aparelhos. Coffee machine também é comum."
+        }
+      ],
+      "variants": [
+        {
+          "en": "coffee machine",
+          "pt": "cafeteira",
+          "kind": "synonym",
+          "note": "Termo amplo; o tipo de aparelho depende do contexto."
+        }
+      ],
+      "related": [
+        "toast",
+        "butter",
+        "jam",
+        "mug"
+      ]
+    },
+    {
+      "id": "laundry",
+      "category": "laundry",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "laundry",
+      "pt": "roupa para lavar; lavagem de roupa",
+      "pronunciation": {
+        "ipa": "/ˈlɔːndri/",
+        "guide": "LÓN-dri"
+      },
+      "emoji": "🧺",
+      "examples": [
+        {
+          "en": "I need to do the laundry.",
+          "pt": "Preciso lavar roupa."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Do the laundry inclui cuidar da lavagem. Laundry não é o lugar comercial: para isso, laundromat nos EUA."
+        }
+      ],
+      "related": [
+        "washing-machine",
+        "detergent",
+        "stain",
+        "laundry-basket",
+        "clothesline"
+      ]
+    },
+    {
+      "id": "washing-machine",
+      "category": "laundry",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "washing machine",
+      "pt": "máquina de lavar roupa",
+      "pronunciation": {
+        "ipa": "/ˈwɑːʃɪŋ məˌʃiːn/",
+        "guide": "UÓ-shing ma-SHÍIN"
+      },
+      "emoji": "🧺",
+      "examples": [
+        {
+          "en": "The washing machine is still running.",
+          "pt": "A máquina de lavar ainda está funcionando."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Running, para um aparelho, significa em funcionamento."
+        }
+      ],
+      "related": [
+        "laundry",
+        "detergent",
+        "stain",
+        "laundry-basket",
+        "clothesline"
+      ]
+    },
+    {
+      "id": "detergent",
+      "category": "laundry",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "detergent",
+      "pt": "detergente; sabão de lavagem",
+      "pronunciation": {
+        "ipa": "/dɪˈtɜːrdʒənt/",
+        "guide": "di-TÂR-djent"
+      },
+      "emoji": "🧺",
+      "examples": [
+        {
+          "en": "We need laundry detergent.",
+          "pt": "Precisamos de sabão para lavar roupa."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Laundry detergent é para roupa; dish soap é para lavar louça à mão."
+        }
+      ],
+      "related": [
+        "laundry",
+        "washing-machine",
+        "stain",
+        "laundry-basket",
+        "clothesline"
+      ]
+    },
+    {
+      "id": "stain",
+      "category": "laundry",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "stain",
+      "pt": "mancha",
+      "pronunciation": {
+        "ipa": "/steɪn/",
+        "guide": "stêin"
+      },
+      "emoji": "🧺",
+      "examples": [
+        {
+          "en": "There’s a coffee stain on your shirt.",
+          "pt": "Tem uma mancha de café na sua camisa."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Get a stain out é tirar uma mancha. Stain também pode ser verbo: manchar."
+        }
+      ],
+      "related": [
+        "laundry",
+        "washing-machine",
+        "detergent",
+        "laundry-basket",
+        "clothesline"
+      ]
+    },
+    {
+      "id": "clothesline",
+      "category": "laundry",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "clothesline",
+      "pt": "varal",
+      "pronunciation": {
+        "ipa": "/ˈkloʊðzlaɪn/",
+        "guide": "CLÔUDHZ-lain"
+      },
+      "emoji": "🧺",
+      "examples": [
+        {
+          "en": "Hang the towels on the clothesline.",
+          "pt": "Pendure as toalhas no varal."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Para um varal de chão dobrável, drying rack é mais específico."
+        }
+      ],
+      "related": [
+        "laundry",
+        "washing-machine",
+        "detergent",
+        "stain",
+        "laundry-basket"
+      ]
+    },
+    {
+      "id": "laundry-basket",
+      "category": "laundry",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "laundry basket",
+      "pt": "cesto de roupa",
+      "pronunciation": {
+        "ipa": "/ˈlɔːndri ˌbæskɪt/",
+        "guide": "LÓN-dri BÉS-kit"
+      },
+      "emoji": "🧺",
+      "examples": [
+        {
+          "en": "Put your socks in the laundry basket.",
+          "pt": "Coloque suas meias no cesto de roupa."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Hamper também é usado nos EUA para cesto de roupa suja, muitas vezes mais alto ou com tampa."
+        }
+      ],
+      "related": [
+        "laundry",
+        "washing-machine",
+        "detergent",
+        "stain",
+        "clothesline"
+      ]
+    },
+    {
+      "id": "broom",
+      "category": "laundry",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "broom",
+      "pt": "vassoura",
+      "pronunciation": {
+        "ipa": "/bruːm/",
+        "guide": "bruum"
+      },
+      "emoji": "🧺",
+      "examples": [
+        {
+          "en": "Where’s the broom? I dropped some cereal.",
+          "pt": "Onde está a vassoura? Derrubei cereal."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Sweep the floor é varrer o chão; broom é o objeto."
+        }
+      ],
+      "related": [
+        "roommate",
+        "chore",
+        "mop",
+        "sponge"
+      ]
+    },
+    {
+      "id": "mop",
+      "category": "laundry",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "mop",
+      "pt": "esfregão; mop",
+      "pronunciation": {
+        "ipa": "/mɑːp/",
+        "guide": "map"
+      },
+      "emoji": "🧺",
+      "examples": [
+        {
+          "en": "The mop is behind the door.",
+          "pt": "O esfregão está atrás da porta."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Mop também é verbo: mop the floor, passar o esfregão no chão."
+        }
+      ],
+      "related": [
+        "roommate",
+        "chore",
+        "broom",
+        "sponge"
+      ]
+    },
+    {
+      "id": "sponge",
+      "category": "laundry",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "sponge",
+      "pt": "esponja",
+      "pronunciation": {
+        "ipa": "/spʌndʒ/",
+        "guide": "spândj"
+      },
+      "emoji": "🧺",
+      "examples": [
+        {
+          "en": "Use a clean sponge for the dishes.",
+          "pt": "Use uma esponja limpa para a louça."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "The dishes pode significar toda a louça, não apenas pratos."
+        }
+      ],
+      "related": [
+        "roommate",
+        "chore",
+        "broom",
+        "mop"
+      ]
+    },
+    {
+      "id": "chore",
+      "category": "laundry",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "chore",
+      "pt": "tarefa doméstica",
+      "pronunciation": {
+        "ipa": "/tʃɔːr/",
+        "guide": "tchór"
+      },
+      "emoji": "🧺",
+      "examples": [
+        {
+          "en": "Let’s split the chores.",
+          "pt": "Vamos dividir as tarefas domésticas."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Chores são tarefas de manutenção da rotina. Homework é tarefa escolar, não trabalho doméstico."
+        }
+      ],
+      "related": [
+        "roommate",
+        "broom",
+        "mop",
+        "sponge"
+      ]
+    },
+    {
+      "id": "fare",
+      "category": "transport",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "fare",
+      "pt": "tarifa de transporte",
+      "pronunciation": {
+        "ipa": "/fer/",
+        "guide": "fér"
+      },
+      "emoji": "🚌",
+      "examples": [
+        {
+          "en": "How much is the bus fare?",
+          "pt": "Quanto custa a passagem de ônibus?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Fare é o preço da viagem; ticket é o bilhete ou comprovante."
+        }
+      ],
+      "related": [
+        "commute",
+        "bus-stop",
+        "ticket",
+        "seat",
+        "traffic",
+        "subway",
+        "platform"
+      ]
+    },
+    {
+      "id": "ticket",
+      "category": "transport",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "ticket",
+      "pt": "bilhete; ingresso",
+      "pronunciation": {
+        "ipa": "/ˈtɪkɪt/",
+        "guide": "TÍ-kit"
+      },
+      "emoji": "🚌",
+      "examples": [
+        {
+          "en": "I bought my ticket on my phone.",
+          "pt": "Comprei meu bilhete pelo celular."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Vale para transporte e eventos. Parking ticket, em outro contexto, é multa de estacionamento."
+        }
+      ],
+      "related": [
+        "commute",
+        "bus-stop",
+        "fare",
+        "seat",
+        "traffic",
+        "subway",
+        "platform"
+      ]
+    },
+    {
+      "id": "platform",
+      "category": "transport",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "platform",
+      "pt": "plataforma de embarque",
+      "pronunciation": {
+        "ipa": "/ˈplætfɔːrm/",
+        "guide": "PLÉT-form"
+      },
+      "emoji": "🚌",
+      "examples": [
+        {
+          "en": "Which platform does the train leave from?",
+          "pt": "De qual plataforma o trem sai?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Em estações, platform é onde você espera o trem. Gate é comum em aeroportos e terminais rodoviários."
+        }
+      ],
+      "related": [
+        "commute",
+        "bus-stop",
+        "fare",
+        "ticket",
+        "seat",
+        "traffic",
+        "subway"
+      ]
+    },
+    {
+      "id": "seat",
+      "category": "transport",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "seat",
+      "pt": "assento; lugar para sentar",
+      "pronunciation": {
+        "ipa": "/siːt/",
+        "guide": "siit"
+      },
+      "emoji": "🚌",
+      "examples": [
+        {
+          "en": "Is this seat taken?",
+          "pt": "Este lugar está ocupado?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Is this seat taken? é uma pergunta comum antes de sentar ao lado de alguém."
+        }
+      ],
+      "related": [
+        "commute",
+        "bus-stop",
+        "fare",
+        "ticket",
+        "traffic",
+        "subway",
+        "platform"
+      ]
+    },
+    {
+      "id": "seat-belt",
+      "category": "transport",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "seat belt",
+      "pt": "cinto de segurança",
+      "pronunciation": {
+        "ipa": "/ˈsiːt belt/",
+        "guide": "SÍIT bélt"
+      },
+      "emoji": "🚌",
+      "examples": [
+        {
+          "en": "Put your seat belt on.",
+          "pt": "Coloque o cinto de segurança."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Buckle up é uma maneira curta e comum de dizer para colocar o cinto."
+        }
+      ]
+    },
+    {
+      "id": "traffic",
+      "category": "transport",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "traffic",
+      "pt": "trânsito",
+      "pronunciation": {
+        "ipa": "/ˈtræfɪk/",
+        "guide": "TRÉ-fik"
+      },
+      "emoji": "🚌",
+      "examples": [
+        {
+          "en": "Sorry, I’m stuck in traffic.",
+          "pt": "Desculpe, estou preso no trânsito."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Traffic é incontável. Heavy traffic é trânsito intenso; traffic jam é congestionamento."
+        }
+      ],
+      "related": [
+        "commute",
+        "bus-stop",
+        "fare",
+        "ticket",
+        "seat",
+        "subway",
+        "platform"
+      ]
+    },
+    {
+      "id": "ride",
+      "category": "transport",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "ride",
+      "pt": "carona; viagem de veículo",
+      "pronunciation": {
+        "ipa": "/raɪd/",
+        "guide": "ráid"
+      },
+      "emoji": "🚌",
+      "examples": [
+        {
+          "en": "Can you give me a ride home?",
+          "pt": "Você pode me dar uma carona para casa?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Give someone a ride é dar carona nos EUA; give someone a lift é comum no Reino Unido."
+        }
+      ],
+      "variants": [
+        {
+          "en": "lift",
+          "pt": "carona",
+          "kind": "regional",
+          "note": "Give me a lift é comum no Reino Unido."
+        }
+      ]
+    },
+    {
+      "id": "subway",
+      "category": "transport",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "subway",
+      "pt": "metrô (EUA)",
+      "pronunciation": {
+        "ipa": "/ˈsʌbweɪ/",
+        "guide": "SÂB-uêi"
+      },
+      "emoji": "🚌",
+      "examples": [
+        {
+          "en": "I take the subway to work.",
+          "pt": "Eu vou de metrô para o trabalho."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Em Londres, é comum the Tube ou the Underground. No Reino Unido, subway também pode ser passagem subterrânea de pedestres."
+        }
+      ],
+      "related": [
+        "commute",
+        "bus-stop",
+        "fare",
+        "ticket",
+        "seat",
+        "traffic",
+        "platform"
+      ]
+    },
+    {
+      "id": "intersection",
+      "category": "transport",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "intersection",
+      "pt": "cruzamento",
+      "pronunciation": {
+        "ipa": "/ˌɪntərˈsekʃən/",
+        "guide": "in-ter-SÉK-shan"
+      },
+      "emoji": "🚌",
+      "examples": [
+        {
+          "en": "Turn left at the next intersection.",
+          "pt": "Vire à esquerda no próximo cruzamento."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Intersection é onde vias se cruzam; corner é uma esquina ou canto."
+        }
+      ]
+    },
+    {
+      "id": "commute",
+      "category": "transport",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "commute",
+      "pt": "trajeto habitual para trabalho ou estudo",
+      "pronunciation": {
+        "ipa": "/kəˈmjuːt/",
+        "guide": "ka-MIÚUT"
+      },
+      "emoji": "🚌",
+      "examples": [
+        {
+          "en": "My commute takes about half an hour.",
+          "pt": "Meu trajeto leva cerca de meia hora."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Também é verbo: I commute by train. Não é uma viagem eventual de férias."
+        }
+      ],
+      "related": [
+        "bus-stop",
+        "fare",
+        "ticket",
+        "seat",
+        "traffic",
+        "subway",
+        "platform"
+      ]
+    },
+    {
+      "id": "phone",
+      "category": "digital",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "phone",
+      "pt": "telefone; celular",
+      "pronunciation": {
+        "ipa": "/foʊn/",
+        "guide": "fôun"
+      },
+      "emoji": "📱",
+      "examples": [
+        {
+          "en": "My phone is on the nightstand.",
+          "pt": "Meu celular está na mesa de cabeceira."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Em conversas atuais, phone frequentemente significa celular; cell phone é comum nos EUA e mobile phone no Reino Unido."
+        }
+      ],
+      "related": [
+        "battery",
+        "charger",
+        "outlet",
+        "notification",
+        "message"
+      ]
+    },
+    {
+      "id": "battery",
+      "category": "digital",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "battery",
+      "pt": "bateria; pilha",
+      "pronunciation": {
+        "ipa": "/ˈbætəri/",
+        "guide": "BÉ-te-ri"
+      },
+      "emoji": "📱",
+      "examples": [
+        {
+          "en": "My battery is almost dead.",
+          "pt": "Minha bateria está quase acabando."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Dead battery é bateria sem carga, não necessariamente quebrada."
+        }
+      ],
+      "related": [
+        "phone",
+        "charger",
+        "outlet",
+        "notification",
+        "message"
+      ]
+    },
+    {
+      "id": "password",
+      "category": "digital",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "password",
+      "pt": "senha",
+      "pronunciation": {
+        "ipa": "/ˈpæswɜːrd/",
+        "guide": "PÉS-uêrd"
+      },
+      "emoji": "📱",
+      "examples": [
+        {
+          "en": "What’s the Wi-Fi password?",
+          "pt": "Qual é a senha do Wi-Fi?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Para uma sequência curta de números, também se usa PIN ou passcode, conforme o sistema."
+        }
+      ]
+    },
+    {
+      "id": "notification",
+      "category": "digital",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "notification",
+      "pt": "notificação",
+      "pronunciation": {
+        "ipa": "/ˌnoʊtɪfɪˈkeɪʃən/",
+        "guide": "nôu-ti-fi-KÊI-shan"
+      },
+      "emoji": "📱",
+      "examples": [
+        {
+          "en": "I turned off my notifications.",
+          "pt": "Desativei minhas notificações."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Turn off notifications é uma combinação comum para silenciar alertas do aparelho."
+        }
+      ],
+      "related": [
+        "phone",
+        "battery",
+        "charger",
+        "outlet",
+        "message"
+      ]
+    },
+    {
+      "id": "message",
+      "category": "digital",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "message",
+      "pt": "mensagem",
+      "pronunciation": {
+        "ipa": "/ˈmesɪdʒ/",
+        "guide": "MÉ-sidj"
+      },
+      "emoji": "📱",
+      "examples": [
+        {
+          "en": "Send me a message when you get home.",
+          "pt": "Me mande uma mensagem quando chegar em casa."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Text me é uma alternativa muito comum para pedir uma mensagem de texto."
+        }
+      ],
+      "related": [
+        "phone",
+        "battery",
+        "charger",
+        "outlet",
+        "notification"
+      ]
+    },
+    {
+      "id": "signal",
+      "category": "digital",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "signal",
+      "pt": "sinal",
+      "pronunciation": {
+        "ipa": "/ˈsɪɡnəl/",
+        "guide": "SÍG-nal"
+      },
+      "emoji": "📱",
+      "examples": [
+        {
+          "en": "I don’t have a signal here.",
+          "pt": "Não tenho sinal aqui."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Para conexão móvel, também se diz I have no reception. Signal também tem outros sentidos fora do celular."
+        }
+      ]
+    },
+    {
+      "id": "call",
+      "category": "digital",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun / verb",
+      "en": "call",
+      "pt": "ligação; chamada",
+      "pronunciation": {
+        "ipa": "/kɔːl/",
+        "guide": "kól"
+      },
+      "emoji": "📱",
+      "examples": [
+        {
+          "en": "Can I call you after dinner?",
+          "pt": "Posso te ligar depois do jantar?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Call funciona como verbo e nome. Make a call é fazer uma ligação; take a call é atendê-la."
+        }
+      ]
+    },
+    {
+      "id": "voicemail",
+      "category": "digital",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "voicemail",
+      "pt": "correio de voz; mensagem de voz na caixa postal",
+      "pronunciation": {
+        "ipa": "/ˈvɔɪsmeɪl/",
+        "guide": "VÓIS-meil"
+      },
+      "emoji": "📱",
+      "examples": [
+        {
+          "en": "I left you a voicemail.",
+          "pt": "Deixei uma mensagem na sua caixa postal."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Voicemail é ligado à caixa postal de chamadas; voice message pode ser um áudio enviado em um aplicativo."
+        }
+      ]
+    },
+    {
+      "id": "earbuds",
+      "category": "digital",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "earbuds",
+      "pt": "fones pequenos de ouvido",
+      "pronunciation": {
+        "ipa": "/ˈɪrbʌdz/",
+        "guide": "ÍR-bâdz"
+      },
+      "emoji": "📱",
+      "examples": [
+        {
+          "en": "Have you seen my earbuds?",
+          "pt": "Você viu meus fones de ouvido?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Earbuds são os pequenos fones colocados na entrada do ouvido ou dentro dele; headphones é um termo mais amplo."
+        }
+      ]
+    },
+    {
+      "id": "app",
+      "category": "digital",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "app",
+      "pt": "aplicativo",
+      "pronunciation": {
+        "ipa": "/æp/",
+        "guide": "ép"
+      },
+      "emoji": "📱",
+      "examples": [
+        {
+          "en": "Which app do you use for directions?",
+          "pt": "Qual aplicativo você usa para ver o caminho?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "App é a forma curta de application. Directions, neste contexto, são instruções para chegar a um lugar."
+        }
+      ]
+    },
+    {
+      "id": "partner",
+      "category": "relationships",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "partner",
+      "pt": "parceiro ou parceira; companheiro ou companheira",
+      "pronunciation": {
+        "ipa": "/ˈpɑːrtnər/",
+        "guide": "PÁRT-ner"
+      },
+      "emoji": "🫂",
+      "examples": [
+        {
+          "en": "My partner is cooking dinner.",
+          "pt": "Meu parceiro está preparando o jantar."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Partner pode indicar um relacionamento sem especificar gênero ou casamento. No trabalho, também pode ser sócio."
+        }
+      ],
+      "related": [
+        "boyfriend",
+        "girlfriend",
+        "date",
+        "hug"
+      ]
+    },
+    {
+      "id": "boyfriend",
+      "category": "relationships",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "boyfriend",
+      "pt": "namorado",
+      "pronunciation": {
+        "ipa": "/ˈbɔɪfrend/",
+        "guide": "BÓI-frend"
+      },
+      "emoji": "🫂",
+      "examples": [
+        {
+          "en": "I’m meeting my boyfriend after work.",
+          "pt": "Vou encontrar meu namorado depois do trabalho."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Boyfriend indica relacionamento amoroso; a male friend é um amigo homem."
+        }
+      ],
+      "related": [
+        "partner",
+        "girlfriend",
+        "date",
+        "hug"
+      ]
+    },
+    {
+      "id": "girlfriend",
+      "category": "relationships",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "girlfriend",
+      "pt": "namorada",
+      "pronunciation": {
+        "ipa": "/ˈɡɜːrlfrend/",
+        "guide": "GÂRL-frend"
+      },
+      "emoji": "🫂",
+      "examples": [
+        {
+          "en": "My girlfriend loves this café.",
+          "pt": "Minha namorada adora este café."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Geralmente indica namorada; algumas mulheres usam girlfriends para amigas, mas o contexto precisa deixar isso claro."
+        }
+      ],
+      "related": [
+        "partner",
+        "boyfriend",
+        "date",
+        "hug"
+      ]
+    },
+    {
+      "id": "roommate",
+      "category": "relationships",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "roommate",
+      "pt": "colega de moradia",
+      "pronunciation": {
+        "ipa": "/ˈruːmmeɪt/",
+        "guide": "RÚUM-meit"
+      },
+      "emoji": "🫂",
+      "examples": [
+        {
+          "en": "My roommate gets up before me.",
+          "pt": "Meu colega de moradia levanta antes de mim."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Nos EUA, pode ser alguém com quem você divide a casa, sem dividir o quarto. Flatmate é comum no Reino Unido."
+        }
+      ],
+      "variants": [
+        {
+          "en": "flatmate",
+          "pt": "colega de apartamento",
+          "kind": "regional",
+          "note": "Comum no Reino Unido para quem divide apartamento."
+        }
+      ],
+      "related": [
+        "chore",
+        "broom",
+        "mop",
+        "sponge"
+      ]
+    },
+    {
+      "id": "neighbor",
+      "category": "relationships",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "neighbor",
+      "pt": "vizinho ou vizinha",
+      "pronunciation": {
+        "ipa": "/ˈneɪbər/",
+        "guide": "NÊI-ber"
+      },
+      "emoji": "🫂",
+      "examples": [
+        {
+          "en": "Our neighbor brought us some cake.",
+          "pt": "Nosso vizinho trouxe um pouco de bolo."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "No inglês britânico, escreve-se neighbour; a pronúncia é parecida."
+        }
+      ],
+      "variants": [
+        {
+          "en": "neighbour",
+          "pt": "vizinho ou vizinha",
+          "kind": "regional",
+          "note": "Grafia britânica."
+        }
+      ]
+    },
+    {
+      "id": "sibling",
+      "category": "relationships",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "sibling",
+      "pt": "irmão ou irmã",
+      "pronunciation": {
+        "ipa": "/ˈsɪblɪŋ/",
+        "guide": "SÍB-ling"
+      },
+      "emoji": "🫂",
+      "examples": [
+        {
+          "en": "Do you have any siblings?",
+          "pt": "Você tem irmãos ou irmãs?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Sibling não especifica gênero. Brothers and sisters costuma ser mais transparente para iniciantes."
+        }
+      ]
+    },
+    {
+      "id": "cousin",
+      "category": "relationships",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "cousin",
+      "pt": "primo ou prima",
+      "pronunciation": {
+        "ipa": "/ˈkʌzən/",
+        "guide": "CÂ-zan"
+      },
+      "emoji": "🫂",
+      "examples": [
+        {
+          "en": "My cousin is staying with us this weekend.",
+          "pt": "Meu primo vai ficar conosco neste fim de semana."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Cousin não muda conforme o gênero. Não diga cousin brother para primo em inglês americano ou britânico corrente."
+        }
+      ]
+    },
+    {
+      "id": "date",
+      "category": "relationships",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "date",
+      "pt": "encontro romântico; data",
+      "pronunciation": {
+        "ipa": "/deɪt/",
+        "guide": "dêit"
+      },
+      "emoji": "🫂",
+      "examples": [
+        {
+          "en": "We’re going on a date tonight.",
+          "pt": "Vamos sair para um encontro hoje à noite."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Go on a date indica encontro romântico; make an appointment é marcar um horário para um serviço ou consulta."
+        }
+      ],
+      "related": [
+        "partner",
+        "boyfriend",
+        "girlfriend",
+        "hug"
+      ]
+    },
+    {
+      "id": "hug",
+      "category": "relationships",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "hug",
+      "pt": "abraço; abraçar",
+      "pronunciation": {
+        "ipa": "/hʌɡ/",
+        "guide": "hâg"
+      },
+      "emoji": "🫂",
+      "examples": [
+        {
+          "en": "Can I give you a hug?",
+          "pt": "Posso te dar um abraço?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Give someone a hug é uma combinação natural. A pergunta também respeita a preferência da outra pessoa."
+        }
+      ],
+      "related": [
+        "partner",
+        "boyfriend",
+        "girlfriend",
+        "date"
+      ]
+    },
+    {
+      "id": "argument",
+      "category": "relationships",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "argument",
+      "pt": "discussão; argumento",
+      "pronunciation": {
+        "ipa": "/ˈɑːrɡjəmənt/",
+        "guide": "ÁR-gui-a-ment"
+      },
+      "emoji": "🫂",
+      "examples": [
+        {
+          "en": "We had an argument, but we talked it through.",
+          "pt": "Tivemos uma discussão, mas conversamos e nos entendemos."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Em had an argument, normalmente é uma discussão com desacordo. Não implica agressão física."
+        }
+      ]
+    },
+    {
+      "id": "reservation",
+      "category": "leisure",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "reservation",
+      "pt": "reserva",
+      "pronunciation": {
+        "ipa": "/ˌrezərˈveɪʃən/",
+        "guide": "re-zer-VÊI-shan"
+      },
+      "emoji": "🍿",
+      "examples": [
+        {
+          "en": "We have a reservation for two.",
+          "pt": "Temos uma reserva para duas pessoas."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Em restaurantes, for two costuma indicar duas pessoas. Booking é outra palavra comum para reserva."
+        }
+      ],
+      "variants": [
+        {
+          "en": "booking",
+          "pt": "reserva",
+          "kind": "synonym",
+          "note": "Comum para restaurantes, hotéis e outros serviços."
+        }
+      ],
+      "related": [
+        "menu",
+        "bill",
+        "tip"
+      ]
+    },
+    {
+      "id": "menu",
+      "category": "leisure",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "menu",
+      "pt": "cardápio",
+      "pronunciation": {
+        "ipa": "/ˈmenjuː/",
+        "guide": "MÉ-niuu"
+      },
+      "emoji": "🍿",
+      "examples": [
+        {
+          "en": "Could we see the menu, please?",
+          "pt": "Podemos ver o cardápio, por favor?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Em inglês, menu normalmente é o cardápio; não significa necessariamente uma refeição completa com preço fixo."
+        }
+      ],
+      "related": [
+        "reservation",
+        "bill",
+        "tip"
+      ]
+    },
+    {
+      "id": "bill",
+      "category": "leisure",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "bill",
+      "pt": "conta a pagar",
+      "pronunciation": {
+        "ipa": "/bɪl/",
+        "guide": "bil"
+      },
+      "emoji": "🍿",
+      "examples": [
+        {
+          "en": "Could we have the bill, please?",
+          "pt": "Pode trazer a conta, por favor?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "No restaurante, check também é comum nos EUA. Bill também pode ser conta de luz, água ou telefone."
+        }
+      ],
+      "related": [
+        "reservation",
+        "menu",
+        "tip"
+      ]
+    },
+    {
+      "id": "tip",
+      "category": "leisure",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "tip",
+      "pt": "gorjeta; dica",
+      "pronunciation": {
+        "ipa": "/tɪp/",
+        "guide": "tip"
+      },
+      "emoji": "🍿",
+      "examples": [
+        {
+          "en": "Is the tip included?",
+          "pt": "A gorjeta está incluída?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Práticas de gorjeta variam por lugar. A mesma palavra pode ser uma dica: a useful tip."
+        }
+      ],
+      "related": [
+        "reservation",
+        "menu",
+        "bill"
+      ]
+    },
+    {
+      "id": "walk",
+      "category": "leisure",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "walk",
+      "pt": "caminhada; passeio a pé",
+      "pronunciation": {
+        "ipa": "/wɔːk/",
+        "guide": "uók"
+      },
+      "emoji": "🍿",
+      "examples": [
+        {
+          "en": "Do you want to go for a walk?",
+          "pt": "Você quer dar uma caminhada?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Go for a walk enfatiza o passeio; walk to work é ir a pé ao trabalho."
+        }
+      ]
+    },
+    {
+      "id": "park",
+      "category": "leisure",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "park",
+      "pt": "parque",
+      "pronunciation": {
+        "ipa": "/pɑːrk/",
+        "guide": "párk"
+      },
+      "emoji": "🍿",
+      "examples": [
+        {
+          "en": "Let’s meet at the park entrance.",
+          "pt": "Vamos nos encontrar na entrada do parque."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Park também é verbo: estacionar. A forma depende da frase."
+        }
+      ]
+    },
+    {
+      "id": "movie",
+      "category": "leisure",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "movie",
+      "pt": "filme",
+      "pronunciation": {
+        "ipa": "/ˈmuːvi/",
+        "guide": "MÚU-vi"
+      },
+      "emoji": "🍿",
+      "examples": [
+        {
+          "en": "Do you feel like watching a movie?",
+          "pt": "Você está a fim de assistir a um filme?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Movie é especialmente comum nos EUA; film é comum nos dois lados do Atlântico."
+        }
+      ],
+      "variants": [
+        {
+          "en": "film",
+          "pt": "filme",
+          "kind": "synonym",
+          "note": "Comum tanto no inglês americano quanto no britânico."
+        }
+      ],
+      "related": [
+        "episode",
+        "remote-control",
+        "sofa",
+        "weekend"
+      ]
+    },
+    {
+      "id": "episode",
+      "category": "leisure",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "episode",
+      "pt": "episódio",
+      "pronunciation": {
+        "ipa": "/ˈepɪsoʊd/",
+        "guide": "É-pi-sôud"
+      },
+      "emoji": "🍿",
+      "examples": [
+        {
+          "en": "Let’s watch just one more episode.",
+          "pt": "Vamos assistir só mais um episódio."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "One more episode é aquela promessa comum ao assistir a uma série. Season é temporada."
+        }
+      ],
+      "related": [
+        "movie",
+        "remote-control",
+        "sofa",
+        "weekend"
+      ]
+    },
+    {
+      "id": "remote-control",
+      "category": "leisure",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "remote control",
+      "pt": "controle remoto",
+      "pronunciation": {
+        "ipa": "/rɪˌmoʊt kənˈtroʊl/",
+        "guide": "ri-MÔUT kan-TRÔUL"
+      },
+      "emoji": "🍿",
+      "examples": [
+        {
+          "en": "Where did you put the remote control?",
+          "pt": "Onde você colocou o controle remoto?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Em casa, normalmente basta the remote."
+        }
+      ],
+      "variants": [
+        {
+          "en": "remote",
+          "pt": "controle remoto",
+          "kind": "informal",
+          "note": "Forma curta usada quando o contexto já está claro."
+        }
+      ],
+      "related": [
+        "movie",
+        "episode",
+        "sofa",
+        "weekend"
+      ]
+    },
+    {
+      "id": "weekend",
+      "category": "leisure",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "weekend",
+      "pt": "fim de semana",
+      "pronunciation": {
+        "ipa": "/ˈwiːkend/",
+        "guide": "UÍI-kend"
+      },
+      "emoji": "🍿",
+      "examples": [
+        {
+          "en": "Do you have any plans for the weekend?",
+          "pt": "Você tem planos para o fim de semana?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "On the weekend é comum nos EUA; at the weekend, no Reino Unido."
+        }
+      ],
+      "related": [
+        "movie",
+        "episode",
+        "remote-control",
+        "sofa"
+      ]
+    },
+    {
+      "id": "campus",
+      "category": "college",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "campus",
+      "pt": "campus universitário",
+      "pronunciation": {
+        "ipa": "/ˈkæmpəs/",
+        "guide": "KÉM-pas"
+      },
+      "emoji": "🎓",
+      "examples": [
+        {
+          "en": "There’s a café on campus.",
+          "pt": "Tem um café no campus."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "On campus é a combinação usual. Off campus significa fora da área da instituição."
+        }
+      ]
+    },
+    {
+      "id": "lecture",
+      "category": "college",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "lecture",
+      "pt": "aula expositiva; palestra",
+      "pronunciation": {
+        "ipa": "/ˈlektʃər/",
+        "guide": "LÉK-tcher"
+      },
+      "emoji": "🎓",
+      "examples": [
+        {
+          "en": "The lecture starts at nine.",
+          "pt": "A aula começa às nove."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Na faculdade, lecture costuma ser uma aula expositiva; class é um termo mais amplo. Lecture também pode ser um sermão."
+        }
+      ],
+      "related": [
+        "assignment",
+        "deadline",
+        "notes",
+        "exam",
+        "library",
+        "study-group"
+      ]
+    },
+    {
+      "id": "assignment",
+      "category": "college",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "assignment",
+      "pt": "trabalho ou tarefa escolar",
+      "pronunciation": {
+        "ipa": "/əˈsaɪnmənt/",
+        "guide": "a-SÁIN-ment"
+      },
+      "emoji": "🎓",
+      "examples": [
+        {
+          "en": "When is the assignment due?",
+          "pt": "Para quando é o trabalho?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Due indica prazo: It’s due Friday. Assignment é contável; homework normalmente não é."
+        }
+      ],
+      "related": [
+        "lecture",
+        "deadline",
+        "notes",
+        "exam",
+        "library",
+        "study-group"
+      ]
+    },
+    {
+      "id": "notes",
+      "category": "college",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "notes",
+      "pt": "anotações",
+      "pronunciation": {
+        "ipa": "/noʊts/",
+        "guide": "nôuts"
+      },
+      "emoji": "🎓",
+      "examples": [
+        {
+          "en": "Could you share your notes with me?",
+          "pt": "Você pode compartilhar suas anotações comigo?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Take notes é fazer anotações; uma nota de avaliação costuma ser grade ou mark."
+        }
+      ],
+      "related": [
+        "lecture",
+        "assignment",
+        "deadline",
+        "exam",
+        "library",
+        "study-group"
+      ]
+    },
+    {
+      "id": "library",
+      "category": "college",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "library",
+      "pt": "biblioteca",
+      "pronunciation": {
+        "ipa": "/ˈlaɪbreri/",
+        "guide": "LÁI-bré-ri"
+      },
+      "emoji": "🎓",
+      "examples": [
+        {
+          "en": "Let’s study at the library.",
+          "pt": "Vamos estudar na biblioteca."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Library não é livraria. Bookstore é livraria nos EUA; bookshop também é comum."
+        }
+      ],
+      "related": [
+        "lecture",
+        "assignment",
+        "deadline",
+        "notes",
+        "exam",
+        "study-group"
+      ]
+    },
+    {
+      "id": "class-schedule",
+      "category": "college",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "class schedule",
+      "pt": "horário de aulas; grade de horários",
+      "pronunciation": {
+        "ipa": "/klæs ˈskedʒuːl/",
+        "guide": "clés SKÉ-djuul"
+      },
+      "emoji": "🎓",
+      "examples": [
+        {
+          "en": "My class schedule changed this week.",
+          "pt": "Meu horário de aulas mudou esta semana."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Schedule tem pronúncias diferentes: SKED-jool nos EUA, frequentemente SHED-yool no Reino Unido."
+        }
+      ]
+    },
+    {
+      "id": "exam",
+      "category": "college",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "exam",
+      "pt": "prova; exame",
+      "pronunciation": {
+        "ipa": "/ɪɡˈzæm/",
+        "guide": "ig-ZÉM"
+      },
+      "emoji": "🎓",
+      "examples": [
+        {
+          "en": "I have an exam tomorrow morning.",
+          "pt": "Tenho uma prova amanhã de manhã."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Take an exam é fazer a prova; pass an exam é ser aprovado nela, não simplesmente fazê-la."
+        }
+      ],
+      "related": [
+        "lecture",
+        "assignment",
+        "deadline",
+        "notes",
+        "library",
+        "study-group"
+      ]
+    },
+    {
+      "id": "study-group",
+      "category": "college",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "study group",
+      "pt": "grupo de estudos",
+      "pronunciation": {
+        "ipa": "/ˈstʌdi ɡruːp/",
+        "guide": "STÂ-di gruup"
+      },
+      "emoji": "🎓",
+      "examples": [
+        {
+          "en": "Would you like to join our study group?",
+          "pt": "Você gostaria de participar do nosso grupo de estudos?"
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Join é entrar ou participar de um grupo. Não precisa de in antes de our study group."
+        }
+      ],
+      "related": [
+        "lecture",
+        "assignment",
+        "deadline",
+        "notes",
+        "exam",
+        "library"
+      ]
+    },
+    {
+      "id": "degree",
+      "category": "college",
+      "group": "daily",
+      "frequency": "common",
+      "partOfSpeech": "noun",
+      "en": "degree",
+      "pt": "diploma; formação universitária",
+      "pronunciation": {
+        "ipa": "/dɪˈɡriː/",
+        "guide": "di-GRÍI"
+      },
+      "emoji": "🎓",
+      "examples": [
+        {
+          "en": "She’s studying for a degree in nursing.",
+          "pt": "Ela está cursando enfermagem."
+        }
+      ],
+      "notes": [
+        {
+          "kind": "usage",
+          "text": "Degree pode significar a titulação acadêmica. Em temperatura e ângulos, significa grau."
+        }
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "id": "peters-day",
+      "en": "A day with Peter",
+      "pt": "Um dia com Peter",
+      "description": "Do despertador ao sofá: repare nos objetos e nas pequenas decisões de um dia de trabalho.",
+      "image": "/images/vocabulary/bedroom.svg",
+      "characters": [
+        "Peter",
+        "Sam",
+        "Mom",
+        "Driver"
+      ],
+      "scenes": [
+        {
+          "id": "waking-up",
+          "en": "Where’s my phone?",
+          "pt": "Cadê meu celular?",
+          "setting": {
+            "en": "It’s seven in the morning. Peter is in his bedroom, and his roommate Sam knocks on the door.",
+            "pt": "São sete da manhã. Peter está no quarto, e Sam, seu colega de moradia, bate à porta."
+          },
+          "words": [
+            "phone",
+            "nightstand",
+            "lamp",
+            "outlet",
+            "charger",
+            "battery",
+            "blanket",
+            "curtain"
+          ],
+          "lines": [
+            {
+              "speaker": "Sam",
+              "en": "Peter, are you awake? Your alarm clock has been ringing for ages.",
+              "pt": "Peter, você está acordado? Seu despertador está tocando faz um tempão."
+            },
+            {
+              "speaker": "Peter",
+              "en": "I’m awake! I’m looking for my phone. Is it under the blanket?",
+              "pt": "Estou acordado! Estou procurando meu celular. Será que está debaixo do cobertor?"
+            },
+            {
+              "speaker": "Sam",
+              "en": "It’s on the nightstand, next to the lamp.",
+              "pt": "Está na mesa de cabeceira, ao lado da luminária."
+            },
+            {
+              "speaker": "Peter",
+              "en": "Oh, the battery is almost dead. I forgot to plug in the charger.",
+              "pt": "Ah, a bateria está quase acabando. Esqueci de ligar o carregador na tomada."
+            },
+            {
+              "speaker": "Sam",
+              "en": "There’s an outlet behind the bed. I’ll open the curtains while you get ready.",
+              "pt": "Tem uma tomada atrás da cama. Vou abrir as cortinas enquanto você se arruma."
+            },
+            {
+              "speaker": "Peter",
+              "en": "Thanks. Let me put the blanket away and find a clean shirt.",
+              "pt": "Obrigado. Deixa eu guardar o cobertor e achar uma camisa limpa."
+            }
+          ]
+        },
+        {
+          "id": "bathroom",
+          "en": "Getting ready",
+          "pt": "Se arrumando",
+          "setting": {
+            "en": "Peter walks into the bathroom. Sam is looking for a towel.",
+            "pt": "Peter entra no banheiro. Sam está procurando uma toalha."
+          },
+          "words": [
+            "mirror",
+            "toothbrush",
+            "toothpaste",
+            "towel",
+            "comb",
+            "sink",
+            "faucet"
+          ],
+          "lines": [
+            {
+              "speaker": "Peter",
+              "en": "Have you seen my toothbrush? It’s not by the sink.",
+              "pt": "Você viu minha escova de dentes? Ela não está perto da pia."
+            },
+            {
+              "speaker": "Sam",
+              "en": "It’s in the cup next to the toothpaste. Could you pass me a towel?",
+              "pt": "Está no copo ao lado da pasta de dente. Você pode me passar uma toalha?"
+            },
+            {
+              "speaker": "Peter",
+              "en": "Here you go. This one’s dry. The one by the shower is still wet.",
+              "pt": "Aqui está. Esta está seca. A que está perto do chuveiro ainda está molhada."
+            },
+            {
+              "speaker": "Sam",
+              "en": "Thanks. There’s a comb on the shelf if you need it.",
+              "pt": "Obrigado. Tem um pente na prateleira, se precisar."
+            },
+            {
+              "speaker": "Peter",
+              "en": "I do! I just looked in the mirror. My hair is a mess.",
+              "pt": "Preciso! Acabei de olhar no espelho. Meu cabelo está uma bagunça."
+            },
+            {
+              "speaker": "Sam",
+              "en": "Mine too. And make sure you turn off the faucet before you leave.",
+              "pt": "O meu também. E confira se fechou a torneira antes de sair."
+            }
+          ]
+        },
+        {
+          "id": "breakfast",
+          "en": "Breakfast and a quick call",
+          "pt": "Café da manhã e uma ligação rápida",
+          "setting": {
+            "en": "In the kitchen, Peter makes breakfast and calls his mom.",
+            "pt": "Na cozinha, Peter prepara o café da manhã e liga para a mãe."
+          },
+          "words": [
+            "toast",
+            "butter",
+            "jam",
+            "mug",
+            "coffee-maker",
+            "lunchbox",
+            "leftovers"
+          ],
+          "lines": [
+            {
+              "speaker": "Mom",
+              "en": "Morning, Peter! Have you had breakfast yet?",
+              "pt": "Bom dia, Peter! Você já tomou café da manhã?"
+            },
+            {
+              "speaker": "Peter",
+              "en": "Not yet. I’m making toast. Sam, can you pass the butter and jam?",
+              "pt": "Ainda não. Estou fazendo torradas. Sam, pode me passar a manteiga e a geleia?"
+            },
+            {
+              "speaker": "Sam",
+              "en": "Sure. Your mug is by the coffee maker.",
+              "pt": "Claro. Sua caneca está perto da cafeteira."
+            },
+            {
+              "speaker": "Mom",
+              "en": "Are you buying lunch today?",
+              "pt": "Você vai comprar almoço hoje?"
+            },
+            {
+              "speaker": "Peter",
+              "en": "No, I put yesterday’s leftovers in my lunchbox. It’s in the fridge.",
+              "pt": "Não, coloquei as sobras de ontem na minha marmita. Ela está na geladeira."
+            },
+            {
+              "speaker": "Sam",
+              "en": "Don’t forget it this time! And I’ll turn off the coffee maker.",
+              "pt": "Não esqueça desta vez! E eu vou desligar a cafeteira."
+            }
+          ]
+        },
+        {
+          "id": "commute",
+          "en": "On the way to work",
+          "pt": "A caminho do trabalho",
+          "setting": {
+            "en": "Peter meets Sam at the bus stop. The bus arrives a few minutes later.",
+            "pt": "Peter encontra Sam no ponto de ônibus. O ônibus chega alguns minutos depois."
+          },
+          "words": [
+            "bus-stop",
+            "fare",
+            "ticket",
+            "seat",
+            "traffic",
+            "commute",
+            "message"
+          ],
+          "lines": [
+            {
+              "speaker": "Peter",
+              "en": "There’s a lot of traffic today. My commute might take longer than usual.",
+              "pt": "Tem muito trânsito hoje. Meu trajeto pode levar mais tempo que o normal."
+            },
+            {
+              "speaker": "Sam",
+              "en": "Send your coworker a message. The bus is coming now.",
+              "pt": "Mande uma mensagem para seu colega de trabalho. O ônibus está chegando."
+            },
+            {
+              "speaker": "Peter",
+              "en": "Excuse me, how much is the fare?",
+              "pt": "Com licença, quanto custa a passagem?"
+            },
+            {
+              "speaker": "Driver",
+              "en": "Two dollars. You can buy a ticket here or use the app.",
+              "pt": "Dois dólares. Você pode comprar um bilhete aqui ou usar o aplicativo."
+            },
+            {
+              "speaker": "Sam",
+              "en": "Is this seat taken?",
+              "pt": "Este lugar está ocupado?"
+            },
+            {
+              "speaker": "Peter",
+              "en": "No, go ahead. I’ve sent the message. Now I can relax for a minute.",
+              "pt": "Não, pode sentar. Já mandei a mensagem. Agora posso relaxar por um minuto."
+            }
+          ]
+        },
+        {
+          "id": "home-again",
+          "en": "One more episode?",
+          "pt": "Mais um episódio?",
+          "setting": {
+            "en": "After work, Peter and Sam are back at home. They have dinner and sit on the sofa.",
+            "pt": "Depois do trabalho, Peter e Sam estão de volta em casa. Eles jantam e se sentam no sofá."
+          },
+          "words": [
+            "sofa",
+            "remote-control",
+            "episode",
+            "sleepy",
+            "phone",
+            "charger"
+          ],
+          "lines": [
+            {
+              "speaker": "Sam",
+              "en": "How was work? You look tired.",
+              "pt": "Como foi o trabalho? Você parece cansado."
+            },
+            {
+              "speaker": "Peter",
+              "en": "Busy. We had a long meeting. Do you feel like watching something?",
+              "pt": "Foi corrido. Tivemos uma reunião longa. Você está a fim de assistir a alguma coisa?"
+            },
+            {
+              "speaker": "Sam",
+              "en": "Sure. Where’s the remote control?",
+              "pt": "Claro. Onde está o controle remoto?"
+            },
+            {
+              "speaker": "Peter",
+              "en": "Between the cushions on the sofa. Let’s watch one episode.",
+              "pt": "Entre as almofadas do sofá. Vamos assistir a um episódio."
+            },
+            {
+              "speaker": "Sam",
+              "en": "Just one? You said that last night!",
+              "pt": "Só um? Você disse isso ontem à noite!"
+            },
+            {
+              "speaker": "Peter",
+              "en": "I mean it this time. I’m sleepy, and I still need to charge my phone before bed.",
+              "pt": "Desta vez é sério. Estou com sono e ainda preciso carregar meu celular antes de dormir."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maya-on-campus",
+      "en": "Maya on campus",
+      "pt": "Maya na faculdade",
+      "description": "Uma aula, um trabalho em grupo e uma conversa entre amigos na pausa para o café.",
+      "image": "/images/vocabulary/school.svg",
+      "characters": [
+        "Maya",
+        "Ben",
+        "Barista"
+      ],
+      "scenes": [
+        {
+          "id": "before-class",
+          "en": "Before the lecture",
+          "pt": "Antes da aula",
+          "setting": {
+            "en": "Maya meets her classmate Ben outside a classroom on campus.",
+            "pt": "Maya encontra Ben, seu colega de turma, do lado de fora de uma sala no campus."
+          },
+          "words": [
+            "campus",
+            "classmate",
+            "class-schedule",
+            "lecture",
+            "notes",
+            "notebook",
+            "pen"
+          ],
+          "lines": [
+            {
+              "speaker": "Ben",
+              "en": "Hey, Maya! Is the lecture in this classroom?",
+              "pt": "Oi, Maya! A aula é nesta sala?"
+            },
+            {
+              "speaker": "Maya",
+              "en": "Let me check my class schedule. Yes, room twelve.",
+              "pt": "Deixa eu conferir meu horário de aulas. Sim, sala doze."
+            },
+            {
+              "speaker": "Ben",
+              "en": "Good. I left my notebook at home. Could I borrow a sheet of paper?",
+              "pt": "Que bom. Deixei meu caderno em casa. Você pode me emprestar uma folha de papel?"
+            },
+            {
+              "speaker": "Maya",
+              "en": "Of course. Here’s a pen too. Are you taking notes for the study group?",
+              "pt": "Claro. Aqui está uma caneta também. Você vai fazer anotações para o grupo de estudos?"
+            },
+            {
+              "speaker": "Ben",
+              "en": "Yes. I’ll share my notes after class.",
+              "pt": "Sim. Vou compartilhar minhas anotações depois da aula."
+            },
+            {
+              "speaker": "Maya",
+              "en": "Great. Let’s sit near the front so we can see the screen.",
+              "pt": "Ótimo. Vamos sentar perto da frente para conseguir ver a tela."
+            }
+          ]
+        },
+        {
+          "id": "group-project",
+          "en": "Let’s make a plan",
+          "pt": "Vamos nos organizar",
+          "setting": {
+            "en": "After class, Maya and Ben walk to the library to work on an assignment.",
+            "pt": "Depois da aula, Maya e Ben vão à biblioteca para fazer um trabalho."
+          },
+          "words": [
+            "library",
+            "assignment",
+            "deadline",
+            "study-group",
+            "exam",
+            "charger",
+            "outlet"
+          ],
+          "lines": [
+            {
+              "speaker": "Maya",
+              "en": "When is the assignment due? I don’t want to miss the deadline.",
+              "pt": "Para quando é o trabalho? Não quero perder o prazo."
+            },
+            {
+              "speaker": "Ben",
+              "en": "Friday. Our study group is meeting here tomorrow.",
+              "pt": "Sexta-feira. Nosso grupo de estudos vai se reunir aqui amanhã."
+            },
+            {
+              "speaker": "Maya",
+              "en": "Perfect. I have an exam on Thursday, so I’d like to finish my part today.",
+              "pt": "Perfeito. Tenho uma prova na quinta, então gostaria de terminar minha parte hoje."
+            },
+            {
+              "speaker": "Ben",
+              "en": "Let’s use that table. There’s an outlet next to it.",
+              "pt": "Vamos usar aquela mesa. Tem uma tomada ao lado dela."
+            },
+            {
+              "speaker": "Maya",
+              "en": "Good idea. I brought my charger, but I forgot my headphones.",
+              "pt": "Boa ideia. Trouxe meu carregador, mas esqueci meus fones."
+            },
+            {
+              "speaker": "Ben",
+              "en": "You can use mine. Let’s work for an hour and then take a break.",
+              "pt": "Pode usar os meus. Vamos trabalhar por uma hora e depois fazer uma pausa."
+            }
+          ]
+        },
+        {
+          "id": "coffee-break",
+          "en": "A break with a friend",
+          "pt": "Uma pausa com um amigo",
+          "setting": {
+            "en": "Maya and Ben stop at a small café near the library.",
+            "pt": "Maya e Ben param em um pequeno café perto da biblioteca."
+          },
+          "words": [
+            "menu",
+            "snack",
+            "yogurt",
+            "bill",
+            "weekend",
+            "movie",
+            "message"
+          ],
+          "lines": [
+            {
+              "speaker": "Barista",
+              "en": "Hi! What can I get you?",
+              "pt": "Oi! O que vocês vão querer?"
+            },
+            {
+              "speaker": "Maya",
+              "en": "A coffee, please. And could I see the menu? I’d like a snack.",
+              "pt": "Um café, por favor. E posso ver o cardápio? Quero um lanche."
+            },
+            {
+              "speaker": "Ben",
+              "en": "I’ll have some yogurt. Maya, do you have any plans for the weekend?",
+              "pt": "Vou querer um iogurte. Maya, você tem planos para o fim de semana?"
+            },
+            {
+              "speaker": "Maya",
+              "en": "Not yet. Do you want to watch a movie with some friends?",
+              "pt": "Ainda não. Você quer assistir a um filme com alguns amigos?"
+            },
+            {
+              "speaker": "Ben",
+              "en": "Sounds good. Send me a message when you know what time.",
+              "pt": "Parece uma boa. Me mande uma mensagem quando souber o horário."
+            },
+            {
+              "speaker": "Maya",
+              "en": "Will do. Let’s ask for the bill. I need to get back to the library.",
+              "pt": "Pode deixar. Vamos pedir a conta. Preciso voltar para a biblioteca."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ana-and-leo",
+      "en": "A weekend with Ana and Leo",
+      "pt": "Um fim de semana com Ana e Leo",
+      "description": "Dividir a casa, combinar um encontro e conversar com atenção: palavras para a vida a dois.",
+      "image": "/images/vocabulary/feelings.svg",
+      "characters": [
+        "Ana",
+        "Leo",
+        "Server"
+      ],
+      "scenes": [
+        {
+          "id": "chores-together",
+          "en": "Sharing the chores",
+          "pt": "Dividindo as tarefas",
+          "setting": {
+            "en": "On Saturday morning, Ana and her boyfriend Leo tidy their apartment.",
+            "pt": "No sábado de manhã, Ana e Leo, seu namorado, arrumam o apartamento."
+          },
+          "words": [
+            "boyfriend",
+            "partner",
+            "chore",
+            "laundry",
+            "laundry-basket",
+            "stain",
+            "detergent",
+            "washing-machine",
+            "clothesline"
+          ],
+          "lines": [
+            {
+              "speaker": "Ana",
+              "en": "Let’s split the chores. I’ll do the laundry if you clean the kitchen.",
+              "pt": "Vamos dividir as tarefas. Eu lavo a roupa se você limpar a cozinha."
+            },
+            {
+              "speaker": "Leo",
+              "en": "Deal. My shirt is in the laundry basket. There’s a coffee stain on it.",
+              "pt": "Combinado. Minha camisa está no cesto de roupa. Tem uma mancha de café nela."
+            },
+            {
+              "speaker": "Ana",
+              "en": "I’ll take a look. Do we have any laundry detergent left?",
+              "pt": "Vou dar uma olhada. Ainda temos sabão para lavar roupa?"
+            },
+            {
+              "speaker": "Leo",
+              "en": "A little. I’ll put it on the shopping list. Where’s the sponge?",
+              "pt": "Um pouco. Vou colocar na lista de compras. Onde está a esponja?"
+            },
+            {
+              "speaker": "Ana",
+              "en": "By the sink. When the washing machine finishes, can you hang the towels on the clothesline?",
+              "pt": "Perto da pia. Quando a máquina terminar, você pode pendurar as toalhas no varal?"
+            },
+            {
+              "speaker": "Leo",
+              "en": "Of course. Then we can go out and enjoy the weekend.",
+              "pt": "Claro. Depois podemos sair e aproveitar o fim de semana."
+            }
+          ]
+        },
+        {
+          "id": "dinner-date",
+          "en": "A table for two",
+          "pt": "Uma mesa para dois",
+          "setting": {
+            "en": "That evening, Ana and Leo arrive at a restaurant for a date.",
+            "pt": "Naquela noite, Ana e Leo chegam a um restaurante para um encontro."
+          },
+          "words": [
+            "date",
+            "reservation",
+            "menu",
+            "glass",
+            "bill",
+            "tip"
+          ],
+          "lines": [
+            {
+              "speaker": "Server",
+              "en": "Good evening. Do you have a reservation?",
+              "pt": "Boa noite. Vocês têm uma reserva?"
+            },
+            {
+              "speaker": "Ana",
+              "en": "Yes, a reservation for two under Ana.",
+              "pt": "Sim, uma reserva para duas pessoas no nome de Ana."
+            },
+            {
+              "speaker": "Server",
+              "en": "Right this way. Here are your menus. Would you like some water?",
+              "pt": "Por aqui. Aqui estão os cardápios. Vocês querem água?"
+            },
+            {
+              "speaker": "Leo",
+              "en": "Yes, please. Ana, it’s nice to have a date without looking at our phones.",
+              "pt": "Sim, por favor. Ana, é bom ter um encontro sem ficar olhando o celular."
+            },
+            {
+              "speaker": "Ana",
+              "en": "It is. Let’s put them away. How was your week, really?",
+              "pt": "É mesmo. Vamos guardar os celulares. Como foi sua semana, de verdade?"
+            },
+            {
+              "speaker": "Leo",
+              "en": "A bit stressful, but I’m happy to be here with you.",
+              "pt": "Um pouco estressante, mas estou feliz de estar aqui com você."
+            },
+            {
+              "speaker": "Ana",
+              "en": "Me too. And when we ask for the bill, let’s check whether the tip is included.",
+              "pt": "Eu também. E quando pedirmos a conta, vamos conferir se a gorjeta está incluída."
+            }
+          ]
+        },
+        {
+          "id": "walking-home",
+          "en": "Talking it through",
+          "pt": "Conversando com calma",
+          "setting": {
+            "en": "After dinner, Ana and Leo take a walk through the park before heading home.",
+            "pt": "Depois do jantar, Ana e Leo caminham pelo parque antes de ir para casa."
+          },
+          "words": [
+            "walk",
+            "park",
+            "argument",
+            "upset",
+            "worried",
+            "hug",
+            "partner"
+          ],
+          "lines": [
+            {
+              "speaker": "Ana",
+              "en": "I’m glad we went out. I was still upset about our argument yesterday.",
+              "pt": "Que bom que saímos. Eu ainda estava chateada com nossa discussão de ontem."
+            },
+            {
+              "speaker": "Leo",
+              "en": "I know. I’m sorry I didn’t listen. I was worried about work, but I should have told you.",
+              "pt": "Eu sei. Desculpe por não ter escutado. Eu estava preocupado com o trabalho, mas deveria ter te contado."
+            },
+            {
+              "speaker": "Ana",
+              "en": "Thanks for saying that. Next time, let’s talk before we get angry.",
+              "pt": "Obrigada por dizer isso. Da próxima vez, vamos conversar antes de ficar com raiva."
+            },
+            {
+              "speaker": "Leo",
+              "en": "I’d like that. Can I give you a hug?",
+              "pt": "Eu gostaria disso. Posso te dar um abraço?"
+            },
+            {
+              "speaker": "Ana",
+              "en": "Of course. Shall we walk home, or are your feet sore?",
+              "pt": "Claro. Vamos para casa a pé ou seus pés estão doloridos?"
+            },
+            {
+              "speaker": "Leo",
+              "en": "Let’s walk. It’s a nice evening, and we’re not in a hurry.",
+              "pt": "Vamos a pé. A noite está agradável e não estamos com pressa."
+            }
+          ]
         }
       ]
     }

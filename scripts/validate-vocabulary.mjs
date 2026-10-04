@@ -61,6 +61,29 @@ export function validateVocabulary(
       asset(t.audioUrl);
     for (const url of e.sources ?? []) asset(url);
   }
+  const storyIds = new Set();
+  for (const story of data.stories ?? []) {
+    if (!safeId(story.id) || storyIds.has(story.id))
+      errors.push("Invalid or duplicate story id: " + story.id);
+    storyIds.add(story.id);
+    asset(story.image);
+    asset(story.audioUrl);
+    const sceneIds = new Set();
+    for (const scene of story.scenes) {
+      if (!safeId(scene.id) || sceneIds.has(scene.id))
+        errors.push("Invalid or duplicate scene id: " + scene.id);
+      sceneIds.add(scene.id);
+      asset(scene.audioUrl);
+      asset(scene.setting.audioUrl);
+      for (const id of scene.words)
+        if (!ids.has(id)) errors.push("Unknown scene word: " + id);
+      for (const line of scene.lines) {
+        if (!story.characters.includes(line.speaker))
+          errors.push("Unknown speaker: " + line.speaker);
+        asset(line.audioUrl);
+      }
+    }
+  }
   return errors;
 }
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

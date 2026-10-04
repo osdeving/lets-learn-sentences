@@ -398,3 +398,179 @@
 .vocab-speak {
   overflow-wrap: anywhere;
 }
+.story-picker {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+.story-picker button {
+  display: grid;
+  text-align: left;
+  gap: 8px;
+}
+.story-picker img {
+  height: 110px;
+  width: 100%;
+  object-fit: contain;
+}
+.story-picker strong {
+  font-size: 1.2rem;
+}
+.story-picker small,
+.story-audio-note {
+  color: #a9c2cf;
+  line-height: 1.6;
+}
+.story-options {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.story-options label:last-child {
+  max-width: 100%;
+}
+.story-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 310px;
+  gap: 24px;
+  margin-top: 24px;
+}
+.story-scene {
+  border: 1px solid #405865;
+  border-radius: 20px;
+  padding: 24px;
+  min-width: 0;
+}
+.story-scene h3 {
+  font-size: 1.65rem;
+}
+.story-setting {
+  padding: 18px;
+  background: #203442;
+  border-radius: 14px;
+  border: 2px solid transparent;
+}
+.story-setting p {
+  line-height: 1.7;
+}
+.story-dialogue {
+  list-style: none;
+  margin: 24px 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+.story-dialogue li {
+  background: #172e3a;
+  border: 2px solid transparent;
+  border-radius: 16px;
+  padding: 18px;
+}
+.story-dialogue li:nth-child(even) {
+  background: #213b40;
+}
+.story-speaker {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.story-speaker strong {
+  color: #6ce2c6;
+}
+.story-dialogue p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 10px 0;
+}
+.story-dialogue .story-translation {
+  font-size: 1rem;
+  color: #b1c6ce;
+}
+.vocabulary button.story-word {
+  display: inline !important;
+  color: #8fecd5 !important;
+  border: 0 !important;
+  border-bottom: 1px dashed #5de0c0 !important;
+  border-radius: 0 !important;
+  background: none !important;
+  padding: 0 2px !important;
+  min-height: 0;
+  font: inherit !important;
+  text-align: inherit;
+}
+.story-words {
+  align-self: start;
+  min-width: 0;
+}
+.story-word-list > div {
+  display: flex;
+  border-bottom: 1px solid #365461;
+  gap: 6px;
+  padding: 6px 0;
+}
+.story-word-list > div > button:first-child {
+  flex: 1;
+  text-align: left;
+}
+.story-word-list small {
+  display: block;
+  color: #b4cdd6;
+  margin-top: 5px;
+}
+.story-word-detail {
+  background: #203b44;
+  border: 1px solid #71d8c0;
+  border-radius: 16px;
+  padding: 20px;
+  margin-top: 18px;
+  line-height: 1.65;
+}
+.story-word-detail button {
+  margin: 4px 0;
+  max-width: 100%;
+}
+.vocab-stories .speaking {
+  border-color: #5de0c0;
+  box-shadow: 0 0 0 1px #5de0c0;
+}
+.story-word-detail:focus {
+  outline: 3px solid #f5c964;
+  outline-offset: 4px;
+}
+@media (max-width: 800px) {
+  .story-layout {
+    grid-template-columns: 1fr;
+  }
+  .story-picker {
+    grid-template-columns: 1fr;
+  }
+  .story-picker img {
+    height: 70px;
+  }
+  .story-scene {
+    padding: 16px;
+  }
+  .story-options {
+    gap: 10px;
+  }
+  .story-words {
+    grid-row: 1;
+  }
+  .story-word-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4px;
+  }
+  .story-word-list > div {
+    min-width: 0;
+  }
+  .story-word-list button {
+    overflow-wrap: anywhere;
+  }
+  .story-word-list small {
+    font-size: 0.8rem;
+  }
+}

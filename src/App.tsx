@@ -24,7 +24,7 @@ import type { ContentData, StageId, ViewMode } from "./types";
 export default function App() {
   const [content, setContent] = useState<ContentData | null>(null);
   const [error, setError] = useState("");
-  const [view, setView] = useState<ViewMode>(location.hash.startsWith("#vocabulary/") ? "vocabulary" : "decoding");
+  const [view, setView] = useState<ViewMode>(location.hash.startsWith("#vocabulary") ? "vocabulary" : "decoding");
   const [grammarTarget, setGrammarTarget] = useState<string>();
   const [query, setQuery] = useState("");
   const [categoryId, setCategoryId] = useState("all");
@@ -268,7 +268,10 @@ export default function App() {
         ) : view === "sources" ? (
           <HumanSourcesView />
         ) : view === "stories" ? (
-          <StoriesView stories={content.stories} speech={speech} />
+          <>
+            <div className="vocab-toolbar"><button className="listen-button" onClick={() => { speech.cancel(); location.hash = "vocabulary-stories"; setView("vocabulary"); }}>Explorar histórias do cotidiano com vocabulário →</button></div>
+            <StoriesView stories={content.stories} speech={speech} />
+          </>
         ) : view === "dialogues" ? (
           <DialogueView
             dialogues={content.dialogues}

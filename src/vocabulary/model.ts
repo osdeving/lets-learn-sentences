@@ -54,13 +54,11 @@ export function vocabularyQueue(
       audioUrl: resolveVocabularyAsset(entry.audioUrl, base),
     },
     ...(examples
-      ? entry.examples
-          .slice(0, 1)
-          .map((example) => ({
-            id: `${entry.id}:example`,
-            text: example.en,
-            audioUrl: resolveVocabularyAsset(example.audioUrl, base),
-          }))
+      ? entry.examples.slice(0, 1).map((example) => ({
+          id: `${entry.id}:example`,
+          text: example.en,
+          audioUrl: resolveVocabularyAsset(example.audioUrl, base),
+        }))
       : []),
   ]);
 }
@@ -100,4 +98,66 @@ export function reviewChoices(
     [options[i], options[j]] = [options[j], options[i]];
   }
   return options;
+}
+
+// Match whole words, longest phrases first, so “phone” does not steal “phone charger”.
+export function vocabularySegments(text: string, entries: VocabularyEntry[]) {
+  const forms = new Map<string, VocabularyEntry>();
+  for (const entry of entries) {
+    for (const form of [
+      entry.en,
+      entry.plural,
+      ...(entry.variants?.map((v) => v.en) ?? []),
+      ...(entry.partOfSpeech.includes("noun") && !entry.en.endsWith("s")
+        ? [entry.en + "s"]
+        : []),
+    ]) {
+      if (form) forms.set(form.toLowerCase(), entry);
+    }
+  }
+  if (!forms.size) return [{ text }];
+  const escape = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const regex = new RegExp(
+    "\\b(" +
+      [...forms.keys()]
+        .sort((a, b) => b.length - a.length)
+        .map(escape)
+        .join("|") +
+      ")\\b",
+    "gi",
+  );
+  const result: { text: string; entry?: VocabularyEntry }[] = [];
+  let last = 0;
+  for (const match of text.matchAll(regex)) {
+    if (match.index! > last)
+      result.push({ text: text.slice(last, match.index) });
+    result.push({ text: match[0], entry: forms.get(match[0].toLowerCase()) });
+    last = match.index! + match[0].length;
+  }
+  if (last < text.length) result.push({ text: text.slice(last) });
+  return result;
+}
+
+export function storyListeningQueue(
+  story: import("./types").VocabularyStory,
+  sceneId: string,
+  whole: boolean,
+  base: string,
+) {
+  return (
+    whole ? story.scenes : story.scenes.filter((scene) => scene.id === sceneId)
+  ).flatMap((scene) => [
+    {
+      id: scene.id + ":setting",
+      text: scene.setting.en,
+      audioUrl: resolveVocabularyAsset(scene.setting.audioUrl, base),
+      alternate: false,
+    },
+    ...scene.lines.map((line, index) => ({
+      id: scene.id + ":" + index,
+      text: line.en,
+      audioUrl: resolveVocabularyAsset(line.audioUrl, base),
+      alternate: story.characters.indexOf(line.speaker) % 2 === 1,
+    })),
+  ]);
 }
