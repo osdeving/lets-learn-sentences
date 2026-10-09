@@ -52,5 +52,7 @@ const clips = rows.filter((row) => translations[row.sentenceId]).map((row, index
     },
   };
 });
-await writeFile("public/data/audio-library.json", `${JSON.stringify({ meta: { title: "Biblioteca de áudio humano", count: clips.length, schemaVersion: 1 }, clips }, null, 2)}\n`);
+const existing = JSON.parse(await readFile("public/data/audio-library.json", "utf8"));
+const library = [...clips, ...existing.clips.filter(clip => !clip.id.startsWith("TAT-"))];
+await writeFile("public/data/audio-library.json", `${JSON.stringify({ meta: { title: "Biblioteca de áudio", count: library.length, schemaVersion: 1 }, clips: library }, null, 2)}\n`);
 console.log(`${clips.length} clipes do Tatoeba importados com ${clips.reduce((sum, clip) => sum + clip.words.length, 0)} intervalos de palavra.`);

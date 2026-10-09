@@ -73,6 +73,10 @@ for (const clip of audioData.clips) {
   if (!clip.audioUrl || !clip.source?.url || !clip.source?.contributor || !clip.source?.licenseUrl) fail(`Áudio ${clip.id} sem fonte completa`);
   if (!Array.isArray(clip.words) || clip.words.length < 2) fail(`Áudio ${clip.id} sem alinhamento por palavra`);
   if (clip.words.some((word) => !word.text || word.end <= word.start)) fail(`Áudio ${clip.id} possui intervalo de palavra inválido`);
+  if (clip.source.publisher === "YouTube") {
+    if (!clip.source.permissionNote || clip.source.voiceType !== "unverified") fail(`Origem do vídeo incompleta: ${clip.id}`);
+    if (clip.words.some((w,i) => w.start < 0 || w.end > clip.duration || (i && w.start < clip.words[i-1].start))) fail(`Palavras fora da gravação: ${clip.id}`);
+  }
   await access(`public${clip.audioUrl}`);
 }
 
@@ -101,7 +105,7 @@ for (const lesson of grammarData.lessons) {
 console.log(
   `Conteúdo válido: ${allSentences.length} sentenças, ${guide.categories.length} categorias, ` +
     `${guide.situations.length + idiomData.situations.length} situações, ${dialogueData.dialogues.length} diálogos, ` +
-    `${idiomData.sentences.length} expressões, ${grammarData.lessons.length} lições, ${audioData.clips.length} áudios humanos e ${storiesData.stories.length} histórias.`,
+    `${idiomData.sentences.length} expressões, ${grammarData.lessons.length} lições, ${audioData.clips.length} gravações na biblioteca e ${storiesData.stories.length} histórias.`,
 );
 
 const decoding = await readJSON('public/data/decoding.json');

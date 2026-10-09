@@ -78,7 +78,7 @@ export function ListeningPractice({ content, speech }: { content: ContentData; s
       audioStart: line.audioStart,
       audioEnd: line.audioEnd,
     })));
-    const humanItems = content.audioClips.map((clip) => ({
+    const humanItems = content.audioClips.filter(clip => clip.practiceEligible !== false).map((clip) => ({
       id: `human-${clip.id}`, english: clip.english, portuguese: clip.portuguese,
       level: clip.level, audioUrl: clip.audioUrl, audioStart: 0, audioEnd: clip.duration,
     }));

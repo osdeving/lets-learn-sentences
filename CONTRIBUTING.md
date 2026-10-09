@@ -13,6 +13,7 @@ mostra os IDs, o texto exato, a fonte atual e as frases que ainda precisam de gr
 | --- | --- | --- |
 | 358 das 3.274 sentenças | Chris, do ElevenLabs; síntese de voz | Corrigir uma gravação com problema identificado |
 | 2.916 sentenças | Síntese do navegador, sem MP3 próprio | Prioridade para gerar novos MP3s |
+| 1 podcast do YouTube | Gravação original com tipo de voz não verificado e transcrição automática | Sugerir correções dos intervalos ou do texto |
 | Biblioteca de 28 clipes Tatoeba | Voz humana gravada, com palavras alinhadas | Sugerir uma alternativa, preservando o original |
 | 3 dos 82 diálogos | Voz humana da VOA | Troca exige rever os intervalos de cada fala |
 | Outros 79 diálogos | Síntese do navegador | Enviar proposta por fala, com identificação do diálogo |

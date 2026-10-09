@@ -1,6 +1,11 @@
 {
   "schemaVersion": 1,
   "summary": {
+    "library": {
+      "total": 29,
+      "human": 28,
+      "other": 1
+    },
     "sentences": 3274,
     "elevenlabs": 358,
     "browser": 2916,
@@ -44470,6 +44475,32 @@
           "title": "A entrevista",
           "start": 0,
           "end": null,
+          "aligned": true
+        }
+      ]
+    },
+    {
+      "audioUrl": "/audio/youtube/ysxR8IYe4Jo.mp3",
+      "status": "recorded",
+      "sources": [
+        {
+          "publisher": "YouTube",
+          "title": "Smart English Learning Tips – How to Learn Faster and Better | English Podcast",
+          "url": "https://www.youtube.com/watch?v=ysxR8IYe4Jo",
+          "contributor": "Mr. English Channel",
+          "voiceType": "unverified",
+          "license": "Autorização declarada para uso no app",
+          "licenseUrl": "https://www.youtube.com/watch?v=ysxR8IYe4Jo",
+          "permissionNote": "Áudio e transcrição publicados com base na autorização declarada pelo responsável do app. Nenhuma licença pública foi identificada nos metadados do vídeo."
+        }
+      ],
+      "references": [
+        {
+          "dataset": "public/data/audio-library.json",
+          "id": "YT-ysxR8IYe4Jo",
+          "title": "Smart English Learning Tips – How to Learn Faster and Better | English Podcast",
+          "start": 0,
+          "end": 747.648,
           "aligned": true
         }
       ]

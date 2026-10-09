@@ -24,7 +24,7 @@ import type { ContentData, StageId, ViewMode } from "./types";
 export default function App() {
   const [content, setContent] = useState<ContentData | null>(null);
   const [error, setError] = useState("");
-  const [view, setView] = useState<ViewMode>(location.hash.startsWith("#vocabulary") ? "vocabulary" : "decoding");
+  const [view, setView] = useState<ViewMode>(location.hash.startsWith("#audio=") ? "audio" : location.hash.startsWith("#vocabulary") ? "vocabulary" : "decoding");
   const [grammarTarget, setGrammarTarget] = useState<string>();
   const [query, setQuery] = useState("");
   const [categoryId, setCategoryId] = useState("all");
@@ -253,7 +253,7 @@ export default function App() {
           <div className="stats" aria-label="Conteúdo disponível">
             <span><strong>{formatNumber(content.sentences.length)}</strong> sentenças</span>
             <span><strong>{formatNumber(content.dialogues.length)}</strong> diálogos</span>
-            <span><strong>{formatNumber(recordingCount)}</strong> gravações humanas</span>
+            <span><strong>{formatNumber(recordingCount)}</strong> gravações</span>
             <span><strong>{formatNumber(content.stories.length)}</strong> histórias</span>
             <span><strong>{formatNumber(content.grammar.length + content.decoding.lessons.length)}</strong> lições</span>
           </div>
@@ -266,7 +266,7 @@ export default function App() {
         ) : view === "decoding" ? (
           <DecodingCoach data={content.decoding} />
         ) : view === "audio" ? (
-          <AudioLibraryView clips={content.audioClips} />
+          <AudioLibraryView clips={content.audioClips} initialClipId={location.hash.startsWith("#audio=") ? decodeURIComponent(location.hash.slice(7)) : undefined} />
         ) : view === "sources" ? (
           <HumanSourcesView />
         ) : view === "stories" ? (

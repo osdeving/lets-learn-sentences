@@ -78,6 +78,8 @@ export interface DialogueLine {
 }
 
 export interface AudioSource {
+  voiceType?: "human" | "synthetic" | "unverified";
+  permissionNote?: string;
   publisher: string;
   title: string;
   url: string;
@@ -89,6 +91,9 @@ export interface AudioSource {
 }
 
 export interface AudioClip {
+  title?: string;
+  practiceEligible?: boolean;
+  alignmentNote?: string;
   id: string;
   english: string;
   portuguese: string;

@@ -76,8 +76,8 @@ await waitFor("document.body.innerText.includes('Último recurso: revelar transc
 await evaluate("[...document.querySelectorAll('button')].find(x => x.textContent.includes('Último recurso')).click()");
 await shot("ouvir-practice");
 
-await clickTab("Áudio humano");
-await waitFor("document.querySelector('.audio-lab') && document.body.innerText.includes('28 clipes')");
+await clickTab("Áudios");
+await waitFor("document.querySelector('.audio-lab') && document.body.innerText.includes('29 clipes')");
 await evaluate("document.querySelector('.human-transcript > button')?.click()");
 await waitFor("document.querySelectorAll('.human-transcript p button').length > 2");
 await shot("ouvir-human-audio");

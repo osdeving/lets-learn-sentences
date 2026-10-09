@@ -23,7 +23,7 @@ async function visitAudio(value,dataset,inheritedSource=null){
  if(Array.isArray(value)){for(const item of value)await visitAudio(item,dataset,inheritedSource);return;}
  const source=value.source??inheritedSource;
  if(typeof value.audioUrl==='string'&&!value.audioUrl.startsWith('/audio/elevenlabs/')){
-  const record=recordings.get(value.audioUrl)??{audioUrl:value.audioUrl,status:source?'human':'recorded',sources:[],references:[]};
+  const record=recordings.get(value.audioUrl)??{audioUrl:value.audioUrl,status:source?.voiceType==='unverified'||source?.voiceType==='synthetic'?'recorded':source?'human':'recorded',sources:[],references:[]};
   if(source&&!record.sources.some(s=>JSON.stringify(s)===JSON.stringify(source)))record.sources.push(source);
   record.references.push({dataset,id:value.id??value.text??'',title:value.title??value.english??value.text??'',start:value.start??value.audioStart??0,end:value.end??value.audioEnd??value.duration??null,aligned:Boolean(value.words?.length||value.lines?.some(l=>l.audioStart!==undefined)||value.segments?.some(s=>s.audioStart!==undefined))});
   recordings.set(value.audioUrl,record);
@@ -33,7 +33,8 @@ async function visitAudio(value,dataset,inheritedSource=null){
 for(const name of ['audio-library','dialogues','stories','decoding','vocabulary/catalog'])await visitAudio(await read(name),`public/data/${name}.json`);
 for(const credit of contributions.filter(c=>c.provider==='human'))await visitAudio({id:credit.sentenceId,audioUrl:credit.audioUrl,source:{publisher:credit.contributor,contributor:credit.contributor,license:'Licença informada na contribuição',licenseUrl:credit.licenseUrl,url:credit.issueUrl}},'public/data/audio-contributions.json');
 const dialogues=(await read('dialogues')).dialogues,stories=(await read('stories')).stories;
-const summary={sentences:sentences.length,elevenlabs:sentences.filter(s=>s.status==='elevenlabs').length,browser:sentences.filter(s=>s.status==='browser').length,otherRecorded:sentences.filter(s=>s.status==='recorded'||s.status==='human').length,humanFiles:[...recordings.values()].filter(r=>r.status==='human').length,dialogues:{total:dialogues.length,human:dialogues.filter(d=>d.audioUrl).length,browser:dialogues.filter(d=>!d.audioUrl).length},stories:{total:stories.length,human:stories.filter(s=>s.audioUrl).length,browser:stories.filter(s=>!s.audioUrl).length}};
+const library=(await read('audio-library')).clips;
+const summary={library:{total:library.length,human:library.filter(c=>!c.source.voiceType||c.source.voiceType==='human').length,other:library.filter(c=>c.source.voiceType&&c.source.voiceType!=='human').length},sentences:sentences.length,elevenlabs:sentences.filter(s=>s.status==='elevenlabs').length,browser:sentences.filter(s=>s.status==='browser').length,otherRecorded:sentences.filter(s=>s.status==='recorded'||s.status==='human').length,humanFiles:[...recordings.values()].filter(r=>r.status==='human').length,dialogues:{total:dialogues.length,human:dialogues.filter(d=>d.audioUrl).length,browser:dialogues.filter(d=>!d.audioUrl).length},stories:{total:stories.length,human:stories.filter(s=>s.audioUrl).length,browser:stories.filter(s=>!s.audioUrl).length}};
 const catalog={schemaVersion:1,summary,sentences,recordings:[...recordings.values()].sort((a,b)=>a.audioUrl.localeCompare(b.audioUrl))};
 await writeFile('public/data/audio-contribution-catalog.json',JSON.stringify(catalog,null,2)+'\n');
 const fields=['id','english','portuguese','category','status','voice','model','audioUrl','dataset','priority'];

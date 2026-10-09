@@ -35,6 +35,27 @@ O pacote pronto está em `output/ouvir-ingles-listening-offline.zip`. Extraia-o 
 `COMO-USAR.txt`; todos os áudios já estão incluídos. Para gerar uma nova cópia, execute
 `pnpm package:offline`.
 
+## Podcast do YouTube com palavras alinhadas
+
+O áudio de **Smart English Learning Tips**, do canal **Mr. English Channel**, está
+na aba **Áudios**. O [link direto](https://osdeving.github.io/lets-learn-sentences/#audio=YT-ysxR8IYe4Jo)
+abre essa gravação. Ela tem cerca de 12min28s e 1.877 palavras com intervalos
+automáticos gerados localmente pelo Whisper `small.en`. Revele a transcrição e
+clique em uma palavra para ouvir o trecho. A transcrição completa fica em uma
+área de leitura com rolagem; a reprodução marca a palavra atual.
+
+A gravação foi publicada após a declaração de autorização do responsável pelo
+app. Não foi identificada licença pública nos metadados do vídeo, nem verificado
+se as vozes são humanas ou sintetizadas. A fonte permanece identificada como
+YouTube. A transcrição é automática, não inclui tradução e pode precisar de
+correções; o podcast completo não entra no sorteio de ditados curtos.
+
+O importador `scripts/import-youtube-audio.py` recebe o MP3 local, o JSON do Whisper
+com `word_timestamps` e os metadados do vídeo. Ele exige confirmação de permissão,
+preserva os clipes existentes e salva a transcrição em
+`public/data/youtube-transcripts/ysxR8IYe4Jo.json`. Reimportar os clipes Tatoeba
+também preserva as gravações de outras fontes.
+
 ## Contribuir com gravações
 
 Use seus próprios créditos do ElevenLabs pelo site e envie MP3s, sem código nem
