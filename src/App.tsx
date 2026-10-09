@@ -2,6 +2,7 @@ import { VocabularyView } from "./vocabulary/VocabularyView";
 import { HumanSourcesView } from "./components/HumanSourcesView";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { DialogueView } from "./components/DialogueView";
+import { MrEnglishView } from "./components/MrEnglishView";
 import { AudioLibraryView } from "./components/AudioLibraryView";
 import { Filters } from "./components/Filters";
 import { Header } from "./components/Header";
@@ -24,7 +25,7 @@ import type { ContentData, StageId, ViewMode } from "./types";
 export default function App() {
   const [content, setContent] = useState<ContentData | null>(null);
   const [error, setError] = useState("");
-  const [view, setView] = useState<ViewMode>(location.hash.startsWith("#audio=") ? "audio" : location.hash.startsWith("#vocabulary") ? "vocabulary" : "decoding");
+  const [view, setView] = useState<ViewMode>((location.hash.startsWith("#mr-english") || location.hash === "#audio=YT-ysxR8IYe4Jo") ? "mr-english" : location.hash.startsWith("#audio=") ? "audio" : location.hash.startsWith("#vocabulary") ? "vocabulary" : "decoding");
   const [grammarTarget, setGrammarTarget] = useState<string>();
   const [query, setQuery] = useState("");
   const [categoryId, setCategoryId] = useState("all");
@@ -208,6 +209,7 @@ export default function App() {
     queue.stop();
     speech.cancel();
     setView(nextView);
+    history.replaceState(null, "", nextView === "mr-english" ? "#mr-english" : location.pathname + location.search);
     setIndex(0);
   }, [speech, queue.stop]);
 
@@ -265,8 +267,10 @@ export default function App() {
           <VocabularyView speech={speech} onGrammar={id => { setGrammarTarget(id); setView("grammar"); }} />
         ) : view === "decoding" ? (
           <DecodingCoach data={content.decoding} />
+        ) : view === "mr-english" ? (
+          <MrEnglishView clips={content.audioClips.filter(clip => clip.source.contributor === "Mr. English Channel")} />
         ) : view === "audio" ? (
-          <AudioLibraryView clips={content.audioClips} initialClipId={location.hash.startsWith("#audio=") ? decodeURIComponent(location.hash.slice(7)) : undefined} />
+          <AudioLibraryView clips={content.audioClips.filter(clip => clip.source.contributor !== "Mr. English Channel")} initialClipId={location.hash.startsWith("#audio=") ? decodeURIComponent(location.hash.slice(7)) : undefined} />
         ) : view === "sources" ? (
           <HumanSourcesView />
         ) : view === "stories" ? (

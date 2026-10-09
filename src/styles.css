@@ -578,3 +578,74 @@ summary { cursor: pointer; }
 
 /* Long recordings keep the complete word transcript in a scrollable reading area. */
 .long-transcript p { max-height: 420px; overflow-y: auto; padding: 10px; text-align: left; font: 500 22px/1.65 system-ui, sans-serif; letter-spacing: normal; }
+
+/* Mr. English keeps one recording and studies its original timed excerpts. */
+.mr-english { min-width: 0; }
+.mr-heading { display: flex; justify-content: space-between; gap: 18px; margin: 26px 0; }
+.mr-heading h2 { max-width: 960px; margin: 8px 0 12px; font: 600 clamp(28px, 4vw, 44px)/1.1 Georgia, serif; }
+.mr-heading p:not(.section-kicker), .mr-credit { color: var(--muted); font-size: 13px; line-height: 1.65; }
+.mr-modes, .mr-activities { display: flex; flex-wrap: wrap; gap: 8px; }
+.mr-english button:not(.listen-button) { border: 1px solid var(--line); border-radius: 9px; padding: 10px 14px; color: var(--ink); background: var(--panel-2); cursor: pointer; }
+.mr-english button:disabled { opacity: .45; cursor: default; }
+.mr-modes button.active, .mr-activities button.active, .mr-speed button.active { border-color: var(--mint); color: var(--mint); background: rgba(95,225,197,.09); }
+.mr-speed { display: flex; align-items: center; gap: 8px; margin: 16px 0 24px; color: var(--muted); font-size: 13px; }
+.mr-speed button { padding: 7px 12px !important; }
+.mr-full, .mr-study, .mr-browser { border: 1px solid var(--line); border-radius: 20px; background: var(--panel); }
+.mr-full { padding: clamp(16px, 3vw, 28px); }
+.mr-full-controls, .mr-card-actions, .mr-shadow-actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.mr-full-controls > span, .mr-shadow-actions > span { color: var(--mint); font: 13px ui-monospace, monospace; }
+.mr-seek { display: grid; gap: 8px; color: var(--muted); font-size: 12px; margin: 20px 0; }
+.mr-seek input { width: 100%; accent-color: var(--mint); }
+.mr-transcript-options, .mr-shadow-toggles { display: flex; gap: 16px; flex-wrap: wrap; margin: 16px 0; font-size: 13px; color: var(--muted); }
+.mr-english input[type="checkbox"] { accent-color: var(--mint); }
+.mr-transcript { height: min(440px, 60vh); overflow-y: auto; padding: 180px 14px; overscroll-behavior: contain; border-block: 1px solid var(--line); font-size: 22px; line-height: 1.85; }
+.mr-transcript button { display: inline !important; padding: 1px 3px !important; border: 0 !important; border-radius: 4px !important; background: transparent !important; font: inherit; }
+.mr-transcript button.active { color: var(--bg); background: var(--mint) !important; }
+.mr-transcript button:hover { color: var(--yellow); }
+.mr-workspace { display: grid; grid-template-columns: 290px minmax(0, 1fr); gap: 20px; align-items: start; }
+.mr-browser { position: sticky; top: 16px; padding: 18px; display: grid; gap: 12px; }
+.mr-browser label, .mr-occurrence, .mr-shadow-settings label, .mr-heading label { display: grid; gap: 7px; color: var(--muted); font-size: 12px; }
+.mr-browser select, .mr-browser input, .mr-occurrence select, .mr-shadow-settings input, .mr-heading select { width: 100%; min-width: 0; height: 40px; border: 1px solid var(--line); border-radius: 8px; padding: 0 10px; color: var(--ink); background: #091624; }
+.mr-browser > p { margin: 0; font-size: 12px; color: var(--muted); }
+.mr-unit-list { max-height: 420px; overflow-y: auto; display: grid; gap: 6px; overscroll-behavior: contain; }
+.mr-unit-list button { display: grid; gap: 6px; text-align: left; padding: 10px !important; }
+.mr-unit-list button[aria-current="true"] { border-color: var(--mint); background: rgba(95,225,197,.07); }
+.mr-unit-list strong { line-height: 1.45; font-size: 13px; overflow-wrap: anywhere; }
+.mr-unit-list small { color: var(--muted); font-size: 10px; }
+.mr-study { min-width: 0; padding: clamp(18px, 3vw, 30px); }
+.mr-unit-meta { display: flex; justify-content: space-between; gap: 12px; color: var(--muted); font-size: 12px; }
+.mr-unit-text { margin: 28px 0; overflow-wrap: anywhere; font: 600 clamp(26px, 3vw, 40px)/1.35 Georgia, serif; }
+.mr-unit-text.words { color: var(--yellow); font-size: clamp(40px, 6vw, 64px); }
+.mr-context { padding: 14px; border-left: 2px solid var(--mint); color: var(--muted); font-size: 15px; line-height: 1.6; }
+.mr-context span { display: block; margin-bottom: 5px; color: var(--mint); font-size: 11px; }
+.mr-occurrence { max-width: 310px; margin: 20px 0; }
+.mr-activities { margin-top: 26px; }
+.mr-shadow, .mr-speak { margin-top: 20px; padding: 20px; border-radius: 14px; background: var(--panel-2); border: 1px solid var(--line); }
+.mr-shadow h3, .mr-speak h3 { margin: 0 0 10px; }
+.mr-shadow > p, .mr-speak-note { color: var(--muted); font-size: 13px; line-height: 1.6; }
+.mr-shadow-settings { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 20px 0; }
+.mr-pause-explanation { border-top: 1px solid var(--line); padding-top: 15px; }
+.mr-credit { margin-top: 26px; padding-top: 16px; border-top: 1px solid var(--line); }
+.mr-credit a, .mr-speak a { color: var(--mint); }
+.mr-speak-card { color: var(--yellow); font-size: 20px; line-height: 1.5; overflow-wrap: anywhere; }
+.mr-speak-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.mr-speak-error { color: var(--danger); font-size: 13px; }
+.mr-speak-status { color: var(--mint); }
+.mr-speak-recognition { margin-top: 22px; border-top: 1px solid var(--line); }
+.mr-speak-recording { display: grid; gap: 10px; }
+.mr-speak-recording audio { max-width: 100%; width: 100%; }
+.mr-speak-recording label { font-size: 12px; color: var(--muted); }
+.mr-speak-result { margin-top: 16px; border: 1px solid var(--mint); border-radius: 10px; padding: 14px; }
+.mr-speak-result p, .mr-speak-heard { overflow-wrap: anywhere; font-size: 13px; line-height: 1.6; }
+@media (max-width: 800px) {
+  .mr-workspace { grid-template-columns: 1fr; }
+  .mr-browser { position: static; }
+  .mr-unit-list { max-height: 180px; }
+  .mr-heading { flex-direction: column; }
+  .mr-transcript { font-size: 19px; }
+}
+@media (max-width: 480px) {
+  .mr-shadow-settings { grid-template-columns: 1fr; }
+  .mr-shadow, .mr-speak { padding: 15px; }
+  .mr-full-controls .listen-button, .mr-shadow-actions .listen-button { width: 100%; }
+}

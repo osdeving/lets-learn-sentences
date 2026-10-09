@@ -12,6 +12,7 @@ export function Tabs({ active, favoriteCount, onChange }: TabsProps) {
     { id: "vocabulary", label: "Vocabulário" },
     { id: "sentences", label: "Sentenças" },
     { id: "audio", label: "Áudios" },
+    { id: "mr-english", label: "Mr. English" },
     { id: "sources", label: "Mais vozes humanas" },
     { id: "stories", label: "Histórias" },
     { id: "dialogues", label: "Diálogos" },

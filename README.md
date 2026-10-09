@@ -35,14 +35,43 @@ O pacote pronto está em `output/ouvir-ingles-listening-offline.zip`. Extraia-o 
 `COMO-USAR.txt`; todos os áudios já estão incluídos. Para gerar uma nova cópia, execute
 `pnpm package:offline`.
 
-## Podcast do YouTube com palavras alinhadas
+## Mr. English
 
-O áudio de **Smart English Learning Tips**, do canal **Mr. English Channel**, está
-na aba **Áudios**. O [link direto](https://osdeving.github.io/lets-learn-sentences/#audio=YT-ysxR8IYe4Jo)
-abre essa gravação. Ela tem cerca de 12min28s e 1.877 palavras com intervalos
-automáticos gerados localmente pelo Whisper `small.en`. Revele a transcrição e
-clique em uma palavra para ouvir o trecho. A transcrição completa fica em uma
-área de leitura com rolagem; a reprodução marca a palavra atual.
+O episódio **Smart English Learning Tips**, do canal **Mr. English Channel**, tem
+uma [aba dedicada](https://osdeving.github.io/lets-learn-sentences/#mr-english).
+São cerca de 12min28s de áudio, 1.877 ocorrências de palavras, 538 palavras únicas
+e 189 sentenças. Os três modos usam intervalos do mesmo MP3 original:
+
+- **Áudio completo**: pausar, continuar, buscar no episódio e acompanhar a palavra
+  ativa no centro da parte visível da transcrição. Clique em uma palavra para
+  continuar o podcast daquele ponto.
+- **Palavras**: filtrar por grupos de vocabulário, buscar, ordenar ou embaralhar.
+  Palavras repetidas ficam em um card com todas as ocorrências disponíveis;
+  escolha a ocorrência para ouvir sua pronúncia naquele contexto.
+- **Sentenças**: ouvir cada frase separadamente, com filtros de perguntas e tamanho.
+
+Em Palavras e Sentenças, **Escuta** permite repetir e avançar automaticamente.
+**Shadowing** toca o trecho as vezes escolhidas, reproduz o aviso fixo “Repeat
+please” e espera sua resposta. A pausa padrão é `max(2s, duração / velocidade ×
+1,5 + 1s)`. Configure o multiplicador, tempo extra, mínimo e repetições; um ajuste
+em segundos pode substituir o cálculo só para o item atual. Esses ajustes ficam
+no navegador, separados por episódio e modo. Limpar o campo do item restaura o
+cálculo automático. Parar, trocar filtro ou aba cancela a sequência pendente.
+O aviso é voz sintética gerada localmente com FFmpeg/CMU Flite `slt`, sem créditos
+ou API paga; ele também entra no pacote offline.
+
+**Falar e comparar** oferece gravação local, reprodução da sua voz e, em
+navegadores compatíveis, reconhecimento de fala em inglês. A comparação verifica
+as palavras reconhecidas, normalizando pontuação e contrações comuns; não mede
+pronúncia nem semelhança acústica. O reconhecimento só inicia pelo botão próprio,
+com aviso de que o navegador pode enviar áudio ao seu serviço e depender de rede.
+A gravação local continua disponível quando não há reconhecimento compatível.
+
+As categorias de palavras são listas de vocabulário, não análise gramatical de
+cada ocorrência. Sentenças são divididas pela pontuação da transcrição, preservando
+abreviações como “Mr.”. Todos os tokens originais permanecem cobertos. Os intervalos
+foram gerados localmente pelo Whisper `small.en` e podem precisar de correção.
+O link antigo `#audio=YT-ysxR8IYe4Jo` também abre a aba Mr. English.
 
 A gravação foi publicada após a declaração de autorização do responsável pelo
 app. Não foi identificada licença pública nos metadados do vídeo, nem verificado
@@ -138,13 +167,17 @@ pnpm dev
 ```
 
 O Vite mostra a URL local, normalmente `http://localhost:5173`. A gravação exige permissão do
-microfone. O áudio gravado não sai do navegador.
+microfone. A gravação local não sai do navegador; o reconhecimento opcional pode usar o
+serviço de fala do navegador, como descrito na aba Mr. English.
 
 ## Validar e compilar
 
 ```bash
 pnpm validate
 pnpm test:listening
+pnpm test:playback
+pnpm test:vocabulary
+pnpm test:mr-english
 pnpm build
 pnpm preview
 ```

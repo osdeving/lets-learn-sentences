@@ -43,8 +43,7 @@ export function AudioLibraryView({ clips, initialClipId }: { clips: AudioClip[];
     const word = paragraph?.querySelectorAll("button")[activeWord];
     if (!paragraph || !word || active?.words.length <= 80) return;
     const bounds = word.getBoundingClientRect(), view = paragraph.getBoundingClientRect();
-    if (bounds.top < view.top) paragraph.scrollTop += bounds.top - view.top - 8;
-    else if (bounds.bottom > view.bottom) paragraph.scrollTop += bounds.bottom - view.bottom + 8;
+    paragraph.scrollTo({ top: paragraph.scrollTop + (bounds.top + bounds.bottom - view.top - view.bottom) / 2, behavior: "smooth" });
   }, [activeWord, active?.id, active?.words.length]);
   const stop = () => { queue.stop(); wordQueue.stop(); };
   useEffect(() => {
@@ -61,7 +60,7 @@ export function AudioLibraryView({ clips, initialClipId }: { clips: AudioClip[];
   return (
     <section className="audio-lab">
       <aside className="audio-browser">
-        <p className="section-kicker">Gravações · Tatoeba e YouTube</p>
+        <p className="section-kicker">Gravações · Tatoeba</p>
         <h2>Biblioteca de áudio</h2>
         <p>Escolha o nível e o falante. Inicie a escuta automática para repetir cada clipe e avançar pela seleção.</p>
         <div className="audio-filter-row">

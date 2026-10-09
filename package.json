@@ -6,7 +6,7 @@
   "packageManager": "pnpm@10.17.1",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/build-audio-catalog.mjs && tsc -b && vite build && node scripts/build-offline-manifest.mjs",
+    "build": "node --experimental-strip-types scripts/test-mr-english.mjs && node scripts/test-shadow.mjs && node --experimental-strip-types scripts/test-speech-match.mjs && node scripts/build-audio-catalog.mjs && tsc -b && vite build && node scripts/build-offline-manifest.mjs",
     "preview": "vite preview",
     "validate": "node scripts/validate-content.mjs && node scripts/validate-vocabulary.mjs",
     "content:build": "node scripts/build-expanded-content.mjs && node scripts/build-next-content.mjs",
@@ -22,7 +22,8 @@
     "package:offline": "pnpm build && python3 scripts/package-offline.py",
     "test:playback": "node scripts/test-playback.mjs",
     "test:vocabulary": "node --experimental-strip-types scripts/test-vocabulary.mjs",
-    "catalog:audio": "node scripts/build-audio-catalog.mjs"
+    "catalog:audio": "node scripts/build-audio-catalog.mjs",
+    "test:mr-english": "node --experimental-strip-types scripts/test-mr-english.mjs && node scripts/test-shadow.mjs && node --experimental-strip-types scripts/test-speech-match.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.0.4",
