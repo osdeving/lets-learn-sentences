@@ -87,9 +87,13 @@ ordered = [group[i] for i in range(max(map(len, groups))) for group in groups if
 new = 0
 for sentence in ordered:
     sid, text = sentence['id'], sentence['english']
+    if sentence.get('audioUrl') and not sentence['audioUrl'].startswith('/audio/elevenlabs/'):
+        continue
     if text in by_text:
         sentence['audioUrl'] = '/audio/elevenlabs/' + by_text[text] + '.mp3'
         continue
+    # Keep approved community recordings instead of generating over them.
+    if sentence.get('audioUrl'): continue
     if len(text) > remaining: continue
     target = AUDIO / (sid + '.mp3')
     if target.exists(): sys.exit('Untracked recording; inspect request history before continuing: ' + sid)
@@ -117,7 +121,7 @@ for sentence in ordered:
     time.sleep(0.1)
 # Apply reused recordings even if encountered before the generation of their matching text.
 for sentence in catalog['sentences']:
-    if sentence['english'] in by_text: sentence['audioUrl'] = '/audio/elevenlabs/' + by_text[sentence['english']] + '.mp3'
+    if sentence['english'] in by_text and (not sentence.get('audioUrl') or sentence['audioUrl'].startswith('/audio/elevenlabs/')): sentence['audioUrl'] = '/audio/elevenlabs/' + by_text[sentence['english']] + '.mp3'
 subscription, api_remaining = quota()
 recorded = sum(int(entry.get('character_cost') or len(entry['text'])) for entry in entries.values() if entry.get('billingPeriodResetUnix') == period)
 remaining = min(api_remaining, max(0, subscription['character_limit'] - recorded))

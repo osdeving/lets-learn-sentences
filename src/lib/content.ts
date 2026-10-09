@@ -31,7 +31,7 @@ async function fetchJSON<T>(path: string): Promise<T> {
 }
 
 export async function loadContent(): Promise<ContentData> {
-  const [guide, extrasData, dialoguesData, idiomsData, grammarData, advancedData, audioData, storiesData, decoding] = await Promise.all([
+  const [guide, extrasData, dialoguesData, idiomsData, grammarData, advancedData, audioData, storiesData, decoding, contributions] = await Promise.all([
     fetchJSON<GuideData>("/data/sentences.json"),
     fetchJSON<ExtrasData>("/data/extras.json"),
     fetchJSON<DialoguesData>("/data/dialogues.json"),
@@ -41,7 +41,12 @@ export async function loadContent(): Promise<ContentData> {
     fetchJSON<AudioLibraryData>("/data/audio-library.json"),
     fetchJSON<StoriesData>("/data/stories.json"),
     fetchJSON<DecodingData>("/data/decoding.json"),
+    fetchJSON<Array<{ sentenceId: string; audioUrl: string; provider: string; voice?: string; contributor: string }>>("/data/audio-contributions.json"),
   ]);
+  for (const sentence of [...guide.sentences, ...extrasData.sentences, ...idiomsData.sentences, ...advancedData.sentences]) {
+    const credit = contributions.find(item => item.sentenceId === sentence.id && item.audioUrl === sentence.audioUrl);
+    if (credit) { sentence.audioProvider = credit.provider; sentence.audioVoice = credit.voice; sentence.audioContributor = credit.contributor; }
+  }
   const extraSituations = extrasData.sentences.map<Situation>((entry) => ({
     id: entry.situationId,
     categoryId: entry.categoryId,

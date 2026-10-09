@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { access, readFile } from "node:fs/promises";
 
 const readJSON = async (path) => JSON.parse(await readFile(path, "utf8"));
@@ -136,3 +137,20 @@ for (const item of humanSources) {
   if (item.embedUrl && (item.provider !== "ELLLO" || new URL(item.embedUrl).hostname !== "w.soundcloud.com" || !new URL(item.embedUrl).searchParams.get("url")?.startsWith("https://api.soundcloud.com/tracks/"))) fail(`Áudio externo inesperado: ${item.id}`);
 }
 console.log(`Catálogo humano válido: ${humanSources.filter(item => item.embedUrl).length} players oficiais e ${humanSources.filter(item => !item.embedUrl).length} acessos oficiais.`);
+
+const contributions = await readJSON('public/data/audio-contributions.json');
+if (!Array.isArray(contributions)) fail('Contribuições devem ser uma lista');
+const contributionIds = new Set();
+for (const credit of contributions) {
+  if (contributionIds.has(credit.sentenceId)) fail(`Contribuição duplicada: ${credit.sentenceId}`);
+  contributionIds.add(credit.sentenceId);
+  const sentence = allSentences.find(s => s.id === credit.sentenceId);
+  if (!sentence || sentence.audioUrl !== credit.audioUrl) fail(`Contribuição sem sentença correspondente: ${credit.sentenceId}`);
+  if (!credit.audioUrl?.startsWith('/audio/contributions/') || credit.audioUrl.includes('..')) fail('Caminho de contribuição inválido');
+  if (!['replacement', 'new-sentence'].includes(credit.kind) || !credit.provider || !credit.contributor || credit.publicationPermissionConfirmed !== true) fail(`Origem ou permissão incompleta: ${credit.sentenceId}`);
+  if (!credit.issueUrl?.startsWith('https://github.com/osdeving/lets-learn-sentences/issues/') || !credit.licenseUrl?.startsWith('https://')) fail(`Referências incompletas: ${credit.sentenceId}`);
+  if (credit.provider === 'ElevenLabs' && (!credit.voice || !credit.model || !['free','paid'].includes(credit.planAtGeneration) || !credit.generatedOn)) fail(`Geração incompleta: ${credit.sentenceId}`);
+  const bytes = await readFile(`public${credit.audioUrl}`);
+  if (createHash('sha256').update(bytes).digest('hex') !== credit.sha256) fail(`Hash incorreto: ${credit.sentenceId}`);
+}
+console.log(`Contribuições válidas: ${contributions.length} registros com permissão e hash verificados.`);

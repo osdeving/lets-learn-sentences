@@ -49,7 +49,8 @@ export function SentenceCard({
         <div>
           <p className="card-category">{category?.title ?? "Inglês"}</p>
           <p className="card-situation">{situation} <span>{sourceLabel}</span></p>
-          {entry.audioUrl?.includes("/audio/elevenlabs/") && <p className="card-situation">Voz Chris · elevenlabs.io</p>}
+          <p className="card-situation">{entry.audioProvider === "ElevenLabs" || entry.audioUrl?.includes("/audio/elevenlabs/") ? `Voz ${entry.audioVoice ?? "Chris"} · elevenlabs.io` : entry.audioProvider === "human" ? "Voz humana gravada" : entry.audioUrl ? "Gravação local · fonte no catálogo" : "Voz do navegador · ainda sem MP3"}</p>
+          {entry.audioContributor && <p className="card-situation">Áudio enviado por {entry.audioContributor}</p>}
         </div>
         <button
           className={`favorite-button ${favorite ? "active" : ""}`}

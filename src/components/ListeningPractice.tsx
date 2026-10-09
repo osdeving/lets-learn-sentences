@@ -14,6 +14,7 @@ interface PracticeItem {
   pronunciation?: string;
   level: Level;
   audioUrl?: string;
+  audioProvider?: string;
   audioStart?: number;
   audioEnd?: number;
 }
@@ -65,6 +66,7 @@ export function ListeningPractice({ content, speech }: { content: ContentData; s
         pronunciation: entry.pronunciation,
         level: entry.level ?? levelForCategory(entry.categoryId),
         audioUrl: entry.audioUrl ?? undefined,
+        audioProvider: entry.audioProvider,
       }));
     const dialogueItems = content.dialogues.flatMap((dialogue) => dialogue.lines.map((line, index) => ({
       id: `dialogue-${dialogue.id}-${index}`,
@@ -218,7 +220,7 @@ export function ListeningPractice({ content, speech }: { content: ContentData; s
             <span>{active?.level} · {mode === "dictation" ? "Escreva exatamente o que ouvir" : mode === "meaning" ? "Escolha o sentido do áudio" : "Escolha a resposta natural"}</span>
             <strong>{cursor + 1}</strong>
           </div>
-          <button className="big-listen" onClick={() => play(active)} type="button"><span>▶</span> Ouvir{active?.audioUrl?.includes("/audio/elevenlabs/") ? " · ElevenLabs" : active?.audioUrl ? " voz humana" : ""}</button>
+          <button className="big-listen" onClick={() => play(active)} type="button"><span>▶</span> Ouvir{active?.audioProvider === "ElevenLabs" || active?.audioUrl?.includes("/audio/elevenlabs/") ? " · ElevenLabs" : active?.audioProvider === "human" ? " voz humana" : active?.audioUrl ? " gravação" : ""}</button>
           {settings.slow && <button className="slow-listen" onClick={() => play(active, true)} type="button">Ouvir devagar · 0,7×</button>}
 
           {mode === "dictation" && item && (

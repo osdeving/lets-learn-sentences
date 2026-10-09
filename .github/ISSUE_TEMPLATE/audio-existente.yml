@@ -1,0 +1,74 @@
+name: Substituir áudio de frase existente
+description: Reserve IDs ou envie MP3s para frases que já existem no catálogo.
+title: "[Áudio existente] IDs "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Consulte o [catálogo](https://osdeving.github.io/lets-learn-sentences/contribuir.html) e o [guia](https://github.com/osdeving/lets-learn-sentences/blob/main/CONTRIBUTING.md). Priorize frases com voz do navegador. Não envie credenciais.
+  - type: dropdown
+    id: etapa
+    attributes:
+      label: Etapa do envio
+      options:
+        - Reservar antes de gerar
+        - Enviar áudio já gerado
+    validations:
+      required: true
+  - type: textarea
+    id: frases
+    attributes:
+      label: IDs e textos exatos
+      description: Uma linha por frase. Para áudio humano, identifique também o diálogo, história ou microclipe e seus intervalos.
+      placeholder: "ID | texto em inglês | nome do arquivo, quando houver"
+    validations:
+      required: true
+  - type: textarea
+    id: motivo
+    attributes:
+      label: Áudio atual e motivo
+      description: Voz do navegador, ElevenLabs ou voz humana? Se já há gravação, explique o problema ou a alternativa proposta.
+    validations:
+      required: true
+  - type: input
+    id: previsao
+    attributes:
+      label: Previsão de entrega
+      description: Para reservas, diga quando espera concluir. Aguarde confirmação antes de gastar créditos.
+  - type: dropdown
+    id: origem
+    attributes:
+      label: Origem do áudio
+      options:
+        - ElevenLabs
+        - Gravação própria de voz humana
+        - Outra origem (explicar abaixo)
+    validations:
+      required: true
+  - type: textarea
+    id: geracao
+    attributes:
+      label: Voz, modelo, parâmetros, data e plano
+      description: Na reserva, indique o que pretende usar. No envio, indique o que realmente usou e o plano ativo na data da geração. Para outras origens, informe fonte e licença.
+      placeholder: "Chris | Eleven Multilingual v2 | stability 50%, similarity 75%, style 0%, boost ativo, speed 1× | data | free ou pago"
+    validations:
+      required: true
+  - type: textarea
+    id: arquivos
+    attributes:
+      label: Arquivos e observações
+      description: Arraste MP3, WAV ou ZIP aqui. Na reserva, pode deixar sem arquivo; adicione depois em um comentário nesta mesma issue.
+  - type: input
+    id: credito
+    attributes:
+      label: Nome público para o crédito
+      description: Pode ser seu nome de usuário no GitHub.
+    validations:
+      required: true
+  - type: checkboxes
+    id: permissao
+    attributes:
+      label: Permissão para o envio
+      options:
+        - label: Li o guia e, ao enviar os arquivos, confirmo que posso autorizar sua publicação no repositório público e no app, com os créditos e as condições da origem informados.
+          required: true

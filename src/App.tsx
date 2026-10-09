@@ -226,7 +226,7 @@ export default function App() {
   }
 
   const studiedCount = [...studied].filter((id) => content.sentences.some((entry) => entry.id === id)).length;
-  const elevenLabsCount = content.sentences.filter(entry => entry.audioUrl?.includes("/audio/elevenlabs/")).length;
+  const elevenLabsCount = content.sentences.filter(entry => entry.audioProvider === "ElevenLabs" || entry.audioUrl?.includes("/audio/elevenlabs/")).length;
   const recordingCount = new Set([
     ...content.sentences.map(entry => entry.audioUrl),
     ...content.audioClips.map(clip => clip.audioUrl),
@@ -337,8 +337,9 @@ export default function App() {
         )}
       </main>
       <footer>
-        <p>{formatNumber(elevenLabsCount)} sentenças com voz Chris · <a href="https://elevenlabs.io" target="_blank" rel="noreferrer">elevenlabs.io</a>. As demais usam a voz do aparelho.</p>
+        <p>{formatNumber(elevenLabsCount)} sentenças com voz do ElevenLabs · <a href="https://elevenlabs.io" target="_blank" rel="noreferrer">elevenlabs.io</a>. As sentenças sem MP3 usam a voz do aparelho.</p>
         <p>Áudios humanos de ELLLO, Tatoeba, Wikimedia Commons e VOA.</p>
+        <p><a href={`${import.meta.env.BASE_URL}contribuir.html`}>Catálogo de áudio e como contribuir</a></p>
         <p>Progresso, favoritas e gravações ficam neste aparelho.</p>
       </footer>
       <div className={`toast ${toast ? "show" : ""}`} role="status" aria-live="polite">{toast}</div>

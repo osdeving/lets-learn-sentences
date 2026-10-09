@@ -33,6 +33,9 @@ export interface Sentence {
   situationTitle?: string;
   origin: "guide" | "extra" | "idiom" | "advanced";
   audioUrl: string | null;
+  audioProvider?: string;
+  audioVoice?: string;
+  audioContributor?: string;
   sourcePage?: number;
   level?: Level;
   literalTranslation?: string;

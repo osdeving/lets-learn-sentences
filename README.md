@@ -35,6 +35,15 @@ O pacote pronto está em `output/ouvir-ingles-listening-offline.zip`. Extraia-o 
 `COMO-USAR.txt`; todos os áudios já estão incluídos. Para gerar uma nova cópia, execute
 `pnpm package:offline`.
 
+## Contribuir com gravações
+
+Use seus próprios créditos do ElevenLabs pelo site e envie MP3s, sem código nem
+chave de API. O [guia de contribuição](CONTRIBUTING.md) explica a reserva de IDs,
+os envios de áudio e as sugestões de frases novas. O
+[catálogo público](https://osdeving.github.io/lets-learn-sentences/contribuir.html)
+mostra a fonte atual de cada sentença, as gravações humanas e uma prévia local
+para comparar arquivos antes do envio.
+
 ## Voz ElevenLabs nas sentenças
 
 As sentenças com MP3 pré-gerado usam a voz **Chris**, em inglês americano, do

@@ -1,0 +1,46 @@
+name: Nova frase com áudio
+description: Sugira uma frase nova, com ou sem MP3. O ID permanente será atribuído na revisão.
+title: "[Nova frase] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Pesquise a frase no [catálogo](https://osdeving.github.io/lets-learn-sentences/contribuir.html) antes de gerar. Sugestões sem áudio também são aceitas. Não use um ID existente nem envie credenciais.
+  - type: textarea
+    id: ingles
+    attributes:
+      label: Frase em inglês
+      description: O texto exato que será falado.
+    validations:
+      required: true
+  - type: textarea
+    id: portugues
+    attributes:
+      label: Tradução em português
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Situação de uso, nível sugerido e origem do texto
+      description: Diga quando a frase é usada, se você a escreveu ou de onde ela veio, e o nível sugerido.
+    validations:
+      required: true
+  - type: textarea
+    id: arquivos
+    attributes:
+      label: Áudio e informações de geração
+      description: Opcional. Arraste um MP3 ou WAV e informe origem, voz, modelo, parâmetros, data e plano na geração. Nome sugerido do arquivo é nova-frase-01.mp3. Para voz humana, informe fonte e licença.
+  - type: input
+    id: credito
+    attributes:
+      label: Nome público para o crédito
+    validations:
+      required: true
+  - type: checkboxes
+    id: permissao
+    attributes:
+      label: Permissão para o envio
+      options:
+        - label: Posso autorizar a publicação do texto e dos arquivos que enviar no repositório público e no app, com as condições da origem informadas. Li o guia de contribuição.
+          required: true
