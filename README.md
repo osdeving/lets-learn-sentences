@@ -35,6 +35,40 @@ O pacote pronto está em `output/ouvir-ingles-listening-offline.zip`. Extraia-o 
 `COMO-USAR.txt`; todos os áudios já estão incluídos. Para gerar uma nova cópia, execute
 `pnpm package:offline`.
 
+## Voz ElevenLabs nas sentenças
+
+As sentenças com MP3 pré-gerado usam a voz **Chris**, em inglês americano, do
+ElevenLabs (`eleven_multilingual_v2`). O cartão identifica a voz e o rodapé mostra
+quantas sentenças já têm gravação. As demais continuam usando a voz do aparelho.
+A escuta contínua, a velocidade e o treino de ditado usam os mesmos MP3s.
+
+O lote inicial contém **358 sentenças**, com **9.997 créditos** consumidos dos
+10.000 disponíveis no plano free. Distribui as gravações pelas 30 categorias do guia, reutiliza as
+cinco amostras aprovadas e evita gerar novamente textos idênticos. A geração para
+quando nenhuma frase restante cabe nos créditos gratuitos disponíveis.
+`public/data/elevenlabs-generation.json` registra voz, parâmetros, duração, custo
+informado pela API e hash de cada arquivo. Todos os MP3s entram no cache offline.
+
+Para consultar o saldo ou continuar a geração após a renovação dos créditos:
+
+```bash
+python3 scripts/generate-elevenlabs.py --env-file /caminho/privado/.env.elevenlabs
+python3 scripts/generate-elevenlabs.py --env-file /caminho/privado/.env.elevenlabs --generate
+pnpm validate
+pnpm test:playback
+pnpm build
+```
+
+O arquivo privado deve conter `ELEVENLABS_API_KEY`. A chave não participa do build
+nem é enviada ao navegador. O script exige plano free e não ativa cobrança extra.
+Se houver uma falha de rede com resultado desconhecido, confira o histórico do
+ElevenLabs antes de repetir a requisição.
+
+Os áudios deste lote foram gerados no plano gratuito e destinam-se a uso não
+comercial, com atribuição a **elevenlabs.io**, conforme as
+[condições de publicação do ElevenLabs](https://help.elevenlabs.io/hc/en-us/articles/13313564601361-Can-I-publish-the-content-I-generate-on-the-platform).
+As gravações humanas da trilha mantêm seus intervalos por palavra e créditos.
+
 ## Tecnologia
 
 - React 19 + TypeScript.

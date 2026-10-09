@@ -141,12 +141,13 @@ export function ListeningPractice({ content, speech }: { content: ContentData; s
 
   const play = (target: PracticeItem | undefined, slow = false) => {
     if (!target) return;
-    if (target.audioUrl && target.audioStart !== undefined) {
+    if (target.audioUrl) {
+      speech.cancel();
       audioRef.current?.pause();
       const audio = new Audio(target.audioUrl);
       audioRef.current = audio;
-      audio.currentTime = target.audioStart;
-      audio.playbackRate = slow ? 0.75 : 1;
+      audio.currentTime = target.audioStart ?? 0;
+      audio.playbackRate = slow ? 0.75 : speech.rate;
       if (target.audioEnd !== undefined) audio.addEventListener("timeupdate", () => { if (audio.currentTime >= target.audioEnd!) audio.pause(); });
       void audio.play();
       return;
@@ -217,7 +218,7 @@ export function ListeningPractice({ content, speech }: { content: ContentData; s
             <span>{active?.level} · {mode === "dictation" ? "Escreva exatamente o que ouvir" : mode === "meaning" ? "Escolha o sentido do áudio" : "Escolha a resposta natural"}</span>
             <strong>{cursor + 1}</strong>
           </div>
-          <button className="big-listen" onClick={() => play(active)} type="button"><span>▶</span> Ouvir{active?.audioUrl ? " voz humana" : ""}</button>
+          <button className="big-listen" onClick={() => play(active)} type="button"><span>▶</span> Ouvir{active?.audioUrl?.includes("/audio/elevenlabs/") ? " · ElevenLabs" : active?.audioUrl ? " voz humana" : ""}</button>
           {settings.slow && <button className="slow-listen" onClick={() => play(active, true)} type="button">Ouvir devagar · 0,7×</button>}
 
           {mode === "dictation" && item && (

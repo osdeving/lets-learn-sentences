@@ -49,6 +49,7 @@ export function SentenceCard({
         <div>
           <p className="card-category">{category?.title ?? "Inglês"}</p>
           <p className="card-situation">{situation} <span>{sourceLabel}</span></p>
+          {entry.audioUrl?.includes("/audio/elevenlabs/") && <p className="card-situation">Voz Chris · elevenlabs.io</p>}
         </div>
         <button
           className={`favorite-button ${favorite ? "active" : ""}`}

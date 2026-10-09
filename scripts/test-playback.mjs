@@ -16,7 +16,7 @@ function hooks() {
   };
 }
 function clock(){let id=0,now=0;const jobs=new Map();return{setTimeout(fn,delay){jobs.set(++id,{fn,at:now+delay});return id;},clearTimeout(i){jobs.delete(i);},advance(ms){const end=now+ms;while(true){const next=[...jobs].sort((a,b)=>a[1].at-b[1].at)[0];if(!next||next[1].at>end)break;now=next[1].at;jobs.delete(next[0]);next[1].fn();}now=end;},get now(){return now;},get size(){return jobs.size;}};}
-async function load(file, dependencies, globals){const source=ts.transpileModule(await readFile(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;const scope={exports:{},require:name=>{assert(name in dependencies,name);return dependencies[name];},...globals};vm.runInNewContext(source,scope);return scope.exports;}
+async function load(file, dependencies, globals){const source=ts.transpileModule(await readFile(file,'utf8'),{fileName:file,compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText;const scope={exports:{},require:name=>{assert(name in dependencies,name);return dependencies[name];},...globals};vm.runInNewContext(source,scope);return scope.exports;}
 const h=hooks(), time=clock();let frame;let audio;let attempts=0;let pending;let alwaysAbort=false;
 class FakeAudio {
   constructor(){audio=this;this.isConnected=false;this.readyState=0;this.duration=10;this.currentTime=0;this.src='';}
@@ -76,3 +76,27 @@ assert.doesNotThrow(()=>wr([]), 'Changing to an external source must survive rem
 // Manual vocabulary audio starts in the click gesture without a state/effect round trip.
 queue=render([]);const beforeImmediate=calls.length;queue.start(0,true,[{id:'manual',text:'mug',audioUrl:'/mug.mp3',rate:0.7}]);
 assert.equal(calls.length,beforeImmediate+1);assert.equal(calls.at(-1).url,'/mug.mp3');assert.equal(calls.at(-1).options.rate,0.7);calls.at(-1).options.onComplete();qt.advance(2000);assert.equal(calls.length,beforeImmediate+1,'Manual play must neither repeat nor advance');
+
+// Pre-generated sentence recordings have no clip boundaries. Training must play
+// the MP3 from zero rather than silently falling back to browser synthesis.
+const ph=hooks();let practiceAudio;let practiceCanceled=0;const synthesized=[];
+class PracticeAudio {
+  constructor(url){practiceAudio=this;this.src=url;this.currentTime=99;}
+  play(){this.played=true;return Promise.resolve();} pause(){} addEventListener(){}
+}
+const jsx=(type,props)=>({type,props});
+const practiceModule=await load('src/components/ListeningPractice.tsx',{
+  react:{...ph.react,useMemo:fn=>fn()},'react/jsx-runtime':{jsx,jsxs:jsx},
+  '../lib/progression':{levelForCategory:()=> 'A1'},
+  '../lib/content':{normalize:value=>String(value).toLowerCase()},
+  '../lib/storage':{STORAGE:{practiceSettings:'settings',practiceProgress:'progress'}},
+},{Audio:PracticeAudio,localStorage:{getItem:()=>null,setItem(){}},window:time});
+const pspeech={rate:1.2,cancel(){practiceCanceled++;},speakAtRate(...args){synthesized.push(args);}};
+function findButton(tree){if(!tree||typeof tree!=='object')return undefined;if(tree.props?.className==='big-listen')return tree;return [tree.props?.children].flat(Infinity).map(findButton).find(Boolean);}
+const sentence={id:'0001',english:'Please dry the cup.',portuguese:'Seque a xícara.',categoryId:'01',audioUrl:'/lets-learn-sentences/audio/elevenlabs/0001.mp3'};
+ph.begin();const training=practiceModule.ListeningPractice({content:{sentences:[sentence],dialogues:[],audioClips:[]},speech:pspeech});
+findButton(training).props.onClick();
+assert.equal(practiceAudio.src,sentence.audioUrl);assert.equal(practiceAudio.currentTime,0);
+assert.equal(practiceAudio.playbackRate,1.2);assert(practiceAudio.played);
+assert.equal(practiceCanceled,1);assert.equal(synthesized.length,0);
+console.log('Training passed: sentence MP3 without clip boundaries starts at zero, honors speed and cancels browser speech.');

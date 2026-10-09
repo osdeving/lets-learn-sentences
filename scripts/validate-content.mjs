@@ -48,6 +48,10 @@ for (const entry of allSentences) {
   }
 }
 
+for (const entry of allSentences) {
+  if (entry.audioUrl) await access(`public${entry.audioUrl}`);
+}
+
 for (const dialogue of dialogueData.dialogues) {
   if (!Array.isArray(dialogue.lines) || dialogue.lines.length < 2) fail(`Diálogo ${dialogue.id} sem falas suficientes`);
   for (const line of dialogue.lines) {
